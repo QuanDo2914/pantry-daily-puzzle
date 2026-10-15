@@ -5,10 +5,14 @@ const LAUNCH='2026-10-14'; const KEY='pantry-v1';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const todayUTC=()=>new Date().toISOString().slice(0,10);
 const dayFor=date=>Math.floor((Date.parse(date+'T00:00:00Z')-Date.parse(LAUNCH+'T00:00:00Z'))/86400000)+1;
-const safeLoad=()=>{try{return JSON.parse(localStorage.getItem(KEY))||{}}catch{return {}}};
-let store=safeLoad(); store.settings??={theme:'system',motion:false,timer:true}; store.progress??={}; store.stats??={medium:blankStats(),hard:blankStats()};
-let mode=store.preferredMode||'medium', puzzle=null, progress=null, tick=null, undoStack=[];
 function blankStats(){return {played:0,solved:0,currentStreak:0,bestStreak:0,totalTime:0,totalHints:0,recent:[],lastSolvedDay:null}}
+const safeLoad=()=>{try{const value=JSON.parse(localStorage.getItem(KEY));return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return {}}};
+let store=safeLoad();
+store.settings={theme:'system',motion:false,timer:true,...(store.settings&&typeof store.settings==='object'?store.settings:{})};
+store.progress=store.progress&&typeof store.progress==='object'&&!Array.isArray(store.progress)?store.progress:{};
+store.stats=store.stats&&typeof store.stats==='object'?store.stats:{};
+for(const m of ['medium','hard']) store.stats[m]={...blankStats(),...(store.stats[m]&&typeof store.stats[m]==='object'?store.stats[m]:{})};
+let mode=['medium','hard'].includes(store.preferredMode)?store.preferredMode:'medium', puzzle=null, progress=null, tick=null, undoStack=[];
 function save(){localStorage.setItem(KEY,JSON.stringify(store))}
 function pkey(){return `${puzzle.id}:${mode}`}
 function fresh(){return {selected:[],elapsed:0,hints:0,status:'active',date:todayUTC(),lastTick:Date.now()}}
