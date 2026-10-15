@@ -1,0 +1,3306 @@
+{
+  "generatedAt": "2026-10-15T02:49:14.601Z",
+  "count": 200,
+  "puzzles": [
+    {
+      "id": "pantry-001-medium",
+      "solution": [
+        "beef_rice_bowl_hearty",
+        "beef_pasta_hearty",
+        "bean_soup"
+      ],
+      "signature": "5e2771d7f640b281",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-002-medium",
+      "solution": [
+        "bean_tacos_family",
+        "bean_bake",
+        "beef_stirfry_family"
+      ],
+      "signature": "f215a566e10f4b22",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-003-medium",
+      "solution": [
+        "mushroom_soup",
+        "broccoli_pasta",
+        "tomato_pasta"
+      ],
+      "signature": "305a60b852ab01a3",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-004-medium",
+      "solution": [
+        "chicken_tacos",
+        "mushroom_toast_hearty",
+        "egg_salad_family"
+      ],
+      "signature": "41e31ee3d888068d",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-005-medium",
+      "solution": [
+        "tofu_rice_bowl",
+        "beef_pasta_hearty",
+        "broccoli_pasta"
+      ],
+      "signature": "5039b8a7fa035f89",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 7,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-006-medium",
+      "solution": [
+        "broccoli_frittata_family",
+        "mushroom_risotto",
+        "cheesy_bake"
+      ],
+      "signature": "4a47df72da61f305",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-007-medium",
+      "solution": [
+        "tomato_risotto_family",
+        "bean_tacos",
+        "broccoli_pasta"
+      ],
+      "signature": "2be12594f3a465ae",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-008-medium",
+      "solution": [
+        "tofu_curry",
+        "chicken_fried_rice",
+        "broccoli_pasta_hearty"
+      ],
+      "signature": "5f39cf36156425c4",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 9,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-009-medium",
+      "solution": [
+        "chicken_pasta_family",
+        "beef_tacos_hearty",
+        "bean_soup_family"
+      ],
+      "signature": "83e5c135ba1e123c",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-010-medium",
+      "solution": [
+        "cheesy_bake_hearty",
+        "mushroom_risotto",
+        "beef_stirfry_hearty"
+      ],
+      "signature": "87579750f5432f22",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-011-medium",
+      "solution": [
+        "beef_stirfry_family",
+        "veggie_fried_rice",
+        "bean_curry_family"
+      ],
+      "signature": "441bb9d053657339",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-012-medium",
+      "solution": [
+        "beef_tacos_hearty",
+        "potato_hash_family",
+        "shakshuka"
+      ],
+      "signature": "ed6d145bcf4600a6",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-013-medium",
+      "solution": [
+        "bean_tacos",
+        "bean_bake_hearty",
+        "beef_curry_hearty"
+      ],
+      "signature": "edc373ef80465688",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 11,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-014-medium",
+      "solution": [
+        "chicken_fried_rice_hearty",
+        "tofu_rice_bowl_family",
+        "potato_hash_family"
+      ],
+      "signature": "2aa4ddce67d7a550",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 11,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-015-medium",
+      "solution": [
+        "chicken_pasta_family",
+        "mushroom_risotto",
+        "tomato_risotto_hearty"
+      ],
+      "signature": "1bfce548eb54fb9f",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 6,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-016-medium",
+      "solution": [
+        "chicken_salad",
+        "mushroom_pasta_hearty",
+        "spinach_pasta_family"
+      ],
+      "signature": "541f2ad2b536e076",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-017-medium",
+      "solution": [
+        "beef_tacos",
+        "tomato_soup_family",
+        "broccoli_pasta_family"
+      ],
+      "signature": "ef90be226ba02b8a",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-018-medium",
+      "solution": [
+        "beef_rice_bowl_hearty",
+        "tofu_rice_bowl_hearty",
+        "tomato_pasta_family"
+      ],
+      "signature": "907948803d58a09b",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 1,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-019-medium",
+      "solution": [
+        "cheesy_bake_hearty",
+        "beef_pasta",
+        "chicken_fried_rice_hearty"
+      ],
+      "signature": "1492a2b4fde5f6d9",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-020-medium",
+      "solution": [
+        "beef_pasta",
+        "beef_pasta_family",
+        "chicken_salad_family"
+      ],
+      "signature": "a3cc3e47b06eb29f",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-021-medium",
+      "solution": [
+        "chicken_curry_hearty",
+        "bean_tacos",
+        "shakshuka"
+      ],
+      "signature": "faba3b5762009e1c",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 2,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-022-medium",
+      "solution": [
+        "tomato_pasta_hearty",
+        "spinach_pasta_family",
+        "mushroom_risotto_hearty"
+      ],
+      "signature": "c305be2b90c81c5b",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 10,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-023-medium",
+      "solution": [
+        "tofu_rice_bowl",
+        "veggie_fried_rice_family",
+        "beef_curry"
+      ],
+      "signature": "8c55ffc2231518d9",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 2,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-024-medium",
+      "solution": [
+        "bean_salad_hearty",
+        "tomato_soup_hearty",
+        "corn_fritters"
+      ],
+      "signature": "b46f561a02641aee",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-025-medium",
+      "solution": [
+        "mushroom_risotto_hearty",
+        "bean_bake",
+        "spinach_frittata_hearty"
+      ],
+      "signature": "7911962810ea13b4",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-026-medium",
+      "solution": [
+        "chicken_salad_hearty",
+        "potato_hash_family",
+        "shakshuka_family"
+      ],
+      "signature": "a91c41752aa9a491",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-027-medium",
+      "solution": [
+        "breakfast_tacos_hearty",
+        "cheesy_bake_hearty",
+        "spinach_frittata_hearty"
+      ],
+      "signature": "8c0b70818a3bfe88",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 8,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-028-medium",
+      "solution": [
+        "tofu_rice_bowl",
+        "chicken_stirfry_hearty",
+        "broccoli_pasta"
+      ],
+      "signature": "4f3161afaf92b228",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-029-medium",
+      "solution": [
+        "chicken_stirfry_hearty",
+        "mushroom_risotto_hearty",
+        "potato_bake_hearty"
+      ],
+      "signature": "db0971a240ca0f45",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-030-medium",
+      "solution": [
+        "tomato_risotto",
+        "cheesy_bake_hearty",
+        "egg_salad"
+      ],
+      "signature": "fe8fee52588f6cc7",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-031-medium",
+      "solution": [
+        "broccoli_frittata_hearty",
+        "chicken_stirfry_family",
+        "beef_rice_bowl_hearty"
+      ],
+      "signature": "a8875a6692058354",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 7,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-032-medium",
+      "solution": [
+        "mushroom_soup",
+        "shakshuka",
+        "veggie_bake_hearty"
+      ],
+      "signature": "43a483faf0b4448f",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 4,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-033-medium",
+      "solution": [
+        "tofu_rice_bowl_hearty",
+        "cheesy_bake",
+        "veggie_bake_hearty"
+      ],
+      "signature": "43c5898c6046e238",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 11,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-034-medium",
+      "solution": [
+        "bean_bake_hearty",
+        "tofu_tacos_hearty",
+        "tomato_risotto_family"
+      ],
+      "signature": "e5b03d05deac4556",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 7,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-035-medium",
+      "solution": [
+        "spinach_frittata_family",
+        "chicken_curry_hearty",
+        "tomato_soup"
+      ],
+      "signature": "315d9bbe37be74c9",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 4,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-036-medium",
+      "solution": [
+        "potato_hash",
+        "veggie_bake",
+        "beef_pasta_hearty"
+      ],
+      "signature": "a361a8e7b5833a03",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-037-medium",
+      "solution": [
+        "beef_pasta_family",
+        "bean_curry",
+        "mushroom_risotto"
+      ],
+      "signature": "555a3d95164bafbb",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 10,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-038-medium",
+      "solution": [
+        "beef_pasta_family",
+        "bean_curry",
+        "mushroom_risotto"
+      ],
+      "signature": "517ecc2d3715bc08",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 12,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-039-medium",
+      "solution": [
+        "shakshuka_family",
+        "tofu_tacos_hearty",
+        "chicken_stirfry_hearty"
+      ],
+      "signature": "7443e773b27d70d0",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-040-medium",
+      "solution": [
+        "veggie_fried_rice",
+        "mushroom_pasta_hearty",
+        "spinach_frittata"
+      ],
+      "signature": "88db88394902973f",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 7,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-041-medium",
+      "solution": [
+        "mushroom_soup_hearty",
+        "beef_curry",
+        "beef_stirfry"
+      ],
+      "signature": "03769f3c65a3413d",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-042-medium",
+      "solution": [
+        "chicken_salad_family",
+        "chicken_soup_hearty",
+        "tofu_tacos_hearty"
+      ],
+      "signature": "9527744948dd7af0",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 11,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-043-medium",
+      "solution": [
+        "potato_bake_hearty",
+        "tomato_soup",
+        "tomato_pasta_hearty"
+      ],
+      "signature": "cd5ff9c117112b62",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 19,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-044-medium",
+      "solution": [
+        "broccoli_frittata_family",
+        "omelet",
+        "chicken_curry_hearty"
+      ],
+      "signature": "0c95235cecc1db37",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 11,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-045-medium",
+      "solution": [
+        "breakfast_tacos_family",
+        "tofu_tacos",
+        "shakshuka_family"
+      ],
+      "signature": "82d7788da6c82361",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-046-medium",
+      "solution": [
+        "tofu_curry",
+        "bean_soup",
+        "tofu_stirfry"
+      ],
+      "signature": "148409ca81d3afc4",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 8,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-047-medium",
+      "solution": [
+        "beef_tacos",
+        "beef_rice_bowl",
+        "potato_hash_family"
+      ],
+      "signature": "79a69af7e9b30827",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-048-medium",
+      "solution": [
+        "bean_bake_family",
+        "veggie_bake_hearty",
+        "chicken_fried_rice"
+      ],
+      "signature": "7b1b65be1afcba01",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 2,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-049-medium",
+      "solution": [
+        "tomato_pasta_family",
+        "beef_rice_bowl_family",
+        "shakshuka"
+      ],
+      "signature": "d71de511d948675c",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 1,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-050-medium",
+      "solution": [
+        "tomato_risotto",
+        "broccoli_pasta_family",
+        "tomato_pasta_hearty"
+      ],
+      "signature": "403620a9747e235e",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-051-medium",
+      "solution": [
+        "tofu_tacos_family",
+        "bean_tacos_hearty",
+        "tomato_soup_family"
+      ],
+      "signature": "2a887c692d28ec1c",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 11,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-052-medium",
+      "solution": [
+        "chicken_pasta_hearty",
+        "beef_rice_bowl_hearty",
+        "chicken_pasta_family"
+      ],
+      "signature": "336f1ba797889b68",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-053-medium",
+      "solution": [
+        "broccoli_pasta",
+        "beef_curry_hearty",
+        "spinach_pasta_hearty"
+      ],
+      "signature": "cba0d1829b1018b1",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 11,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-054-medium",
+      "solution": [
+        "breakfast_tacos_family",
+        "chicken_salad_hearty",
+        "potato_hash_family"
+      ],
+      "signature": "f7d349fce8c8918e",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 14,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-055-medium",
+      "solution": [
+        "beef_pasta",
+        "mushroom_risotto",
+        "bean_bake"
+      ],
+      "signature": "8c4f94606a6e9072",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-056-medium",
+      "solution": [
+        "tofu_tacos_family",
+        "beef_pasta",
+        "chicken_pasta_family"
+      ],
+      "signature": "bdd9a3ccc500a6ea",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-057-medium",
+      "solution": [
+        "potato_bake",
+        "bean_bake_hearty",
+        "potato_hash_hearty"
+      ],
+      "signature": "a981e8c1a264b810",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 21,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-058-medium",
+      "solution": [
+        "tofu_salad",
+        "spinach_pasta_family",
+        "tomato_soup_family"
+      ],
+      "signature": "dfa398c3db596955",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 8,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-059-medium",
+      "solution": [
+        "potato_bake_hearty",
+        "mushroom_risotto_family",
+        "bean_bake_family"
+      ],
+      "signature": "4c147625b7722fb4",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-060-medium",
+      "solution": [
+        "spinach_pasta_family",
+        "chicken_pasta_hearty",
+        "broccoli_pasta_family"
+      ],
+      "signature": "723957e4ae4f3072",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 12,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-061-medium",
+      "solution": [
+        "bean_curry",
+        "cheesy_bake_family",
+        "beef_curry"
+      ],
+      "signature": "db45f6212413b8b4",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 8,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-062-medium",
+      "solution": [
+        "tomato_soup_hearty",
+        "chicken_curry_hearty",
+        "corn_fritters"
+      ],
+      "signature": "507a2112fe1a06aa",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 2,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-063-medium",
+      "solution": [
+        "spinach_pasta",
+        "tomato_risotto_hearty",
+        "chicken_fried_rice_hearty"
+      ],
+      "signature": "9c6992a742eddaa8",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-064-medium",
+      "solution": [
+        "veggie_fried_rice",
+        "chicken_tacos_family",
+        "chicken_fried_rice_family"
+      ],
+      "signature": "6b82c736245a2dcc",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-065-medium",
+      "solution": [
+        "mushroom_risotto",
+        "mushroom_soup",
+        "shakshuka"
+      ],
+      "signature": "4de6f6e26f7e44b1",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 8,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-066-medium",
+      "solution": [
+        "tofu_tacos",
+        "chicken_tacos",
+        "beef_tacos"
+      ],
+      "signature": "2c2115d42c5de908",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-067-medium",
+      "solution": [
+        "chicken_curry_hearty",
+        "mushroom_toast",
+        "veggie_fried_rice"
+      ],
+      "signature": "4bb27660b01e2080",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 9,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-068-medium",
+      "solution": [
+        "bean_bake_hearty",
+        "broccoli_frittata",
+        "tomato_pasta"
+      ],
+      "signature": "9ee381aac747220c",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-069-medium",
+      "solution": [
+        "potato_bake",
+        "spinach_frittata_hearty",
+        "chicken_curry_hearty"
+      ],
+      "signature": "6a21e7e8184d1ea4",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 6,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-070-medium",
+      "solution": [
+        "chicken_tacos_family",
+        "tofu_tacos_hearty",
+        "corn_fritters_hearty"
+      ],
+      "signature": "553348361b5a7f9b",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-071-medium",
+      "solution": [
+        "beef_pasta_hearty",
+        "spinach_pasta_family",
+        "breakfast_tacos_family"
+      ],
+      "signature": "3cf5a59c5d448c95",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-072-medium",
+      "solution": [
+        "stuffed_peppers",
+        "chicken_curry",
+        "beef_tacos_family"
+      ],
+      "signature": "aa454a2df11cfa35",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 1,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-073-medium",
+      "solution": [
+        "stuffed_peppers_hearty",
+        "broccoli_frittata_family",
+        "potato_hash_family"
+      ],
+      "signature": "feac4e267827a42c",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 7,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-074-medium",
+      "solution": [
+        "egg_salad",
+        "bean_soup_hearty",
+        "chicken_salad_hearty"
+      ],
+      "signature": "38aa9b01ac05d373",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-075-medium",
+      "solution": [
+        "bean_soup_hearty",
+        "cheesy_bake_family",
+        "chicken_fried_rice"
+      ],
+      "signature": "971f3d3a2a12448f",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-076-medium",
+      "solution": [
+        "beef_curry",
+        "mushroom_toast_hearty",
+        "broccoli_frittata_hearty"
+      ],
+      "signature": "14a38a253c04a475",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-077-medium",
+      "solution": [
+        "tomato_soup_hearty",
+        "tofu_salad",
+        "beef_pasta_hearty"
+      ],
+      "signature": "5ce81167ab8dc86e",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 6,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-078-medium",
+      "solution": [
+        "chicken_curry",
+        "chicken_tacos_family",
+        "broccoli_frittata_family"
+      ],
+      "signature": "01bf636a38d67604",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-079-medium",
+      "solution": [
+        "chicken_pasta_family",
+        "tomato_risotto_hearty",
+        "chicken_fried_rice"
+      ],
+      "signature": "b1c8baea8fc9b39e",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-080-medium",
+      "solution": [
+        "tofu_salad",
+        "tofu_tacos_family",
+        "mushroom_toast_family"
+      ],
+      "signature": "e3da429c45712fb5",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-081-medium",
+      "solution": [
+        "tomato_pasta",
+        "mushroom_pasta_hearty",
+        "veggie_fried_rice"
+      ],
+      "signature": "b79d21aa7f8e0322",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 4,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-082-medium",
+      "solution": [
+        "spinach_frittata",
+        "chicken_tacos_hearty",
+        "potato_bake_family"
+      ],
+      "signature": "af0d1a68db17de35",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-083-medium",
+      "solution": [
+        "veggie_fried_rice_family",
+        "egg_salad",
+        "broccoli_frittata_family"
+      ],
+      "signature": "4869582ed2318b3f",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-084-medium",
+      "solution": [
+        "broccoli_pasta",
+        "beef_curry",
+        "chicken_curry_hearty"
+      ],
+      "signature": "fb73e7f6d8ffc5da",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 10,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-085-medium",
+      "solution": [
+        "mushroom_soup_hearty",
+        "beef_pasta_family",
+        "chicken_salad_family"
+      ],
+      "signature": "2925a797e0423c42",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-086-medium",
+      "solution": [
+        "beef_rice_bowl_family",
+        "spinach_pasta",
+        "beef_pasta_hearty"
+      ],
+      "signature": "689e67e10b99648e",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-087-medium",
+      "solution": [
+        "bean_tacos_family",
+        "bean_salad",
+        "veggie_bake_hearty"
+      ],
+      "signature": "76a618c860af6555",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-088-medium",
+      "solution": [
+        "bean_bake_hearty",
+        "beef_pasta",
+        "chicken_fried_rice"
+      ],
+      "signature": "b361535a3637d968",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-089-medium",
+      "solution": [
+        "breakfast_tacos_hearty",
+        "broccoli_pasta_family",
+        "spinach_frittata_family"
+      ],
+      "signature": "bc81d0df884445ac",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 6,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-090-medium",
+      "solution": [
+        "potato_bake_family",
+        "beef_tacos_hearty",
+        "spinach_frittata_hearty"
+      ],
+      "signature": "9114b2b84a3aa2ad",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-091-medium",
+      "solution": [
+        "bean_bake_family",
+        "beef_pasta_hearty",
+        "mushroom_risotto"
+      ],
+      "signature": "65db2122dd818ded",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 2,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-092-medium",
+      "solution": [
+        "beef_tacos_hearty",
+        "stuffed_peppers_hearty",
+        "tofu_tacos"
+      ],
+      "signature": "221775c2eca28df7",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 17,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-093-medium",
+      "solution": [
+        "mushroom_soup_hearty",
+        "mushroom_risotto_family",
+        "tofu_salad_family"
+      ],
+      "signature": "3529394c4ca33a0a",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 16,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-094-medium",
+      "solution": [
+        "bean_soup_hearty",
+        "potato_hash",
+        "bean_tacos_hearty"
+      ],
+      "signature": "cebb173820f088d9",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 5,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-095-medium",
+      "solution": [
+        "chicken_pasta",
+        "bean_bake_family",
+        "mushroom_risotto"
+      ],
+      "signature": "8f0652a51a9812f0",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 2,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-096-medium",
+      "solution": [
+        "cheesy_bake_hearty",
+        "tomato_pasta",
+        "chicken_stirfry_hearty"
+      ],
+      "signature": "3254cf2dd00e512f",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 3,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-097-medium",
+      "solution": [
+        "mushroom_risotto_family",
+        "tomato_pasta_family",
+        "chicken_tacos"
+      ],
+      "signature": "6d386204c000af7b",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 1,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "balanced"
+      }
+    },
+    {
+      "id": "pantry-098-medium",
+      "solution": [
+        "tofu_curry_family",
+        "shakshuka_hearty",
+        "tofu_rice_bowl_hearty"
+      ],
+      "signature": "59ff0d6b98e4caa6",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 22,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-099-medium",
+      "solution": [
+        "chicken_fried_rice_hearty",
+        "egg_salad",
+        "potato_bake_hearty"
+      ],
+      "signature": "612f24827ce41d19",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 7,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-100-medium",
+      "solution": [
+        "beef_stirfry_hearty",
+        "tomato_soup_family",
+        "bean_tacos_family"
+      ],
+      "signature": "1191d8971f03ba73",
+      "metrics": {
+        "combinations": 56,
+        "nearMisses": 7,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "tricky"
+      }
+    },
+    {
+      "id": "pantry-001-hard",
+      "solution": [
+        "tomato_risotto_family",
+        "veggie_fried_rice",
+        "beef_rice_bowl_family",
+        "chicken_pasta_family"
+      ],
+      "signature": "40960ffb3a3ba890",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 13,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-002-hard",
+      "solution": [
+        "beef_curry_family",
+        "veggie_bake_hearty",
+        "chicken_tacos",
+        "chicken_stirfry_hearty"
+      ],
+      "signature": "c420feefb736f29d",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 13,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-003-hard",
+      "solution": [
+        "spinach_frittata_hearty",
+        "chicken_pasta_family",
+        "bean_curry_family",
+        "bean_tacos"
+      ],
+      "signature": "1a17eb3f8c3187c9",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 5,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-004-hard",
+      "solution": [
+        "breakfast_tacos",
+        "bean_curry_hearty",
+        "potato_bake_family",
+        "bean_bake"
+      ],
+      "signature": "c596b80581ad1586",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 27,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-005-hard",
+      "solution": [
+        "bean_curry_hearty",
+        "tofu_salad_family",
+        "chicken_pasta_hearty",
+        "chicken_fried_rice_hearty"
+      ],
+      "signature": "2627d279a704d214",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 5,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-006-hard",
+      "solution": [
+        "tofu_rice_bowl_hearty",
+        "veggie_bake_family",
+        "beef_pasta_hearty",
+        "chicken_pasta"
+      ],
+      "signature": "84a7b8fe500395f1",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 16,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-007-hard",
+      "solution": [
+        "broccoli_pasta_hearty",
+        "beef_tacos",
+        "cheesy_bake_hearty",
+        "breakfast_tacos"
+      ],
+      "signature": "a1ab09d25c048c52",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 17,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-008-hard",
+      "solution": [
+        "broccoli_frittata_hearty",
+        "chicken_tacos_family",
+        "corn_fritters_family",
+        "chicken_fried_rice"
+      ],
+      "signature": "6d2b11cacf2c92a7",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 34,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-009-hard",
+      "solution": [
+        "tofu_stirfry_family",
+        "mushroom_pasta_hearty",
+        "beef_rice_bowl",
+        "tofu_rice_bowl_family"
+      ],
+      "signature": "c9235b609478728a",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 38,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-010-hard",
+      "solution": [
+        "bean_curry_family",
+        "stuffed_peppers_hearty",
+        "bean_salad_family",
+        "beef_pasta_hearty"
+      ],
+      "signature": "363354328b41e823",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 32,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-011-hard",
+      "solution": [
+        "chicken_tacos_hearty",
+        "beef_pasta_hearty",
+        "broccoli_pasta_family",
+        "breakfast_tacos_hearty"
+      ],
+      "signature": "ba020e3703621119",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 31,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-012-hard",
+      "solution": [
+        "egg_salad",
+        "tomato_soup",
+        "bean_salad_family",
+        "chicken_salad_hearty"
+      ],
+      "signature": "2275e4bd4ca0ba6d",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 27,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-013-hard",
+      "solution": [
+        "broccoli_pasta",
+        "chicken_pasta_family",
+        "chicken_soup_family",
+        "mushroom_risotto"
+      ],
+      "signature": "8af96709280e907e",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-014-hard",
+      "solution": [
+        "beef_stirfry",
+        "broccoli_pasta_hearty",
+        "cheesy_bake_hearty",
+        "beef_curry"
+      ],
+      "signature": "25d9fc98b2952280",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 33,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-015-hard",
+      "solution": [
+        "mushroom_pasta_family",
+        "chicken_curry_family",
+        "veggie_fried_rice",
+        "tomato_pasta_hearty"
+      ],
+      "signature": "b5d46c0e8134455a",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 6,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-016-hard",
+      "solution": [
+        "bean_bake_family",
+        "cheesy_bake_hearty",
+        "tofu_rice_bowl_family",
+        "chicken_curry"
+      ],
+      "signature": "c1855a46a2a4c992",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 4,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-017-hard",
+      "solution": [
+        "beef_stirfry_family",
+        "chicken_stirfry_family",
+        "broccoli_pasta_hearty",
+        "stuffed_peppers_family"
+      ],
+      "signature": "d218121d33539bb2",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 3,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-018-hard",
+      "solution": [
+        "tomato_pasta",
+        "broccoli_frittata",
+        "bean_curry_hearty",
+        "chicken_soup_hearty"
+      ],
+      "signature": "6b287b88ebfa6db5",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 9,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-019-hard",
+      "solution": [
+        "mushroom_risotto",
+        "breakfast_tacos_family",
+        "chicken_fried_rice_hearty",
+        "mushroom_toast_hearty"
+      ],
+      "signature": "b8edae1ba1d832dd",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 12,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-020-hard",
+      "solution": [
+        "veggie_fried_rice",
+        "chicken_pasta",
+        "tomato_pasta_hearty",
+        "veggie_bake_hearty"
+      ],
+      "signature": "8354813edb7a3b7d",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-021-hard",
+      "solution": [
+        "cheesy_bake",
+        "tofu_stirfry_family",
+        "tomato_pasta",
+        "chicken_salad"
+      ],
+      "signature": "9157e85493f52ae6",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 5,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-022-hard",
+      "solution": [
+        "chicken_curry_hearty",
+        "veggie_fried_rice_family",
+        "beef_curry",
+        "omelet_family"
+      ],
+      "signature": "8f5b91352e5a1aac",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 6,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-023-hard",
+      "solution": [
+        "egg_salad_hearty",
+        "mushroom_pasta",
+        "shakshuka",
+        "bean_salad_family"
+      ],
+      "signature": "c30b72849e92d56e",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 16,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-024-hard",
+      "solution": [
+        "tomato_risotto_hearty",
+        "egg_salad_hearty",
+        "mushroom_soup_hearty",
+        "potato_bake_hearty"
+      ],
+      "signature": "7d8ad11589b957e6",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 19,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-025-hard",
+      "solution": [
+        "mushroom_pasta_family",
+        "chicken_fried_rice",
+        "chicken_pasta",
+        "broccoli_pasta"
+      ],
+      "signature": "aa9eb96890957611",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 4,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-026-hard",
+      "solution": [
+        "potato_hash_hearty",
+        "egg_salad_hearty",
+        "chicken_fried_rice_family",
+        "tomato_risotto"
+      ],
+      "signature": "9758615a03f7e735",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 52,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-027-hard",
+      "solution": [
+        "mushroom_risotto_hearty",
+        "chicken_soup_hearty",
+        "beef_rice_bowl_hearty",
+        "bean_bake"
+      ],
+      "signature": "d37a37686ea900b9",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 12,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-028-hard",
+      "solution": [
+        "veggie_fried_rice_hearty",
+        "chicken_stirfry_hearty",
+        "chicken_salad",
+        "shakshuka_hearty"
+      ],
+      "signature": "d18a731a22e85202",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-029-hard",
+      "solution": [
+        "tofu_tacos",
+        "beef_curry_family",
+        "tomato_risotto",
+        "tofu_curry"
+      ],
+      "signature": "1d22cb46b4724d14",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 39,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-030-hard",
+      "solution": [
+        "veggie_fried_rice",
+        "tofu_salad_family",
+        "spinach_frittata",
+        "bean_bake_family"
+      ],
+      "signature": "3a063dbb0d1a6eff",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 28,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-031-hard",
+      "solution": [
+        "bean_bake",
+        "spinach_pasta_family",
+        "chicken_pasta_family",
+        "spinach_frittata_hearty"
+      ],
+      "signature": "6a8ac7beaed3daef",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 6,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-032-hard",
+      "solution": [
+        "broccoli_frittata_family",
+        "shakshuka_family",
+        "mushroom_pasta_family",
+        "tofu_rice_bowl_family"
+      ],
+      "signature": "325c235519d8615e",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-033-hard",
+      "solution": [
+        "mushroom_toast_family",
+        "broccoli_pasta_family",
+        "egg_salad_hearty",
+        "tofu_salad_family"
+      ],
+      "signature": "e0820b21223e091d",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 6,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-034-hard",
+      "solution": [
+        "veggie_fried_rice",
+        "cheesy_bake",
+        "mushroom_risotto_hearty",
+        "bean_tacos"
+      ],
+      "signature": "79f2d8e90402a8e4",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 5,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-035-hard",
+      "solution": [
+        "beef_tacos",
+        "cheesy_bake",
+        "veggie_bake_family",
+        "tofu_tacos_family"
+      ],
+      "signature": "1505003e8b5e3575",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 21,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-036-hard",
+      "solution": [
+        "cheesy_bake_family",
+        "tofu_tacos_hearty",
+        "potato_hash_family",
+        "egg_salad"
+      ],
+      "signature": "597ac6fec24b1b0d",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-037-hard",
+      "solution": [
+        "tofu_rice_bowl_hearty",
+        "tofu_tacos_hearty",
+        "chicken_stirfry_family",
+        "broccoli_frittata_family"
+      ],
+      "signature": "7b8e5f99754fbb8c",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 30,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-038-hard",
+      "solution": [
+        "tofu_salad",
+        "omelet",
+        "breakfast_tacos_family",
+        "omelet_family"
+      ],
+      "signature": "420394c9ae8ac5a4",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 16,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-039-hard",
+      "solution": [
+        "chicken_salad_family",
+        "breakfast_tacos_hearty",
+        "chicken_curry_hearty",
+        "chicken_pasta"
+      ],
+      "signature": "2362c53accf5511f",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 3,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-040-hard",
+      "solution": [
+        "tofu_rice_bowl",
+        "bean_bake",
+        "tofu_curry_family",
+        "mushroom_risotto"
+      ],
+      "signature": "4b43713446be03f3",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 12,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-041-hard",
+      "solution": [
+        "chicken_fried_rice",
+        "bean_curry_hearty",
+        "broccoli_frittata_family",
+        "spinach_frittata_hearty"
+      ],
+      "signature": "965353a0656b5320",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 13,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-042-hard",
+      "solution": [
+        "cheesy_bake_hearty",
+        "mushroom_pasta_hearty",
+        "tomato_pasta_family",
+        "tofu_rice_bowl_family"
+      ],
+      "signature": "cda4e0deec407ac2",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 14,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-043-hard",
+      "solution": [
+        "broccoli_pasta",
+        "mushroom_risotto_hearty",
+        "beef_stirfry_hearty",
+        "cheesy_bake_hearty"
+      ],
+      "signature": "3eba676ca21c40a6",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 23,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-044-hard",
+      "solution": [
+        "cheesy_bake_hearty",
+        "shakshuka_family",
+        "mushroom_toast_hearty",
+        "spinach_pasta_family"
+      ],
+      "signature": "4870d076ddede134",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 16,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-045-hard",
+      "solution": [
+        "beef_tacos_hearty",
+        "tofu_curry_hearty",
+        "veggie_fried_rice_family",
+        "breakfast_tacos_family"
+      ],
+      "signature": "10a513a5140dc5df",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 14,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-046-hard",
+      "solution": [
+        "tofu_tacos",
+        "mushroom_soup",
+        "mushroom_risotto",
+        "spinach_frittata"
+      ],
+      "signature": "c2008666b0ba6245",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 30,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-047-hard",
+      "solution": [
+        "mushroom_pasta_hearty",
+        "chicken_fried_rice_hearty",
+        "tofu_rice_bowl",
+        "tomato_risotto"
+      ],
+      "signature": "5a2979cb70f81b41",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-048-hard",
+      "solution": [
+        "cheesy_bake_family",
+        "tofu_tacos",
+        "bean_salad",
+        "tofu_tacos_family"
+      ],
+      "signature": "3207c49d59a094df",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 11,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-049-hard",
+      "solution": [
+        "bean_salad",
+        "veggie_fried_rice",
+        "mushroom_risotto",
+        "tomato_risotto"
+      ],
+      "signature": "a2ca08823051c774",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 15,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-050-hard",
+      "solution": [
+        "bean_soup",
+        "cheesy_bake_family",
+        "beef_curry_hearty",
+        "tomato_soup"
+      ],
+      "signature": "57f654accde80814",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 6,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-051-hard",
+      "solution": [
+        "shakshuka",
+        "tofu_rice_bowl",
+        "mushroom_risotto_hearty",
+        "tofu_rice_bowl_family"
+      ],
+      "signature": "ac5a2e87a4c189ac",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 11,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-052-hard",
+      "solution": [
+        "tomato_risotto_hearty",
+        "mushroom_soup_hearty",
+        "broccoli_pasta_hearty",
+        "beef_pasta_hearty"
+      ],
+      "signature": "365b04caa5106f5f",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-053-hard",
+      "solution": [
+        "mushroom_pasta_hearty",
+        "chicken_fried_rice_hearty",
+        "tomato_risotto_family",
+        "chicken_fried_rice"
+      ],
+      "signature": "0493d444324493f7",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-054-hard",
+      "solution": [
+        "potato_hash_family",
+        "veggie_bake",
+        "mushroom_soup_hearty",
+        "mushroom_risotto_family"
+      ],
+      "signature": "5192aeacfe9b90bd",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 40,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-055-hard",
+      "solution": [
+        "tomato_pasta",
+        "beef_rice_bowl",
+        "beef_rice_bowl_hearty",
+        "mushroom_risotto"
+      ],
+      "signature": "3e4f7736998c6638",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 15,
+        "overlapDensity": 0.5,
+        "ingredientTypes": 10,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-056-hard",
+      "solution": [
+        "tofu_tacos_family",
+        "shakshuka_hearty",
+        "broccoli_frittata_family",
+        "mushroom_soup"
+      ],
+      "signature": "5417171e2bce42b8",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 30,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-057-hard",
+      "solution": [
+        "chicken_salad",
+        "chicken_curry_hearty",
+        "broccoli_frittata_family",
+        "egg_salad"
+      ],
+      "signature": "5baaf600dde518c2",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 9,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-058-hard",
+      "solution": [
+        "stuffed_peppers_hearty",
+        "bean_salad_hearty",
+        "beef_stirfry",
+        "breakfast_tacos"
+      ],
+      "signature": "34030ea6c4d5c48c",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 22,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-059-hard",
+      "solution": [
+        "chicken_tacos_hearty",
+        "mushroom_risotto_hearty",
+        "chicken_soup",
+        "shakshuka_hearty"
+      ],
+      "signature": "faa847ab122be3ff",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-060-hard",
+      "solution": [
+        "egg_salad",
+        "stuffed_peppers_family",
+        "egg_salad_family",
+        "veggie_bake_family"
+      ],
+      "signature": "f65559a51d520576",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 27,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-061-hard",
+      "solution": [
+        "bean_soup",
+        "broccoli_pasta",
+        "veggie_fried_rice_hearty",
+        "broccoli_frittata"
+      ],
+      "signature": "aa10a3300cf41076",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 12,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-062-hard",
+      "solution": [
+        "beef_rice_bowl_family",
+        "bean_bake",
+        "veggie_fried_rice",
+        "tomato_risotto_family"
+      ],
+      "signature": "75f2bcb08b0e5aa9",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 22,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-063-hard",
+      "solution": [
+        "bean_salad_hearty",
+        "bean_tacos",
+        "chicken_pasta",
+        "broccoli_pasta"
+      ],
+      "signature": "61b6d9615ac5338c",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 33,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-064-hard",
+      "solution": [
+        "broccoli_pasta_family",
+        "spinach_frittata_hearty",
+        "broccoli_frittata_family",
+        "spinach_frittata"
+      ],
+      "signature": "3b8e2008f50fc545",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 52,
+        "overlapDensity": 0.556,
+        "ingredientTypes": 9,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-065-hard",
+      "solution": [
+        "mushroom_risotto",
+        "mushroom_toast_family",
+        "egg_salad_hearty",
+        "bean_soup"
+      ],
+      "signature": "747e6e052c8e94ef",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 11,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-066-hard",
+      "solution": [
+        "shakshuka_hearty",
+        "chicken_tacos_hearty",
+        "tofu_stirfry_family",
+        "omelet_hearty"
+      ],
+      "signature": "2033a6c54bda4968",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 14,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-067-hard",
+      "solution": [
+        "chicken_curry_hearty",
+        "bean_curry_hearty",
+        "broccoli_frittata_family",
+        "mushroom_soup"
+      ],
+      "signature": "cef5d466a6df3194",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 3,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-068-hard",
+      "solution": [
+        "tomato_pasta_hearty",
+        "chicken_soup_hearty",
+        "beef_tacos_hearty",
+        "breakfast_tacos_hearty"
+      ],
+      "signature": "83a6a733ce30db22",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 3,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-069-hard",
+      "solution": [
+        "mushroom_risotto_family",
+        "mushroom_pasta_family",
+        "cheesy_bake_hearty",
+        "tofu_stirfry_hearty"
+      ],
+      "signature": "0e88fc9ab80a1109",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 22,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-070-hard",
+      "solution": [
+        "beef_pasta_family",
+        "beef_stirfry",
+        "mushroom_pasta_hearty",
+        "chicken_fried_rice_hearty"
+      ],
+      "signature": "9e4061b5f4841b9b",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-071-hard",
+      "solution": [
+        "mushroom_soup_hearty",
+        "breakfast_tacos_family",
+        "tofu_tacos",
+        "mushroom_soup"
+      ],
+      "signature": "826f682f98059344",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 46,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-072-hard",
+      "solution": [
+        "beef_curry",
+        "bean_curry_family",
+        "mushroom_soup_family",
+        "tomato_soup_hearty"
+      ],
+      "signature": "e158bdd12954db9e",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 10,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-073-hard",
+      "solution": [
+        "mushroom_toast",
+        "stuffed_peppers",
+        "egg_salad_family",
+        "cheesy_bake"
+      ],
+      "signature": "a2fb4ff51002d54a",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 33,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-074-hard",
+      "solution": [
+        "beef_pasta_hearty",
+        "spinach_pasta_family",
+        "tofu_salad_family",
+        "shakshuka_hearty"
+      ],
+      "signature": "4818e54bc2cbc5e7",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 33,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-075-hard",
+      "solution": [
+        "corn_fritters",
+        "chicken_fried_rice_family",
+        "bean_curry_family",
+        "bean_bake_hearty"
+      ],
+      "signature": "9d420921307a94cd",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 23,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-076-hard",
+      "solution": [
+        "spinach_pasta_family",
+        "corn_fritters",
+        "tofu_tacos",
+        "potato_bake_family"
+      ],
+      "signature": "f05738d6c094aced",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 23,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-077-hard",
+      "solution": [
+        "bean_salad_hearty",
+        "potato_bake_hearty",
+        "veggie_bake",
+        "egg_salad"
+      ],
+      "signature": "ee01581c2ecb0dd6",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 22,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-078-hard",
+      "solution": [
+        "spinach_frittata_family",
+        "bean_salad_family",
+        "beef_curry",
+        "bean_bake"
+      ],
+      "signature": "982f62476d686656",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 21,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-079-hard",
+      "solution": [
+        "potato_hash_family",
+        "mushroom_risotto_family",
+        "chicken_curry",
+        "beef_stirfry_hearty"
+      ],
+      "signature": "a631d270350a96c5",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 12,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-080-hard",
+      "solution": [
+        "bean_bake_hearty",
+        "broccoli_pasta",
+        "bean_salad_family",
+        "potato_hash_hearty"
+      ],
+      "signature": "65ce0bcf68cee976",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 22,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-081-hard",
+      "solution": [
+        "beef_pasta",
+        "tomato_soup_hearty",
+        "bean_soup_family",
+        "potato_bake_family"
+      ],
+      "signature": "79c24f142f229f25",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 35,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-082-hard",
+      "solution": [
+        "egg_salad",
+        "bean_salad",
+        "cheesy_bake",
+        "potato_bake"
+      ],
+      "signature": "fd3bc153102d21d1",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 17,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-083-hard",
+      "solution": [
+        "tofu_tacos",
+        "bean_salad_hearty",
+        "stuffed_peppers_family",
+        "tofu_salad_family"
+      ],
+      "signature": "b43750f63e7cc3a0",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 11,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-084-hard",
+      "solution": [
+        "potato_bake_hearty",
+        "veggie_bake_family",
+        "bean_salad_family",
+        "chicken_tacos_hearty"
+      ],
+      "signature": "f487e6445dd4660c",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 16,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-085-hard",
+      "solution": [
+        "cheesy_bake_hearty",
+        "potato_bake",
+        "mushroom_risotto",
+        "bean_tacos"
+      ],
+      "signature": "78487e113473a972",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 20,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-086-hard",
+      "solution": [
+        "chicken_fried_rice_family",
+        "chicken_pasta_family",
+        "mushroom_pasta_hearty",
+        "potato_hash_family"
+      ],
+      "signature": "1a76c8a270e5cd10",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 14,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-087-hard",
+      "solution": [
+        "beef_stirfry",
+        "tofu_rice_bowl_family",
+        "broccoli_pasta_family",
+        "mushroom_pasta_hearty"
+      ],
+      "signature": "ef5c61a9fdf49f94",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 10,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-088-hard",
+      "solution": [
+        "mushroom_pasta_hearty",
+        "mushroom_risotto_hearty",
+        "cheesy_bake",
+        "tofu_curry_hearty"
+      ],
+      "signature": "feb104b2ff98f631",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 33,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-089-hard",
+      "solution": [
+        "breakfast_tacos",
+        "chicken_curry_hearty",
+        "spinach_pasta",
+        "bean_curry"
+      ],
+      "signature": "ef89b2b5821fec55",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 24,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-090-hard",
+      "solution": [
+        "egg_salad",
+        "beef_pasta_family",
+        "tofu_salad_hearty",
+        "broccoli_pasta_family"
+      ],
+      "signature": "385bab596d7d070e",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 3,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "challenging"
+      }
+    },
+    {
+      "id": "pantry-091-hard",
+      "solution": [
+        "potato_bake_hearty",
+        "stuffed_peppers_family",
+        "tofu_rice_bowl",
+        "potato_hash"
+      ],
+      "signature": "e1afe2d8806e0bcf",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 27,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-092-hard",
+      "solution": [
+        "beef_curry",
+        "egg_salad",
+        "beef_curry_hearty",
+        "potato_bake_family"
+      ],
+      "signature": "fd6196e92165697c",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 15,
+        "overlapDensity": 0.455,
+        "ingredientTypes": 11,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-093-hard",
+      "solution": [
+        "cheesy_bake_hearty",
+        "stuffed_peppers_family",
+        "bean_salad_hearty",
+        "mushroom_toast_family"
+      ],
+      "signature": "e5427eac551b9dcd",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 19,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-094-hard",
+      "solution": [
+        "tofu_rice_bowl",
+        "tomato_pasta_family",
+        "bean_soup_hearty",
+        "shakshuka_hearty"
+      ],
+      "signature": "f8efca8bf4e35133",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 6,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-095-hard",
+      "solution": [
+        "chicken_stirfry",
+        "spinach_frittata_family",
+        "mushroom_toast_family",
+        "egg_salad_hearty"
+      ],
+      "signature": "4dd32a39604b7f4f",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 17,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-096-hard",
+      "solution": [
+        "bean_tacos",
+        "tomato_pasta_hearty",
+        "corn_fritters_hearty",
+        "bean_soup_hearty"
+      ],
+      "signature": "06a3f75ed3ce6844",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 15,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-097-hard",
+      "solution": [
+        "broccoli_pasta_family",
+        "potato_hash",
+        "bean_bake_family",
+        "tomato_soup"
+      ],
+      "signature": "460295cd3ad302ad",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 14,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-098-hard",
+      "solution": [
+        "shakshuka_family",
+        "tomato_risotto_family",
+        "veggie_fried_rice_family",
+        "tofu_tacos"
+      ],
+      "signature": "57415b4d82ebef96",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 17,
+        "overlapDensity": 0.417,
+        "ingredientTypes": 12,
+        "rating": "expert"
+      }
+    },
+    {
+      "id": "pantry-099-hard",
+      "solution": [
+        "breakfast_tacos_family",
+        "veggie_fried_rice_hearty",
+        "beef_pasta_hearty",
+        "bean_bake_family"
+      ],
+      "signature": "cd8739725687c11a",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 7,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "hard"
+      }
+    },
+    {
+      "id": "pantry-100-hard",
+      "solution": [
+        "bean_tacos",
+        "potato_hash_hearty",
+        "veggie_bake",
+        "veggie_fried_rice_family"
+      ],
+      "signature": "7cdf88b0ba77d9c1",
+      "metrics": {
+        "combinations": 495,
+        "nearMisses": 22,
+        "overlapDensity": 0.385,
+        "ingredientTypes": 13,
+        "rating": "expert"
+      }
+    }
+  ]
+}
