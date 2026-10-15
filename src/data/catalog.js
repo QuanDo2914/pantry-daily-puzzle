@@ -1,8 +1,8 @@
 export const INGREDIENTS = {
-  chicken:['Chicken','CH'], beef:['Beef','BF'], tofu:['Tofu','TF'], egg:['Egg','EG'], rice:['Rice','RC'], pasta:['Pasta','PA'],
-  tomato:['Tomato','TO'], onion:['Onion','ON'], garlic:['Garlic','GA'], cheese:['Cheese','CH'], mushroom:['Mushroom','MU'], spinach:['Spinach','SP'],
-  pepper:['Pepper','PE'], beans:['Beans','BE'], corn:['Corn','CO'], peas:['Peas','PS'], potato:['Potato','PO'], carrot:['Carrot','CA'], broccoli:['Broccoli','BR'],
-  coconut:['Coconut','CN'], lemon:['Lemon','LE'], herbs:['Herbs','HE'], tortilla:['Tortilla','TR']
+  chicken:['Chicken','🍗'], beef:['Beef','🥩'], tofu:['Tofu','◻️'], egg:['Egg','🥚'], rice:['Rice','🍚'], pasta:['Pasta','🍝'],
+  tomato:['Tomato','🍅'], onion:['Onion','🧅'], garlic:['Garlic','🧄'], cheese:['Cheese','🧀'], mushroom:['Mushroom','🍄'], spinach:['Spinach','🌿'],
+  pepper:['Pepper','🫑'], beans:['Beans','🫘'], corn:['Corn','🌽'], peas:['Peas','🫛'], potato:['Potato','🥔'], carrot:['Carrot','🥕'], broccoli:['Broccoli','🥦'],
+  coconut:['Coconut','🥥'], lemon:['Lemon','🍋'], herbs:['Herbs','🌱'], tortilla:['Tortilla','🫓']
 };
 
 const R = (id, name, category, ingredients) => ({ id, name, category, ingredients });
