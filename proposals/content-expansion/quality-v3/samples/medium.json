@@ -1,0 +1,1427 @@
+[
+  {
+    "mode": "medium",
+    "pantry": {
+      "pasta": 2,
+      "cheese": 3,
+      "milk": 1,
+      "chickpeas": 2,
+      "couscous": 2,
+      "cucumber": 1,
+      "tomato": 1,
+      "broccoli": 2,
+      "rice": 2,
+      "onion": 1
+    },
+    "cards": [
+      {
+        "id": "broccoli_rice_skillet",
+        "name": "Broccoli Rice Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🥦",
+        "ingredients": {
+          "broccoli": 2,
+          "rice": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "falafel_bowl",
+        "name": "Falafel Bowl",
+        "family": "curries_bowls",
+        "icon": "🧆",
+        "ingredients": {
+          "chickpeas": 2,
+          "couscous": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "mac_and_cheese",
+        "name": "Mac and Cheese",
+        "family": "pasta",
+        "icon": "🧀",
+        "ingredients": {
+          "pasta": 2,
+          "cheese": 2,
+          "milk": 1
+        }
+      },
+      {
+        "id": "pasta_salad",
+        "name": "Pasta Salad",
+        "family": "salads",
+        "icon": "🥗",
+        "ingredients": {
+          "pasta": 2,
+          "cucumber": 1,
+          "tomato": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chickpea_salad",
+        "name": "Chickpea Salad",
+        "family": "salads",
+        "icon": "🥗",
+        "ingredients": {
+          "chickpeas": 2,
+          "cucumber": 1,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "mediterranean_grain_bowl",
+        "name": "Mediterranean Grain Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "couscous": 2,
+          "chickpeas": 1,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "broccoli_cheese_bake",
+        "name": "Broccoli Cheese Bake",
+        "family": "bakes_casseroles",
+        "icon": "🥦",
+        "ingredients": {
+          "broccoli": 2,
+          "cheese": 2,
+          "rice": 1,
+          "milk": 1
+        }
+      },
+      {
+        "id": "broccoli_cheddar_soup",
+        "name": "Broccoli Cheddar Soup",
+        "family": "soups_stews",
+        "icon": "🥦",
+        "ingredients": {
+          "broccoli": 2,
+          "cheese": 2,
+          "milk": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "broccoli_rice_skillet",
+      "falafel_bowl",
+      "mac_and_cheese"
+    ],
+    "solutionKey": "broccoli_rice_skillet|falafel_bowl|mac_and_cheese",
+    "structuralSignature": "c3af5a2032869aaf922e",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "broccoli_rice_skillet",
+        "falafel_bowl",
+        "mac_and_cheese"
+      ],
+      "nearMissCount": 7,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "broccoli_rice_skillet",
+            "mac_and_cheese",
+            "mediterranean_grain_bowl"
+          ],
+          "used": {
+            "broccoli": 2,
+            "rice": 2,
+            "cheese": 3,
+            "onion": 1,
+            "pasta": 2,
+            "milk": 1,
+            "couscous": 2,
+            "chickpeas": 1,
+            "cucumber": 1,
+            "tomato": 1
+          },
+          "distance": 1,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "broccoli_rice_skillet",
+            "mac_and_cheese",
+            "chickpea_salad"
+          ],
+          "used": {
+            "broccoli": 2,
+            "rice": 2,
+            "cheese": 3,
+            "onion": 2,
+            "pasta": 2,
+            "milk": 1,
+            "chickpeas": 2,
+            "cucumber": 1,
+            "tomato": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "broccoli_rice_skillet",
+            "falafel_bowl",
+            "pasta_salad"
+          ],
+          "used": {
+            "broccoli": 2,
+            "rice": 2,
+            "cheese": 2,
+            "onion": 1,
+            "chickpeas": 2,
+            "couscous": 2,
+            "cucumber": 2,
+            "tomato": 2,
+            "pasta": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "falafel_bowl",
+            "mac_and_cheese",
+            "broccoli_cheese_bake"
+          ],
+          "used": {
+            "chickpeas": 2,
+            "couscous": 2,
+            "cucumber": 1,
+            "tomato": 1,
+            "pasta": 2,
+            "cheese": 4,
+            "milk": 2,
+            "broccoli": 2,
+            "rice": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "falafel_bowl",
+            "mac_and_cheese",
+            "broccoli_cheddar_soup"
+          ],
+          "used": {
+            "chickpeas": 2,
+            "couscous": 2,
+            "cucumber": 1,
+            "tomato": 1,
+            "pasta": 2,
+            "cheese": 4,
+            "milk": 2,
+            "broccoli": 2,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "falafel_bowl",
+            "pasta_salad",
+            "broccoli_cheese_bake"
+          ],
+          "used": {
+            "chickpeas": 2,
+            "couscous": 2,
+            "cucumber": 2,
+            "tomato": 2,
+            "pasta": 2,
+            "cheese": 3,
+            "broccoli": 2,
+            "rice": 1,
+            "milk": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "falafel_bowl",
+            "pasta_salad",
+            "broccoli_cheddar_soup"
+          ],
+          "used": {
+            "chickpeas": 2,
+            "couscous": 2,
+            "cucumber": 2,
+            "tomato": 2,
+            "pasta": 2,
+            "cheese": 3,
+            "broccoli": 2,
+            "milk": 1,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        }
+      ],
+      "plausibleAlternatives": 18,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "pasta_salad",
+        "chickpea_salad",
+        "mediterranean_grain_bowl",
+        "broccoli_cheese_bake",
+        "broccoli_cheddar_soup"
+      ],
+      "forcedRecipeIds": [],
+      "sharedIngredientCount": 7,
+      "ingredientDegrees": {
+        "pasta": 2,
+        "cheese": 5,
+        "milk": 3,
+        "chickpeas": 3,
+        "couscous": 2,
+        "cucumber": 4,
+        "tomato": 4,
+        "broccoli": 3,
+        "rice": 2,
+        "onion": 3
+      },
+      "overlapDensity": 0.429,
+      "singleIngredientCandidateFloor": 15,
+      "deductionSteps": 4,
+      "difficultyScore": 99.6,
+      "ingredientTypes": 10,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "difficultyLabel": "tricky",
+      "difficultyExplanation": "4 constraint steps, 7 strict near misses, and 5 competitive decoys.",
+      "nearbyDifference": "Shares 0 recipes with the previous scheduled day and 0 with the next; 8 cards are new relative to the previous day."
+    },
+    "id": "quality-v3-medium-074",
+    "contentVersion": "proposal-quality-v3",
+    "day": 74,
+    "seed": "quality-v3:medium:74"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "rice": 2,
+      "broccoli": 1,
+      "carrot": 2,
+      "peas": 2,
+      "beef": 2,
+      "potato": 3,
+      "chicken": 2,
+      "coconut_milk": 2,
+      "curry_paste": 1,
+      "bell_pepper": 1
+    },
+    "cards": [
+      {
+        "id": "beef_curry",
+        "name": "Beef Curry",
+        "family": "curries_bowls",
+        "icon": "🍛",
+        "ingredients": {
+          "beef": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "vegetable_curry",
+        "name": "Vegetable Curry",
+        "family": "vegetarian_mains",
+        "icon": "🍛",
+        "ingredients": {
+          "potato": 1,
+          "carrot": 1,
+          "peas": 1,
+          "coconut_milk": 2
+        }
+      },
+      {
+        "id": "shepherds_pie",
+        "name": "Shepherd's Pie",
+        "family": "bakes_casseroles",
+        "icon": "🥧",
+        "ingredients": {
+          "beef": 2,
+          "potato": 3,
+          "carrot": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "beef_rice_bowl",
+        "name": "Beef Rice Bowl",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "beef": 2,
+          "rice": 2,
+          "broccoli": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "chicken_vegetable_stir_fry",
+        "name": "Chicken Vegetable Stir-Fry",
+        "family": "stir_fries",
+        "icon": "🥘",
+        "ingredients": {
+          "chicken": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "thai_red_curry",
+        "name": "Thai Red Curry",
+        "family": "curries_bowls",
+        "icon": "🍛",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "vegetable_rice_bowl",
+        "name": "Vegetable Rice Bowl",
+        "family": "rice_dishes",
+        "icon": "🥗",
+        "ingredients": {
+          "rice": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "chicken_curry_soup",
+        "name": "Chicken Curry Soup",
+        "family": "soups_stews",
+        "icon": "🍛",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "carrot": 1,
+          "curry_paste": 1
+        }
+      }
+    ],
+    "solution": [
+      "shepherds_pie",
+      "thai_red_curry",
+      "vegetable_rice_bowl"
+    ],
+    "solutionKey": "shepherds_pie|thai_red_curry|vegetable_rice_bowl",
+    "structuralSignature": "2add907ad9ddadf7b2a4",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "shepherds_pie",
+        "thai_red_curry",
+        "vegetable_rice_bowl"
+      ],
+      "nearMissCount": 3,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "shepherds_pie",
+            "vegetable_rice_bowl",
+            "chicken_curry_soup"
+          ],
+          "used": {
+            "beef": 2,
+            "potato": 3,
+            "carrot": 3,
+            "peas": 2,
+            "rice": 2,
+            "broccoli": 1,
+            "chicken": 2,
+            "coconut_milk": 2,
+            "curry_paste": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "shepherds_pie",
+            "beef_rice_bowl",
+            "thai_red_curry"
+          ],
+          "used": {
+            "beef": 4,
+            "potato": 3,
+            "carrot": 2,
+            "peas": 1,
+            "rice": 2,
+            "broccoli": 1,
+            "chicken": 2,
+            "coconut_milk": 2,
+            "curry_paste": 1,
+            "bell_pepper": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "beef_curry",
+            "shepherds_pie",
+            "chicken_vegetable_stir_fry"
+          ],
+          "used": {
+            "beef": 4,
+            "coconut_milk": 2,
+            "curry_paste": 1,
+            "rice": 1,
+            "potato": 3,
+            "carrot": 2,
+            "peas": 1,
+            "chicken": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        }
+      ],
+      "plausibleAlternatives": 15,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "beef_curry",
+        "vegetable_curry",
+        "beef_rice_bowl",
+        "chicken_vegetable_stir_fry",
+        "chicken_curry_soup"
+      ],
+      "forcedRecipeIds": [],
+      "sharedIngredientCount": 8,
+      "ingredientDegrees": {
+        "rice": 3,
+        "broccoli": 3,
+        "carrot": 6,
+        "peas": 3,
+        "beef": 3,
+        "potato": 2,
+        "chicken": 3,
+        "coconut_milk": 4,
+        "curry_paste": 3,
+        "bell_pepper": 2
+      },
+      "overlapDensity": 0.5,
+      "singleIngredientCandidateFloor": 15,
+      "deductionSteps": 4,
+      "difficultyScore": 92,
+      "ingredientTypes": 10,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "difficultyLabel": "tricky",
+      "difficultyExplanation": "4 constraint steps, 3 strict near misses, and 5 competitive decoys.",
+      "nearbyDifference": "Shares 0 recipes with the previous scheduled day and 0 with the next; 8 cards are new relative to the previous day."
+    },
+    "id": "quality-v3-medium-043",
+    "contentVersion": "proposal-quality-v3",
+    "day": 43,
+    "seed": "quality-v3:medium:43"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "black_beans": 2,
+      "tortilla": 2,
+      "corn": 1,
+      "tomato": 2,
+      "shrimp": 2,
+      "lettuce": 2,
+      "cucumber": 1,
+      "chicken": 2,
+      "rice": 2,
+      "eggs": 1,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "black_bean_tacos",
+        "name": "Black Bean Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "black_beans": 2,
+          "tortilla": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "shrimp_fried_rice",
+        "name": "Shrimp Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍤",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "shrimp_salad",
+        "name": "Shrimp Salad",
+        "family": "seafood",
+        "icon": "🥗",
+        "ingredients": {
+          "shrimp": 2,
+          "lettuce": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "southwest_salad",
+        "name": "Southwest Salad",
+        "family": "salads",
+        "icon": "🌽",
+        "ingredients": {
+          "lettuce": 2,
+          "black_beans": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "burrito_bowl",
+        "name": "Burrito Bowl",
+        "family": "tacos_mexican",
+        "icon": "🥗",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_fried_rice",
+      "black_bean_tacos",
+      "shrimp_salad"
+    ],
+    "solutionKey": "black_bean_tacos|chicken_fried_rice|shrimp_salad",
+    "structuralSignature": "47a55e83f4f5adda5a97",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_fried_rice",
+        "black_bean_tacos",
+        "shrimp_salad"
+      ],
+      "nearMissCount": 6,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_wrap",
+            "black_bean_tacos",
+            "shrimp_fried_rice"
+          ],
+          "used": {
+            "tortilla": 3,
+            "chicken": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "black_beans": 2,
+            "corn": 1,
+            "shrimp": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_wrap",
+            "shrimp_fried_rice",
+            "southwest_salad"
+          ],
+          "used": {
+            "tortilla": 1,
+            "chicken": 2,
+            "lettuce": 3,
+            "tomato": 2,
+            "shrimp": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "black_beans": 1,
+            "corn": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "chicken_fried_rice",
+            "shrimp_salad",
+            "burrito_bowl"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 4,
+            "eggs": 1,
+            "peas": 1,
+            "shrimp": 2,
+            "lettuce": 2,
+            "cucumber": 1,
+            "tomato": 2,
+            "black_beans": 2,
+            "corn": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "black_bean_tacos",
+            "shrimp_fried_rice",
+            "shrimp_salad"
+          ],
+          "used": {
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 2,
+            "shrimp": 4,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "lettuce": 2,
+            "cucumber": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "black_bean_tacos",
+            "shrimp_fried_rice",
+            "chicken_shawarma_bowl"
+          ],
+          "used": {
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 2,
+            "shrimp": 2,
+            "rice": 4,
+            "eggs": 1,
+            "peas": 1,
+            "chicken": 2,
+            "cucumber": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "black_bean_tacos",
+            "shrimp_salad",
+            "chicken_shawarma_bowl"
+          ],
+          "used": {
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 3,
+            "shrimp": 2,
+            "lettuce": 2,
+            "cucumber": 2,
+            "chicken": 2,
+            "rice": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 12,
+      "oneSwapNearMisses": 5,
+      "competitiveDecoyIds": [
+        "chicken_wrap",
+        "shrimp_fried_rice",
+        "southwest_salad",
+        "burrito_bowl",
+        "chicken_shawarma_bowl"
+      ],
+      "forcedRecipeIds": [],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "black_beans": 3,
+        "tortilla": 2,
+        "corn": 3,
+        "tomato": 6,
+        "shrimp": 2,
+        "lettuce": 3,
+        "cucumber": 2,
+        "chicken": 3,
+        "rice": 4,
+        "eggs": 2,
+        "peas": 2
+      },
+      "overlapDensity": 0.429,
+      "singleIngredientCandidateFloor": 15,
+      "deductionSteps": 5,
+      "difficultyScore": 89.6,
+      "ingredientTypes": 11,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "difficultyLabel": "tricky",
+      "difficultyExplanation": "5 constraint steps, 6 strict near misses, and 5 competitive decoys.",
+      "nearbyDifference": "Shares 0 recipes with the previous scheduled day and 0 with the next; 8 cards are new relative to the previous day."
+    },
+    "id": "quality-v3-medium-031",
+    "contentVersion": "proposal-quality-v3",
+    "day": 31,
+    "seed": "quality-v3:medium:31"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "chicken": 2,
+      "tortilla": 2,
+      "lettuce": 2,
+      "cheese": 1,
+      "salmon": 2,
+      "rice": 2,
+      "cucumber": 1,
+      "avocado": 1,
+      "turkey": 2,
+      "bread": 2,
+      "tomato": 1
+    },
+    "cards": [
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "turkey_burger",
+        "name": "Turkey Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "turkey": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_burger",
+        "name": "Chicken Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "salmon_rice_bowl",
+        "name": "Salmon Rice Bowl",
+        "family": "seafood",
+        "icon": "🍚",
+        "ingredients": {
+          "salmon": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "avocado": 1
+        }
+      },
+      {
+        "id": "turkey_sandwich",
+        "name": "Turkey Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "turkey": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_salad",
+        "name": "Chicken Salad",
+        "family": "salads",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "lettuce": 2,
+          "tomato": 1,
+          "cucumber": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_tacos",
+      "turkey_burger",
+      "salmon_rice_bowl"
+    ],
+    "solutionKey": "chicken_tacos|salmon_rice_bowl|turkey_burger",
+    "structuralSignature": "0036c5dcab80a9fe1671",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_tacos",
+        "turkey_burger",
+        "salmon_rice_bowl"
+      ],
+      "nearMissCount": 5,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_tacos",
+            "salmon_rice_bowl",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "lettuce": 2,
+            "cheese": 2,
+            "salmon": 2,
+            "rice": 2,
+            "cucumber": 1,
+            "avocado": 1,
+            "bread": 2,
+            "turkey": 2
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "veggie_wrap",
+            "salmon_rice_bowl",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "tortilla": 1,
+            "lettuce": 2,
+            "cucumber": 2,
+            "tomato": 1,
+            "salmon": 2,
+            "rice": 2,
+            "avocado": 1,
+            "bread": 2,
+            "turkey": 2,
+            "cheese": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_tacos",
+            "chicken_burger",
+            "salmon_rice_bowl"
+          ],
+          "used": {
+            "chicken": 4,
+            "tortilla": 2,
+            "lettuce": 2,
+            "cheese": 1,
+            "bread": 2,
+            "tomato": 1,
+            "salmon": 2,
+            "rice": 2,
+            "cucumber": 1,
+            "avocado": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_burger",
+            "salmon_rice_bowl",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "chicken": 2,
+            "bread": 4,
+            "lettuce": 2,
+            "tomato": 1,
+            "salmon": 2,
+            "rice": 2,
+            "cucumber": 1,
+            "avocado": 1,
+            "turkey": 2,
+            "cheese": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "salmon_rice_bowl",
+            "turkey_sandwich",
+            "chicken_salad"
+          ],
+          "used": {
+            "salmon": 2,
+            "rice": 2,
+            "cucumber": 2,
+            "avocado": 1,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 3,
+            "cheese": 1,
+            "chicken": 2,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        }
+      ],
+      "plausibleAlternatives": 14,
+      "oneSwapNearMisses": 8,
+      "competitiveDecoyIds": [
+        "veggie_wrap",
+        "chicken_burger",
+        "greek_chicken_bowl",
+        "turkey_sandwich",
+        "chicken_salad"
+      ],
+      "forcedRecipeIds": [
+        "salmon_rice_bowl"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "chicken": 4,
+        "tortilla": 2,
+        "lettuce": 6,
+        "cheese": 3,
+        "salmon": 1,
+        "rice": 2,
+        "cucumber": 4,
+        "avocado": 1,
+        "turkey": 2,
+        "bread": 3,
+        "tomato": 4
+      },
+      "overlapDensity": 0.536,
+      "singleIngredientCandidateFloor": 15,
+      "deductionSteps": 3,
+      "difficultyScore": 74.7,
+      "ingredientTypes": 11,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "difficultyLabel": "tricky",
+      "difficultyExplanation": "3 constraint steps, 5 strict near misses, and 5 competitive decoys.",
+      "nearbyDifference": "Shares 0 recipes with the previous scheduled day and 0 with the next; 8 cards are new relative to the previous day."
+    },
+    "id": "quality-v3-medium-013",
+    "contentVersion": "proposal-quality-v3",
+    "day": 13,
+    "seed": "quality-v3:medium:13"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "bread": 2,
+      "eggs": 2,
+      "cheese": 1,
+      "bacon": 1,
+      "pasta": 2,
+      "beef": 2,
+      "tomato_sauce": 2,
+      "mozzarella": 1,
+      "potato": 2,
+      "sausage": 2,
+      "onion": 1,
+      "bell_pepper": 1
+    },
+    "cards": [
+      {
+        "id": "breakfast_hash",
+        "name": "Breakfast Hash",
+        "family": "breakfast_eggs",
+        "icon": "🥔",
+        "ingredients": {
+          "potato": 2,
+          "sausage": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "breakfast_sandwich",
+        "name": "Breakfast Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "eggs": 2,
+          "cheese": 1,
+          "bacon": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "lasagna",
+        "name": "Lasagna",
+        "family": "bakes_casseroles",
+        "icon": "🍝",
+        "ingredients": {
+          "pasta": 2,
+          "beef": 2,
+          "tomato_sauce": 2,
+          "mozzarella": 1
+        }
+      },
+      {
+        "id": "sausage_pasta_bake",
+        "name": "Sausage Pasta Bake",
+        "family": "bakes_casseroles",
+        "icon": "🥘",
+        "ingredients": {
+          "sausage": 2,
+          "pasta": 2,
+          "tomato_sauce": 2,
+          "mozzarella": 1
+        }
+      },
+      {
+        "id": "meatball_sub",
+        "name": "Meatball Sub",
+        "family": "burgers_comfort",
+        "icon": "🥖",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "tomato_sauce": 2,
+          "mozzarella": 1
+        }
+      },
+      {
+        "id": "spaghetti_bolognese",
+        "name": "Spaghetti Bolognese",
+        "family": "pasta",
+        "icon": "🍝",
+        "ingredients": {
+          "pasta": 2,
+          "beef": 2,
+          "tomato_sauce": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "sloppy_joe",
+        "name": "Sloppy Joe",
+        "family": "burgers_comfort",
+        "icon": "🥪",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "tomato_sauce": 2,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "breakfast_hash",
+      "breakfast_sandwich",
+      "lasagna"
+    ],
+    "solutionKey": "breakfast_hash|breakfast_sandwich|lasagna",
+    "structuralSignature": "75a45067f869989b58df",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "breakfast_hash",
+        "breakfast_sandwich",
+        "lasagna"
+      ],
+      "nearMissCount": 5,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "breakfast_hash",
+            "breakfast_sandwich",
+            "spaghetti_bolognese"
+          ],
+          "used": {
+            "potato": 2,
+            "sausage": 2,
+            "onion": 2,
+            "bell_pepper": 1,
+            "bread": 2,
+            "eggs": 2,
+            "cheese": 1,
+            "bacon": 1,
+            "pasta": 2,
+            "beef": 2,
+            "tomato_sauce": 2
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "breakfast_hash",
+            "breakfast_sandwich",
+            "sausage_pasta_bake"
+          ],
+          "used": {
+            "potato": 2,
+            "sausage": 4,
+            "onion": 1,
+            "bell_pepper": 1,
+            "bread": 2,
+            "eggs": 2,
+            "cheese": 1,
+            "bacon": 1,
+            "pasta": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "breakfast_hash",
+            "breakfast_sandwich",
+            "meatball_sub"
+          ],
+          "used": {
+            "potato": 2,
+            "sausage": 2,
+            "onion": 1,
+            "bell_pepper": 1,
+            "bread": 4,
+            "eggs": 2,
+            "cheese": 1,
+            "bacon": 1,
+            "beef": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "breakfast_sandwich",
+            "potato_and_egg_skillet",
+            "lasagna"
+          ],
+          "used": {
+            "bread": 2,
+            "eggs": 4,
+            "cheese": 1,
+            "bacon": 1,
+            "potato": 2,
+            "onion": 1,
+            "bell_pepper": 1,
+            "pasta": 2,
+            "beef": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "breakfast_sandwich",
+            "potato_and_egg_skillet",
+            "sausage_pasta_bake"
+          ],
+          "used": {
+            "bread": 2,
+            "eggs": 4,
+            "cheese": 1,
+            "bacon": 1,
+            "potato": 2,
+            "onion": 1,
+            "bell_pepper": 1,
+            "sausage": 2,
+            "pasta": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        }
+      ],
+      "plausibleAlternatives": 9,
+      "oneSwapNearMisses": 5,
+      "competitiveDecoyIds": [
+        "potato_and_egg_skillet",
+        "sausage_pasta_bake",
+        "meatball_sub",
+        "spaghetti_bolognese",
+        "sloppy_joe"
+      ],
+      "forcedRecipeIds": [
+        "breakfast_sandwich"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "bread": 3,
+        "eggs": 2,
+        "cheese": 1,
+        "bacon": 1,
+        "pasta": 3,
+        "beef": 4,
+        "tomato_sauce": 5,
+        "mozzarella": 3,
+        "potato": 2,
+        "sausage": 2,
+        "onion": 4,
+        "bell_pepper": 2
+      },
+      "overlapDensity": 0.357,
+      "singleIngredientCandidateFloor": 15,
+      "deductionSteps": 5,
+      "difficultyScore": 68.1,
+      "ingredientTypes": 12,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "5 constraint steps, 5 strict near misses, and 5 competitive decoys.",
+      "nearbyDifference": "Shares 0 recipes with the previous scheduled day and 0 with the next; 8 cards are new relative to the previous day."
+    },
+    "id": "quality-v3-medium-010",
+    "contentVersion": "proposal-quality-v3",
+    "day": 10,
+    "seed": "quality-v3:medium:10"
+  }
+]

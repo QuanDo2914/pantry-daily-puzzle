@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pantry · V3/V4 Playtest Preview</title>
+  <link rel="stylesheet" href="/src/styles.css">
+  <link rel="stylesheet" href="./preview.css">
+</head>
+<body>
+  <a class="skip" href="#recipes">Skip to recipes</a>
+  <div class="app-frame">
+    <header class="topbar"><div class="brand"><span class="brand-leaf" aria-hidden="true">🌿</span><span>Pantry</span></div><span class="preview-mark">CONTENT PLAYTEST · NOT DAILY</span></header>
+    <main>
+      <section class="preview-controls" aria-label="Preview puzzle selector">
+        <div><p class="kicker">ISOLATED PREVIEW</p><h1>Compare V3 and V4</h1><p>Pick a board, then solve it with the same exact-inventory rule as Pantry. Changing boards clears only this preview’s selection.</p></div>
+        <label for="board-select">Test board<select id="board-select" aria-label="Test board"></select></label>
+        <div class="preview-metadata"><span id="version-badge"></span><span id="board-meta"></span></div>
+      </section>
+      <div id="loading" class="loading">Loading verified puzzle boards…</div>
+      <section id="game" hidden>
+        <section class="pantry-section" aria-labelledby="pantry-heading"><div class="section-head"><div><p class="kicker" id="puzzle-kicker">PANTRY</p><h2 id="pantry-heading">The Pantry</h2></div><span class="timer" id="timer">◷ 0:00</span></div><p class="pantry-help" id="pantry-help">Select dishes to see what they use.</p><div class="inventory" id="inventory" aria-live="polite"></div></section>
+        <section class="recipes-section" aria-labelledby="recipes-heading"><div class="section-head recipe-heading"><div><h2 id="recipes-heading">Choose <span id="pick-target">4</span> dishes</h2><p id="selection-feedback">Use every ingredient exactly.</p></div><strong id="pick-count" class="pick-count">0 / 4</strong></div><div class="pick-dots" id="pick-dots"></div><label class="show-details"><input type="checkbox" id="details-all" checked> Show ingredient quantities on all cards</label><div class="recipe-grid" id="recipes"></div></section>
+        <div class="action-bar" aria-label="Preview puzzle controls"><button id="undo-btn" class="action secondary">↶ Undo</button><button id="reset-btn" class="action secondary">↺ Reset</button><button id="reveal-btn" class="action secondary">◉ Show solution</button></div>
+      </section>
+      <p class="preview-note">Experimental boards are local proposal data only. This preview does not affect daily puzzles, streaks, or production.</p>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./preview.js"></script>
+</body>
+</html>

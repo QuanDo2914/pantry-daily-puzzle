@@ -1,0 +1,690 @@
+{
+  "status": "independent_quality_v4_pilot_verification",
+  "verifiedAt": "2026-10-16T02:28:19.393Z",
+  "summary": {
+    "puzzles": 25,
+    "passed": 25,
+    "failed": 0,
+    "duplicateIds": 0,
+    "duplicateStructures": 0,
+    "duplicateSolutionGroups": 7,
+    "uniqueSolutionSets": 16
+  },
+  "results": [
+    {
+      "id": "quality-v4-hard-001",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "veggie_burger",
+          "chicken_shawarma_bowl",
+          "veggie_wrap",
+          "broccoli_cheddar_soup"
+        ],
+        "nearMissCount": 8,
+        "plausibleAlternatives": 20,
+        "competitiveDecoyCount": 7,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 9,
+        "sharedIngredientCount": 8,
+        "singleIngredientCandidateFloor": 95,
+        "deductionSteps": 5,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "3b3f54519df06fdd186b"
+      }
+    },
+    {
+      "id": "quality-v4-hard-002",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "thai_red_curry",
+          "broccoli_rice_skillet",
+          "shepherds_pie",
+          "mushroom_pasta"
+        ],
+        "nearMissCount": 3,
+        "plausibleAlternatives": 14,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 9,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 120,
+        "deductionSteps": 6,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "1f2b2f93280813bc18ff"
+      }
+    },
+    {
+      "id": "quality-v4-hard-003",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "mushroom_pizza",
+          "mushroom_pasta",
+          "sausage_and_peppers",
+          "beef_lo_mein"
+        ],
+        "nearMissCount": 3,
+        "plausibleAlternatives": 19,
+        "competitiveDecoyCount": 7,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 4,
+        "sharedIngredientCount": 8,
+        "singleIngredientCandidateFloor": 75,
+        "deductionSteps": 3,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "53a1e08b196b3d244d16"
+      }
+    },
+    {
+      "id": "quality-v4-hard-004",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "chickpea_stir_fry",
+          "black_bean_tacos",
+          "broccoli_cheddar_soup",
+          "chicken_shawarma_bowl"
+        ],
+        "nearMissCount": 6,
+        "plausibleAlternatives": 19,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 9,
+        "sharedIngredientCount": 7,
+        "singleIngredientCandidateFloor": 120,
+        "deductionSteps": 5,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "b08bb2050c8c3c57b0a7"
+      }
+    },
+    {
+      "id": "quality-v4-hard-005",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "mushroom_pizza",
+          "mushroom_pasta",
+          "beef_lo_mein",
+          "sausage_and_peppers"
+        ],
+        "nearMissCount": 4,
+        "plausibleAlternatives": 17,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 0,
+        "oneSwapNearMisses": 4,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 84,
+        "deductionSteps": 4,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "8140fa0f162738da224b"
+      }
+    },
+    {
+      "id": "quality-v4-hard-006",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "turkey_burger",
+          "shrimp_tacos",
+          "burrito_bowl",
+          "broccoli_cheddar_soup"
+        ],
+        "nearMissCount": 12,
+        "plausibleAlternatives": 37,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 9,
+        "sharedIngredientCount": 10,
+        "singleIngredientCandidateFloor": 95,
+        "deductionSteps": 5,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "96b9e12f6ceb4c498bd5"
+      }
+    },
+    {
+      "id": "quality-v4-hard-007",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "cheeseburger",
+          "mushroom_quesadilla",
+          "chicken_shawarma_bowl",
+          "baked_ziti"
+        ],
+        "nearMissCount": 5,
+        "plausibleAlternatives": 13,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 6,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 120,
+        "deductionSteps": 5,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "af1012b25a0f08b8f796"
+      }
+    },
+    {
+      "id": "quality-v4-hard-008",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "beef_lo_mein",
+          "beef_curry",
+          "chicken_fajitas",
+          "broccoli_cheese_bake"
+        ],
+        "nearMissCount": 7,
+        "plausibleAlternatives": 17,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 0,
+        "oneSwapNearMisses": 7,
+        "sharedIngredientCount": 10,
+        "singleIngredientCandidateFloor": 120,
+        "deductionSteps": 5,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "611feba3cae3bed299a2"
+      }
+    },
+    {
+      "id": "quality-v4-hard-009",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "mushroom_pasta",
+          "turkey_burger",
+          "broccoli_rice_skillet",
+          "chicken_tacos"
+        ],
+        "nearMissCount": 7,
+        "plausibleAlternatives": 28,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 0,
+        "oneSwapNearMisses": 10,
+        "sharedIngredientCount": 11,
+        "singleIngredientCandidateFloor": 120,
+        "deductionSteps": 5,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "658de1d512a97176050c"
+      }
+    },
+    {
+      "id": "quality-v4-hard-010",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "sausage_and_peppers",
+          "mushroom_pasta",
+          "mushroom_pizza",
+          "beef_lo_mein"
+        ],
+        "nearMissCount": 5,
+        "plausibleAlternatives": 20,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 0,
+        "oneSwapNearMisses": 4,
+        "sharedIngredientCount": 8,
+        "singleIngredientCandidateFloor": 75,
+        "deductionSteps": 3,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "867b7251067c29d5eeb2"
+      }
+    },
+    {
+      "id": "quality-v4-hard-011",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "veggie_burger",
+          "broccoli_cheddar_soup",
+          "veggie_wrap",
+          "chicken_shawarma_bowl"
+        ],
+        "nearMissCount": 9,
+        "plausibleAlternatives": 25,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 10,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 95,
+        "deductionSteps": 4,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "2827456bfe8171967a4f"
+      }
+    },
+    {
+      "id": "quality-v4-hard-012",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "shepherds_pie",
+          "mushroom_pasta",
+          "broccoli_rice_skillet",
+          "thai_red_curry"
+        ],
+        "nearMissCount": 3,
+        "plausibleAlternatives": 14,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 0,
+        "oneSwapNearMisses": 9,
+        "sharedIngredientCount": 8,
+        "singleIngredientCandidateFloor": 120,
+        "deductionSteps": 6,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "3327139021489ad87dba"
+      }
+    },
+    {
+      "id": "quality-v4-hard-013",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "broccoli_cheddar_soup",
+          "veggie_wrap",
+          "veggie_burger",
+          "chicken_shawarma_bowl"
+        ],
+        "nearMissCount": 8,
+        "plausibleAlternatives": 18,
+        "competitiveDecoyCount": 7,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 8,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 126,
+        "deductionSteps": 5,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "19f6ece42c909d0dadb5"
+      }
+    },
+    {
+      "id": "quality-v4-hard-014",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "beef_lo_mein",
+          "chicken_curry_soup",
+          "broccoli_rice_skillet",
+          "mushroom_pasta"
+        ],
+        "nearMissCount": 4,
+        "plausibleAlternatives": 22,
+        "competitiveDecoyCount": 7,
+        "forcedRecipeCount": 0,
+        "oneSwapNearMisses": 8,
+        "sharedIngredientCount": 12,
+        "singleIngredientCandidateFloor": 105,
+        "deductionSteps": 5,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "e7b2ba5134061f872fd5"
+      }
+    },
+    {
+      "id": "quality-v4-hard-015",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "chickpea_stir_fry",
+          "broccoli_cheddar_soup",
+          "chicken_shawarma_bowl",
+          "black_bean_tacos"
+        ],
+        "nearMissCount": 7,
+        "plausibleAlternatives": 19,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 8,
+        "sharedIngredientCount": 7,
+        "singleIngredientCandidateFloor": 126,
+        "deductionSteps": 6,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "3c491f06a58934b32e65"
+      }
+    },
+    {
+      "id": "quality-v4-hard-016",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "broccoli_cheese_bake",
+          "turkey_burger",
+          "chicken_fajitas",
+          "mushroom_pasta"
+        ],
+        "nearMissCount": 8,
+        "plausibleAlternatives": 21,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 0,
+        "oneSwapNearMisses": 7,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 95,
+        "deductionSteps": 4,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "37ab6c31618f3bdf1917"
+      }
+    },
+    {
+      "id": "quality-v4-hard-017",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "beef_curry",
+          "chicken_fajitas",
+          "beef_lo_mein",
+          "broccoli_cheese_bake"
+        ],
+        "nearMissCount": 4,
+        "plausibleAlternatives": 14,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 7,
+        "sharedIngredientCount": 10,
+        "singleIngredientCandidateFloor": 120,
+        "deductionSteps": 4,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "e8637336874e165c2333"
+      }
+    },
+    {
+      "id": "quality-v4-hard-018",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "black_bean_tacos",
+          "broccoli_cheddar_soup",
+          "greek_chicken_bowl",
+          "mushroom_pasta"
+        ],
+        "nearMissCount": 3,
+        "plausibleAlternatives": 20,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 6,
+        "sharedIngredientCount": 11,
+        "singleIngredientCandidateFloor": 95,
+        "deductionSteps": 5,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "6994a7757309a1c76c00"
+      }
+    },
+    {
+      "id": "quality-v4-hard-019",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "scrambled_eggs",
+          "chicken_fajitas",
+          "beef_lo_mein",
+          "broccoli_rice_skillet"
+        ],
+        "nearMissCount": 8,
+        "plausibleAlternatives": 17,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 7,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 105,
+        "deductionSteps": 6,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "0138767f875fb6b7f8a2"
+      }
+    },
+    {
+      "id": "quality-v4-hard-020",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "black_bean_tacos",
+          "broccoli_cheddar_soup",
+          "chicken_burger",
+          "salmon_rice_bowl"
+        ],
+        "nearMissCount": 8,
+        "plausibleAlternatives": 24,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 10,
+        "sharedIngredientCount": 10,
+        "singleIngredientCandidateFloor": 126,
+        "deductionSteps": 6,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "0ba375ddede4065e87f7"
+      }
+    },
+    {
+      "id": "quality-v4-hard-021",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "mushroom_pasta",
+          "broccoli_rice_skillet",
+          "scrambled_eggs",
+          "beef_lo_mein"
+        ],
+        "nearMissCount": 5,
+        "plausibleAlternatives": 18,
+        "competitiveDecoyCount": 7,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 8,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 105,
+        "deductionSteps": 4,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "59298e2f6bb45ce9c911"
+      }
+    },
+    {
+      "id": "quality-v4-hard-022",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "broccoli_cheddar_soup",
+          "burrito_bowl",
+          "turkey_burger",
+          "shrimp_tacos"
+        ],
+        "nearMissCount": 16,
+        "plausibleAlternatives": 42,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 10,
+        "sharedIngredientCount": 10,
+        "singleIngredientCandidateFloor": 126,
+        "deductionSteps": 6,
+        "familyCount": 8,
+        "maxFamilyCount": 2,
+        "structuralSignature": "d88859356d188f63da6e"
+      }
+    },
+    {
+      "id": "quality-v4-hard-023",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "mushroom_pasta",
+          "teriyaki_chicken_rice",
+          "broccoli_cheddar_soup",
+          "falafel_bowl"
+        ],
+        "nearMissCount": 9,
+        "plausibleAlternatives": 19,
+        "competitiveDecoyCount": 7,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 7,
+        "sharedIngredientCount": 11,
+        "singleIngredientCandidateFloor": 126,
+        "deductionSteps": 6,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "8b14f1108626df0a47b2"
+      }
+    },
+    {
+      "id": "quality-v4-hard-024",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "chicken_fajitas",
+          "turkey_burger",
+          "mushroom_pasta",
+          "broccoli_cheese_bake"
+        ],
+        "nearMissCount": 6,
+        "plausibleAlternatives": 19,
+        "competitiveDecoyCount": 8,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 7,
+        "sharedIngredientCount": 9,
+        "singleIngredientCandidateFloor": 105,
+        "deductionSteps": 4,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "b8bb9ad3d6bd82093665"
+      }
+    },
+    {
+      "id": "quality-v4-hard-025",
+      "mode": "hard",
+      "passed": true,
+      "failures": [],
+      "calculated": {
+        "combinations": 495,
+        "solutionCount": 1,
+        "solution": [
+          "egg_fried_rice",
+          "mushroom_pasta",
+          "thai_red_curry",
+          "broccoli_cheddar_soup"
+        ],
+        "nearMissCount": 9,
+        "plausibleAlternatives": 18,
+        "competitiveDecoyCount": 7,
+        "forcedRecipeCount": 1,
+        "oneSwapNearMisses": 7,
+        "sharedIngredientCount": 8,
+        "singleIngredientCandidateFloor": 70,
+        "deductionSteps": 4,
+        "familyCount": 7,
+        "maxFamilyCount": 2,
+        "structuralSignature": "5a0e36c976a83321904f"
+      }
+    }
+  ]
+}

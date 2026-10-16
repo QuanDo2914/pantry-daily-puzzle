@@ -1,0 +1,655 @@
+{
+  "status": "screening_plus_full_batch",
+  "warning": "Monte Carlo screening is not proof of impossibility. Only the chosen V3 8–12 Medium and 12–16/7-family Hard configuration received a full 100-day schedule and exhaustive validation.",
+  "screening": [
+    {
+      "id": "medium-requested",
+      "mode": "medium",
+      "cards": 8,
+      "picks": 3,
+      "pantryMin": 7,
+      "pantryMax": 10,
+      "familyMin": 6,
+      "counts": {
+        "trials": 300000,
+        "distinctFamilyAnswers": 300000,
+        "pantryInRange": 113561,
+        "enoughFeasibleDecoys": 1863,
+        "enoughFamilyPool": 91,
+        "enoughFamilyCappedCapacity": 80
+      },
+      "ratesPercent": {
+        "pantryInRange": 37.8537,
+        "enoughFeasibleDecoys": 0.621,
+        "enoughFamilyPool": 0.0303,
+        "enoughFamilyCappedCapacity": 0.0267
+      },
+      "qualifyingAnswerRecipeCoverage": 44,
+      "examples": [
+        {
+          "answer": [
+            "baked_mac_and_cheese",
+            "chicken_tacos",
+            "shrimp_salad"
+          ],
+          "pantryTypes": 10,
+          "feasibleDecoys": 7,
+          "availableFamilies": 6
+        },
+        {
+          "answer": [
+            "chicken_tacos",
+            "shrimp_fried_rice",
+            "chicken_salad"
+          ],
+          "pantryTypes": 10,
+          "feasibleDecoys": 6,
+          "availableFamilies": 6
+        },
+        {
+          "answer": [
+            "broccoli_cheddar_soup",
+            "chicken_biryani",
+            "greek_salad"
+          ],
+          "pantryTypes": 9,
+          "feasibleDecoys": 6,
+          "availableFamilies": 6
+        }
+      ]
+    },
+    {
+      "id": "medium-tested",
+      "mode": "medium",
+      "cards": 8,
+      "picks": 3,
+      "pantryMin": 8,
+      "pantryMax": 12,
+      "familyMin": 6,
+      "counts": {
+        "trials": 300000,
+        "distinctFamilyAnswers": 300000,
+        "pantryInRange": 298957,
+        "enoughFeasibleDecoys": 5130,
+        "enoughFamilyPool": 476,
+        "enoughFamilyCappedCapacity": 422
+      },
+      "ratesPercent": {
+        "pantryInRange": 99.6523,
+        "enoughFeasibleDecoys": 1.71,
+        "enoughFamilyPool": 0.1587,
+        "enoughFamilyCappedCapacity": 0.1407
+      },
+      "qualifyingAnswerRecipeCoverage": 104,
+      "examples": [
+        {
+          "answer": [
+            "mushroom_pasta",
+            "broccoli_cheddar_soup",
+            "greek_chicken_bowl"
+          ],
+          "pantryTypes": 11,
+          "feasibleDecoys": 6,
+          "availableFamilies": 6
+        },
+        {
+          "answer": [
+            "chicken_salad",
+            "chicken_quesadilla",
+            "beef_rice_bowl"
+          ],
+          "pantryTypes": 10,
+          "feasibleDecoys": 8,
+          "availableFamilies": 6
+        },
+        {
+          "answer": [
+            "chicken_alfredo",
+            "broccoli_cheddar_soup",
+            "salmon_rice_bowl"
+          ],
+          "pantryTypes": 12,
+          "feasibleDecoys": 5,
+          "availableFamilies": 6
+        }
+      ]
+    },
+    {
+      "id": "hard-requested",
+      "mode": "hard",
+      "cards": 12,
+      "picks": 4,
+      "pantryMin": 9,
+      "pantryMax": 13,
+      "familyMin": 8,
+      "counts": {
+        "trials": 300000,
+        "distinctFamilyAnswers": 300000,
+        "pantryInRange": 997,
+        "enoughFeasibleDecoys": 27,
+        "enoughFamilyPool": 3,
+        "enoughFamilyCappedCapacity": 3
+      },
+      "ratesPercent": {
+        "pantryInRange": 0.3323,
+        "enoughFeasibleDecoys": 0.009,
+        "enoughFamilyPool": 0.001,
+        "enoughFamilyCappedCapacity": 0.001
+      },
+      "qualifyingAnswerRecipeCoverage": 8,
+      "examples": [
+        {
+          "answer": [
+            "stuffed_peppers",
+            "veggie_wrap",
+            "veggie_burger",
+            "chicken_salad"
+          ],
+          "pantryTypes": 13,
+          "feasibleDecoys": 9,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "chicken_quesadilla",
+            "stuffed_peppers",
+            "southwest_salad",
+            "chicken_burger"
+          ],
+          "pantryTypes": 13,
+          "feasibleDecoys": 15,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "southwest_salad",
+            "chicken_fajitas",
+            "chicken_burger",
+            "stuffed_peppers"
+          ],
+          "pantryTypes": 13,
+          "feasibleDecoys": 15,
+          "availableFamilies": 8
+        }
+      ]
+    },
+    {
+      "id": "hard-12-16-preferred",
+      "mode": "hard",
+      "cards": 12,
+      "picks": 4,
+      "pantryMin": 12,
+      "pantryMax": 16,
+      "familyMin": 8,
+      "counts": {
+        "trials": 300000,
+        "distinctFamilyAnswers": 300000,
+        "pantryInRange": 31914,
+        "enoughFeasibleDecoys": 281,
+        "enoughFamilyPool": 16,
+        "enoughFamilyCappedCapacity": 15
+      },
+      "ratesPercent": {
+        "pantryInRange": 10.638,
+        "enoughFeasibleDecoys": 0.0937,
+        "enoughFamilyPool": 0.0053,
+        "enoughFamilyCappedCapacity": 0.005
+      },
+      "qualifyingAnswerRecipeCoverage": 30,
+      "examples": [
+        {
+          "answer": [
+            "greek_chicken_bowl",
+            "chicken_fajitas",
+            "cheesy_bean_bake",
+            "avocado_toast"
+          ],
+          "pantryTypes": 15,
+          "feasibleDecoys": 14,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "cashew_chicken",
+            "veggie_burger",
+            "chicken_shawarma_bowl",
+            "nachos"
+          ],
+          "pantryTypes": 16,
+          "feasibleDecoys": 14,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "turkey_burger",
+            "stuffed_peppers",
+            "black_bean_tacos",
+            "chicken_salad"
+          ],
+          "pantryTypes": 14,
+          "feasibleDecoys": 16,
+          "availableFamilies": 8
+        }
+      ]
+    },
+    {
+      "id": "hard-12-16-floor",
+      "mode": "hard",
+      "cards": 12,
+      "picks": 4,
+      "pantryMin": 12,
+      "pantryMax": 16,
+      "familyMin": 7,
+      "counts": {
+        "trials": 300000,
+        "distinctFamilyAnswers": 300000,
+        "pantryInRange": 32069,
+        "enoughFeasibleDecoys": 288,
+        "enoughFamilyPool": 74,
+        "enoughFamilyCappedCapacity": 29
+      },
+      "ratesPercent": {
+        "pantryInRange": 10.6897,
+        "enoughFeasibleDecoys": 0.096,
+        "enoughFamilyPool": 0.0247,
+        "enoughFamilyCappedCapacity": 0.0097
+      },
+      "qualifyingAnswerRecipeCoverage": 36,
+      "examples": [
+        {
+          "answer": [
+            "chicken_shawarma_bowl",
+            "chicken_burger",
+            "shrimp_tacos",
+            "cheesy_bean_bake"
+          ],
+          "pantryTypes": 16,
+          "feasibleDecoys": 14,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "stuffed_peppers",
+            "chicken_sandwich",
+            "nachos",
+            "southwest_salad"
+          ],
+          "pantryTypes": 15,
+          "feasibleDecoys": 16,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "nachos",
+            "stuffed_peppers",
+            "broccoli_cheddar_soup",
+            "chicken_salad"
+          ],
+          "pantryTypes": 16,
+          "feasibleDecoys": 14,
+          "availableFamilies": 8
+        }
+      ]
+    },
+    {
+      "id": "hard-tested-preferred",
+      "mode": "hard",
+      "cards": 12,
+      "picks": 4,
+      "pantryMin": 12,
+      "pantryMax": 18,
+      "familyMin": 8,
+      "counts": {
+        "trials": 300000,
+        "distinctFamilyAnswers": 300000,
+        "pantryInRange": 124003,
+        "enoughFeasibleDecoys": 932,
+        "enoughFamilyPool": 42,
+        "enoughFamilyCappedCapacity": 25
+      },
+      "ratesPercent": {
+        "pantryInRange": 41.3343,
+        "enoughFeasibleDecoys": 0.3107,
+        "enoughFamilyPool": 0.014,
+        "enoughFamilyCappedCapacity": 0.0083
+      },
+      "qualifyingAnswerRecipeCoverage": 43,
+      "examples": [
+        {
+          "answer": [
+            "garlic_butter_shrimp",
+            "stuffed_peppers",
+            "southwest_salad",
+            "chicken_sandwich"
+          ],
+          "pantryTypes": 18,
+          "feasibleDecoys": 8,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "chicken_burger",
+            "tuna_salad",
+            "rice_and_beans",
+            "stuffed_sweet_potato"
+          ],
+          "pantryTypes": 17,
+          "feasibleDecoys": 9,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "chicken_burger",
+            "chicken_shawarma_bowl",
+            "black_bean_tacos",
+            "potato_and_egg_skillet"
+          ],
+          "pantryTypes": 16,
+          "feasibleDecoys": 14,
+          "availableFamilies": 8
+        }
+      ]
+    },
+    {
+      "id": "hard-tested-floor",
+      "mode": "hard",
+      "cards": 12,
+      "picks": 4,
+      "pantryMin": 12,
+      "pantryMax": 18,
+      "familyMin": 7,
+      "counts": {
+        "trials": 300000,
+        "distinctFamilyAnswers": 300000,
+        "pantryInRange": 123979,
+        "enoughFeasibleDecoys": 981,
+        "enoughFamilyPool": 194,
+        "enoughFamilyCappedCapacity": 78
+      },
+      "ratesPercent": {
+        "pantryInRange": 41.3263,
+        "enoughFeasibleDecoys": 0.327,
+        "enoughFamilyPool": 0.0647,
+        "enoughFamilyCappedCapacity": 0.026
+      },
+      "qualifyingAnswerRecipeCoverage": 74,
+      "examples": [
+        {
+          "answer": [
+            "cheesy_bean_bake",
+            "veggie_wrap",
+            "rice_and_beans",
+            "chicken_burger"
+          ],
+          "pantryTypes": 13,
+          "feasibleDecoys": 8,
+          "availableFamilies": 7
+        },
+        {
+          "answer": [
+            "cheesy_bean_bake",
+            "scrambled_eggs",
+            "veggie_burger",
+            "greek_chicken_bowl"
+          ],
+          "pantryTypes": 16,
+          "feasibleDecoys": 8,
+          "availableFamilies": 8
+        },
+        {
+          "answer": [
+            "cheesy_bean_bake",
+            "chicken_fajitas",
+            "southwest_salad",
+            "egg_fried_rice"
+          ],
+          "pantryTypes": 16,
+          "feasibleDecoys": 15,
+          "availableFamilies": 7
+        }
+      ]
+    }
+  ],
+  "chosenV3": {
+    "medium": {
+      "pantry": "8–12",
+      "families": 6,
+      "solutionUniqueness": "100/100",
+      "difficulty": {
+        "min": 2,
+        "average": 3.87,
+        "max": 5
+      },
+      "recipeCoverage": 120,
+      "maxRecipeFrequency": 23,
+      "adjacentOverlap": {
+        "average": 0.03,
+        "median": 0,
+        "maximum": 3,
+        "transitionsAtLeastHalf": 0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "uiComplexity": "moderate; at most 12 pantry tiles"
+    },
+    "hard": {
+      "pantry": "12–16",
+      "families": 7,
+      "solutionUniqueness": "100/100",
+      "difficulty": {
+        "min": 3,
+        "average": 5.32,
+        "max": 7
+      },
+      "recipeCoverage": 116,
+      "maxRecipeFrequency": 41,
+      "adjacentOverlap": {
+        "average": 0.3,
+        "median": 0,
+        "maximum": 5,
+        "transitionsAtLeastHalf": 0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          2,
+          0,
+          1,
+          1,
+          0,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      "uiComplexity": "high but materially lower than the tested 18-tile ceiling"
+    }
+  }
+}

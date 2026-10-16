@@ -1,0 +1,99 @@
+{
+  "status": "measured",
+  "v2RuntimeMs": 2069,
+  "v3RuntimeMs": 56437.7,
+  "modes": {
+    "medium": {
+      "v2": {
+        "recipeCoverage": 89,
+        "maxRecipeFrequency": 53,
+        "familyCoverage": 14,
+        "ingredientCoverage": 56,
+        "uniqueSolutions": 100,
+        "uniqueStructures": 100,
+        "nearMissAverage": 4.59,
+        "deductionDepthAverage": 3.55,
+        "rotation": {
+          "averageAdjacent": 1.58,
+          "medianAdjacent": 1,
+          "maxAdjacent": 7,
+          "atLeastHalf": 14,
+          "longestStreak": 9,
+          "rollingWindowMax": {
+            "7": 7,
+            "14": 12,
+            "30": 21
+          }
+        }
+      },
+      "v3": {
+        "recipeCoverage": 120,
+        "maxRecipeFrequency": 23,
+        "familyCoverage": 15,
+        "ingredientCoverage": 61,
+        "uniqueSolutions": 100,
+        "uniqueStructures": 100,
+        "nearMissAverage": 4.53,
+        "deductionDepthAverage": 3.87,
+        "rotation": {
+          "averageAdjacent": 0.03,
+          "medianAdjacent": 0,
+          "maxAdjacent": 3,
+          "atLeastHalf": 0,
+          "longestStreak": 2,
+          "rollingWindowMax": {
+            "7": 4,
+            "14": 6,
+            "30": 10
+          }
+        }
+      }
+    },
+    "hard": {
+      "v2": {
+        "recipeCoverage": 92,
+        "maxRecipeFrequency": 94,
+        "familyCoverage": 15,
+        "ingredientCoverage": 69,
+        "uniqueSolutions": 100,
+        "uniqueStructures": 100,
+        "nearMissAverage": 4.4,
+        "deductionDepthAverage": 4.78,
+        "rotation": {
+          "averageAdjacent": 7.32,
+          "medianAdjacent": 7,
+          "maxAdjacent": 11,
+          "atLeastHalf": 85,
+          "longestStreak": 37,
+          "rollingWindowMax": {
+            "7": 7,
+            "14": 14,
+            "30": 30
+          }
+        }
+      },
+      "v3": {
+        "recipeCoverage": 116,
+        "maxRecipeFrequency": 41,
+        "familyCoverage": 15,
+        "ingredientCoverage": 59,
+        "uniqueSolutions": 100,
+        "uniqueStructures": 100,
+        "nearMissAverage": 7.48,
+        "deductionDepthAverage": 5.32,
+        "rotation": {
+          "averageAdjacent": 0.3,
+          "medianAdjacent": 0,
+          "maxAdjacent": 5,
+          "atLeastHalf": 0,
+          "longestStreak": 4,
+          "rollingWindowMax": {
+            "7": 6,
+            "14": 11,
+            "30": 17
+          }
+        }
+      }
+    }
+  }
+}
