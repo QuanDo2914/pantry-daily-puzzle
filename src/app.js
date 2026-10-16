@@ -1,19 +1,22 @@
 import { MODE_RULES, consumption, inventoryState, validateSelection, enumerateSolutions, formatTime } from './game/engine.js';
 import { INGREDIENTS } from './data/catalog.js';
+import { ingredientArt, recipeArt } from './visuals/clearline.js';
 
 const LAUNCH='2026-10-14'; const KEY='pantry-v1';
+const preview=new URLSearchParams(location.search).get('preview')==='v3';
+let previewBoard=0;
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const todayUTC=()=>new Date().toISOString().slice(0,10);
 const dayFor=date=>Math.floor((Date.parse(date+'T00:00:00Z')-Date.parse(LAUNCH+'T00:00:00Z'))/86400000)+1;
 function blankStats(){return {played:0,solved:0,currentStreak:0,bestStreak:0,totalTime:0,totalHints:0,recent:[],lastSolvedDay:null}}
 const safeLoad=()=>{try{const value=JSON.parse(localStorage.getItem(KEY));return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return {}}};
-let store=safeLoad();
+let store=preview?{}:safeLoad();
 store.settings={theme:'system',motion:false,timer:true,...(store.settings&&typeof store.settings==='object'?store.settings:{})};
 store.progress=store.progress&&typeof store.progress==='object'&&!Array.isArray(store.progress)?store.progress:{};
 store.stats=store.stats&&typeof store.stats==='object'?store.stats:{};
 for(const m of ['medium','hard']) store.stats[m]={...blankStats(),...(store.stats[m]&&typeof store.stats[m]==='object'?store.stats[m]:{})};
 let mode=['medium','hard'].includes(store.preferredMode)?store.preferredMode:'medium', puzzle=null, progress=null, tick=null, undoStack=[], expandedRecipes=new Set();
-function save(){localStorage.setItem(KEY,JSON.stringify(store))}
+function save(){if(!preview)localStorage.setItem(KEY,JSON.stringify(store))}
 function pkey(){return `${puzzle.id}:${mode}`}
 function fresh(){return {selected:[],elapsed:0,hints:0,status:'active',date:todayUTC(),lastTick:Date.now()}}
 function applyTheme(){document.documentElement.dataset.theme=store.settings.theme;document.documentElement.classList.toggle('reduce-motion',store.settings.motion);$('#timer').hidden=!store.settings.timer}
@@ -23,12 +26,13 @@ async function loadMode(next){
   mode=next;store.preferredMode=mode;save();stopTimer();undoStack=[];expandedRecipes=new Set();
   $$('.mode-switch button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.mode===mode);b.classList.toggle('active',b.dataset.mode===mode)});
   $('#loading').hidden=false;$('#game').hidden=true;$('#unavailable').hidden=true;
-  const day=dayFor(todayUTC()); $('#day-label').textContent=`Pantry #${day} · 00:00 UTC`;
-  try{const res=await fetch(`/puzzles/${mode}/${day}.json`,{cache:'no-store'});if(!res.ok)throw Error();puzzle=await res.json()}
+  const day=dayFor(todayUTC()); $('#day-label').textContent=preview?`Quality V3 · ${mode} board ${previewBoard+1}`:`Pantry #${day} · 00:00 UTC`;
+  try{const res=await fetch(preview?`/clearline-data/${mode}-100.json`:`/puzzles/${mode}/${day}.json`,{cache:preview?'default':'no-store'});if(!res.ok)throw Error();const data=await res.json();puzzle=preview?previewPuzzle(data[previewBoard]):data}
   catch{$('#loading').hidden=true;$('#unavailable').hidden=false;return}
-  progress=store.progress[pkey()]||fresh();store.progress[pkey()]=progress;save();
+  progress=preview?fresh():(store.progress[pkey()]||fresh());if(!preview){store.progress[pkey()]=progress;save()}
   $('#loading').hidden=true;$('#game').hidden=false;render();startTimer();updateModeBadges();
 }
+function previewPuzzle(board){if(!board)throw Error('V3 preview board missing');const families=[...new Set(board.solution.map(id=>board.cards.find(r=>r.id===id)?.family).filter(Boolean))];return {...board,recipes:board.cards,hints:[`The correct menu spans ${families.length} recipe families.`,`At least one selected dish is in the ${families[0]?.replaceAll('_',' ')} family.`,`One of the dishes is ${board.cards.find(r=>r.id===board.solution[0])?.name}.`]}}
 
 function render(){
   const rules=MODE_RULES[mode], used=consumption(puzzle.recipes,progress.selected), states=inventoryState(puzzle.pantry,used);
@@ -43,9 +47,9 @@ function render(){
   $('#selection-feedback').textContent=progress.status==='revealed'?'Solution revealed — this result is final.':progress.status==='solved'?'Perfectly balanced. Every ingredient is used.':progress.selected.length===rules.picks?(over?'This menu overuses part of the pantry.':'Close—but something is still left over.'):'Every ingredient must land exactly on its target.';
   const locked=progress.status!=='active'; $$('#recipes button').forEach(b=>b.disabled=locked);$('#hint-btn').disabled=locked||progress.hints>=3;$('#reveal-btn').disabled=locked;$('#reset-btn').disabled=locked||!progress.selected.length;$('#undo-btn').disabled=locked||!undoStack.length;
 }
-function ingredientRow(id,s){const meta=INGREDIENTS[id]||[id,'•'];const over=s.remaining<0;const label=s.status==='unused'?'unused':s.status==='partial'?`${s.remaining} left`:s.status==='complete'?'complete':`${Math.abs(s.remaining)} over`;return `<div class="ingredient ${s.status}" aria-label="${meta[0]}: ${s.consumed} of ${s.available}, ${label}"><span class="ingredient-icon" aria-hidden="true">${meta[1]}</span><span class="ingredient-name">${meta[0]}</span><strong>${s.consumed}/${s.available}${over?' !':''}</strong><small>${label}</small></div>`}
-const RECIPE_ICONS={rice:'🍚',pasta:'🍝',bake:'🥘',breakfast:'🍳',taco:'🌮',curry:'🍛',soup:'🍲',salad:'🥗',stirfry:'🍲',snack:'🥔'};
-function recipeCard(r,i,selected){const expanded=expandedRecipes.has(r.id);return `<article class="recipe ${selected?'selected':''} ${expanded?'expanded':''}" data-recipe="${r.id}"><button class="recipe-select" data-select="${r.id}" aria-pressed="${selected}" aria-label="${selected?'Deselect':'Select'} ${r.name}"><span class="card-no">${String(i+1).padStart(2,'0')}</span><span class="check" aria-hidden="true">✓</span><span class="recipe-art art-${r.category}" aria-hidden="true">${RECIPE_ICONS[r.category]||'🍽️'}</span><strong>${r.name}</strong><small>${Object.keys(r.ingredients).length} ingredients</small></button><button class="details-toggle" data-details="${r.id}" aria-expanded="${expanded}"><span>${expanded?'Hide':'Ingredients'}</span><span aria-hidden="true">${expanded?'−':'+'}</span></button><ul class="recipe-details">${Object.entries(r.ingredients).map(([id,q])=>`<li><span><i aria-hidden="true">${INGREDIENTS[id]?.[1]||'•'}</i>${INGREDIENTS[id]?.[0]||id}</span><b>×${q}</b></li>`).join('')}</ul></article>`}
+function ingredientName(id){return INGREDIENTS[id]?.[0]||id.split('_').map(s=>s[0].toUpperCase()+s.slice(1)).join(' ')}
+function ingredientRow(id,s){const name=ingredientName(id);const over=s.remaining<0;const label=s.status==='unused'?'unused':s.status==='partial'?`${s.remaining} left`:s.status==='complete'?'complete':`${Math.abs(s.remaining)} over`;return `<div class="ingredient ${s.status}" aria-label="${name}: ${s.consumed} of ${s.available}, ${label}"><span class="ingredient-icon" aria-hidden="true">${ingredientArt(id,name)}</span><span class="ingredient-name">${name}</span><strong>${s.consumed}/${s.available}${over?' !':''}</strong><small>${label}</small></div>`}
+function recipeCard(r,i,selected){const expanded=expandedRecipes.has(r.id);return `<article class="recipe ${selected?'selected':''} ${expanded?'expanded':''}" data-recipe="${r.id}"><button class="recipe-select" data-select="${r.id}" aria-pressed="${selected}" aria-label="${selected?'Deselect':'Select'} ${r.name}"><span class="card-no">${String(i+1).padStart(2,'0')}</span><span class="check" aria-hidden="true">✓</span><span class="recipe-art" aria-hidden="true">${recipeArt(r)}</span><strong>${r.name}</strong><small>${Object.keys(r.ingredients).length} ingredients</small></button><button class="details-toggle" data-details="${r.id}" aria-expanded="${expanded}"><span>${expanded?'Hide':'Ingredients'}</span><span aria-hidden="true">${expanded?'−':'+'}</span></button><ul class="recipe-details">${Object.entries(r.ingredients).map(([id,q])=>`<li><span><i aria-hidden="true">${ingredientArt(id,ingredientName(id),true)}</i>${ingredientName(id)}</span><b>×${q}</b></li>`).join('')}</ul></article>`}
 
 function toggleRecipe(id){
   if(progress.status!=='active')return;const rules=MODE_RULES[mode];undoStack.push([...progress.selected]);
@@ -85,4 +89,5 @@ $('#theme-select').onchange=e=>{store.settings.theme=e.target.value;save();apply
 $('#tutorial-btn').onclick=openTutorial;$('#tutorial-next').onclick=nextTutorial;$('#skip-tutorial').onclick=()=>{store.tutorialDone=true;save();$('#tutorial-dialog').close()};
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopTimer();else startTimer()});window.addEventListener('beforeunload',stopTimer);
 for(const d of $$('dialog'))d.addEventListener('click',e=>{if(e.target===d)d.close()});
-$('#theme-select').value=store.settings.theme;$('#motion-toggle').checked=store.settings.motion;$('#timer-toggle').checked=store.settings.timer;applyTheme();loadMode(mode);if(!store.tutorialDone)setTimeout(openTutorial,450);if('serviceWorker'in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});
+if(preview){document.body.classList.add('is-preview');$('#preview-strip').hidden=false;$('#preview-board').onchange=e=>{previewBoard=Number(e.target.value);loadMode(mode)};$('#preview-gallery').href='/clearline-preview/gallery.html';store.tutorialDone=true}
+$('#theme-select').value=store.settings.theme;$('#motion-toggle').checked=store.settings.motion;$('#timer-toggle').checked=store.settings.timer;applyTheme();loadMode(mode);if(!store.tutorialDone)setTimeout(openTutorial,450);if(!preview&&'serviceWorker'in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});
