@@ -1,5 +1,6 @@
 import {ingredientArt,recipeArt} from '../visuals/clearline.js';
 const $=s=>document.querySelector(s);
+document.querySelector('.header-row').insertAdjacentHTML('beforeend','<a class="back" href="/clearline-preview/compare.html">Before / after →</a>');
 const [ingredients,catalog]=await Promise.all([fetch('/clearline-data/ingredients.json').then(r=>r.json()),fetch('/clearline-data/proposed-recipe-catalog.json').then(r=>r.json())]);
 const recipes=catalog.recipes;
 $('#ingredient-total').textContent=ingredients.length;$('#recipe-total').textContent=recipes.length;

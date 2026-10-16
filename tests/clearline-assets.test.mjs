@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {INGREDIENTS,PROPOSED_ADDITIONS} from '../proposals/content-expansion/data.mjs';
-import {INGREDIENT_ART,LEGACY_INGREDIENT_ALIASES,ingredientArt,recipeArt,recipeArtKind} from '../src/visuals/clearline.js';
+import {INGREDIENT_ART,LEGACY_INGREDIENT_ALIASES,RECIPE_PRESENTATIONS,ingredientArt,recipeArt,recipeArtKind} from '../src/visuals/clearline.js';
+import {ingredientArt as oldIngredientArt,recipeArt as oldRecipeArt} from '../src/visuals/clearline-v1.js';
 import {INGREDIENTS as LEGACY_INGREDIENTS,RECIPES as LEGACY_RECIPES} from '../src/data/catalog.js';
 import {enumerateSolutions} from '../src/game/engine.js';
 
@@ -45,7 +46,21 @@ test('all 150 V3 recipes render as prepared dishes in Medium and Hard',()=>{
  assert.equal(rendered.size,300);
  assert.notEqual(recipeArtKind(catalog.recipes.find(x=>x.id==='broccoli_cheddar_soup')),recipeArtKind(catalog.recipes.find(x=>x.id==='broccoli_cheese_bake')));
  assert.notEqual(recipeArtKind(catalog.recipes.find(x=>x.id==='chicken_burger')),recipeArtKind(catalog.recipes.find(x=>x.id==='chicken_shawarma_bowl')));
- for(const [id,kind] of [['baked_salmon','plate'],['loaded_baked_potato','potato'],['pancakes','pancake'],['scrambled_eggs','scramble'],['avocado_toast','toast'],['nachos','nachos']])assert.equal(recipeArtKind(catalog.recipes.find(x=>x.id===id)),kind);
+ for(const [id,kind] of [['baked_salmon','fish'],['loaded_baked_potato','potato'],['pancakes','pancake'],['scrambled_eggs','scramble'],['avocado_toast','toast'],['nachos','nachos'],['ham_and_cheese','sandwich'],['burrito_bowl','burrito_bowl'],['meatball_sub','sub']])assert.equal(recipeArtKind(catalog.recipes.find(x=>x.id===id)),kind);
+});
+
+test('all approved recipes have intentional serving shapes; previous art stays available',()=>{
+ assert.deepEqual(Object.keys(RECIPE_PRESENTATIONS).sort(),catalog.recipes.map(x=>x.id).sort());
+ for(const recipe of catalog.recipes){
+  const revised=recipeArt({...recipe,ingredients:recipe.variants.hard});
+  const original=oldRecipeArt({...recipe,ingredients:recipe.variants.hard});
+  assert.match(revised,/class="clearline-art dish-art dish-/);
+  assert.match(original,/<svg/);
+  assert.doesNotMatch(revised,emoji);
+ }
+ for(const id of ['rice','quinoa','couscous','milk','cream','cheese','mozzarella','parmesan','black_beans','kidney_beans','chickpeas','lentils']){
+  assert.notEqual(ingredientArt(id),oldIngredientArt(id));
+ }
 });
 
 test('each V3 recipe has a visually distinct prepared-dish drawing',()=>{
