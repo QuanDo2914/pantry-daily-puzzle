@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#f8fafc"><meta name="description" content="Pantry — a daily menu logic puzzle. Use everything. Waste nothing.">
-  <link rel="manifest" href="/manifest.webmanifest"><link rel="stylesheet" href="/styles.css">
+  <meta name="theme-color" content="#f6f9f5"><meta name="description" content="Pantry — a daily menu logic puzzle. Use everything. Waste nothing.">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/clearline.css">
   <title>Pantry — Daily Puzzle</title>
 </head>
 <body>
   <a class="skip" href="#recipes">Skip to recipes</a>
   <div class="app-frame">
     <header class="topbar">
-      <a class="brand" href="/" aria-label="Pantry home"><span class="brand-leaf" aria-hidden="true">🌿</span><span>Pantry</span></a>
+      <a class="brand" href="/" aria-label="Pantry home"><svg class="brand-leaf" viewBox="0 0 38 38" aria-hidden="true"><path d="M7 30 C9 16 19 7 32 6 C31 20 23 30 7 30Z" fill="#63a477" stroke="#2e674c" stroke-width="1.8"/><path d="M7 32 Q16 20 28 11" fill="none" stroke="#2e674c" stroke-width="2" stroke-linecap="round"/><path d="M14 24 L12 15 M20 18 L26 20" fill="none" stroke="#d4ead4" stroke-width="1.4"/></svg><span>Pantry</span></a>
       <nav class="header-actions" aria-label="Game options">
         <button class="circle-btn" id="help-btn" aria-label="How to play">?</button>
         <button class="circle-btn bars-icon" id="stats-btn" aria-label="View statistics"><i></i><i></i><i></i></button>
-        <button class="circle-btn" id="settings-btn" aria-label="Open settings">⚙</button>
+        <button class="circle-btn" id="settings-btn" aria-label="Open settings"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3.5v2m0 13v2m8.5-8.5h-2m-13 0h-2m14.5-6.5-1.5 1.5m-9 9-1.5 1.5m12 0-1.5-1.5m-9-9L6 5.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/></svg></button>
       </nav>
     </header>
 
     <main>
+      <div id="preview-strip" class="preview-strip" hidden><div><strong>Clearline review preview</strong><span>Quality V3 content · local only · progress is not saved</span></div><label>Test board <select id="preview-board"><option value="0">01</option><option value="1">02</option><option value="2">03</option><option value="3">04</option><option value="4">05</option><option value="5">06</option><option value="6">07</option><option value="7">08</option><option value="8">09</option><option value="9">10</option></select></label><a id="preview-gallery" href="/clearline-preview/gallery.html">View all 240 illustrations →</a></div>
       <div class="mode-wrap">
         <div class="mode-switch" role="tablist" aria-label="Difficulty">
           <button role="tab" id="mode-medium" data-mode="medium">Medium <i class="mode-status"></i></button>

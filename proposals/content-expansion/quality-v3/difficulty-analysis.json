@@ -1,0 +1,34 @@
+{
+  "medium": {
+    "min": 2,
+    "average": 4.53,
+    "max": 10
+  },
+  "hard": {
+    "min": 3,
+    "average": 7.48,
+    "max": 16
+  },
+  "mediumDepth": {
+    "min": 2,
+    "average": 3.87,
+    "max": 5
+  },
+  "hardDepth": {
+    "min": 3,
+    "average": 5.32,
+    "max": 7
+  },
+  "hardGates": {
+    "cards": 12,
+    "picks": 4,
+    "pantryMin": 12,
+    "pantryMax": 16,
+    "familyMin": 7,
+    "nearMin": 3,
+    "plausibleMin": 12,
+    "competitiveMin": 7,
+    "deductionMin": 3,
+    "forcedMax": 1
+  }
+}

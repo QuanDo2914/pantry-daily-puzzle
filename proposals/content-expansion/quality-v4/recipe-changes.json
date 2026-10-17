@@ -1,0 +1,549 @@
+{
+  "count": 25,
+  "hardIngredientCounts": {
+    "4": 125,
+    "5": 20,
+    "6": 5
+  },
+  "changes": [
+    {
+      "id": "tomato_basil_pasta",
+      "name": "Tomato Basil Pasta",
+      "family": "pasta",
+      "before": {
+        "pasta": 2,
+        "tomato": 2,
+        "basil": 1,
+        "parmesan": 1
+      },
+      "after": {
+        "pasta": 2,
+        "tomato": 2,
+        "basil": 1,
+        "parmesan": 1,
+        "garlic": 1
+      },
+      "delta": {
+        "garlic": 1
+      }
+    },
+    {
+      "id": "chicken_ramen",
+      "name": "Chicken Ramen",
+      "family": "noodles",
+      "before": {
+        "chicken": 2,
+        "noodles": 2,
+        "eggs": 1,
+        "spinach": 1
+      },
+      "after": {
+        "chicken": 2,
+        "noodles": 2,
+        "eggs": 1,
+        "spinach": 1,
+        "mushroom": 1
+      },
+      "delta": {
+        "mushroom": 1
+      }
+    },
+    {
+      "id": "pad_thai",
+      "name": "Pad Thai",
+      "family": "noodles",
+      "before": {
+        "rice_noodles": 2,
+        "shrimp": 2,
+        "eggs": 1,
+        "peanuts": 1
+      },
+      "after": {
+        "rice_noodles": 2,
+        "shrimp": 2,
+        "eggs": 1,
+        "peanuts": 1,
+        "lime": 1,
+        "soy_sauce": 1
+      },
+      "delta": {
+        "lime": 1,
+        "soy_sauce": 1
+      }
+    },
+    {
+      "id": "beef_lo_mein",
+      "name": "Beef Lo Mein",
+      "family": "noodles",
+      "before": {
+        "beef": 2,
+        "noodles": 2,
+        "cabbage": 1,
+        "carrot": 1
+      },
+      "after": {
+        "beef": 2,
+        "noodles": 2,
+        "cabbage": 1,
+        "carrot": 1,
+        "soy_sauce": 1
+      },
+      "delta": {
+        "soy_sauce": 1
+      }
+    },
+    {
+      "id": "vegetable_lo_mein",
+      "name": "Vegetable Lo Mein",
+      "family": "noodles",
+      "before": {
+        "noodles": 2,
+        "cabbage": 1,
+        "carrot": 1,
+        "mushroom": 1
+      },
+      "after": {
+        "noodles": 2,
+        "cabbage": 1,
+        "carrot": 1,
+        "mushroom": 1,
+        "soy_sauce": 1
+      },
+      "delta": {
+        "soy_sauce": 1
+      }
+    },
+    {
+      "id": "sesame_noodles",
+      "name": "Sesame Noodles",
+      "family": "noodles",
+      "before": {
+        "noodles": 2,
+        "sesame_oil": 1,
+        "soy_sauce": 1,
+        "peanuts": 1
+      },
+      "after": {
+        "noodles": 2,
+        "sesame_oil": 1,
+        "soy_sauce": 1,
+        "peanuts": 1,
+        "ginger": 1
+      },
+      "delta": {
+        "ginger": 1
+      }
+    },
+    {
+      "id": "chicken_noodle_soup",
+      "name": "Chicken Noodle Soup",
+      "family": "soups_stews",
+      "before": {
+        "chicken": 2,
+        "noodles": 1,
+        "carrot": 1,
+        "celery": 1
+      },
+      "after": {
+        "chicken": 2,
+        "noodles": 1,
+        "carrot": 1,
+        "celery": 1,
+        "onion": 1
+      },
+      "delta": {
+        "onion": 1
+      }
+    },
+    {
+      "id": "lentil_soup",
+      "name": "Lentil Soup",
+      "family": "soups_stews",
+      "before": {
+        "lentils": 2,
+        "carrot": 1,
+        "tomato": 1,
+        "onion": 1
+      },
+      "after": {
+        "lentils": 2,
+        "carrot": 1,
+        "tomato": 1,
+        "onion": 1,
+        "garlic": 1
+      },
+      "delta": {
+        "garlic": 1
+      }
+    },
+    {
+      "id": "minestrone",
+      "name": "Minestrone",
+      "family": "soups_stews",
+      "before": {
+        "kidney_beans": 1,
+        "pasta": 1,
+        "tomato": 2,
+        "carrot": 1
+      },
+      "after": {
+        "kidney_beans": 1,
+        "pasta": 1,
+        "tomato": 2,
+        "carrot": 1,
+        "celery": 1,
+        "zucchini": 1
+      },
+      "delta": {
+        "celery": 1,
+        "zucchini": 1
+      }
+    },
+    {
+      "id": "breakfast_burrito",
+      "name": "Breakfast Burrito",
+      "family": "breakfast_eggs",
+      "before": {
+        "tortilla": 1,
+        "eggs": 2,
+        "potato": 1,
+        "cheese": 1
+      },
+      "after": {
+        "tortilla": 1,
+        "eggs": 2,
+        "potato": 1,
+        "cheese": 1,
+        "sausage": 1
+      },
+      "delta": {
+        "sausage": 1
+      }
+    },
+    {
+      "id": "pancakes",
+      "name": "Pancakes",
+      "family": "breakfast_eggs",
+      "before": {
+        "flour": 2,
+        "milk": 1,
+        "eggs": 1,
+        "sugar": 1
+      },
+      "after": {
+        "flour": 2,
+        "milk": 1,
+        "eggs": 1,
+        "sugar": 1,
+        "butter": 1
+      },
+      "delta": {
+        "butter": 1
+      }
+    },
+    {
+      "id": "french_toast",
+      "name": "French Toast",
+      "family": "breakfast_eggs",
+      "before": {
+        "bread": 2,
+        "eggs": 2,
+        "milk": 1,
+        "sugar": 1
+      },
+      "after": {
+        "bread": 2,
+        "eggs": 2,
+        "milk": 1,
+        "sugar": 1,
+        "butter": 1
+      },
+      "delta": {
+        "butter": 1
+      }
+    },
+    {
+      "id": "oatmeal_bowl",
+      "name": "Oatmeal Bowl",
+      "family": "breakfast_eggs",
+      "before": {
+        "oats": 2,
+        "milk": 1,
+        "banana": 1,
+        "honey": 1
+      },
+      "after": {
+        "oats": 2,
+        "milk": 1,
+        "banana": 1,
+        "honey": 1,
+        "blueberry": 1
+      },
+      "delta": {
+        "blueberry": 1
+      }
+    },
+    {
+      "id": "chicken_casserole",
+      "name": "Chicken Casserole",
+      "family": "bakes_casseroles",
+      "before": {
+        "chicken": 2,
+        "rice": 1,
+        "broccoli": 1,
+        "cheese": 1
+      },
+      "after": {
+        "chicken": 2,
+        "rice": 1,
+        "broccoli": 1,
+        "cheese": 1,
+        "cream": 1
+      },
+      "delta": {
+        "cream": 1
+      }
+    },
+    {
+      "id": "tuna_casserole",
+      "name": "Tuna Casserole",
+      "family": "bakes_casseroles",
+      "before": {
+        "tuna": 2,
+        "pasta": 2,
+        "peas": 1,
+        "cream": 1
+      },
+      "after": {
+        "tuna": 2,
+        "pasta": 2,
+        "peas": 1,
+        "cream": 1,
+        "breadcrumbs": 1
+      },
+      "delta": {
+        "breadcrumbs": 1
+      }
+    },
+    {
+      "id": "mushroom_pizza",
+      "name": "Mushroom Pizza",
+      "family": "pizza_flatbreads",
+      "before": {
+        "pizza_dough": 1,
+        "tomato_sauce": 2,
+        "mozzarella": 2,
+        "mushroom": 2
+      },
+      "after": {
+        "pizza_dough": 1,
+        "tomato_sauce": 2,
+        "mozzarella": 2,
+        "mushroom": 2,
+        "garlic": 1
+      },
+      "delta": {
+        "garlic": 1
+      }
+    },
+    {
+      "id": "spinach_flatbread",
+      "name": "Spinach Flatbread",
+      "family": "pizza_flatbreads",
+      "before": {
+        "pizza_dough": 1,
+        "spinach": 2,
+        "mozzarella": 1,
+        "garlic": 1
+      },
+      "after": {
+        "pizza_dough": 1,
+        "spinach": 2,
+        "mozzarella": 1,
+        "garlic": 1,
+        "tomato": 1
+      },
+      "delta": {
+        "tomato": 1
+      }
+    },
+    {
+      "id": "breakfast_pizza",
+      "name": "Breakfast Pizza",
+      "family": "pizza_flatbreads",
+      "before": {
+        "pizza_dough": 1,
+        "eggs": 2,
+        "cheese": 2,
+        "bacon": 1
+      },
+      "after": {
+        "pizza_dough": 1,
+        "eggs": 2,
+        "cheese": 2,
+        "bacon": 1,
+        "spinach": 1
+      },
+      "delta": {
+        "spinach": 1
+      }
+    },
+    {
+      "id": "tomato_garlic_flatbread",
+      "name": "Tomato Garlic Flatbread",
+      "family": "pizza_flatbreads",
+      "before": {
+        "pizza_dough": 1,
+        "tomato": 2,
+        "garlic": 2,
+        "mozzarella": 1
+      },
+      "after": {
+        "pizza_dough": 1,
+        "tomato": 2,
+        "garlic": 2,
+        "mozzarella": 1,
+        "basil": 1
+      },
+      "delta": {
+        "basil": 1
+      }
+    },
+    {
+      "id": "lemon_salmon",
+      "name": "Lemon Salmon",
+      "family": "seafood",
+      "before": {
+        "salmon": 2,
+        "lemon": 2,
+        "rice": 1,
+        "spinach": 1
+      },
+      "after": {
+        "salmon": 2,
+        "lemon": 2,
+        "rice": 1,
+        "spinach": 1,
+        "garlic": 1,
+        "butter": 1
+      },
+      "delta": {
+        "garlic": 1,
+        "butter": 1
+      }
+    },
+    {
+      "id": "shrimp_tacos",
+      "name": "Shrimp Tacos",
+      "family": "seafood",
+      "before": {
+        "shrimp": 2,
+        "tortilla": 2,
+        "cabbage": 1,
+        "lime": 1
+      },
+      "after": {
+        "shrimp": 2,
+        "tortilla": 2,
+        "cabbage": 1,
+        "lime": 1,
+        "avocado": 1
+      },
+      "delta": {
+        "avocado": 1
+      }
+    },
+    {
+      "id": "salmon_rice_bowl",
+      "name": "Salmon Rice Bowl",
+      "family": "seafood",
+      "before": {
+        "salmon": 2,
+        "rice": 2,
+        "cucumber": 1,
+        "avocado": 1
+      },
+      "after": {
+        "salmon": 2,
+        "rice": 2,
+        "cucumber": 1,
+        "avocado": 1,
+        "soy_sauce": 1
+      },
+      "delta": {
+        "soy_sauce": 1
+      }
+    },
+    {
+      "id": "garlic_fish_pasta",
+      "name": "Garlic Fish Pasta",
+      "family": "seafood",
+      "before": {
+        "white_fish": 2,
+        "pasta": 2,
+        "garlic": 2,
+        "butter": 1
+      },
+      "after": {
+        "white_fish": 2,
+        "pasta": 2,
+        "garlic": 2,
+        "butter": 1,
+        "lemon": 1
+      },
+      "delta": {
+        "lemon": 1
+      }
+    },
+    {
+      "id": "chicken_shawarma_bowl",
+      "name": "Chicken Shawarma Bowl",
+      "family": "curries_bowls",
+      "before": {
+        "chicken": 2,
+        "rice": 2,
+        "lettuce": 1,
+        "tomato": 1
+      },
+      "after": {
+        "chicken": 2,
+        "rice": 2,
+        "tomato": 1,
+        "cucumber": 1,
+        "yogurt": 1,
+        "cumin": 1
+      },
+      "delta": {
+        "cucumber": 1,
+        "yogurt": 1,
+        "cumin": 1,
+        "lettuce": null
+      }
+    },
+    {
+      "id": "greek_chicken_bowl",
+      "name": "Greek Chicken Bowl",
+      "family": "curries_bowls",
+      "before": {
+        "chicken": 2,
+        "rice": 2,
+        "lettuce": 1,
+        "cheese": 1
+      },
+      "after": {
+        "chicken": 2,
+        "rice": 2,
+        "cheese": 1,
+        "cucumber": 1,
+        "tomato": 1,
+        "lemon": 1
+      },
+      "delta": {
+        "cucumber": 1,
+        "tomato": 1,
+        "lemon": 1,
+        "lettuce": null
+      }
+    }
+  ]
+}
