@@ -1,0 +1,274 @@
+{
+  "status": "independent_partial_pilot",
+  "catalog": {
+    "ingredients": 125,
+    "recipes": 225,
+    "newRecipes": 75,
+    "v3DefinitionsUnchanged": true
+  },
+  "modes": {
+    "medium": {
+      "requested": 25,
+      "verified": 8,
+      "status": "partial",
+      "allUniqueSolutions": true,
+      "recipeCoverage": 35,
+      "newRecipeCoverage": 4,
+      "ingredientCoverage": 30,
+      "familyCoverage": 13,
+      "maxRecipeFrequency": 6,
+      "averageAdjacentOverlap": 2.29,
+      "averageStrictNearMisses": 4.5,
+      "averageDeductionStepsReported": 3.5,
+      "averagePantryTypes": 11.62,
+      "boards": [
+        {
+          "id": "clearline-expansion-medium-001",
+          "combinations": 56,
+          "strictNearMisses": 3,
+          "plausibleAlternatives": 6,
+          "deductionStepsReported": 3,
+          "pantryTypes": 12,
+          "recipeFamilies": 6,
+          "newRecipeIds": [
+            "shrimp_fajita_bowl"
+          ]
+        },
+        {
+          "id": "clearline-expansion-medium-002",
+          "combinations": 56,
+          "strictNearMisses": 8,
+          "plausibleAlternatives": 17,
+          "deductionStepsReported": 4,
+          "pantryTypes": 10,
+          "recipeFamilies": 6,
+          "newRecipeIds": [
+            "shakshuka"
+          ]
+        },
+        {
+          "id": "clearline-expansion-medium-003",
+          "combinations": 56,
+          "strictNearMisses": 5,
+          "plausibleAlternatives": 12,
+          "deductionStepsReported": 3,
+          "pantryTypes": 11,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "shrimp_fajita_bowl"
+          ]
+        },
+        {
+          "id": "clearline-expansion-medium-004",
+          "combinations": 56,
+          "strictNearMisses": 2,
+          "plausibleAlternatives": 7,
+          "deductionStepsReported": 3,
+          "pantryTypes": 12,
+          "recipeFamilies": 6,
+          "newRecipeIds": [
+            "shrimp_fajita_bowl",
+            "miso_mushroom_rice_bowl"
+          ]
+        },
+        {
+          "id": "clearline-expansion-medium-005",
+          "combinations": 56,
+          "strictNearMisses": 2,
+          "plausibleAlternatives": 10,
+          "deductionStepsReported": 3,
+          "pantryTypes": 12,
+          "recipeFamilies": 6,
+          "newRecipeIds": [
+            "chicken_parmesan_sub"
+          ]
+        },
+        {
+          "id": "clearline-expansion-medium-006",
+          "combinations": 56,
+          "strictNearMisses": 6,
+          "plausibleAlternatives": 11,
+          "deductionStepsReported": 4,
+          "pantryTypes": 12,
+          "recipeFamilies": 6,
+          "newRecipeIds": [
+            "shrimp_fajita_bowl"
+          ]
+        },
+        {
+          "id": "clearline-expansion-medium-007",
+          "combinations": 56,
+          "strictNearMisses": 5,
+          "plausibleAlternatives": 9,
+          "deductionStepsReported": 4,
+          "pantryTypes": 12,
+          "recipeFamilies": 6,
+          "newRecipeIds": [
+            "shrimp_fajita_bowl"
+          ]
+        },
+        {
+          "id": "clearline-expansion-medium-008",
+          "combinations": 56,
+          "strictNearMisses": 5,
+          "plausibleAlternatives": 11,
+          "deductionStepsReported": 4,
+          "pantryTypes": 12,
+          "recipeFamilies": 6,
+          "newRecipeIds": [
+            "shrimp_fajita_bowl"
+          ]
+        }
+      ]
+    },
+    "hard": {
+      "requested": 25,
+      "verified": 11,
+      "status": "partial",
+      "allUniqueSolutions": true,
+      "recipeCoverage": 34,
+      "newRecipeCoverage": 2,
+      "ingredientCoverage": 28,
+      "familyCoverage": 11,
+      "maxRecipeFrequency": 6,
+      "averageAdjacentOverlap": 1.3,
+      "averageStrictNearMisses": 9.36,
+      "averageDeductionStepsReported": 5.73,
+      "averagePantryTypes": 15.45,
+      "boards": [
+        {
+          "id": "clearline-expansion-hard-001",
+          "combinations": 495,
+          "strictNearMisses": 8,
+          "plausibleAlternatives": 22,
+          "deductionStepsReported": 6,
+          "pantryTypes": 16,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "mushroom_cheeseburger"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-002",
+          "combinations": 495,
+          "strictNearMisses": 8,
+          "plausibleAlternatives": 19,
+          "deductionStepsReported": 6,
+          "pantryTypes": 15,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-003",
+          "combinations": 495,
+          "strictNearMisses": 11,
+          "plausibleAlternatives": 20,
+          "deductionStepsReported": 6,
+          "pantryTypes": 16,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "mushroom_cheeseburger"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-004",
+          "combinations": 495,
+          "strictNearMisses": 12,
+          "plausibleAlternatives": 27,
+          "deductionStepsReported": 5,
+          "pantryTypes": 15,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-005",
+          "combinations": 495,
+          "strictNearMisses": 9,
+          "plausibleAlternatives": 22,
+          "deductionStepsReported": 6,
+          "pantryTypes": 16,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "mushroom_cheeseburger"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-006",
+          "combinations": 495,
+          "strictNearMisses": 9,
+          "plausibleAlternatives": 18,
+          "deductionStepsReported": 6,
+          "pantryTypes": 15,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-007",
+          "combinations": 495,
+          "strictNearMisses": 7,
+          "plausibleAlternatives": 22,
+          "deductionStepsReported": 6,
+          "pantryTypes": 16,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "mushroom_cheeseburger"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-008",
+          "combinations": 495,
+          "strictNearMisses": 9,
+          "plausibleAlternatives": 21,
+          "deductionStepsReported": 5,
+          "pantryTypes": 15,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-009",
+          "combinations": 495,
+          "strictNearMisses": 6,
+          "plausibleAlternatives": 21,
+          "deductionStepsReported": 6,
+          "pantryTypes": 16,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "mushroom_cheeseburger"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-010",
+          "combinations": 495,
+          "strictNearMisses": 13,
+          "plausibleAlternatives": 30,
+          "deductionStepsReported": 5,
+          "pantryTypes": 15,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "clearline-expansion-hard-011",
+          "combinations": 495,
+          "strictNearMisses": 11,
+          "plausibleAlternatives": 24,
+          "deductionStepsReported": 6,
+          "pantryTypes": 15,
+          "recipeFamilies": 7,
+          "newRecipeIds": [
+            "salmon_chowder"
+          ]
+        }
+      ]
+    }
+  }
+}

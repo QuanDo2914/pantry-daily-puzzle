@@ -1,0 +1,2203 @@
+[
+  {
+    "mode": "medium",
+    "pantry": {
+      "tomato": 2,
+      "cucumber": 2,
+      "cheese": 1,
+      "onion": 1,
+      "shrimp": 2,
+      "garlic": 2,
+      "broccoli": 1,
+      "bell_pepper": 1,
+      "chicken": 2,
+      "rice": 2,
+      "eggs": 1,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "shrimp_fajita_bowl",
+        "name": "Shrimp Fajita Bowl",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "bell_pepper": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "icon": "🥘",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "garlic_shrimp_stir_fry",
+        "name": "Garlic Shrimp Stir-Fry",
+        "family": "stir_fries",
+        "icon": "🍤",
+        "ingredients": {
+          "shrimp": 2,
+          "garlic": 2,
+          "broccoli": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "greek_salad",
+        "name": "Greek Salad",
+        "family": "salads",
+        "icon": "🥗",
+        "ingredients": {
+          "tomato": 2,
+          "cucumber": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "shrimp_fried_rice",
+        "name": "Shrimp Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍤",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_fried_rice",
+      "garlic_shrimp_stir_fry",
+      "greek_salad"
+    ],
+    "solutionKey": "chicken_fried_rice|garlic_shrimp_stir_fry|greek_salad",
+    "structuralSignature": "49e49c66c7e1a64472df",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_fried_rice",
+        "garlic_shrimp_stir_fry",
+        "greek_salad"
+      ],
+      "nearMissCount": 3,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_shawarma_bowl",
+            "garlic_shrimp_stir_fry",
+            "greek_salad"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "cucumber": 3,
+            "tomato": 3,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1,
+            "cheese": 1,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "garlic_shrimp_stir_fry",
+            "greek_salad",
+            "greek_chicken_bowl"
+          ],
+          "used": {
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1,
+            "tomato": 2,
+            "cucumber": 3,
+            "cheese": 2,
+            "onion": 1,
+            "chicken": 2,
+            "rice": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "garlic_shrimp_stir_fry",
+            "greek_salad",
+            "shrimp_fried_rice"
+          ],
+          "used": {
+            "shrimp": 4,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1,
+            "tomato": 2,
+            "cucumber": 2,
+            "cheese": 1,
+            "onion": 1,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 6,
+      "oneSwapNearMisses": 5,
+      "competitiveDecoyIds": [
+        "chicken_shawarma_bowl",
+        "shrimp_fajita_bowl",
+        "chicken_casserole",
+        "greek_chicken_bowl",
+        "shrimp_fried_rice"
+      ],
+      "forcedRecipeIds": [
+        "garlic_shrimp_stir_fry"
+      ],
+      "sharedIngredientCount": 5,
+      "ingredientDegrees": {
+        "tomato": 2,
+        "cucumber": 3,
+        "cheese": 3,
+        "onion": 2,
+        "shrimp": 3,
+        "garlic": 1,
+        "broccoli": 2,
+        "bell_pepper": 2,
+        "chicken": 4,
+        "rice": 6,
+        "eggs": 2,
+        "peas": 2
+      },
+      "overlapDensity": 0.393,
+      "singleIngredientCandidateFloor": 5,
+      "deductionSteps": 3,
+      "difficultyScore": 51.9,
+      "ingredientTypes": 12,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "shrimp_fajita_bowl"
+      ],
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "3 constraint steps, 6 plausible alternatives, 5 competitive decoys, and 5 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-medium-001",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 1,
+    "seed": "clearline-expansion:medium:1"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "potato": 2,
+      "eggs": 2,
+      "onion": 2,
+      "bell_pepper": 3,
+      "beef": 2,
+      "soy_sauce": 1,
+      "sausage": 2,
+      "pasta": 2,
+      "tomato_sauce": 2,
+      "mozzarella": 1
+    },
+    "cards": [
+      {
+        "id": "pepper_beef_stir_fry",
+        "name": "Pepper Beef Stir-Fry",
+        "family": "stir_fries",
+        "icon": "🫑",
+        "ingredients": {
+          "beef": 2,
+          "bell_pepper": 2,
+          "onion": 1,
+          "soy_sauce": 1
+        }
+      },
+      {
+        "id": "sausage_pasta_bake",
+        "name": "Sausage Pasta Bake",
+        "family": "bakes_casseroles",
+        "icon": "🥘",
+        "ingredients": {
+          "sausage": 2,
+          "pasta": 2,
+          "tomato_sauce": 2,
+          "mozzarella": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "sausage_and_peppers",
+        "name": "Sausage and Peppers",
+        "family": "burgers_comfort",
+        "icon": "🌭",
+        "ingredients": {
+          "sausage": 2,
+          "bell_pepper": 2,
+          "onion": 1,
+          "tomato_sauce": 1
+        }
+      },
+      {
+        "id": "lasagna",
+        "name": "Lasagna",
+        "family": "bakes_casseroles",
+        "icon": "🍝",
+        "ingredients": {
+          "pasta": 2,
+          "beef": 2,
+          "tomato_sauce": 2,
+          "mozzarella": 1
+        }
+      },
+      {
+        "id": "breakfast_hash",
+        "name": "Breakfast Hash",
+        "family": "breakfast_eggs",
+        "icon": "🥔",
+        "ingredients": {
+          "potato": 2,
+          "sausage": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "shakshuka",
+        "name": "Shakshuka",
+        "family": "breakfast_eggs",
+        "ingredients": {
+          "eggs": 1,
+          "tomato_sauce": 1,
+          "bell_pepper": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "spaghetti_bolognese",
+        "name": "Spaghetti Bolognese",
+        "family": "pasta",
+        "icon": "🍝",
+        "ingredients": {
+          "pasta": 2,
+          "beef": 2,
+          "tomato_sauce": 2,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "pepper_beef_stir_fry",
+      "sausage_pasta_bake",
+      "potato_and_egg_skillet"
+    ],
+    "solutionKey": "pepper_beef_stir_fry|potato_and_egg_skillet|sausage_pasta_bake",
+    "structuralSignature": "23ffba925b819dd05006",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "pepper_beef_stir_fry",
+        "sausage_pasta_bake",
+        "potato_and_egg_skillet"
+      ],
+      "nearMissCount": 8,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "potato_and_egg_skillet",
+            "sausage_and_peppers",
+            "lasagna"
+          ],
+          "used": {
+            "potato": 2,
+            "eggs": 2,
+            "onion": 2,
+            "bell_pepper": 3,
+            "sausage": 2,
+            "tomato_sauce": 3,
+            "pasta": 2,
+            "beef": 2,
+            "mozzarella": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "pepper_beef_stir_fry",
+            "sausage_pasta_bake",
+            "breakfast_hash"
+          ],
+          "used": {
+            "beef": 2,
+            "bell_pepper": 3,
+            "onion": 2,
+            "soy_sauce": 1,
+            "sausage": 4,
+            "pasta": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1,
+            "potato": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "pepper_beef_stir_fry",
+            "sausage_pasta_bake",
+            "shakshuka"
+          ],
+          "used": {
+            "beef": 2,
+            "bell_pepper": 3,
+            "onion": 2,
+            "soy_sauce": 1,
+            "sausage": 2,
+            "pasta": 2,
+            "tomato_sauce": 3,
+            "mozzarella": 1,
+            "eggs": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "pepper_beef_stir_fry",
+            "potato_and_egg_skillet",
+            "lasagna"
+          ],
+          "used": {
+            "beef": 4,
+            "bell_pepper": 3,
+            "onion": 2,
+            "soy_sauce": 1,
+            "potato": 2,
+            "eggs": 2,
+            "pasta": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "pepper_beef_stir_fry",
+            "lasagna",
+            "breakfast_hash"
+          ],
+          "used": {
+            "beef": 4,
+            "bell_pepper": 3,
+            "onion": 2,
+            "soy_sauce": 1,
+            "pasta": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1,
+            "potato": 2,
+            "sausage": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "potato_and_egg_skillet",
+            "sausage_and_peppers",
+            "spaghetti_bolognese"
+          ],
+          "used": {
+            "potato": 2,
+            "eggs": 2,
+            "onion": 3,
+            "bell_pepper": 3,
+            "sausage": 2,
+            "tomato_sauce": 3,
+            "pasta": 2,
+            "beef": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "potato_and_egg_skillet",
+            "lasagna",
+            "breakfast_hash"
+          ],
+          "used": {
+            "potato": 4,
+            "eggs": 2,
+            "onion": 2,
+            "bell_pepper": 2,
+            "pasta": 2,
+            "beef": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1,
+            "sausage": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "lasagna",
+            "breakfast_hash",
+            "shakshuka"
+          ],
+          "used": {
+            "pasta": 2,
+            "beef": 2,
+            "tomato_sauce": 3,
+            "mozzarella": 1,
+            "potato": 2,
+            "sausage": 2,
+            "onion": 2,
+            "bell_pepper": 2,
+            "eggs": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 0
+        }
+      ],
+      "plausibleAlternatives": 17,
+      "oneSwapNearMisses": 6,
+      "competitiveDecoyIds": [
+        "sausage_and_peppers",
+        "lasagna",
+        "breakfast_hash",
+        "shakshuka",
+        "spaghetti_bolognese"
+      ],
+      "forcedRecipeIds": [
+        "pepper_beef_stir_fry"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "potato": 2,
+        "eggs": 2,
+        "onion": 6,
+        "bell_pepper": 5,
+        "beef": 3,
+        "soy_sauce": 1,
+        "sausage": 3,
+        "pasta": 3,
+        "tomato_sauce": 5,
+        "mozzarella": 2
+      },
+      "overlapDensity": 0.607,
+      "singleIngredientCandidateFloor": 12,
+      "deductionSteps": 4,
+      "difficultyScore": 85.1,
+      "ingredientTypes": 10,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "shakshuka"
+      ],
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "4 constraint steps, 17 plausible alternatives, 5 competitive decoys, and 6 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-medium-002",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 2,
+    "seed": "clearline-expansion:medium:2"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "shrimp": 2,
+      "coconut_milk": 2,
+      "curry_paste": 1,
+      "rice": 3,
+      "chickpeas": 2,
+      "broccoli": 1,
+      "carrot": 1,
+      "bell_pepper": 1,
+      "chicken": 2,
+      "onion": 1,
+      "yogurt": 1
+    },
+    "cards": [
+      {
+        "id": "thai_red_curry",
+        "name": "Thai Red Curry",
+        "family": "curries_bowls",
+        "icon": "🍛",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_curry",
+        "name": "Chicken Curry",
+        "family": "curries_bowls",
+        "icon": "🍛",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "chickpea_stir_fry",
+        "name": "Chickpea Stir-Fry",
+        "family": "vegetarian_mains",
+        "icon": "🥘",
+        "ingredients": {
+          "chickpeas": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_biryani",
+        "name": "Chicken Biryani",
+        "family": "rice_dishes",
+        "icon": "🍛",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "onion": 1,
+          "yogurt": 1
+        }
+      },
+      {
+        "id": "shrimp_curry",
+        "name": "Shrimp Curry",
+        "family": "seafood",
+        "icon": "🍛",
+        "ingredients": {
+          "shrimp": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "chicken_curry_soup",
+        "name": "Chicken Curry Soup",
+        "family": "soups_stews",
+        "icon": "🍛",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "carrot": 1,
+          "curry_paste": 1
+        }
+      },
+      {
+        "id": "shrimp_fajita_bowl",
+        "name": "Shrimp Fajita Bowl",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "bell_pepper": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_vegetable_stir_fry",
+        "name": "Chicken Vegetable Stir-Fry",
+        "family": "stir_fries",
+        "icon": "🥘",
+        "ingredients": {
+          "chicken": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "bell_pepper": 1
+        }
+      }
+    ],
+    "solution": [
+      "chickpea_stir_fry",
+      "chicken_biryani",
+      "shrimp_curry"
+    ],
+    "solutionKey": "chicken_biryani|chickpea_stir_fry|shrimp_curry",
+    "structuralSignature": "df01dff27545142d99f4",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "chickpea_stir_fry",
+        "chicken_biryani",
+        "shrimp_curry"
+      ],
+      "nearMissCount": 5,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_curry",
+            "chickpea_stir_fry",
+            "shrimp_fajita_bowl"
+          ],
+          "used": {
+            "chicken": 2,
+            "coconut_milk": 2,
+            "curry_paste": 1,
+            "rice": 3,
+            "chickpeas": 2,
+            "broccoli": 1,
+            "carrot": 1,
+            "bell_pepper": 2,
+            "shrimp": 2,
+            "onion": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "thai_red_curry",
+            "chickpea_stir_fry",
+            "shrimp_fajita_bowl"
+          ],
+          "used": {
+            "chicken": 2,
+            "coconut_milk": 2,
+            "curry_paste": 1,
+            "bell_pepper": 3,
+            "chickpeas": 2,
+            "broccoli": 1,
+            "carrot": 1,
+            "shrimp": 2,
+            "rice": 2,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_curry",
+            "chickpea_stir_fry",
+            "chicken_biryani"
+          ],
+          "used": {
+            "chicken": 4,
+            "coconut_milk": 2,
+            "curry_paste": 1,
+            "rice": 3,
+            "chickpeas": 2,
+            "broccoli": 1,
+            "carrot": 1,
+            "bell_pepper": 1,
+            "onion": 1,
+            "yogurt": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chickpea_stir_fry",
+            "chicken_curry_soup",
+            "shrimp_fajita_bowl"
+          ],
+          "used": {
+            "chickpeas": 2,
+            "broccoli": 1,
+            "carrot": 2,
+            "bell_pepper": 2,
+            "chicken": 2,
+            "coconut_milk": 2,
+            "curry_paste": 1,
+            "shrimp": 2,
+            "rice": 2,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_biryani",
+            "shrimp_curry",
+            "chicken_vegetable_stir_fry"
+          ],
+          "used": {
+            "chicken": 4,
+            "rice": 3,
+            "onion": 1,
+            "yogurt": 1,
+            "shrimp": 2,
+            "coconut_milk": 2,
+            "curry_paste": 1,
+            "broccoli": 1,
+            "carrot": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 12,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "thai_red_curry",
+        "chicken_curry",
+        "chicken_curry_soup",
+        "shrimp_fajita_bowl",
+        "chicken_vegetable_stir_fry"
+      ],
+      "forcedRecipeIds": [
+        "chickpea_stir_fry",
+        "chicken_biryani"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "shrimp": 2,
+        "coconut_milk": 4,
+        "curry_paste": 4,
+        "rice": 4,
+        "chickpeas": 1,
+        "broccoli": 2,
+        "carrot": 3,
+        "bell_pepper": 4,
+        "chicken": 5,
+        "onion": 2,
+        "yogurt": 1
+      },
+      "overlapDensity": 0.429,
+      "singleIngredientCandidateFloor": 15,
+      "deductionSteps": 3,
+      "difficultyScore": 53.6,
+      "ingredientTypes": 11,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "shrimp_fajita_bowl"
+      ],
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "3 constraint steps, 12 plausible alternatives, 5 competitive decoys, and 7 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 1 with the next."
+    },
+    "id": "clearline-expansion-medium-003",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 3,
+    "seed": "clearline-expansion:medium:3"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "shrimp": 2,
+      "lettuce": 2,
+      "cucumber": 1,
+      "tomato": 1,
+      "rice": 2,
+      "miso_paste": 1,
+      "mushroom": 1,
+      "tofu": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "bell_pepper": 2,
+      "onion": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_fajitas",
+        "name": "Chicken Fajitas",
+        "family": "tacos_mexican",
+        "icon": "🫑",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "bell_pepper": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "shrimp_fajita_bowl",
+        "name": "Shrimp Fajita Bowl",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "bell_pepper": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "shrimp_salad",
+        "name": "Shrimp Salad",
+        "family": "seafood",
+        "icon": "🥗",
+        "ingredients": {
+          "shrimp": 2,
+          "lettuce": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_salad",
+        "name": "Chicken Salad",
+        "family": "salads",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "lettuce": 2,
+          "tomato": 1,
+          "cucumber": 1
+        }
+      },
+      {
+        "id": "miso_mushroom_rice_bowl",
+        "name": "Miso Mushroom Rice Bowl",
+        "family": "rice_dishes",
+        "ingredients": {
+          "rice": 2,
+          "miso_paste": 1,
+          "mushroom": 1,
+          "tofu": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_fajitas",
+      "shrimp_salad",
+      "miso_mushroom_rice_bowl"
+    ],
+    "solutionKey": "chicken_fajitas|miso_mushroom_rice_bowl|shrimp_salad",
+    "structuralSignature": "3c0de1098f970639fc97",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_fajitas",
+        "shrimp_salad",
+        "miso_mushroom_rice_bowl"
+      ],
+      "nearMissCount": 2,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_fajitas",
+            "veggie_wrap",
+            "miso_mushroom_rice_bowl"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 3,
+            "bell_pepper": 2,
+            "onion": 1,
+            "lettuce": 1,
+            "cucumber": 1,
+            "tomato": 1,
+            "rice": 2,
+            "miso_paste": 1,
+            "mushroom": 1,
+            "tofu": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_fajitas",
+            "chicken_salad",
+            "miso_mushroom_rice_bowl"
+          ],
+          "used": {
+            "chicken": 4,
+            "tortilla": 2,
+            "bell_pepper": 2,
+            "onion": 1,
+            "lettuce": 2,
+            "tomato": 1,
+            "cucumber": 1,
+            "rice": 2,
+            "miso_paste": 1,
+            "mushroom": 1,
+            "tofu": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 7,
+      "oneSwapNearMisses": 3,
+      "competitiveDecoyIds": [
+        "chicken_wrap",
+        "shrimp_fajita_bowl",
+        "veggie_wrap",
+        "chicken_salad"
+      ],
+      "forcedRecipeIds": [
+        "miso_mushroom_rice_bowl"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "shrimp": 2,
+        "lettuce": 4,
+        "cucumber": 4,
+        "tomato": 5,
+        "rice": 3,
+        "miso_paste": 1,
+        "mushroom": 1,
+        "tofu": 1,
+        "chicken": 4,
+        "tortilla": 3,
+        "bell_pepper": 2,
+        "onion": 2
+      },
+      "overlapDensity": 0.429,
+      "singleIngredientCandidateFloor": 15,
+      "deductionSteps": 3,
+      "difficultyScore": 46.6,
+      "ingredientTypes": 12,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "shrimp_fajita_bowl",
+        "miso_mushroom_rice_bowl"
+      ],
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "3 constraint steps, 7 plausible alternatives, 4 competitive decoys, and 3 close one-card swaps.",
+      "nearbyDifference": "Shares 1 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-medium-004",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 4,
+    "seed": "clearline-expansion:medium:4"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "broccoli": 2,
+      "rice": 2,
+      "cheese": 1,
+      "onion": 1,
+      "chicken": 2,
+      "coconut_milk": 2,
+      "carrot": 1,
+      "curry_paste": 1,
+      "beef": 2,
+      "bread": 2,
+      "tomato_sauce": 2,
+      "mozzarella": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_curry_soup",
+        "name": "Chicken Curry Soup",
+        "family": "soups_stews",
+        "icon": "🍛",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "carrot": 1,
+          "curry_paste": 1
+        }
+      },
+      {
+        "id": "chicken_parmesan_sub",
+        "name": "Chicken Parmesan Sub",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "tomato_sauce": 1,
+          "mozzarella": 1
+        }
+      },
+      {
+        "id": "chicken_curry",
+        "name": "Chicken Curry",
+        "family": "curries_bowls",
+        "icon": "🍛",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "meatball_sub",
+        "name": "Meatball Sub",
+        "family": "burgers_comfort",
+        "icon": "🥖",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "tomato_sauce": 2,
+          "mozzarella": 1
+        }
+      },
+      {
+        "id": "broccoli_rice_skillet",
+        "name": "Broccoli Rice Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🥦",
+        "ingredients": {
+          "broccoli": 2,
+          "rice": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "icon": "🥘",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "beef_curry",
+        "name": "Beef Curry",
+        "family": "curries_bowls",
+        "icon": "🍛",
+        "ingredients": {
+          "beef": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "beef_rice_bowl",
+        "name": "Beef Rice Bowl",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "beef": 2,
+          "rice": 2,
+          "broccoli": 1,
+          "carrot": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_curry_soup",
+      "meatball_sub",
+      "broccoli_rice_skillet"
+    ],
+    "solutionKey": "broccoli_rice_skillet|chicken_curry_soup|meatball_sub",
+    "structuralSignature": "0070d2e273b711df9c23",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_curry_soup",
+        "meatball_sub",
+        "broccoli_rice_skillet"
+      ],
+      "nearMissCount": 2,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_curry",
+            "meatball_sub",
+            "broccoli_rice_skillet"
+          ],
+          "used": {
+            "chicken": 2,
+            "coconut_milk": 2,
+            "curry_paste": 1,
+            "rice": 3,
+            "beef": 2,
+            "bread": 2,
+            "tomato_sauce": 2,
+            "mozzarella": 1,
+            "broccoli": 2,
+            "cheese": 1,
+            "onion": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_parmesan_sub",
+            "broccoli_rice_skillet",
+            "beef_curry"
+          ],
+          "used": {
+            "chicken": 2,
+            "bread": 2,
+            "tomato_sauce": 1,
+            "mozzarella": 1,
+            "broccoli": 2,
+            "rice": 3,
+            "cheese": 1,
+            "onion": 1,
+            "beef": 2,
+            "coconut_milk": 2,
+            "curry_paste": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 1
+        }
+      ],
+      "plausibleAlternatives": 10,
+      "oneSwapNearMisses": 5,
+      "competitiveDecoyIds": [
+        "chicken_parmesan_sub",
+        "chicken_curry",
+        "chicken_casserole",
+        "beef_curry",
+        "beef_rice_bowl"
+      ],
+      "forcedRecipeIds": [
+        "broccoli_rice_skillet"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "broccoli": 3,
+        "rice": 5,
+        "cheese": 2,
+        "onion": 1,
+        "chicken": 4,
+        "coconut_milk": 3,
+        "carrot": 2,
+        "curry_paste": 3,
+        "beef": 3,
+        "bread": 2,
+        "tomato_sauce": 2,
+        "mozzarella": 2
+      },
+      "overlapDensity": 0.321,
+      "singleIngredientCandidateFloor": 15,
+      "deductionSteps": 3,
+      "difficultyScore": 54.4,
+      "ingredientTypes": 12,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "chicken_parmesan_sub"
+      ],
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "3 constraint steps, 10 plausible alternatives, 5 competitive decoys, and 5 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 1 with the next."
+    },
+    "id": "clearline-expansion-medium-005",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 5,
+    "seed": "clearline-expansion:medium:5"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "tomato": 2,
+      "cucumber": 2,
+      "cheese": 1,
+      "onion": 1,
+      "shrimp": 2,
+      "garlic": 2,
+      "broccoli": 1,
+      "bell_pepper": 1,
+      "chicken": 2,
+      "rice": 2,
+      "eggs": 1,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "cucumber_tomato_salad",
+        "name": "Cucumber Tomato Salad",
+        "family": "salads",
+        "icon": "🥒",
+        "ingredients": {
+          "cucumber": 2,
+          "tomato": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "icon": "🥘",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "shrimp_fried_rice",
+        "name": "Shrimp Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍤",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "greek_salad",
+        "name": "Greek Salad",
+        "family": "salads",
+        "icon": "🥗",
+        "ingredients": {
+          "tomato": 2,
+          "cucumber": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "garlic_shrimp_stir_fry",
+        "name": "Garlic Shrimp Stir-Fry",
+        "family": "stir_fries",
+        "icon": "🍤",
+        "ingredients": {
+          "shrimp": 2,
+          "garlic": 2,
+          "broccoli": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "shrimp_fajita_bowl",
+        "name": "Shrimp Fajita Bowl",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "bell_pepper": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "greek_salad",
+      "garlic_shrimp_stir_fry",
+      "chicken_fried_rice"
+    ],
+    "solutionKey": "chicken_fried_rice|garlic_shrimp_stir_fry|greek_salad",
+    "structuralSignature": "e2910c57a645ff549be9",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "greek_salad",
+        "garlic_shrimp_stir_fry",
+        "chicken_fried_rice"
+      ],
+      "nearMissCount": 6,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "cucumber_tomato_salad",
+            "garlic_shrimp_stir_fry",
+            "chicken_fried_rice"
+          ],
+          "used": {
+            "cucumber": 2,
+            "tomato": 2,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1,
+            "chicken": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1
+          },
+          "distance": 1,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "cucumber_tomato_salad",
+            "greek_chicken_bowl",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "cucumber": 3,
+            "tomato": 2,
+            "onion": 1,
+            "chicken": 2,
+            "rice": 2,
+            "cheese": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "cucumber_tomato_salad",
+            "chicken_casserole",
+            "shrimp_fried_rice"
+          ],
+          "used": {
+            "cucumber": 2,
+            "tomato": 2,
+            "onion": 1,
+            "chicken": 2,
+            "rice": 3,
+            "broccoli": 1,
+            "cheese": 1,
+            "shrimp": 2,
+            "eggs": 1,
+            "peas": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "cucumber_tomato_salad",
+            "chicken_casserole",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "cucumber": 2,
+            "tomato": 2,
+            "onion": 1,
+            "chicken": 2,
+            "rice": 1,
+            "broccoli": 2,
+            "cheese": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "greek_chicken_bowl",
+            "greek_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "cucumber": 3,
+            "cheese": 2,
+            "tomato": 2,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "shrimp_fried_rice",
+            "greek_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "shrimp": 4,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "tomato": 2,
+            "cucumber": 2,
+            "cheese": 1,
+            "onion": 1,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 11,
+      "oneSwapNearMisses": 5,
+      "competitiveDecoyIds": [
+        "cucumber_tomato_salad",
+        "chicken_casserole",
+        "greek_chicken_bowl",
+        "shrimp_fried_rice",
+        "shrimp_fajita_bowl"
+      ],
+      "forcedRecipeIds": [
+        "garlic_shrimp_stir_fry"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "tomato": 2,
+        "cucumber": 3,
+        "cheese": 3,
+        "onion": 3,
+        "shrimp": 3,
+        "garlic": 1,
+        "broccoli": 2,
+        "bell_pepper": 2,
+        "chicken": 3,
+        "rice": 5,
+        "eggs": 2,
+        "peas": 2
+      },
+      "overlapDensity": 0.286,
+      "singleIngredientCandidateFloor": 12,
+      "deductionSteps": 4,
+      "difficultyScore": 66.7,
+      "ingredientTypes": 12,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "shrimp_fajita_bowl"
+      ],
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "4 constraint steps, 11 plausible alternatives, 5 competitive decoys, and 5 close one-card swaps.",
+      "nearbyDifference": "Shares 1 recipes with the previous pilot board and 7 with the next."
+    },
+    "id": "clearline-expansion-medium-006",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 6,
+    "seed": "clearline-expansion:medium:6"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "tomato": 2,
+      "cucumber": 2,
+      "cheese": 1,
+      "onion": 1,
+      "shrimp": 2,
+      "garlic": 2,
+      "broccoli": 1,
+      "bell_pepper": 1,
+      "chicken": 2,
+      "rice": 2,
+      "eggs": 1,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "icon": "🥘",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "shrimp_fajita_bowl",
+        "name": "Shrimp Fajita Bowl",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "bell_pepper": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "cucumber_tomato_salad",
+        "name": "Cucumber Tomato Salad",
+        "family": "salads",
+        "icon": "🥒",
+        "ingredients": {
+          "cucumber": 2,
+          "tomato": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "greek_salad",
+        "name": "Greek Salad",
+        "family": "salads",
+        "icon": "🥗",
+        "ingredients": {
+          "tomato": 2,
+          "cucumber": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "garlic_shrimp_stir_fry",
+        "name": "Garlic Shrimp Stir-Fry",
+        "family": "stir_fries",
+        "icon": "🍤",
+        "ingredients": {
+          "shrimp": 2,
+          "garlic": 2,
+          "broccoli": 1,
+          "bell_pepper": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_fried_rice",
+      "greek_salad",
+      "garlic_shrimp_stir_fry"
+    ],
+    "solutionKey": "chicken_fried_rice|garlic_shrimp_stir_fry|greek_salad",
+    "structuralSignature": "03a660edfceedb5a3b2c",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_fried_rice",
+        "greek_salad",
+        "garlic_shrimp_stir_fry"
+      ],
+      "nearMissCount": 5,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "cucumber_tomato_salad",
+            "chicken_fried_rice",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "cucumber": 2,
+            "tomato": 2,
+            "onion": 1,
+            "chicken": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 1,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "greek_chicken_bowl",
+            "cucumber_tomato_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "cucumber": 3,
+            "cheese": 1,
+            "tomato": 2,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "greek_chicken_bowl",
+            "greek_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "cucumber": 3,
+            "cheese": 2,
+            "tomato": 2,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_casserole",
+            "cucumber_tomato_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 1,
+            "broccoli": 2,
+            "cheese": 1,
+            "cucumber": 2,
+            "tomato": 2,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_shawarma_bowl",
+            "greek_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "cucumber": 3,
+            "tomato": 3,
+            "cheese": 1,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 9,
+      "oneSwapNearMisses": 5,
+      "competitiveDecoyIds": [
+        "greek_chicken_bowl",
+        "chicken_casserole",
+        "shrimp_fajita_bowl",
+        "cucumber_tomato_salad",
+        "chicken_shawarma_bowl"
+      ],
+      "forcedRecipeIds": [
+        "garlic_shrimp_stir_fry",
+        "chicken_fried_rice"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "tomato": 3,
+        "cucumber": 4,
+        "cheese": 3,
+        "onion": 3,
+        "shrimp": 2,
+        "garlic": 1,
+        "broccoli": 2,
+        "bell_pepper": 2,
+        "chicken": 4,
+        "rice": 5,
+        "eggs": 1,
+        "peas": 1
+      },
+      "overlapDensity": 0.393,
+      "singleIngredientCandidateFloor": 12,
+      "deductionSteps": 4,
+      "difficultyScore": 49.9,
+      "ingredientTypes": 12,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "shrimp_fajita_bowl"
+      ],
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "4 constraint steps, 9 plausible alternatives, 5 competitive decoys, and 5 close one-card swaps.",
+      "nearbyDifference": "Shares 7 recipes with the previous pilot board and 7 with the next."
+    },
+    "id": "clearline-expansion-medium-007",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 7,
+    "seed": "clearline-expansion:medium:7"
+  },
+  {
+    "mode": "medium",
+    "pantry": {
+      "tomato": 2,
+      "cucumber": 2,
+      "cheese": 1,
+      "onion": 1,
+      "shrimp": 2,
+      "garlic": 2,
+      "broccoli": 1,
+      "bell_pepper": 1,
+      "chicken": 2,
+      "rice": 2,
+      "eggs": 1,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "icon": "🥘",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "shrimp_fried_rice",
+        "name": "Shrimp Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍤",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "greek_salad",
+        "name": "Greek Salad",
+        "family": "salads",
+        "icon": "🥗",
+        "ingredients": {
+          "tomato": 2,
+          "cucumber": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "cucumber_tomato_salad",
+        "name": "Cucumber Tomato Salad",
+        "family": "salads",
+        "icon": "🥒",
+        "ingredients": {
+          "cucumber": 2,
+          "tomato": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "shrimp_fajita_bowl",
+        "name": "Shrimp Fajita Bowl",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "bell_pepper": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "garlic_shrimp_stir_fry",
+        "name": "Garlic Shrimp Stir-Fry",
+        "family": "stir_fries",
+        "icon": "🍤",
+        "ingredients": {
+          "shrimp": 2,
+          "garlic": 2,
+          "broccoli": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      }
+    ],
+    "solution": [
+      "greek_salad",
+      "garlic_shrimp_stir_fry",
+      "chicken_fried_rice"
+    ],
+    "solutionKey": "chicken_fried_rice|garlic_shrimp_stir_fry|greek_salad",
+    "structuralSignature": "ff4cd518f9564ac8877f",
+    "metrics": {
+      "combinations": 56,
+      "solutionCount": 1,
+      "solution": [
+        "greek_salad",
+        "garlic_shrimp_stir_fry",
+        "chicken_fried_rice"
+      ],
+      "nearMissCount": 5,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "cucumber_tomato_salad",
+            "garlic_shrimp_stir_fry",
+            "chicken_fried_rice"
+          ],
+          "used": {
+            "cucumber": 2,
+            "tomato": 2,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1,
+            "chicken": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1
+          },
+          "distance": 1,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_shawarma_bowl",
+            "greek_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "cucumber": 3,
+            "tomato": 3,
+            "cheese": 1,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_casserole",
+            "shrimp_fried_rice",
+            "cucumber_tomato_salad"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 3,
+            "broccoli": 1,
+            "cheese": 1,
+            "shrimp": 2,
+            "eggs": 1,
+            "peas": 1,
+            "cucumber": 2,
+            "tomato": 2,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "chicken_casserole",
+            "cucumber_tomato_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 1,
+            "broccoli": 2,
+            "cheese": 1,
+            "cucumber": 2,
+            "tomato": 2,
+            "onion": 1,
+            "shrimp": 2,
+            "garlic": 2,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "shrimp_fried_rice",
+            "greek_salad",
+            "garlic_shrimp_stir_fry"
+          ],
+          "used": {
+            "shrimp": 4,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "tomato": 2,
+            "cucumber": 2,
+            "cheese": 1,
+            "onion": 1,
+            "garlic": 2,
+            "broccoli": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 11,
+      "oneSwapNearMisses": 5,
+      "competitiveDecoyIds": [
+        "chicken_shawarma_bowl",
+        "chicken_casserole",
+        "shrimp_fried_rice",
+        "cucumber_tomato_salad",
+        "shrimp_fajita_bowl"
+      ],
+      "forcedRecipeIds": [
+        "garlic_shrimp_stir_fry"
+      ],
+      "sharedIngredientCount": 6,
+      "ingredientDegrees": {
+        "tomato": 3,
+        "cucumber": 3,
+        "cheese": 2,
+        "onion": 3,
+        "shrimp": 3,
+        "garlic": 1,
+        "broccoli": 2,
+        "bell_pepper": 2,
+        "chicken": 3,
+        "rice": 5,
+        "eggs": 2,
+        "peas": 2
+      },
+      "overlapDensity": 0.321,
+      "singleIngredientCandidateFloor": 12,
+      "deductionSteps": 4,
+      "difficultyScore": 65.4,
+      "ingredientTypes": 12,
+      "distinctFamilies": 6,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "shrimp_fajita_bowl"
+      ],
+      "difficultyLabel": "balanced",
+      "difficultyExplanation": "4 constraint steps, 11 plausible alternatives, 5 competitive decoys, and 5 close one-card swaps.",
+      "nearbyDifference": "Shares 7 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-medium-008",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 8,
+    "seed": "clearline-expansion:medium:8"
+  }
+]

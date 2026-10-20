@@ -1,0 +1,611 @@
+{
+  "status": "independently_verified_guided_expansion",
+  "target": 25,
+  "catalog": {
+    "ingredients": 125,
+    "recipes": 225,
+    "originalV3DefinitionsUnchanged": true
+  },
+  "modes": {
+    "medium": {
+      "requested": 25,
+      "verified": 25,
+      "complete": true,
+      "allUniqueSolutions": true,
+      "allUniqueStructures": true,
+      "recipeCoverage": 74,
+      "newRecipeCoverage": 19,
+      "ingredientCoverage": 54,
+      "familyCoverage": 13,
+      "maxRecipeFrequency": 7,
+      "averageAdjacentOverlap": 0.04,
+      "averageNearMisses": 4.52,
+      "averageDeductionSteps": 3.52,
+      "averagePantryTypes": 11.4,
+      "boards": [
+        {
+          "id": "guided-expansion-medium-001",
+          "combinations": 56,
+          "nearMisses": 5,
+          "deductionSteps": 4,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "shrimp_fajita_bowl",
+            "eggplant_chickpea_skillet",
+            "shakshuka"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-002",
+          "combinations": 56,
+          "nearMisses": 4,
+          "deductionSteps": 4,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "halloumi_bulgur_bowl",
+            "grilled_halloumi_wrap"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-003",
+          "combinations": 56,
+          "nearMisses": 4,
+          "deductionSteps": 4,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "tempeh_sesame_bowl",
+            "tempeh_pepper_stir_fry"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-004",
+          "combinations": 56,
+          "nearMisses": 6,
+          "deductionSteps": 5,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "fish_tacos"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-005",
+          "combinations": 56,
+          "nearMisses": 4,
+          "deductionSteps": 4,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "pesto_mozzarella_panini"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-006",
+          "combinations": 56,
+          "nearMisses": 3,
+          "deductionSteps": 3,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "mushroom_cheeseburger"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-007",
+          "combinations": 56,
+          "nearMisses": 6,
+          "deductionSteps": 3,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "shrimp_fajita_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-008",
+          "combinations": 56,
+          "nearMisses": 5,
+          "deductionSteps": 4,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "chorizo_breakfast_burrito"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-009",
+          "combinations": 56,
+          "nearMisses": 4,
+          "deductionSteps": 5,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "chorizo_potato_hash"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-010",
+          "combinations": 56,
+          "nearMisses": 11,
+          "deductionSteps": 4,
+          "pantryTypes": 12,
+          "families": 7,
+          "newRecipes": [
+            "miso_glazed_salmon"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-011",
+          "combinations": 56,
+          "nearMisses": 2,
+          "deductionSteps": 3,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "mushroom_gnocchi_gratin"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-012",
+          "combinations": 56,
+          "nearMisses": 2,
+          "deductionSteps": 3,
+          "pantryTypes": 11,
+          "families": 7,
+          "newRecipes": [
+            "shrimp_fajita_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-013",
+          "combinations": 56,
+          "nearMisses": 4,
+          "deductionSteps": 4,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "grilled_halloumi_wrap"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-014",
+          "combinations": 56,
+          "nearMisses": 2,
+          "deductionSteps": 4,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "kidney_bean_kale_soup"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-015",
+          "combinations": 56,
+          "nearMisses": 5,
+          "deductionSteps": 3,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "chorizo_breakfast_burrito",
+            "chorizo_tomato_rice"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-016",
+          "combinations": 56,
+          "nearMisses": 3,
+          "deductionSteps": 3,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "shrimp_fajita_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-017",
+          "combinations": 56,
+          "nearMisses": 7,
+          "deductionSteps": 3,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "mushroom_gnocchi_gratin"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-018",
+          "combinations": 56,
+          "nearMisses": 5,
+          "deductionSteps": 2,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "miso_glazed_salmon"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-019",
+          "combinations": 56,
+          "nearMisses": 4,
+          "deductionSteps": 3,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "edamame_rice_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-020",
+          "combinations": 56,
+          "nearMisses": 3,
+          "deductionSteps": 4,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "chorizo_potato_hash"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-021",
+          "combinations": 56,
+          "nearMisses": 4,
+          "deductionSteps": 3,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "fish_tacos"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-022",
+          "combinations": 56,
+          "nearMisses": 5,
+          "deductionSteps": 3,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "turkey_avocado_club"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-023",
+          "combinations": 56,
+          "nearMisses": 10,
+          "deductionSteps": 3,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "shrimp_fajita_bowl",
+            "shakshuka"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-024",
+          "combinations": 56,
+          "nearMisses": 3,
+          "deductionSteps": 3,
+          "pantryTypes": 12,
+          "families": 6,
+          "newRecipes": [
+            "ginger_salmon_rice"
+          ]
+        },
+        {
+          "id": "guided-expansion-medium-025",
+          "combinations": 56,
+          "nearMisses": 2,
+          "deductionSteps": 4,
+          "pantryTypes": 11,
+          "families": 6,
+          "newRecipes": [
+            "tempeh_pepper_stir_fry",
+            "tempeh_sesame_bowl"
+          ]
+        }
+      ]
+    },
+    "hard": {
+      "requested": 25,
+      "verified": 25,
+      "complete": true,
+      "allUniqueSolutions": true,
+      "allUniqueStructures": true,
+      "recipeCoverage": 93,
+      "newRecipeCoverage": 21,
+      "ingredientCoverage": 62,
+      "familyCoverage": 15,
+      "maxRecipeFrequency": 11,
+      "averageAdjacentOverlap": 0.25,
+      "averageNearMisses": 7.52,
+      "averageDeductionSteps": 5.24,
+      "averagePantryTypes": 15.6,
+      "boards": [
+        {
+          "id": "guided-expansion-hard-001",
+          "combinations": 495,
+          "nearMisses": 6,
+          "deductionSteps": 5,
+          "pantryTypes": 15,
+          "families": 7,
+          "newRecipes": [
+            "chorizo_potato_hash",
+            "chorizo_tomato_rice",
+            "mushroom_cheeseburger"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-002",
+          "combinations": 495,
+          "nearMisses": 10,
+          "deductionSteps": 7,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "miso_glazed_salmon"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-003",
+          "combinations": 495,
+          "nearMisses": 11,
+          "deductionSteps": 6,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-004",
+          "combinations": 495,
+          "nearMisses": 4,
+          "deductionSteps": 5,
+          "pantryTypes": 15,
+          "families": 8,
+          "newRecipes": [
+            "grilled_halloumi_wrap"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-005",
+          "combinations": 495,
+          "nearMisses": 9,
+          "deductionSteps": 5,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "chorizo_breakfast_burrito"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-006",
+          "combinations": 495,
+          "nearMisses": 8,
+          "deductionSteps": 6,
+          "pantryTypes": 16,
+          "families": 9,
+          "newRecipes": [
+            "shrimp_fajita_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-007",
+          "combinations": 495,
+          "nearMisses": 5,
+          "deductionSteps": 4,
+          "pantryTypes": 14,
+          "families": 7,
+          "newRecipes": [
+            "edamame_rice_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-008",
+          "combinations": 495,
+          "nearMisses": 7,
+          "deductionSteps": 6,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-009",
+          "combinations": 495,
+          "nearMisses": 7,
+          "deductionSteps": 6,
+          "pantryTypes": 16,
+          "families": 7,
+          "newRecipes": [
+            "miso_mushroom_rice_bowl",
+            "miso_mushroom_noodles"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-010",
+          "combinations": 495,
+          "nearMisses": 6,
+          "deductionSteps": 6,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "coconut_shrimp_rice_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-011",
+          "combinations": 495,
+          "nearMisses": 8,
+          "deductionSteps": 6,
+          "pantryTypes": 15,
+          "families": 7,
+          "newRecipes": [
+            "spicy_black_bean_burger"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-012",
+          "combinations": 495,
+          "nearMisses": 7,
+          "deductionSteps": 5,
+          "pantryTypes": 16,
+          "families": 7,
+          "newRecipes": [
+            "shrimp_and_grits"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-013",
+          "combinations": 495,
+          "nearMisses": 8,
+          "deductionSteps": 5,
+          "pantryTypes": 16,
+          "families": 7,
+          "newRecipes": [
+            "roasted_cauliflower_soup"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-014",
+          "combinations": 495,
+          "nearMisses": 12,
+          "deductionSteps": 4,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "turkey_avocado_club"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-015",
+          "combinations": 495,
+          "nearMisses": 3,
+          "deductionSteps": 5,
+          "pantryTypes": 16,
+          "families": 7,
+          "newRecipes": [
+            "edamame_sesame_salad"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-016",
+          "combinations": 495,
+          "nearMisses": 10,
+          "deductionSteps": 6,
+          "pantryTypes": 16,
+          "families": 7,
+          "newRecipes": [
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-017",
+          "combinations": 495,
+          "nearMisses": 3,
+          "deductionSteps": 5,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "pesto_mozzarella_panini"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-018",
+          "combinations": 495,
+          "nearMisses": 6,
+          "deductionSteps": 5,
+          "pantryTypes": 14,
+          "families": 8,
+          "newRecipes": [
+            "grilled_halloumi_wrap"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-019",
+          "combinations": 495,
+          "nearMisses": 5,
+          "deductionSteps": 5,
+          "pantryTypes": 15,
+          "families": 7,
+          "newRecipes": [
+            "mushroom_cheeseburger",
+            "ginger_salmon_rice"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-020",
+          "combinations": 495,
+          "nearMisses": 4,
+          "deductionSteps": 5,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "chorizo_breakfast_burrito",
+            "chorizo_potato_hash"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-021",
+          "combinations": 495,
+          "nearMisses": 7,
+          "deductionSteps": 5,
+          "pantryTypes": 16,
+          "families": 9,
+          "newRecipes": [
+            "salmon_asparagus_bake",
+            "salmon_chowder"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-022",
+          "combinations": 495,
+          "nearMisses": 12,
+          "deductionSteps": 4,
+          "pantryTypes": 16,
+          "families": 7,
+          "newRecipes": [
+            "miso_mushroom_rice_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-023",
+          "combinations": 495,
+          "nearMisses": 7,
+          "deductionSteps": 6,
+          "pantryTypes": 16,
+          "families": 8,
+          "newRecipes": [
+            "tempeh_sesame_bowl"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-024",
+          "combinations": 495,
+          "nearMisses": 5,
+          "deductionSteps": 4,
+          "pantryTypes": 15,
+          "families": 7,
+          "newRecipes": [
+            "chorizo_potato_hash",
+            "chorizo_tomato_rice"
+          ]
+        },
+        {
+          "id": "guided-expansion-hard-025",
+          "combinations": 495,
+          "nearMisses": 18,
+          "deductionSteps": 5,
+          "pantryTypes": 15,
+          "families": 8,
+          "newRecipes": [
+            "miso_glazed_salmon"
+          ]
+        }
+      ]
+    }
+  }
+}

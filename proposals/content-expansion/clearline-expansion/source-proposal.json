@@ -1,0 +1,1101 @@
+{
+  "status": "proposal_only",
+  "basis": "Existing Pantry catalog: 90 ingredient IDs and 150 recipes",
+  "notes": [
+    "These are curated expansion candidates, not official recipes. Suggested core ingredient IDs are unquantified starting ideas, not complete scored requirements.",
+    "Codex should design Medium (3-4) and Hard (4-6) canonical variants, verify culinary plausibility, build art, and test uniqueness and schedule coverage before integration.",
+    "No changes to existing catalogs or game."
+  ],
+  "newIngredients": [
+    {
+      "id": "lamb",
+      "name": "Lamb",
+      "category": "protein"
+    },
+    {
+      "id": "tempeh",
+      "name": "Tempeh",
+      "category": "protein"
+    },
+    {
+      "id": "crab",
+      "name": "Crab",
+      "category": "protein"
+    },
+    {
+      "id": "chorizo",
+      "name": "Chorizo",
+      "category": "protein"
+    },
+    {
+      "id": "feta",
+      "name": "Feta",
+      "category": "dairy"
+    },
+    {
+      "id": "ricotta",
+      "name": "Ricotta",
+      "category": "dairy"
+    },
+    {
+      "id": "halloumi",
+      "name": "Halloumi",
+      "category": "dairy"
+    },
+    {
+      "id": "scallions",
+      "name": "Scallions",
+      "category": "vegetable"
+    },
+    {
+      "id": "jalapeno",
+      "name": "Jalapeño",
+      "category": "vegetable"
+    },
+    {
+      "id": "eggplant",
+      "name": "Eggplant",
+      "category": "vegetable"
+    },
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "category": "vegetable"
+    },
+    {
+      "id": "kale",
+      "name": "Kale",
+      "category": "vegetable"
+    },
+    {
+      "id": "asparagus",
+      "name": "Asparagus",
+      "category": "vegetable"
+    },
+    {
+      "id": "edamame",
+      "name": "Edamame",
+      "category": "vegetable"
+    },
+    {
+      "id": "arugula",
+      "name": "Arugula",
+      "category": "vegetable"
+    },
+    {
+      "id": "olives",
+      "name": "Olives",
+      "category": "vegetable"
+    },
+    {
+      "id": "butternut_squash",
+      "name": "Butternut squash",
+      "category": "vegetable"
+    },
+    {
+      "id": "bok_choy",
+      "name": "Bok choy",
+      "category": "vegetable"
+    },
+    {
+      "id": "bean_sprouts",
+      "name": "Bean sprouts",
+      "category": "vegetable"
+    },
+    {
+      "id": "artichoke_hearts",
+      "name": "Artichoke hearts",
+      "category": "vegetable"
+    },
+    {
+      "id": "dill",
+      "name": "Dill",
+      "category": "herb"
+    },
+    {
+      "id": "pita_bread",
+      "name": "Pita bread",
+      "category": "grain_starch"
+    },
+    {
+      "id": "gnocchi",
+      "name": "Gnocchi",
+      "category": "grain_starch"
+    },
+    {
+      "id": "orzo",
+      "name": "Orzo",
+      "category": "grain_starch"
+    },
+    {
+      "id": "bulgur",
+      "name": "Bulgur",
+      "category": "grain_starch"
+    },
+    {
+      "id": "farro",
+      "name": "Farro",
+      "category": "grain_starch"
+    },
+    {
+      "id": "cornmeal",
+      "name": "Cornmeal / grits",
+      "category": "grain_starch"
+    },
+    {
+      "id": "sesame_seeds",
+      "name": "Sesame seeds",
+      "category": "pantry"
+    },
+    {
+      "id": "rice_vinegar",
+      "name": "Rice vinegar",
+      "category": "pantry"
+    },
+    {
+      "id": "mustard",
+      "name": "Mustard",
+      "category": "pantry"
+    },
+    {
+      "id": "hot_sauce",
+      "name": "Hot sauce",
+      "category": "pantry"
+    },
+    {
+      "id": "tahini",
+      "name": "Tahini",
+      "category": "pantry"
+    },
+    {
+      "id": "miso_paste",
+      "name": "Miso paste",
+      "category": "pantry"
+    },
+    {
+      "id": "vegetable_broth",
+      "name": "Vegetable broth",
+      "category": "pantry"
+    },
+    {
+      "id": "salsa",
+      "name": "Salsa",
+      "category": "pantry"
+    }
+  ],
+  "newRecipes": [
+    {
+      "id": "fish_tacos",
+      "name": "Fish Tacos",
+      "family": "tacos_mexican",
+      "suggestedCoreIngredientIds": [
+        "white_fish",
+        "tortilla",
+        "cabbage",
+        "lime",
+        "yogurt"
+      ]
+    },
+    {
+      "id": "breakfast_tostadas",
+      "name": "Breakfast Tostadas",
+      "family": "tacos_mexican",
+      "suggestedCoreIngredientIds": [
+        "eggs",
+        "tortilla",
+        "black_beans",
+        "salsa",
+        "avocado",
+        "jalapeno"
+      ]
+    },
+    {
+      "id": "chorizo_breakfast_burrito",
+      "name": "Chorizo Breakfast Burrito",
+      "family": "tacos_mexican",
+      "suggestedCoreIngredientIds": [
+        "chorizo",
+        "eggs",
+        "tortilla",
+        "potato",
+        "cheese",
+        "salsa"
+      ]
+    },
+    {
+      "id": "cauliflower_tacos",
+      "name": "Cauliflower Tacos",
+      "family": "tacos_mexican",
+      "suggestedCoreIngredientIds": [
+        "cauliflower",
+        "tortilla",
+        "chickpeas",
+        "lime",
+        "cilantro"
+      ]
+    },
+    {
+      "id": "shrimp_fajita_bowl",
+      "name": "Shrimp Fajita Bowl",
+      "family": "tacos_mexican",
+      "suggestedCoreIngredientIds": [
+        "shrimp",
+        "rice",
+        "bell_pepper",
+        "onion",
+        "lime",
+        "hot_sauce"
+      ]
+    },
+    {
+      "id": "lemon_ricotta_pasta",
+      "name": "Lemon Ricotta Pasta",
+      "family": "pasta",
+      "suggestedCoreIngredientIds": [
+        "pasta",
+        "ricotta",
+        "lemon",
+        "spinach",
+        "garlic"
+      ]
+    },
+    {
+      "id": "sausage_kale_pasta",
+      "name": "Sausage Kale Pasta",
+      "family": "pasta",
+      "suggestedCoreIngredientIds": [
+        "sausage",
+        "kale",
+        "pasta",
+        "tomato_sauce",
+        "onion"
+      ]
+    },
+    {
+      "id": "eggplant_parmesan_pasta",
+      "name": "Eggplant Parmesan Pasta",
+      "family": "pasta",
+      "suggestedCoreIngredientIds": [
+        "eggplant",
+        "pasta",
+        "tomato_sauce",
+        "parmesan",
+        "mozzarella"
+      ]
+    },
+    {
+      "id": "asparagus_orzo_primavera",
+      "name": "Asparagus Orzo Primavera",
+      "family": "pasta",
+      "suggestedCoreIngredientIds": [
+        "orzo",
+        "asparagus",
+        "peas",
+        "tomato",
+        "parmesan"
+      ]
+    },
+    {
+      "id": "creamy_salmon_pasta",
+      "name": "Creamy Salmon Pasta",
+      "family": "pasta",
+      "suggestedCoreIngredientIds": [
+        "salmon",
+        "pasta",
+        "cream",
+        "spinach",
+        "lemon"
+      ]
+    },
+    {
+      "id": "miso_mushroom_rice_bowl",
+      "name": "Miso Mushroom Rice Bowl",
+      "family": "rice_dishes",
+      "suggestedCoreIngredientIds": [
+        "rice",
+        "miso_paste",
+        "mushroom",
+        "tofu",
+        "scallions"
+      ]
+    },
+    {
+      "id": "ginger_salmon_rice",
+      "name": "Ginger Salmon Rice",
+      "family": "rice_dishes",
+      "suggestedCoreIngredientIds": [
+        "salmon",
+        "rice",
+        "ginger",
+        "soy_sauce",
+        "cucumber"
+      ]
+    },
+    {
+      "id": "edamame_rice_bowl",
+      "name": "Edamame Rice Bowl",
+      "family": "rice_dishes",
+      "suggestedCoreIngredientIds": [
+        "rice",
+        "edamame",
+        "carrot",
+        "avocado",
+        "soy_sauce"
+      ]
+    },
+    {
+      "id": "chorizo_tomato_rice",
+      "name": "Chorizo Tomato Rice",
+      "family": "rice_dishes",
+      "suggestedCoreIngredientIds": [
+        "rice",
+        "chorizo",
+        "tomato",
+        "peas",
+        "onion"
+      ]
+    },
+    {
+      "id": "lemon_herb_rice",
+      "name": "Lemon Herb Rice",
+      "family": "rice_dishes",
+      "suggestedCoreIngredientIds": [
+        "rice",
+        "lemon",
+        "dill",
+        "chickpeas",
+        "carrot"
+      ]
+    },
+    {
+      "id": "miso_mushroom_noodles",
+      "name": "Miso Mushroom Noodles",
+      "family": "noodles",
+      "suggestedCoreIngredientIds": [
+        "noodles",
+        "miso_paste",
+        "mushroom",
+        "scallions",
+        "tofu"
+      ]
+    },
+    {
+      "id": "spicy_peanut_noodles",
+      "name": "Spicy Peanut Noodles",
+      "family": "noodles",
+      "suggestedCoreIngredientIds": [
+        "noodles",
+        "peanut_butter",
+        "soy_sauce",
+        "scallions",
+        "chili_powder",
+        "hot_sauce"
+      ]
+    },
+    {
+      "id": "shrimp_rice_noodle_stir_fry",
+      "name": "Shrimp Rice Noodle Stir-Fry",
+      "family": "noodles",
+      "suggestedCoreIngredientIds": [
+        "rice_noodles",
+        "shrimp",
+        "bean_sprouts",
+        "bell_pepper",
+        "soy_sauce"
+      ]
+    },
+    {
+      "id": "bok_choy_noodle_soup",
+      "name": "Bok Choy Noodle Soup",
+      "family": "noodles",
+      "suggestedCoreIngredientIds": [
+        "noodles",
+        "bok_choy",
+        "vegetable_broth",
+        "mushroom",
+        "tofu",
+        "bean_sprouts"
+      ]
+    },
+    {
+      "id": "cold_sesame_noodle_salad",
+      "name": "Cold Sesame Noodle Salad",
+      "family": "noodles",
+      "suggestedCoreIngredientIds": [
+        "noodles",
+        "cucumber",
+        "sesame_seeds",
+        "soy_sauce",
+        "rice_vinegar"
+      ]
+    },
+    {
+      "id": "miso_tofu_soup",
+      "name": "Miso Tofu Soup",
+      "family": "soups_stews",
+      "suggestedCoreIngredientIds": [
+        "miso_paste",
+        "tofu",
+        "mushroom",
+        "scallions",
+        "vegetable_broth"
+      ]
+    },
+    {
+      "id": "kidney_bean_kale_soup",
+      "name": "Kidney Bean Kale Soup",
+      "family": "soups_stews",
+      "suggestedCoreIngredientIds": [
+        "kidney_beans",
+        "kale",
+        "carrot",
+        "tomato",
+        "vegetable_broth"
+      ]
+    },
+    {
+      "id": "roasted_cauliflower_soup",
+      "name": "Roasted Cauliflower Soup",
+      "family": "soups_stews",
+      "suggestedCoreIngredientIds": [
+        "cauliflower",
+        "potato",
+        "milk",
+        "onion",
+        "vegetable_broth"
+      ]
+    },
+    {
+      "id": "orzo_vegetable_soup",
+      "name": "Orzo Vegetable Soup",
+      "family": "soups_stews",
+      "suggestedCoreIngredientIds": [
+        "orzo",
+        "carrot",
+        "celery",
+        "tomato",
+        "vegetable_broth"
+      ]
+    },
+    {
+      "id": "salmon_chowder",
+      "name": "Salmon Chowder",
+      "family": "soups_stews",
+      "suggestedCoreIngredientIds": [
+        "salmon",
+        "potato",
+        "milk",
+        "corn",
+        "onion"
+      ]
+    },
+    {
+      "id": "sesame_beef_stir_fry",
+      "name": "Sesame Beef Stir-Fry",
+      "family": "stir_fries",
+      "suggestedCoreIngredientIds": [
+        "beef",
+        "broccoli",
+        "sesame_seeds",
+        "soy_sauce",
+        "ginger"
+      ]
+    },
+    {
+      "id": "bok_choy_chicken_stir_fry",
+      "name": "Bok Choy Chicken Stir-Fry",
+      "family": "stir_fries",
+      "suggestedCoreIngredientIds": [
+        "bok_choy",
+        "chicken",
+        "mushroom",
+        "soy_sauce",
+        "garlic"
+      ]
+    },
+    {
+      "id": "tempeh_pepper_stir_fry",
+      "name": "Tempeh Pepper Stir-Fry",
+      "family": "stir_fries",
+      "suggestedCoreIngredientIds": [
+        "tempeh",
+        "bell_pepper",
+        "onion",
+        "soy_sauce",
+        "ginger"
+      ]
+    },
+    {
+      "id": "chili_garlic_shrimp",
+      "name": "Chili Garlic Shrimp",
+      "family": "stir_fries",
+      "suggestedCoreIngredientIds": [
+        "shrimp",
+        "garlic",
+        "hot_sauce",
+        "broccoli",
+        "scallions",
+        "jalapeno"
+      ]
+    },
+    {
+      "id": "ginger_tofu_edamame_stir_fry",
+      "name": "Ginger Tofu Edamame Stir-Fry",
+      "family": "stir_fries",
+      "suggestedCoreIngredientIds": [
+        "tofu",
+        "edamame",
+        "ginger",
+        "carrot",
+        "soy_sauce"
+      ]
+    },
+    {
+      "id": "pesto_mozzarella_panini",
+      "name": "Pesto Mozzarella Panini",
+      "family": "sandwiches_wraps",
+      "suggestedCoreIngredientIds": [
+        "bread",
+        "pesto",
+        "mozzarella",
+        "tomato",
+        "spinach"
+      ]
+    },
+    {
+      "id": "turkey_avocado_club",
+      "name": "Turkey Avocado Club",
+      "family": "sandwiches_wraps",
+      "suggestedCoreIngredientIds": [
+        "bread",
+        "turkey",
+        "avocado",
+        "lettuce",
+        "bacon",
+        "mustard"
+      ]
+    },
+    {
+      "id": "crab_salad_sandwich",
+      "name": "Crab Salad Sandwich",
+      "family": "sandwiches_wraps",
+      "suggestedCoreIngredientIds": [
+        "crab",
+        "bread",
+        "mayonnaise",
+        "celery",
+        "lemon",
+        "dill"
+      ]
+    },
+    {
+      "id": "grilled_halloumi_wrap",
+      "name": "Grilled Halloumi Wrap",
+      "family": "sandwiches_wraps",
+      "suggestedCoreIngredientIds": [
+        "halloumi",
+        "tortilla",
+        "lettuce",
+        "cucumber",
+        "tomato"
+      ]
+    },
+    {
+      "id": "mediterranean_pita_pocket",
+      "name": "Mediterranean Pita Pocket",
+      "family": "sandwiches_wraps",
+      "suggestedCoreIngredientIds": [
+        "pita_bread",
+        "chickpeas",
+        "cucumber",
+        "feta",
+        "tomato",
+        "tahini"
+      ]
+    },
+    {
+      "id": "feta_spinach_scramble",
+      "name": "Feta Spinach Scramble",
+      "family": "breakfast_eggs",
+      "suggestedCoreIngredientIds": [
+        "eggs",
+        "feta",
+        "spinach",
+        "milk",
+        "onion"
+      ]
+    },
+    {
+      "id": "chorizo_potato_hash",
+      "name": "Chorizo Potato Hash",
+      "family": "breakfast_eggs",
+      "suggestedCoreIngredientIds": [
+        "chorizo",
+        "potato",
+        "eggs",
+        "bell_pepper",
+        "onion"
+      ]
+    },
+    {
+      "id": "savory_mushroom_oats",
+      "name": "Savory Mushroom Oats",
+      "family": "breakfast_eggs",
+      "suggestedCoreIngredientIds": [
+        "oats",
+        "mushroom",
+        "eggs",
+        "scallions",
+        "cheese"
+      ]
+    },
+    {
+      "id": "ricotta_berry_toast",
+      "name": "Ricotta Berry Toast",
+      "family": "breakfast_eggs",
+      "suggestedCoreIngredientIds": [
+        "bread",
+        "ricotta",
+        "strawberry",
+        "blueberry",
+        "honey"
+      ]
+    },
+    {
+      "id": "shakshuka",
+      "name": "Shakshuka",
+      "family": "breakfast_eggs",
+      "suggestedCoreIngredientIds": [
+        "eggs",
+        "tomato_sauce",
+        "bell_pepper",
+        "onion",
+        "cumin"
+      ]
+    },
+    {
+      "id": "kale_apple_salad",
+      "name": "Kale Apple Salad",
+      "family": "salads",
+      "suggestedCoreIngredientIds": [
+        "kale",
+        "apple",
+        "almonds",
+        "lemon",
+        "cheese"
+      ]
+    },
+    {
+      "id": "mediterranean_orzo_salad",
+      "name": "Mediterranean Orzo Salad",
+      "family": "salads",
+      "suggestedCoreIngredientIds": [
+        "orzo",
+        "cucumber",
+        "tomato",
+        "feta",
+        "olives",
+        "artichoke_hearts"
+      ]
+    },
+    {
+      "id": "warm_farro_lentil_salad",
+      "name": "Warm Farro Lentil Salad",
+      "family": "salads",
+      "suggestedCoreIngredientIds": [
+        "farro",
+        "lentils",
+        "carrot",
+        "spinach",
+        "mustard",
+        "lemon"
+      ]
+    },
+    {
+      "id": "edamame_sesame_salad",
+      "name": "Edamame Sesame Salad",
+      "family": "salads",
+      "suggestedCoreIngredientIds": [
+        "edamame",
+        "cabbage",
+        "carrot",
+        "sesame_seeds",
+        "rice_vinegar"
+      ]
+    },
+    {
+      "id": "bulgur_chickpea_salad",
+      "name": "Bulgur Chickpea Salad",
+      "family": "salads",
+      "suggestedCoreIngredientIds": [
+        "bulgur",
+        "chickpeas",
+        "cucumber",
+        "tomato",
+        "lemon",
+        "tahini"
+      ]
+    },
+    {
+      "id": "mushroom_gnocchi_gratin",
+      "name": "Mushroom Gnocchi Gratin",
+      "family": "bakes_casseroles",
+      "suggestedCoreIngredientIds": [
+        "gnocchi",
+        "mushroom",
+        "cream",
+        "parmesan",
+        "breadcrumbs"
+      ]
+    },
+    {
+      "id": "cheesy_cauliflower_gratin",
+      "name": "Cheesy Cauliflower Gratin",
+      "family": "bakes_casseroles",
+      "suggestedCoreIngredientIds": [
+        "cauliflower",
+        "cream",
+        "cheese",
+        "breadcrumbs",
+        "garlic"
+      ]
+    },
+    {
+      "id": "creamy_chicken_orzo_bake",
+      "name": "Creamy Chicken Orzo Bake",
+      "family": "bakes_casseroles",
+      "suggestedCoreIngredientIds": [
+        "chicken",
+        "orzo",
+        "spinach",
+        "cream",
+        "parmesan"
+      ]
+    },
+    {
+      "id": "salmon_asparagus_bake",
+      "name": "Salmon Asparagus Bake",
+      "family": "bakes_casseroles",
+      "suggestedCoreIngredientIds": [
+        "salmon",
+        "potato",
+        "asparagus",
+        "lemon",
+        "butter"
+      ]
+    },
+    {
+      "id": "stuffed_zucchini_boats",
+      "name": "Stuffed Zucchini Boats",
+      "family": "bakes_casseroles",
+      "suggestedCoreIngredientIds": [
+        "zucchini",
+        "beef",
+        "rice",
+        "tomato_sauce",
+        "mozzarella"
+      ]
+    },
+    {
+      "id": "pesto_chicken_flatbread",
+      "name": "Pesto Chicken Flatbread",
+      "family": "pizza_flatbreads",
+      "suggestedCoreIngredientIds": [
+        "pizza_dough",
+        "pesto",
+        "chicken",
+        "mozzarella",
+        "tomato"
+      ]
+    },
+    {
+      "id": "mediterranean_flatbread",
+      "name": "Mediterranean Flatbread",
+      "family": "pizza_flatbreads",
+      "suggestedCoreIngredientIds": [
+        "pizza_dough",
+        "feta",
+        "olives",
+        "tomato",
+        "spinach"
+      ]
+    },
+    {
+      "id": "eggplant_pizza",
+      "name": "Eggplant Pizza",
+      "family": "pizza_flatbreads",
+      "suggestedCoreIngredientIds": [
+        "pizza_dough",
+        "eggplant",
+        "tomato_sauce",
+        "mozzarella",
+        "basil"
+      ]
+    },
+    {
+      "id": "artichoke_spinach_flatbread",
+      "name": "Artichoke Spinach Flatbread",
+      "family": "pizza_flatbreads",
+      "suggestedCoreIngredientIds": [
+        "pizza_dough",
+        "artichoke_hearts",
+        "spinach",
+        "mozzarella",
+        "garlic"
+      ]
+    },
+    {
+      "id": "arugula_parmesan_pizza",
+      "name": "Arugula Parmesan Pizza",
+      "family": "pizza_flatbreads",
+      "suggestedCoreIngredientIds": [
+        "pizza_dough",
+        "arugula",
+        "parmesan",
+        "tomato_sauce",
+        "mozzarella"
+      ]
+    },
+    {
+      "id": "lamb_feta_burger",
+      "name": "Lamb Feta Burger",
+      "family": "burgers_comfort",
+      "suggestedCoreIngredientIds": [
+        "lamb",
+        "bread",
+        "feta",
+        "lettuce",
+        "tomato"
+      ]
+    },
+    {
+      "id": "spicy_black_bean_burger",
+      "name": "Spicy Black Bean Burger",
+      "family": "burgers_comfort",
+      "suggestedCoreIngredientIds": [
+        "black_beans",
+        "bread",
+        "jalapeno",
+        "cheese",
+        "onion"
+      ]
+    },
+    {
+      "id": "mushroom_cheeseburger",
+      "name": "Mushroom Cheeseburger",
+      "family": "burgers_comfort",
+      "suggestedCoreIngredientIds": [
+        "beef",
+        "bread",
+        "mushroom",
+        "cheese",
+        "onion"
+      ]
+    },
+    {
+      "id": "halloumi_veggie_burger",
+      "name": "Halloumi Veggie Burger",
+      "family": "burgers_comfort",
+      "suggestedCoreIngredientIds": [
+        "halloumi",
+        "bread",
+        "arugula",
+        "tomato",
+        "avocado"
+      ]
+    },
+    {
+      "id": "chicken_parmesan_sub",
+      "name": "Chicken Parmesan Sub",
+      "family": "burgers_comfort",
+      "suggestedCoreIngredientIds": [
+        "chicken",
+        "bread",
+        "tomato_sauce",
+        "mozzarella",
+        "parmesan"
+      ]
+    },
+    {
+      "id": "crab_cakes",
+      "name": "Crab Cakes",
+      "family": "seafood",
+      "suggestedCoreIngredientIds": [
+        "crab",
+        "eggs",
+        "breadcrumbs",
+        "mayonnaise",
+        "lemon"
+      ]
+    },
+    {
+      "id": "miso_glazed_salmon",
+      "name": "Miso Glazed Salmon",
+      "family": "seafood",
+      "suggestedCoreIngredientIds": [
+        "salmon",
+        "miso_paste",
+        "soy_sauce",
+        "honey",
+        "rice"
+      ]
+    },
+    {
+      "id": "shrimp_and_grits",
+      "name": "Shrimp and Grits",
+      "family": "seafood",
+      "suggestedCoreIngredientIds": [
+        "shrimp",
+        "cornmeal",
+        "milk",
+        "butter",
+        "scallions"
+      ]
+    },
+    {
+      "id": "mediterranean_fish_bake",
+      "name": "Mediterranean Fish Bake",
+      "family": "seafood",
+      "suggestedCoreIngredientIds": [
+        "white_fish",
+        "tomato",
+        "olives",
+        "lemon",
+        "garlic"
+      ]
+    },
+    {
+      "id": "coconut_shrimp_rice_bowl",
+      "name": "Coconut Shrimp Rice Bowl",
+      "family": "seafood",
+      "suggestedCoreIngredientIds": [
+        "shrimp",
+        "coconut_milk",
+        "rice",
+        "scallions",
+        "lime"
+      ]
+    },
+    {
+      "id": "lamb_chickpea_bowl",
+      "name": "Lamb Chickpea Bowl",
+      "family": "curries_bowls",
+      "suggestedCoreIngredientIds": [
+        "lamb",
+        "chickpeas",
+        "pita_bread",
+        "spinach",
+        "yogurt",
+        "tahini"
+      ]
+    },
+    {
+      "id": "halloumi_bulgur_bowl",
+      "name": "Halloumi Bulgur Bowl",
+      "family": "curries_bowls",
+      "suggestedCoreIngredientIds": [
+        "halloumi",
+        "bulgur",
+        "tomato",
+        "cucumber",
+        "lemon"
+      ]
+    },
+    {
+      "id": "butternut_squash_curry",
+      "name": "Butternut Squash Curry",
+      "family": "curries_bowls",
+      "suggestedCoreIngredientIds": [
+        "butternut_squash",
+        "coconut_milk",
+        "chickpeas",
+        "curry_paste",
+        "rice"
+      ]
+    },
+    {
+      "id": "cauliflower_lentil_curry",
+      "name": "Cauliflower Lentil Curry",
+      "family": "curries_bowls",
+      "suggestedCoreIngredientIds": [
+        "cauliflower",
+        "lentils",
+        "curry_paste",
+        "coconut_milk",
+        "rice"
+      ]
+    },
+    {
+      "id": "tempeh_sesame_bowl",
+      "name": "Tempeh Sesame Bowl",
+      "family": "curries_bowls",
+      "suggestedCoreIngredientIds": [
+        "tempeh",
+        "rice",
+        "edamame",
+        "soy_sauce",
+        "sesame_seeds"
+      ]
+    },
+    {
+      "id": "crispy_polenta_with_mushrooms",
+      "name": "Crispy Polenta with Mushrooms",
+      "family": "vegetarian_mains",
+      "suggestedCoreIngredientIds": [
+        "cornmeal",
+        "mushroom",
+        "cheese",
+        "milk",
+        "garlic"
+      ]
+    },
+    {
+      "id": "eggplant_chickpea_skillet",
+      "name": "Eggplant Chickpea Skillet",
+      "family": "vegetarian_mains",
+      "suggestedCoreIngredientIds": [
+        "eggplant",
+        "chickpeas",
+        "tomato_sauce",
+        "onion",
+        "garlic"
+      ]
+    },
+    {
+      "id": "stuffed_portobello_mushrooms",
+      "name": "Stuffed Portobello Mushrooms",
+      "family": "vegetarian_mains",
+      "suggestedCoreIngredientIds": [
+        "mushroom",
+        "spinach",
+        "ricotta",
+        "parmesan",
+        "breadcrumbs"
+      ]
+    },
+    {
+      "id": "gnocchi_with_spinach",
+      "name": "Gnocchi with Spinach",
+      "family": "vegetarian_mains",
+      "suggestedCoreIngredientIds": [
+        "gnocchi",
+        "spinach",
+        "tomato_sauce",
+        "mozzarella",
+        "garlic"
+      ]
+    },
+    {
+      "id": "warm_farro_vegetable_bowl",
+      "name": "Warm Farro Vegetable Bowl",
+      "family": "vegetarian_mains",
+      "suggestedCoreIngredientIds": [
+        "farro",
+        "butternut_squash",
+        "kale",
+        "chickpeas",
+        "lemon"
+      ]
+    }
+  ]
+}

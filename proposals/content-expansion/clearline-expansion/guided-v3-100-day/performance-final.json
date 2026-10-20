@@ -1,0 +1,125 @@
+{
+  "firstPass": {
+    "startedAt": "2026-10-20T03:11:06.116Z",
+    "finishedAt": "2026-10-20T03:11:26.735Z",
+    "cacheHit": false,
+    "priorV3SeedCachesReused": true,
+    "trueColdStartWithoutSeedCaches": "not measured",
+    "freshExpandedPoolPreparationMs": 19805.1,
+    "savedPoolPreparationMs": 19805.1,
+    "schedulingMs": 802.8,
+    "generationCommandWallMs": 20619.6,
+    "generationDeadlineMs": 540000,
+    "protectedFilesUnchanged": true,
+    "protectedFileCount": 246,
+    "modes": {
+      "medium": {
+        "generated": 85,
+        "uniqueSolutions": 85
+      },
+      "hard": {
+        "generated": 100,
+        "uniqueSolutions": 100
+      }
+    }
+  },
+  "mediumExtension": {
+    "seedGroups": 85,
+    "attempts": 57375,
+    "uniqueSubstitutions": 30885,
+    "eligibleAnswerSets": 129,
+    "preparationMs": 329.9,
+    "answerRejections": {
+      "insufficient_families": 184,
+      "insufficient_decoys": 29886,
+      "family_cap_capacity": 652,
+      "pantry_range": 34
+    },
+    "boardAttempts": 516,
+    "boardRejections": {
+      "duplicate_card_set": 322,
+      "duplicate_structure": 58,
+      "obvious_forced_recipe": 25,
+      "multiple_solutions": 38,
+      "too_few_plausible_alternatives": 5,
+      "irrelevant_decoys": 8,
+      "too_few_near_misses": 5
+    },
+    "addedCandidates": 55,
+    "totalCandidates": 203,
+    "uniqueSolutionGroups": 94,
+    "runtimeMs": 404.5,
+    "deadlineReached": false
+  },
+  "mediumDecoyCompletion": {
+    "qualifyingAnswerGroups": 26,
+    "attempts": 312,
+    "rejections": {
+      "too_few_near_misses": 26,
+      "no_new_decoy": 122,
+      "duplicate": 81,
+      "multiple_solutions": 18,
+      "too_few_plausible_alternatives": 8,
+      "irrelevant_decoys": 2
+    },
+    "addedCandidates": 55,
+    "totalCandidates": 258,
+    "uniqueSolutionGroups": 117,
+    "runtimeMs": 114.1
+  },
+  "initialCachedScheduling": {
+    "startedAt": "2026-10-20T03:13:04.400Z",
+    "finishedAt": "2026-10-20T03:13:05.242Z",
+    "cacheHit": true,
+    "priorV3SeedCachesReused": true,
+    "trueColdStartWithoutSeedCaches": "not measured",
+    "freshExpandedPoolPreparationMs": null,
+    "savedPoolPreparationMs": 19805.1,
+    "schedulingMs": 803.8,
+    "generationCommandWallMs": 842.8,
+    "generationDeadlineMs": 540000,
+    "protectedFilesUnchanged": true,
+    "protectedFileCount": 246,
+    "modes": {
+      "medium": {
+        "generated": 100,
+        "uniqueSolutions": 100
+      },
+      "hard": {
+        "generated": 100,
+        "uniqueSolutions": 100
+      }
+    }
+  },
+  "cachedFinalScheduling": {
+    "startedAt": "2026-10-20T03:16:23.594Z",
+    "finishedAt": "2026-10-20T03:16:24.123Z",
+    "cacheHit": true,
+    "selectionPolicy": "Prefer maximum deduction-depth variant per solution group; Medium depth>=3 and Hard>=5 where at least 100 distinct groups permit",
+    "priorV3SeedCachesReused": true,
+    "trueColdStartWithoutSeedCaches": "not measured",
+    "freshExpandedPoolPreparationMs": null,
+    "savedPoolPreparationMs": 19805.1,
+    "schedulingMs": 458.1,
+    "generationCommandWallMs": 528.9,
+    "generationDeadlineMs": 540000,
+    "protectedFilesUnchanged": true,
+    "protectedFileCount": 246,
+    "modes": {
+      "medium": {
+        "generated": 100,
+        "uniqueSolutions": 100
+      },
+      "hard": {
+        "generated": 100,
+        "uniqueSolutions": 100
+      }
+    }
+  },
+  "correctedStartupFailureMs": 572.1,
+  "independentValidationMs": 436.9,
+  "sumGenerationCommandWallMs": 23082.0,
+  "trueColdStartWithoutV3SeedCaches": "not measured",
+  "analysisFinishedAt": "2026-10-20T03:21:52.251475+00:00",
+  "elapsedSinceFirstGenerationStartSeconds": 646.14
+}

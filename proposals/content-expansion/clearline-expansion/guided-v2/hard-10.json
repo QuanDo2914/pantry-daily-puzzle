@@ -1,0 +1,2247 @@
+[
+  {
+    "mode": "hard",
+    "pantry": {
+      "beef": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1,
+      "chorizo": 2,
+      "potato": 2,
+      "eggs": 2,
+      "bell_pepper": 1,
+      "onion": 2,
+      "mushroom": 2,
+      "tortilla": 2,
+      "cheese": 2,
+      "chicken": 2,
+      "rice": 2,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "mushroom_quesadilla",
+        "name": "Mushroom Quesadilla",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "mushroom": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chorizo_potato_hash",
+        "name": "Chorizo Potato Hash",
+        "family": "breakfast_eggs",
+        "ingredients": {
+          "chorizo": 2,
+          "potato": 2,
+          "eggs": 1,
+          "bell_pepper": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "cheese_quesadilla",
+        "name": "Cheese Quesadilla",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "tortilla": 2,
+          "cheese": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "beef_tacos",
+        "name": "Beef Tacos",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "beef": 2,
+          "tortilla": 2,
+          "tomato": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "beef_burger",
+        "name": "Beef Burger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "chorizo_tomato_rice",
+        "name": "Chorizo Tomato Rice",
+        "family": "rice_dishes",
+        "ingredients": {
+          "rice": 2,
+          "chorizo": 1,
+          "tomato": 1,
+          "peas": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "mushroom_cheeseburger",
+        "name": "Mushroom Cheeseburger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "mushroom": 1,
+          "cheese": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "mushroom_quesadilla",
+      "chorizo_potato_hash",
+      "beef_burger",
+      "chicken_fried_rice"
+    ],
+    "solutionKey": "beef_burger|chicken_fried_rice|chorizo_potato_hash|mushroom_quesadilla",
+    "structuralSignature": "d478edf27f61b0087da2",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "mushroom_quesadilla",
+        "chorizo_potato_hash",
+        "beef_burger",
+        "chicken_fried_rice"
+      ],
+      "nearMissCount": 6,
+      "plausibleAlternatives": 21,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "cheese_quesadilla",
+        "potato_and_egg_skillet",
+        "beef_tacos",
+        "greek_chicken_bowl",
+        "chicken_shawarma_bowl",
+        "chorizo_tomato_rice",
+        "chicken_wrap",
+        "mushroom_cheeseburger"
+      ],
+      "forcedRecipeIds": [],
+      "sharedIngredientCount": 9,
+      "ingredientDegrees": {
+        "beef": 3,
+        "bread": 2,
+        "lettuce": 4,
+        "tomato": 6,
+        "chorizo": 2,
+        "potato": 2,
+        "eggs": 3,
+        "bell_pepper": 2,
+        "onion": 6,
+        "mushroom": 2,
+        "tortilla": 4,
+        "cheese": 5,
+        "chicken": 4,
+        "rice": 4,
+        "peas": 2
+      },
+      "overlapDensity": 0.333,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 5,
+      "difficultyScore": 115.7,
+      "ingredientTypes": 15,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "chorizo_potato_hash",
+        "chorizo_tomato_rice",
+        "mushroom_cheeseburger"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "5 constraint steps, 21 plausible alternatives, 8 competitive decoys, and 7 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-001",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 1,
+    "seed": "guided-v2:hard:1"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "salmon": 2,
+      "miso_paste": 1,
+      "soy_sauce": 1,
+      "honey": 1,
+      "rice": 2,
+      "broccoli": 2,
+      "cheese": 2,
+      "milk": 1,
+      "beef": 2,
+      "noodles": 2,
+      "cabbage": 1,
+      "carrot": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "bell_pepper": 2,
+      "onion": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_chow_mein",
+        "name": "Chicken Chow Mein",
+        "family": "noodles",
+        "ingredients": {
+          "chicken": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "pepper_beef_stir_fry",
+        "name": "Pepper Beef Stir-Fry",
+        "family": "stir_fries",
+        "ingredients": {
+          "beef": 2,
+          "bell_pepper": 2,
+          "onion": 1,
+          "soy_sauce": 1
+        }
+      },
+      {
+        "id": "broccoli_rice_skillet",
+        "name": "Broccoli Rice Skillet",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "broccoli": 2,
+          "rice": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "beef_lo_mein",
+        "name": "Beef Lo Mein",
+        "family": "noodles",
+        "ingredients": {
+          "beef": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "broccoli_cheddar_soup",
+        "name": "Broccoli Cheddar Soup",
+        "family": "soups_stews",
+        "ingredients": {
+          "broccoli": 2,
+          "cheese": 2,
+          "milk": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "teriyaki_salmon",
+        "name": "Teriyaki Salmon",
+        "family": "stir_fries",
+        "ingredients": {
+          "salmon": 2,
+          "soy_sauce": 1,
+          "honey": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "miso_glazed_salmon",
+        "name": "Miso Glazed Salmon",
+        "family": "seafood",
+        "ingredients": {
+          "salmon": 2,
+          "miso_paste": 1,
+          "soy_sauce": 1,
+          "honey": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "broccoli_cheese_bake",
+        "name": "Broccoli Cheese Bake",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "broccoli": 2,
+          "cheese": 2,
+          "rice": 1,
+          "milk": 1
+        }
+      },
+      {
+        "id": "teriyaki_chicken_rice",
+        "name": "Teriyaki Chicken Rice",
+        "family": "rice_dishes",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "soy_sauce": 1,
+          "honey": 1
+        }
+      },
+      {
+        "id": "chicken_fajitas",
+        "name": "Chicken Fajitas",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "bell_pepper": 2,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "beef_lo_mein",
+      "miso_glazed_salmon",
+      "broccoli_cheese_bake",
+      "chicken_fajitas"
+    ],
+    "solutionKey": "beef_lo_mein|broccoli_cheese_bake|chicken_fajitas|miso_glazed_salmon",
+    "structuralSignature": "77a8a6662d3b99d6c0d0",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "beef_lo_mein",
+        "miso_glazed_salmon",
+        "broccoli_cheese_bake",
+        "chicken_fajitas"
+      ],
+      "nearMissCount": 10,
+      "plausibleAlternatives": 23,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "chicken_chow_mein",
+        "pepper_beef_stir_fry",
+        "broccoli_rice_skillet",
+        "chicken_casserole",
+        "broccoli_cheddar_soup",
+        "teriyaki_salmon",
+        "chicken_quesadilla",
+        "teriyaki_chicken_rice"
+      ],
+      "forcedRecipeIds": [
+        "miso_glazed_salmon"
+      ],
+      "sharedIngredientCount": 8,
+      "ingredientDegrees": {
+        "salmon": 2,
+        "miso_paste": 1,
+        "soy_sauce": 4,
+        "honey": 3,
+        "rice": 6,
+        "broccoli": 4,
+        "cheese": 5,
+        "milk": 2,
+        "beef": 2,
+        "noodles": 2,
+        "cabbage": 2,
+        "carrot": 2,
+        "chicken": 5,
+        "tortilla": 2,
+        "bell_pepper": 3,
+        "onion": 4
+      },
+      "overlapDensity": 0.212,
+      "singleIngredientCandidateFloor": 126,
+      "deductionSteps": 7,
+      "difficultyScore": 114.2,
+      "ingredientTypes": 16,
+      "distinctFamilies": 8,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "miso_glazed_salmon"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "7 constraint steps, 23 plausible alternatives, 8 competitive decoys, and 7 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-002",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 2,
+    "seed": "guided-v2:hard:2"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "rice": 2,
+      "broccoli": 1,
+      "carrot": 1,
+      "peas": 1,
+      "spinach": 2,
+      "eggs": 3,
+      "cheese": 1,
+      "onion": 2,
+      "chicken": 2,
+      "coconut_milk": 2,
+      "curry_paste": 1,
+      "bell_pepper": 1,
+      "salmon": 2,
+      "potato": 2,
+      "milk": 1,
+      "corn": 1
+    },
+    "cards": [
+      {
+        "id": "spinach_frittata",
+        "name": "Spinach Frittata",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "spinach": 2,
+          "eggs": 3,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "vegetable_curry",
+        "name": "Vegetable Curry",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "potato": 1,
+          "carrot": 1,
+          "peas": 1,
+          "coconut_milk": 2
+        }
+      },
+      {
+        "id": "chicken_curry_soup",
+        "name": "Chicken Curry Soup",
+        "family": "soups_stews",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "carrot": 1,
+          "curry_paste": 1
+        }
+      },
+      {
+        "id": "salmon_chowder",
+        "name": "Salmon Chowder",
+        "family": "soups_stews",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "milk": 1,
+          "corn": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "vegetable_rice_bowl",
+        "name": "Vegetable Rice Bowl",
+        "family": "rice_dishes",
+        "ingredients": {
+          "rice": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "thai_red_curry",
+        "name": "Thai Red Curry",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_vegetable_stir_fry",
+        "name": "Chicken Vegetable Stir-Fry",
+        "family": "stir_fries",
+        "ingredients": {
+          "chicken": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "salmon_potato_skillet",
+        "name": "Salmon Potato Skillet",
+        "family": "seafood",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "onion": 1,
+          "spinach": 1
+        }
+      },
+      {
+        "id": "egg_fried_rice",
+        "name": "Egg Fried Rice",
+        "family": "rice_dishes",
+        "ingredients": {
+          "eggs": 2,
+          "rice": 2,
+          "peas": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "chicken_curry",
+        "name": "Chicken Curry",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "egg_muffins",
+        "name": "Egg Muffins",
+        "family": "breakfast_eggs",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "spinach": 1,
+          "bell_pepper": 1
+        }
+      }
+    ],
+    "solution": [
+      "spinach_frittata",
+      "salmon_chowder",
+      "vegetable_rice_bowl",
+      "thai_red_curry"
+    ],
+    "solutionKey": "salmon_chowder|spinach_frittata|thai_red_curry|vegetable_rice_bowl",
+    "structuralSignature": "7a66b148e57fb165109f",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "spinach_frittata",
+        "salmon_chowder",
+        "vegetable_rice_bowl",
+        "thai_red_curry"
+      ],
+      "nearMissCount": 11,
+      "plausibleAlternatives": 31,
+      "oneSwapNearMisses": 9,
+      "competitiveDecoyIds": [
+        "chicken_casserole",
+        "vegetable_curry",
+        "chicken_curry_soup",
+        "chicken_vegetable_stir_fry",
+        "salmon_potato_skillet",
+        "egg_fried_rice",
+        "chicken_curry",
+        "egg_muffins"
+      ],
+      "forcedRecipeIds": [
+        "salmon_chowder"
+      ],
+      "sharedIngredientCount": 13,
+      "ingredientDegrees": {
+        "rice": 4,
+        "broccoli": 3,
+        "carrot": 5,
+        "peas": 3,
+        "spinach": 3,
+        "eggs": 3,
+        "cheese": 3,
+        "onion": 3,
+        "chicken": 5,
+        "coconut_milk": 4,
+        "curry_paste": 3,
+        "bell_pepper": 3,
+        "salmon": 2,
+        "potato": 3,
+        "milk": 1,
+        "corn": 1
+      },
+      "overlapDensity": 0.242,
+      "singleIngredientCandidateFloor": 108,
+      "deductionSteps": 6,
+      "difficultyScore": 134.8,
+      "ingredientTypes": 16,
+      "distinctFamilies": 8,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "salmon_chowder"
+      ],
+      "difficultyLabel": "expert",
+      "difficultyExplanation": "6 constraint steps, 31 plausible alternatives, 8 competitive decoys, and 9 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-003",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 3,
+    "seed": "guided-v2:hard:3"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "mushroom": 2,
+      "tortilla": 4,
+      "cheese": 2,
+      "onion": 1,
+      "rice": 2,
+      "black_beans": 2,
+      "corn": 1,
+      "tomato": 2,
+      "halloumi": 2,
+      "lettuce": 1,
+      "cucumber": 1,
+      "pasta": 2,
+      "chicken": 2,
+      "cream": 1,
+      "parmesan": 1
+    },
+    "cards": [
+      {
+        "id": "nachos",
+        "name": "Nachos",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "tortilla": 2,
+          "cheese": 2,
+          "black_beans": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "grilled_halloumi_wrap",
+        "name": "Grilled Halloumi Wrap",
+        "family": "sandwiches_wraps",
+        "ingredients": {
+          "halloumi": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "mushroom_quesadilla",
+        "name": "Mushroom Quesadilla",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "mushroom": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "burrito_bowl",
+        "name": "Burrito Bowl",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "mushroom_risotto",
+        "name": "Mushroom Risotto",
+        "family": "rice_dishes",
+        "ingredients": {
+          "rice": 2,
+          "mushroom": 2,
+          "parmesan": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_alfredo",
+        "name": "Chicken Alfredo",
+        "family": "pasta",
+        "ingredients": {
+          "pasta": 2,
+          "chicken": 2,
+          "cream": 1,
+          "parmesan": 1
+        }
+      },
+      {
+        "id": "mushroom_pasta",
+        "name": "Mushroom Pasta",
+        "family": "pasta",
+        "ingredients": {
+          "pasta": 2,
+          "mushroom": 2,
+          "cream": 1,
+          "parmesan": 1
+        }
+      },
+      {
+        "id": "pasta_salad",
+        "name": "Pasta Salad",
+        "family": "salads",
+        "ingredients": {
+          "pasta": 2,
+          "cucumber": 1,
+          "tomato": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "cheesy_bean_bake",
+        "name": "Cheesy Bean Bake",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "black_beans": 2,
+          "tomato": 2,
+          "cheese": 2,
+          "corn": 1
+        }
+      },
+      {
+        "id": "rice_and_beans",
+        "name": "Rice and Beans",
+        "family": "rice_dishes",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "grilled_halloumi_wrap",
+      "mushroom_quesadilla",
+      "burrito_bowl",
+      "chicken_alfredo"
+    ],
+    "solutionKey": "burrito_bowl|chicken_alfredo|grilled_halloumi_wrap|mushroom_quesadilla",
+    "structuralSignature": "896ff9932083236d2cfd",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "grilled_halloumi_wrap",
+        "mushroom_quesadilla",
+        "burrito_bowl",
+        "chicken_alfredo"
+      ],
+      "nearMissCount": 4,
+      "plausibleAlternatives": 16,
+      "oneSwapNearMisses": 6,
+      "competitiveDecoyIds": [
+        "nachos",
+        "veggie_wrap",
+        "mushroom_risotto",
+        "greek_chicken_bowl",
+        "mushroom_pasta",
+        "cheesy_bean_bake",
+        "rice_and_beans"
+      ],
+      "forcedRecipeIds": [
+        "grilled_halloumi_wrap"
+      ],
+      "sharedIngredientCount": 11,
+      "ingredientDegrees": {
+        "mushroom": 3,
+        "tortilla": 4,
+        "cheese": 5,
+        "onion": 3,
+        "rice": 4,
+        "black_beans": 4,
+        "corn": 3,
+        "tomato": 7,
+        "halloumi": 1,
+        "lettuce": 3,
+        "cucumber": 2,
+        "pasta": 3,
+        "chicken": 2,
+        "cream": 2,
+        "parmesan": 3
+      },
+      "overlapDensity": 0.288,
+      "singleIngredientCandidateFloor": 84,
+      "deductionSteps": 5,
+      "difficultyScore": 89.8,
+      "ingredientTypes": 15,
+      "distinctFamilies": 8,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "grilled_halloumi_wrap"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "5 constraint steps, 16 plausible alternatives, 7 competitive decoys, and 6 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-004",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 4,
+    "seed": "guided-v2:hard:4"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "bread": 2,
+      "tuna": 2,
+      "cheese": 2,
+      "mayonnaise": 1,
+      "chorizo": 2,
+      "eggs": 2,
+      "tortilla": 2,
+      "potato": 1,
+      "salsa": 1,
+      "shrimp": 2,
+      "lettuce": 2,
+      "cucumber": 1,
+      "tomato": 1,
+      "chicken": 2,
+      "rice": 2,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "tuna_salad",
+        "name": "Tuna Salad",
+        "family": "salads",
+        "ingredients": {
+          "tuna": 2,
+          "lettuce": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_burger",
+        "name": "Chicken Burger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chorizo_breakfast_burrito",
+        "name": "Chorizo Breakfast Burrito",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "chorizo": 2,
+          "eggs": 1,
+          "tortilla": 2,
+          "potato": 1,
+          "cheese": 1,
+          "salsa": 1
+        }
+      },
+      {
+        "id": "chicken_sandwich",
+        "name": "Chicken Sandwich",
+        "family": "sandwiches_wraps",
+        "ingredients": {
+          "bread": 2,
+          "chicken": 2,
+          "lettuce": 1,
+          "mayonnaise": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "shrimp_fried_rice",
+        "name": "Shrimp Fried Rice",
+        "family": "rice_dishes",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "breakfast_burrito",
+        "name": "Breakfast Burrito",
+        "family": "breakfast_eggs",
+        "ingredients": {
+          "tortilla": 1,
+          "eggs": 2,
+          "potato": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "tuna_melt",
+        "name": "Tuna Melt",
+        "family": "sandwiches_wraps",
+        "ingredients": {
+          "bread": 2,
+          "tuna": 2,
+          "cheese": 1,
+          "mayonnaise": 1
+        }
+      },
+      {
+        "id": "shrimp_salad",
+        "name": "Shrimp Salad",
+        "family": "seafood",
+        "ingredients": {
+          "shrimp": 2,
+          "lettuce": 2,
+          "cucumber": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      }
+    ],
+    "solution": [
+      "chorizo_breakfast_burrito",
+      "chicken_fried_rice",
+      "tuna_melt",
+      "shrimp_salad"
+    ],
+    "solutionKey": "chicken_fried_rice|chorizo_breakfast_burrito|shrimp_salad|tuna_melt",
+    "structuralSignature": "d7c8e6b7a92fc0debbf6",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "chorizo_breakfast_burrito",
+        "chicken_fried_rice",
+        "tuna_melt",
+        "shrimp_salad"
+      ],
+      "nearMissCount": 9,
+      "plausibleAlternatives": 18,
+      "oneSwapNearMisses": 6,
+      "competitiveDecoyIds": [
+        "chicken_tacos",
+        "tuna_salad",
+        "chicken_burger",
+        "greek_chicken_bowl",
+        "chicken_sandwich",
+        "shrimp_fried_rice",
+        "breakfast_burrito",
+        "chicken_shawarma_bowl"
+      ],
+      "forcedRecipeIds": [
+        "chorizo_breakfast_burrito"
+      ],
+      "sharedIngredientCount": 8,
+      "ingredientDegrees": {
+        "bread": 3,
+        "tuna": 2,
+        "cheese": 5,
+        "mayonnaise": 2,
+        "chorizo": 1,
+        "eggs": 4,
+        "tortilla": 3,
+        "potato": 2,
+        "salsa": 1,
+        "shrimp": 2,
+        "lettuce": 7,
+        "cucumber": 2,
+        "tomato": 4,
+        "chicken": 6,
+        "rice": 4,
+        "peas": 2
+      },
+      "overlapDensity": 0.333,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 5,
+      "difficultyScore": 99.7,
+      "ingredientTypes": 16,
+      "distinctFamilies": 8,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "chorizo_breakfast_burrito"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "5 constraint steps, 18 plausible alternatives, 8 competitive decoys, and 6 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-005",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 5,
+    "seed": "guided-v2:hard:5"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "broccoli": 2,
+      "cheese": 2,
+      "rice": 4,
+      "milk": 1,
+      "chicken": 2,
+      "noodles": 2,
+      "cabbage": 1,
+      "carrot": 1,
+      "shrimp": 2,
+      "bell_pepper": 1,
+      "onion": 1,
+      "lime": 1,
+      "hot_sauce": 1,
+      "beef": 2,
+      "coconut_milk": 2,
+      "curry_paste": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_chow_mein",
+        "name": "Chicken Chow Mein",
+        "family": "noodles",
+        "ingredients": {
+          "chicken": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "thai_red_curry",
+        "name": "Thai Red Curry",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_vegetable_stir_fry",
+        "name": "Chicken Vegetable Stir-Fry",
+        "family": "stir_fries",
+        "ingredients": {
+          "chicken": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "shrimp_curry",
+        "name": "Shrimp Curry",
+        "family": "seafood",
+        "ingredients": {
+          "shrimp": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "shrimp_fajita_bowl",
+        "name": "Shrimp Fajita Bowl",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "shrimp": 2,
+          "rice": 2,
+          "bell_pepper": 1,
+          "onion": 1,
+          "lime": 1,
+          "hot_sauce": 1
+        }
+      },
+      {
+        "id": "broccoli_rice_skillet",
+        "name": "Broccoli Rice Skillet",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "broccoli": 2,
+          "rice": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "beef_lo_mein",
+        "name": "Beef Lo Mein",
+        "family": "noodles",
+        "ingredients": {
+          "beef": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "beef_curry",
+        "name": "Beef Curry",
+        "family": "curries_bowls",
+        "ingredients": {
+          "beef": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "beef_rice_bowl",
+        "name": "Beef Rice Bowl",
+        "family": "rice_dishes",
+        "ingredients": {
+          "beef": 2,
+          "rice": 2,
+          "broccoli": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "broccoli_cheddar_soup",
+        "name": "Broccoli Cheddar Soup",
+        "family": "soups_stews",
+        "ingredients": {
+          "broccoli": 2,
+          "cheese": 2,
+          "milk": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "broccoli_cheese_bake",
+        "name": "Broccoli Cheese Bake",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "broccoli": 2,
+          "cheese": 2,
+          "rice": 1,
+          "milk": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_chow_mein",
+      "shrimp_fajita_bowl",
+      "beef_curry",
+      "broccoli_cheese_bake"
+    ],
+    "solutionKey": "beef_curry|broccoli_cheese_bake|chicken_chow_mein|shrimp_fajita_bowl",
+    "structuralSignature": "e78637f002faaf9f7284",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_chow_mein",
+        "shrimp_fajita_bowl",
+        "beef_curry",
+        "broccoli_cheese_bake"
+      ],
+      "nearMissCount": 8,
+      "plausibleAlternatives": 24,
+      "oneSwapNearMisses": 8,
+      "competitiveDecoyIds": [
+        "thai_red_curry",
+        "chicken_vegetable_stir_fry",
+        "shrimp_curry",
+        "broccoli_rice_skillet",
+        "beef_lo_mein",
+        "beef_rice_bowl",
+        "broccoli_cheddar_soup",
+        "chicken_casserole"
+      ],
+      "forcedRecipeIds": [
+        "shrimp_fajita_bowl"
+      ],
+      "sharedIngredientCount": 10,
+      "ingredientDegrees": {
+        "broccoli": 6,
+        "cheese": 4,
+        "rice": 7,
+        "milk": 2,
+        "chicken": 4,
+        "noodles": 2,
+        "cabbage": 2,
+        "carrot": 4,
+        "shrimp": 2,
+        "bell_pepper": 3,
+        "onion": 3,
+        "lime": 1,
+        "hot_sauce": 1,
+        "beef": 3,
+        "coconut_milk": 3,
+        "curry_paste": 3
+      },
+      "overlapDensity": 0.318,
+      "singleIngredientCandidateFloor": 105,
+      "deductionSteps": 6,
+      "difficultyScore": 115.4,
+      "ingredientTypes": 16,
+      "distinctFamilies": 9,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "shrimp_fajita_bowl"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 24 plausible alternatives, 8 competitive decoys, and 8 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-006",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 6,
+    "seed": "guided-v2:hard:6"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "black_beans": 2,
+      "tomato": 2,
+      "cheese": 4,
+      "corn": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "lettuce": 2,
+      "bread": 2,
+      "turkey": 2,
+      "rice": 2,
+      "edamame": 1,
+      "carrot": 1,
+      "avocado": 1,
+      "soy_sauce": 1
+    },
+    "cards": [
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "veggie_burger",
+        "name": "Veggie Burger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "black_beans": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "turkey_burger",
+        "name": "Turkey Burger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "turkey": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_salad",
+        "name": "Chicken Salad",
+        "family": "salads",
+        "ingredients": {
+          "chicken": 2,
+          "lettuce": 2,
+          "tomato": 1,
+          "avocado": 1
+        }
+      },
+      {
+        "id": "nachos",
+        "name": "Nachos",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "tortilla": 2,
+          "cheese": 2,
+          "black_beans": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "edamame_rice_bowl",
+        "name": "Edamame Rice Bowl",
+        "family": "rice_dishes",
+        "ingredients": {
+          "rice": 2,
+          "edamame": 1,
+          "carrot": 1,
+          "avocado": 1,
+          "soy_sauce": 1
+        }
+      },
+      {
+        "id": "cheesy_bean_bake",
+        "name": "Cheesy Bean Bake",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "black_beans": 2,
+          "tomato": 2,
+          "cheese": 2,
+          "corn": 1
+        }
+      },
+      {
+        "id": "southwest_salad",
+        "name": "Southwest Salad",
+        "family": "salads",
+        "ingredients": {
+          "lettuce": 2,
+          "black_beans": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "turkey_sandwich",
+        "name": "Turkey Sandwich",
+        "family": "sandwiches_wraps",
+        "ingredients": {
+          "bread": 2,
+          "turkey": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_tacos",
+      "edamame_rice_bowl",
+      "cheesy_bean_bake",
+      "turkey_sandwich"
+    ],
+    "solutionKey": "cheesy_bean_bake|chicken_tacos|edamame_rice_bowl|turkey_sandwich",
+    "structuralSignature": "29303418f8b8fe6bd4e0",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_tacos",
+        "edamame_rice_bowl",
+        "cheesy_bean_bake",
+        "turkey_sandwich"
+      ],
+      "nearMissCount": 5,
+      "plausibleAlternatives": 23,
+      "oneSwapNearMisses": 9,
+      "competitiveDecoyIds": [
+        "greek_chicken_bowl",
+        "veggie_burger",
+        "chicken_wrap",
+        "turkey_burger",
+        "chicken_salad",
+        "nachos",
+        "southwest_salad",
+        "chicken_shawarma_bowl"
+      ],
+      "forcedRecipeIds": [
+        "edamame_rice_bowl"
+      ],
+      "sharedIngredientCount": 8,
+      "ingredientDegrees": {
+        "black_beans": 4,
+        "tomato": 8,
+        "cheese": 5,
+        "corn": 2,
+        "chicken": 5,
+        "tortilla": 3,
+        "lettuce": 9,
+        "bread": 3,
+        "turkey": 2,
+        "rice": 3,
+        "edamame": 1,
+        "carrot": 1,
+        "avocado": 2,
+        "soy_sauce": 1
+      },
+      "overlapDensity": 0.5,
+      "singleIngredientCandidateFloor": 63,
+      "deductionSteps": 4,
+      "difficultyScore": 102,
+      "ingredientTypes": 14,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "edamame_rice_bowl"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "4 constraint steps, 23 plausible alternatives, 8 competitive decoys, and 9 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-007",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 7,
+    "seed": "guided-v2:hard:7"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "chicken": 2,
+      "coconut_milk": 2,
+      "curry_paste": 1,
+      "bell_pepper": 1,
+      "eggs": 3,
+      "milk": 2,
+      "butter": 1,
+      "cheese": 1,
+      "salmon": 2,
+      "potato": 2,
+      "corn": 1,
+      "onion": 1,
+      "rice": 2,
+      "broccoli": 1,
+      "carrot": 1,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "baked_salmon",
+        "name": "Baked Salmon",
+        "family": "seafood",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "broccoli": 1,
+          "butter": 1
+        }
+      },
+      {
+        "id": "vegetable_curry",
+        "name": "Vegetable Curry",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "potato": 1,
+          "carrot": 1,
+          "peas": 1,
+          "coconut_milk": 2
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "cheese_omelet",
+        "name": "Cheese Omelet",
+        "family": "breakfast_eggs",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "milk": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "salmon_chowder",
+        "name": "Salmon Chowder",
+        "family": "soups_stews",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "milk": 1,
+          "corn": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "vegetable_rice_bowl",
+        "name": "Vegetable Rice Bowl",
+        "family": "rice_dishes",
+        "ingredients": {
+          "rice": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "chicken_vegetable_stir_fry",
+        "name": "Chicken Vegetable Stir-Fry",
+        "family": "stir_fries",
+        "ingredients": {
+          "chicken": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_curry",
+        "name": "Chicken Curry",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "rice": 1
+        }
+      },
+      {
+        "id": "scrambled_eggs",
+        "name": "Scrambled Eggs",
+        "family": "breakfast_eggs",
+        "ingredients": {
+          "eggs": 3,
+          "milk": 1,
+          "butter": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_curry_soup",
+        "name": "Chicken Curry Soup",
+        "family": "soups_stews",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "carrot": 1,
+          "curry_paste": 1
+        }
+      },
+      {
+        "id": "thai_red_curry",
+        "name": "Thai Red Curry",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "coconut_milk": 2,
+          "curry_paste": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      }
+    ],
+    "solution": [
+      "salmon_chowder",
+      "vegetable_rice_bowl",
+      "scrambled_eggs",
+      "thai_red_curry"
+    ],
+    "solutionKey": "salmon_chowder|scrambled_eggs|thai_red_curry|vegetable_rice_bowl",
+    "structuralSignature": "8eae72690fc8edffc161",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "salmon_chowder",
+        "vegetable_rice_bowl",
+        "scrambled_eggs",
+        "thai_red_curry"
+      ],
+      "nearMissCount": 7,
+      "plausibleAlternatives": 21,
+      "oneSwapNearMisses": 8,
+      "competitiveDecoyIds": [
+        "baked_salmon",
+        "vegetable_curry",
+        "chicken_casserole",
+        "cheese_omelet",
+        "chicken_vegetable_stir_fry",
+        "chicken_curry",
+        "chicken_curry_soup"
+      ],
+      "forcedRecipeIds": [
+        "salmon_chowder"
+      ],
+      "sharedIngredientCount": 12,
+      "ingredientDegrees": {
+        "chicken": 5,
+        "coconut_milk": 4,
+        "curry_paste": 3,
+        "bell_pepper": 3,
+        "eggs": 3,
+        "milk": 3,
+        "butter": 2,
+        "cheese": 3,
+        "salmon": 2,
+        "potato": 4,
+        "corn": 1,
+        "onion": 3,
+        "rice": 3,
+        "broccoli": 4,
+        "carrot": 4,
+        "peas": 2
+      },
+      "overlapDensity": 0.242,
+      "singleIngredientCandidateFloor": 108,
+      "deductionSteps": 6,
+      "difficultyScore": 109.8,
+      "ingredientTypes": 16,
+      "distinctFamilies": 8,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "salmon_chowder"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 21 plausible alternatives, 7 competitive decoys, and 8 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-008",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 8,
+    "seed": "guided-v2:hard:8"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "beef": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1,
+      "noodles": 2,
+      "miso_paste": 1,
+      "mushroom": 3,
+      "scallions": 1,
+      "tofu": 1,
+      "tortilla": 2,
+      "cheese": 2,
+      "onion": 1,
+      "chicken": 2,
+      "rice": 2,
+      "eggs": 1,
+      "peas": 1
+    },
+    "cards": [
+      {
+        "id": "cheeseburger",
+        "name": "Cheeseburger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "cheese": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "miso_mushroom_rice_bowl",
+        "name": "Miso Mushroom Rice Bowl",
+        "family": "rice_dishes",
+        "ingredients": {
+          "rice": 2,
+          "miso_paste": 1,
+          "mushroom": 1,
+          "tofu": 1,
+          "scallions": 1
+        }
+      },
+      {
+        "id": "beef_burger",
+        "name": "Beef Burger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "mushroom_quesadilla",
+        "name": "Mushroom Quesadilla",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "mushroom": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "beef_ramen",
+        "name": "Beef Ramen",
+        "family": "noodles",
+        "ingredients": {
+          "beef": 2,
+          "noodles": 2,
+          "eggs": 1,
+          "mushroom": 1
+        }
+      },
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "cheese_quesadilla",
+        "name": "Cheese Quesadilla",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "tortilla": 2,
+          "cheese": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "miso_mushroom_noodles",
+        "name": "Miso Mushroom Noodles",
+        "family": "noodles",
+        "ingredients": {
+          "noodles": 2,
+          "miso_paste": 1,
+          "mushroom": 1,
+          "scallions": 1,
+          "tofu": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      }
+    ],
+    "solution": [
+      "beef_burger",
+      "mushroom_quesadilla",
+      "chicken_fried_rice",
+      "miso_mushroom_noodles"
+    ],
+    "solutionKey": "beef_burger|chicken_fried_rice|miso_mushroom_noodles|mushroom_quesadilla",
+    "structuralSignature": "648346f62b6629caadf0",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "beef_burger",
+        "mushroom_quesadilla",
+        "chicken_fried_rice",
+        "miso_mushroom_noodles"
+      ],
+      "nearMissCount": 7,
+      "plausibleAlternatives": 17,
+      "oneSwapNearMisses": 6,
+      "competitiveDecoyIds": [
+        "cheeseburger",
+        "chicken_wrap",
+        "miso_mushroom_rice_bowl",
+        "beef_ramen",
+        "chicken_tacos",
+        "cheese_quesadilla",
+        "chicken_shawarma_bowl",
+        "greek_chicken_bowl"
+      ],
+      "forcedRecipeIds": [
+        "chicken_fried_rice"
+      ],
+      "sharedIngredientCount": 8,
+      "ingredientDegrees": {
+        "beef": 3,
+        "bread": 2,
+        "lettuce": 5,
+        "tomato": 5,
+        "noodles": 2,
+        "miso_paste": 2,
+        "mushroom": 4,
+        "scallions": 2,
+        "tofu": 2,
+        "tortilla": 4,
+        "cheese": 5,
+        "onion": 2,
+        "chicken": 5,
+        "rice": 4,
+        "eggs": 2,
+        "peas": 1
+      },
+      "overlapDensity": 0.273,
+      "singleIngredientCandidateFloor": 92,
+      "deductionSteps": 6,
+      "difficultyScore": 97.5,
+      "ingredientTypes": 16,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "miso_mushroom_rice_bowl",
+        "miso_mushroom_noodles"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 17 plausible alternatives, 8 competitive decoys, and 6 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-009",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 9,
+    "seed": "guided-v2:hard:9"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "shrimp": 2,
+      "coconut_milk": 1,
+      "rice": 3,
+      "scallions": 1,
+      "lime": 1,
+      "broccoli": 2,
+      "cheese": 2,
+      "milk": 1,
+      "beef": 2,
+      "noodles": 2,
+      "cabbage": 1,
+      "carrot": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "bell_pepper": 2,
+      "onion": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "shrimp_tacos",
+        "name": "Shrimp Tacos",
+        "family": "seafood",
+        "ingredients": {
+          "shrimp": 2,
+          "tortilla": 2,
+          "cabbage": 1,
+          "lime": 1
+        }
+      },
+      {
+        "id": "chicken_vegetable_stir_fry",
+        "name": "Chicken Vegetable Stir-Fry",
+        "family": "stir_fries",
+        "ingredients": {
+          "chicken": 2,
+          "broccoli": 1,
+          "carrot": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "beef_rice_bowl",
+        "name": "Beef Rice Bowl",
+        "family": "rice_dishes",
+        "ingredients": {
+          "beef": 2,
+          "rice": 2,
+          "broccoli": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "chicken_fajitas",
+        "name": "Chicken Fajitas",
+        "family": "tacos_mexican",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "bell_pepper": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "broccoli_cheese_bake",
+        "name": "Broccoli Cheese Bake",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "broccoli": 2,
+          "cheese": 2,
+          "rice": 1,
+          "milk": 1
+        }
+      },
+      {
+        "id": "broccoli_rice_skillet",
+        "name": "Broccoli Rice Skillet",
+        "family": "vegetarian_mains",
+        "ingredients": {
+          "broccoli": 2,
+          "rice": 2,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "beef_lo_mein",
+        "name": "Beef Lo Mein",
+        "family": "noodles",
+        "ingredients": {
+          "beef": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "chicken_chow_mein",
+        "name": "Chicken Chow Mein",
+        "family": "noodles",
+        "ingredients": {
+          "chicken": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "coconut_shrimp_rice_bowl",
+        "name": "Coconut Shrimp Rice Bowl",
+        "family": "seafood",
+        "ingredients": {
+          "shrimp": 2,
+          "coconut_milk": 1,
+          "rice": 2,
+          "scallions": 1,
+          "lime": 1
+        }
+      },
+      {
+        "id": "chicken_casserole",
+        "name": "Chicken Casserole",
+        "family": "bakes_casseroles",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 1,
+          "broccoli": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "broccoli_cheddar_soup",
+        "name": "Broccoli Cheddar Soup",
+        "family": "soups_stews",
+        "ingredients": {
+          "broccoli": 2,
+          "cheese": 2,
+          "milk": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_fajitas",
+      "broccoli_cheese_bake",
+      "beef_lo_mein",
+      "coconut_shrimp_rice_bowl"
+    ],
+    "solutionKey": "beef_lo_mein|broccoli_cheese_bake|chicken_fajitas|coconut_shrimp_rice_bowl",
+    "structuralSignature": "e6075fea3dc1ee01114b",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_fajitas",
+        "broccoli_cheese_bake",
+        "beef_lo_mein",
+        "coconut_shrimp_rice_bowl"
+      ],
+      "nearMissCount": 6,
+      "plausibleAlternatives": 13,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "chicken_quesadilla",
+        "chicken_vegetable_stir_fry",
+        "beef_rice_bowl",
+        "broccoli_rice_skillet",
+        "chicken_chow_mein",
+        "chicken_casserole",
+        "broccoli_cheddar_soup"
+      ],
+      "forcedRecipeIds": [
+        "coconut_shrimp_rice_bowl"
+      ],
+      "sharedIngredientCount": 9,
+      "ingredientDegrees": {
+        "shrimp": 2,
+        "coconut_milk": 1,
+        "rice": 5,
+        "scallions": 1,
+        "lime": 2,
+        "broccoli": 6,
+        "cheese": 5,
+        "milk": 2,
+        "beef": 2,
+        "noodles": 2,
+        "cabbage": 3,
+        "carrot": 4,
+        "chicken": 5,
+        "tortilla": 3,
+        "bell_pepper": 3,
+        "onion": 3
+      },
+      "overlapDensity": 0.288,
+      "singleIngredientCandidateFloor": 105,
+      "deductionSteps": 6,
+      "difficultyScore": 92.8,
+      "ingredientTypes": 16,
+      "distinctFamilies": 8,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "coconut_shrimp_rice_bowl"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 13 plausible alternatives, 7 competitive decoys, and 7 close one-card swaps."
+    },
+    "id": "guided-expansion-hard-010",
+    "contentVersion": "experimental-guided-expansion-v2",
+    "day": 10,
+    "seed": "guided-v2:hard:10"
+  }
+]

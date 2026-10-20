@@ -1,0 +1,846 @@
+{
+  "status": "experimental_only",
+  "ingredients": [
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "category": "protein",
+      "icon": "🍗",
+      "aliases": []
+    },
+    {
+      "id": "beef",
+      "name": "Beef",
+      "category": "protein",
+      "icon": "🥩",
+      "aliases": []
+    },
+    {
+      "id": "pork",
+      "name": "Pork",
+      "category": "protein",
+      "icon": "🥩",
+      "aliases": []
+    },
+    {
+      "id": "bacon",
+      "name": "Bacon",
+      "category": "protein",
+      "icon": "🥓",
+      "aliases": []
+    },
+    {
+      "id": "ham",
+      "name": "Ham",
+      "category": "protein",
+      "icon": "🍖",
+      "aliases": []
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "category": "protein",
+      "icon": "🦃",
+      "aliases": []
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "category": "protein",
+      "icon": "🐟",
+      "aliases": []
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "category": "protein",
+      "icon": "🐟",
+      "aliases": []
+    },
+    {
+      "id": "shrimp",
+      "name": "Shrimp",
+      "category": "protein",
+      "icon": "🍤",
+      "aliases": []
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "category": "protein",
+      "icon": "🥚",
+      "aliases": [
+        "egg"
+      ]
+    },
+    {
+      "id": "tofu",
+      "name": "Tofu",
+      "category": "protein",
+      "icon": "◻️",
+      "aliases": []
+    },
+    {
+      "id": "sausage",
+      "name": "Sausage",
+      "category": "protein",
+      "icon": "🌭",
+      "aliases": []
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "category": "vegetable",
+      "icon": "🍅",
+      "aliases": [
+        "tomatoes"
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "category": "vegetable",
+      "icon": "🧅",
+      "aliases": []
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "category": "vegetable",
+      "icon": "🧄",
+      "aliases": []
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "category": "vegetable",
+      "icon": "🥦",
+      "aliases": []
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "category": "vegetable",
+      "icon": "🥕",
+      "aliases": [
+        "carrots"
+      ]
+    },
+    {
+      "id": "bell_pepper",
+      "name": "Bell pepper",
+      "category": "vegetable",
+      "icon": "🫑",
+      "aliases": [
+        "pepper",
+        "bell peppers"
+      ]
+    },
+    {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "category": "vegetable",
+      "icon": "🍄",
+      "aliases": [
+        "mushrooms"
+      ]
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "category": "vegetable",
+      "icon": "🌿",
+      "aliases": []
+    },
+    {
+      "id": "lettuce",
+      "name": "Lettuce",
+      "category": "vegetable",
+      "icon": "🥬",
+      "aliases": []
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "category": "vegetable",
+      "icon": "🥒",
+      "aliases": []
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "category": "vegetable",
+      "icon": "🥔",
+      "aliases": [
+        "potatoes"
+      ]
+    },
+    {
+      "id": "sweet_potato",
+      "name": "Sweet potato",
+      "category": "vegetable",
+      "icon": "🍠",
+      "aliases": [
+        "sweet potatoes"
+      ]
+    },
+    {
+      "id": "zucchini",
+      "name": "Zucchini",
+      "category": "vegetable",
+      "icon": "🥒",
+      "aliases": []
+    },
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "category": "vegetable",
+      "icon": "🥬",
+      "aliases": []
+    },
+    {
+      "id": "peas",
+      "name": "Peas",
+      "category": "vegetable",
+      "icon": "🫛",
+      "aliases": []
+    },
+    {
+      "id": "corn",
+      "name": "Corn",
+      "category": "vegetable",
+      "icon": "🌽",
+      "aliases": []
+    },
+    {
+      "id": "green_beans",
+      "name": "Green beans",
+      "category": "vegetable",
+      "icon": "🫛",
+      "aliases": []
+    },
+    {
+      "id": "celery",
+      "name": "Celery",
+      "category": "vegetable",
+      "icon": "🌱",
+      "aliases": []
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "category": "grain_starch",
+      "icon": "🍚",
+      "aliases": []
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta",
+      "category": "grain_starch",
+      "icon": "🍝",
+      "aliases": []
+    },
+    {
+      "id": "noodles",
+      "name": "Noodles",
+      "category": "grain_starch",
+      "icon": "🍜",
+      "aliases": []
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "category": "grain_starch",
+      "icon": "🍞",
+      "aliases": []
+    },
+    {
+      "id": "tortilla",
+      "name": "Tortilla",
+      "category": "grain_starch",
+      "icon": "🫓",
+      "aliases": [
+        "tortillas"
+      ]
+    },
+    {
+      "id": "flour",
+      "name": "Flour",
+      "category": "grain_starch",
+      "icon": "🌾",
+      "aliases": []
+    },
+    {
+      "id": "oats",
+      "name": "Oats",
+      "category": "grain_starch",
+      "icon": "🥣",
+      "aliases": []
+    },
+    {
+      "id": "quinoa",
+      "name": "Quinoa",
+      "category": "grain_starch",
+      "icon": "🌾",
+      "aliases": []
+    },
+    {
+      "id": "couscous",
+      "name": "Couscous",
+      "category": "grain_starch",
+      "icon": "🌾",
+      "aliases": []
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "category": "grain_starch",
+      "icon": "🍞",
+      "aliases": []
+    },
+    {
+      "id": "pizza_dough",
+      "name": "Pizza dough",
+      "category": "grain_starch",
+      "icon": "🍕",
+      "aliases": [
+        "dough"
+      ]
+    },
+    {
+      "id": "rice_noodles",
+      "name": "Rice noodles",
+      "category": "grain_starch",
+      "icon": "🍜",
+      "aliases": []
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+      "category": "dairy",
+      "icon": "🧀",
+      "aliases": []
+    },
+    {
+      "id": "mozzarella",
+      "name": "Mozzarella",
+      "category": "dairy",
+      "icon": "🧀",
+      "aliases": []
+    },
+    {
+      "id": "parmesan",
+      "name": "Parmesan",
+      "category": "dairy",
+      "icon": "🧀",
+      "aliases": []
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "category": "dairy",
+      "icon": "🥛",
+      "aliases": []
+    },
+    {
+      "id": "cream",
+      "name": "Cream",
+      "category": "dairy",
+      "icon": "🥛",
+      "aliases": []
+    },
+    {
+      "id": "butter",
+      "name": "Butter",
+      "category": "dairy",
+      "icon": "🧈",
+      "aliases": []
+    },
+    {
+      "id": "yogurt",
+      "name": "Yogurt",
+      "category": "dairy",
+      "icon": "🥣",
+      "aliases": []
+    },
+    {
+      "id": "cream_cheese",
+      "name": "Cream cheese",
+      "category": "dairy",
+      "icon": "🧀",
+      "aliases": []
+    },
+    {
+      "id": "sour_cream",
+      "name": "Sour cream",
+      "category": "dairy",
+      "icon": "🥣",
+      "aliases": []
+    },
+    {
+      "id": "black_beans",
+      "name": "Black beans",
+      "category": "legume_nut",
+      "icon": "🫘",
+      "aliases": []
+    },
+    {
+      "id": "kidney_beans",
+      "name": "Kidney beans",
+      "category": "legume_nut",
+      "icon": "🫘",
+      "aliases": []
+    },
+    {
+      "id": "chickpeas",
+      "name": "Chickpeas",
+      "category": "legume_nut",
+      "icon": "🫘",
+      "aliases": [
+        "garbanzo beans"
+      ]
+    },
+    {
+      "id": "lentils",
+      "name": "Lentils",
+      "category": "legume_nut",
+      "icon": "🫘",
+      "aliases": []
+    },
+    {
+      "id": "peanut_butter",
+      "name": "Peanut butter",
+      "category": "legume_nut",
+      "icon": "🥜",
+      "aliases": []
+    },
+    {
+      "id": "peanuts",
+      "name": "Peanuts",
+      "category": "legume_nut",
+      "icon": "🥜",
+      "aliases": []
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "category": "legume_nut",
+      "icon": "🌰",
+      "aliases": []
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "category": "fruit",
+      "icon": "🍎",
+      "aliases": []
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "fruit",
+      "icon": "🍌",
+      "aliases": []
+    },
+    {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "category": "fruit",
+      "icon": "🍓",
+      "aliases": []
+    },
+    {
+      "id": "blueberry",
+      "name": "Blueberry",
+      "category": "fruit",
+      "icon": "🫐",
+      "aliases": []
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "category": "fruit",
+      "icon": "🍋",
+      "aliases": []
+    },
+    {
+      "id": "lime",
+      "name": "Lime",
+      "category": "fruit",
+      "icon": "🍋‍🟩",
+      "aliases": []
+    },
+    {
+      "id": "avocado",
+      "name": "Avocado",
+      "category": "fruit",
+      "icon": "🥑",
+      "aliases": []
+    },
+    {
+      "id": "pineapple",
+      "name": "Pineapple",
+      "category": "fruit",
+      "icon": "🍍",
+      "aliases": []
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "category": "fruit",
+      "icon": "🥭",
+      "aliases": []
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "category": "fruit",
+      "icon": "🍊",
+      "aliases": []
+    },
+    {
+      "id": "olive_oil",
+      "name": "Olive oil",
+      "category": "pantry",
+      "icon": "🫒",
+      "aliases": [
+        "oil",
+        "cooking oil"
+      ]
+    },
+    {
+      "id": "soy_sauce",
+      "name": "Soy sauce",
+      "category": "pantry",
+      "icon": "🥢",
+      "aliases": []
+    },
+    {
+      "id": "tomato_sauce",
+      "name": "Tomato sauce",
+      "category": "pantry",
+      "icon": "🥫",
+      "aliases": []
+    },
+    {
+      "id": "coconut_milk",
+      "name": "Coconut milk",
+      "category": "pantry",
+      "icon": "🥥",
+      "aliases": []
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "category": "pantry",
+      "icon": "🍯",
+      "aliases": []
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "category": "pantry",
+      "icon": "🍬",
+      "aliases": []
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "category": "pantry",
+      "icon": "🧂",
+      "aliases": []
+    },
+    {
+      "id": "black_pepper",
+      "name": "Black pepper",
+      "category": "pantry",
+      "icon": "⚫",
+      "aliases": [
+        "peppercorn"
+      ]
+    },
+    {
+      "id": "chili_powder",
+      "name": "Chili powder",
+      "category": "pantry",
+      "icon": "🌶️",
+      "aliases": []
+    },
+    {
+      "id": "cumin",
+      "name": "Cumin",
+      "category": "pantry",
+      "icon": "🟤",
+      "aliases": []
+    },
+    {
+      "id": "paprika",
+      "name": "Paprika",
+      "category": "pantry",
+      "icon": "🔴",
+      "aliases": []
+    },
+    {
+      "id": "basil",
+      "name": "Basil",
+      "category": "pantry",
+      "icon": "🌿",
+      "aliases": []
+    },
+    {
+      "id": "cilantro",
+      "name": "Cilantro",
+      "category": "pantry",
+      "icon": "🌿",
+      "aliases": [
+        "coriander leaf"
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "category": "pantry",
+      "icon": "🫚",
+      "aliases": []
+    },
+    {
+      "id": "curry_paste",
+      "name": "Curry paste",
+      "category": "pantry",
+      "icon": "🍛",
+      "aliases": []
+    },
+    {
+      "id": "pepperoni",
+      "name": "Pepperoni",
+      "category": "protein",
+      "icon": "🍕",
+      "aliases": []
+    },
+    {
+      "id": "white_fish",
+      "name": "White fish",
+      "category": "protein",
+      "icon": "🐟",
+      "aliases": [
+        "fish"
+      ]
+    },
+    {
+      "id": "cashews",
+      "name": "Cashews",
+      "category": "legume_nut",
+      "icon": "🥜",
+      "aliases": []
+    },
+    {
+      "id": "pesto",
+      "name": "Pesto",
+      "category": "pantry",
+      "icon": "🌿",
+      "aliases": []
+    },
+    {
+      "id": "mayonnaise",
+      "name": "Mayonnaise",
+      "category": "pantry",
+      "icon": "🥚",
+      "aliases": [
+        "mayo"
+      ]
+    },
+    {
+      "id": "sesame_oil",
+      "name": "Sesame oil",
+      "category": "pantry",
+      "icon": "🫙",
+      "aliases": [
+        "sesame"
+      ]
+    },
+    {
+      "id": "bbq_sauce",
+      "name": "BBQ sauce",
+      "category": "pantry",
+      "icon": "🫙",
+      "aliases": [
+        "barbecue sauce"
+      ]
+    },
+    {
+      "id": "lamb",
+      "name": "Lamb",
+      "category": "protein"
+    },
+    {
+      "id": "tempeh",
+      "name": "Tempeh",
+      "category": "protein"
+    },
+    {
+      "id": "crab",
+      "name": "Crab",
+      "category": "protein"
+    },
+    {
+      "id": "chorizo",
+      "name": "Chorizo",
+      "category": "protein"
+    },
+    {
+      "id": "feta",
+      "name": "Feta",
+      "category": "dairy"
+    },
+    {
+      "id": "ricotta",
+      "name": "Ricotta",
+      "category": "dairy"
+    },
+    {
+      "id": "halloumi",
+      "name": "Halloumi",
+      "category": "dairy"
+    },
+    {
+      "id": "scallions",
+      "name": "Scallions",
+      "category": "vegetable"
+    },
+    {
+      "id": "jalapeno",
+      "name": "Jalapeño",
+      "category": "vegetable"
+    },
+    {
+      "id": "eggplant",
+      "name": "Eggplant",
+      "category": "vegetable"
+    },
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "category": "vegetable"
+    },
+    {
+      "id": "kale",
+      "name": "Kale",
+      "category": "vegetable"
+    },
+    {
+      "id": "asparagus",
+      "name": "Asparagus",
+      "category": "vegetable"
+    },
+    {
+      "id": "edamame",
+      "name": "Edamame",
+      "category": "vegetable"
+    },
+    {
+      "id": "arugula",
+      "name": "Arugula",
+      "category": "vegetable"
+    },
+    {
+      "id": "olives",
+      "name": "Olives",
+      "category": "vegetable"
+    },
+    {
+      "id": "butternut_squash",
+      "name": "Butternut squash",
+      "category": "vegetable"
+    },
+    {
+      "id": "bok_choy",
+      "name": "Bok choy",
+      "category": "vegetable"
+    },
+    {
+      "id": "bean_sprouts",
+      "name": "Bean sprouts",
+      "category": "vegetable"
+    },
+    {
+      "id": "artichoke_hearts",
+      "name": "Artichoke hearts",
+      "category": "vegetable"
+    },
+    {
+      "id": "dill",
+      "name": "Dill",
+      "category": "herb"
+    },
+    {
+      "id": "pita_bread",
+      "name": "Pita bread",
+      "category": "grain_starch"
+    },
+    {
+      "id": "gnocchi",
+      "name": "Gnocchi",
+      "category": "grain_starch"
+    },
+    {
+      "id": "orzo",
+      "name": "Orzo",
+      "category": "grain_starch"
+    },
+    {
+      "id": "bulgur",
+      "name": "Bulgur",
+      "category": "grain_starch"
+    },
+    {
+      "id": "farro",
+      "name": "Farro",
+      "category": "grain_starch"
+    },
+    {
+      "id": "cornmeal",
+      "name": "Cornmeal / grits",
+      "category": "grain_starch"
+    },
+    {
+      "id": "sesame_seeds",
+      "name": "Sesame seeds",
+      "category": "pantry"
+    },
+    {
+      "id": "rice_vinegar",
+      "name": "Rice vinegar",
+      "category": "pantry"
+    },
+    {
+      "id": "mustard",
+      "name": "Mustard",
+      "category": "pantry"
+    },
+    {
+      "id": "hot_sauce",
+      "name": "Hot sauce",
+      "category": "pantry"
+    },
+    {
+      "id": "tahini",
+      "name": "Tahini",
+      "category": "pantry"
+    },
+    {
+      "id": "miso_paste",
+      "name": "Miso paste",
+      "category": "pantry"
+    },
+    {
+      "id": "vegetable_broth",
+      "name": "Vegetable broth",
+      "category": "pantry"
+    },
+    {
+      "id": "salsa",
+      "name": "Salsa",
+      "category": "pantry"
+    }
+  ]
+}

@@ -3,8 +3,10 @@ import { INGREDIENTS } from './data/catalog.js';
 import { ingredientArt, recipeArt } from './visuals/clearline.js';
 
 const LAUNCH='2026-10-14'; const KEY='pantry-v1';
-const preview=new URLSearchParams(location.search).get('preview')==='v3';
-let previewBoard=0;
+const previewParam=new URLSearchParams(location.search).get('preview');
+const preview=['v3','expansion','expansion100'].includes(previewParam);
+let previewSource=preview?previewParam:'v3',previewBoard=0;
+const expansionIngredientNames=new Map();
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const todayUTC=()=>new Date().toISOString().slice(0,10);
 const dayFor=date=>Math.floor((Date.parse(date+'T00:00:00Z')-Date.parse(LAUNCH+'T00:00:00Z'))/86400000)+1;
@@ -26,13 +28,13 @@ async function loadMode(next){
   mode=next;store.preferredMode=mode;save();stopTimer();undoStack=[];expandedRecipes=new Set();
   $$('.mode-switch button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.mode===mode);b.classList.toggle('active',b.dataset.mode===mode)});
   $('#loading').hidden=false;$('#game').hidden=true;$('#unavailable').hidden=true;
-  const day=dayFor(todayUTC()); $('#day-label').textContent=preview?`Quality V3 · ${mode} board ${previewBoard+1}`:`Pantry #${day} · 00:00 UTC`;
-  try{const res=await fetch(preview?`/clearline-data/${mode}-100.json`:`/puzzles/${mode}/${day}.json`,{cache:preview?'default':'no-store'});if(!res.ok)throw Error();const data=await res.json();puzzle=preview?previewPuzzle(data[previewBoard]):data}
+  const day=dayFor(todayUTC()),label=previewSource==='expansion100'?'100-day review sample':previewSource==='expansion'?'Expansion experiment':'Quality V3'; $('#day-label').textContent=preview?`${label} · ${mode} board ${previewBoard+1}`:`Pantry #${day} · 00:00 UTC`;
+  try{const source=previewSource==='expansion100'?`/clearline-100-data/samples-${mode}.json`:previewSource==='expansion'?`/clearline-expansion-data/${mode}-25.json`:`/clearline-data/${mode}-100.json`;const res=await fetch(preview?source:`/puzzles/${mode}/${day}.json`,{cache:preview?'default':'no-store'});if(!res.ok)throw Error();const data=await res.json();if(preview){previewBoard=Math.min(previewBoard,data.length-1);$('#preview-board').innerHTML=data.map((board,index)=>`<option value="${index}">${String(index+1).padStart(2,'0')}${previewSource==='expansion100'?` · Day ${board.day}`:''}</option>`).join('');$('#preview-board').value=String(previewBoard)}puzzle=preview?previewPuzzle(data[previewBoard]):data}
   catch{$('#loading').hidden=true;$('#unavailable').hidden=false;return}
   progress=preview?fresh():(store.progress[pkey()]||fresh());if(!preview){store.progress[pkey()]=progress;save()}
   $('#loading').hidden=true;$('#game').hidden=false;render();startTimer();updateModeBadges();
 }
-function previewPuzzle(board){if(!board)throw Error('V3 preview board missing');const families=[...new Set(board.solution.map(id=>board.cards.find(r=>r.id===id)?.family).filter(Boolean))];return {...board,recipes:board.cards,hints:[`The correct menu spans ${families.length} recipe families.`,`At least one selected dish is in the ${families[0]?.replaceAll('_',' ')} family.`,`One of the dishes is ${board.cards.find(r=>r.id===board.solution[0])?.name}.`]}}
+function previewPuzzle(board){if(!board)throw Error('Preview board missing');const families=[...new Set(board.solution.map(id=>board.cards.find(r=>r.id===id)?.family).filter(Boolean))];return {...board,recipes:board.cards,hints:[`The correct menu spans ${families.length} recipe families.`,`At least one selected dish is in the ${families[0]?.replaceAll('_',' ')} family.`,`One of the dishes is ${board.cards.find(r=>r.id===board.solution[0])?.name}.`]}}
 
 function render(){
   const rules=MODE_RULES[mode], used=consumption(puzzle.recipes,progress.selected), states=inventoryState(puzzle.pantry,used);
@@ -47,7 +49,7 @@ function render(){
   $('#selection-feedback').textContent=progress.status==='revealed'?'Solution revealed — this result is final.':progress.status==='solved'?'Perfectly balanced. Every ingredient is used.':progress.selected.length===rules.picks?(over?'This menu overuses part of the pantry.':'Close—but something is still left over.'):'Every ingredient must land exactly on its target.';
   const locked=progress.status!=='active'; $$('#recipes button').forEach(b=>b.disabled=locked);$('#hint-btn').disabled=locked||progress.hints>=3;$('#reveal-btn').disabled=locked;$('#reset-btn').disabled=locked||!progress.selected.length;$('#undo-btn').disabled=locked||!undoStack.length;
 }
-function ingredientName(id){return INGREDIENTS[id]?.[0]||id.split('_').map(s=>s[0].toUpperCase()+s.slice(1)).join(' ')}
+function ingredientName(id){return expansionIngredientNames.get(id)||INGREDIENTS[id]?.[0]||id.split('_').map(s=>s[0].toUpperCase()+s.slice(1)).join(' ')}
 function ingredientRow(id,s){const name=ingredientName(id);const over=s.remaining<0;const label=s.status==='unused'?'unused':s.status==='partial'?`${s.remaining} left`:s.status==='complete'?'complete':`${Math.abs(s.remaining)} over`;return `<div class="ingredient ${s.status}" aria-label="${name}: ${s.consumed} of ${s.available}, ${label}"><span class="ingredient-icon" aria-hidden="true">${ingredientArt(id,name)}</span><span class="ingredient-name">${name}</span><strong>${s.consumed}/${s.available}${over?' !':''}</strong><small>${label}</small></div>`}
 function recipeCard(r,i,selected){const expanded=expandedRecipes.has(r.id);return `<article class="recipe ${selected?'selected':''} ${expanded?'expanded':''}" data-recipe="${r.id}"><button class="recipe-select" data-select="${r.id}" aria-pressed="${selected}" aria-label="${selected?'Deselect':'Select'} ${r.name}"><span class="card-no">${String(i+1).padStart(2,'0')}</span><span class="check" aria-hidden="true">✓</span><span class="recipe-art" aria-hidden="true">${recipeArt(r)}</span><strong>${r.name}</strong><small>${Object.keys(r.ingredients).length} ingredients</small></button><button class="details-toggle" data-details="${r.id}" aria-expanded="${expanded}"><span>${expanded?'Hide':'Ingredients'}</span><span aria-hidden="true">${expanded?'−':'+'}</span></button><ul class="recipe-details">${Object.entries(r.ingredients).map(([id,q])=>`<li><span><i aria-hidden="true">${ingredientArt(id,ingredientName(id),true)}</i>${ingredientName(id)}</span><b>×${q}</b></li>`).join('')}</ul></article>`}
 
@@ -89,5 +91,8 @@ $('#theme-select').onchange=e=>{store.settings.theme=e.target.value;save();apply
 $('#tutorial-btn').onclick=openTutorial;$('#tutorial-next').onclick=nextTutorial;$('#skip-tutorial').onclick=()=>{store.tutorialDone=true;save();$('#tutorial-dialog').close()};
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopTimer();else startTimer()});window.addEventListener('beforeunload',stopTimer);
 for(const d of $$('dialog'))d.addEventListener('click',e=>{if(e.target===d)d.close()});
-if(preview){document.body.classList.add('is-preview');$('#preview-strip').hidden=false;$('#preview-board').onchange=e=>{previewBoard=Number(e.target.value);loadMode(mode)};$('#preview-gallery').href='/clearline-preview/gallery.html';store.tutorialDone=true}
-$('#theme-select').value=store.settings.theme;$('#motion-toggle').checked=store.settings.motion;$('#timer-toggle').checked=store.settings.timer;applyTheme();loadMode(mode);if(!store.tutorialDone)setTimeout(openTutorial,450);if(!preview&&'serviceWorker'in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});
+if(preview){document.body.classList.add('is-preview');$('#preview-strip').hidden=false;$('#preview-board').onchange=e=>{previewBoard=Number(e.target.value);loadMode(mode)};$('#preview-source').value=previewSource;$('#preview-source').onchange=e=>{previewSource=e.target.value;previewBoard=0;updatePreviewSource();loadMode(mode)};store.tutorialDone=true}
+function updatePreviewSource(){if(!preview)return;const expanded=previewSource!=='v3';$('#preview-description').textContent=previewSource==='expansion100'?'100 verified days per mode · 5 samples each · progress is not saved':expanded?'Experimental 225-recipe catalog · bounded pilot, incomplete 25+25 target · progress is not saved':'Verified Quality V3 baseline · local only · progress is not saved';$('#preview-gallery').href=expanded?'/clearline-expansion/gallery.html':'/clearline-preview/gallery.html'}
+$('#theme-select').value=store.settings.theme;$('#motion-toggle').checked=store.settings.motion;$('#timer-toggle').checked=store.settings.timer;applyTheme();updatePreviewSource();
+if(preview){fetch('/clearline-expansion-data/ingredient-catalog.json').then(response=>response.ok?response.json():null).then(data=>{for(const item of data?.ingredients||[])expansionIngredientNames.set(item.id,item.name)}).catch(()=>{}).finally(()=>loadMode(mode))}else loadMode(mode);
+if(!store.tutorialDone)setTimeout(openTutorial,450);if(!preview&&'serviceWorker'in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});

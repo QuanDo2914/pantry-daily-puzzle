@@ -1,0 +1,25 @@
+{
+  "startedAt": "2026-10-20T03:16:23.594Z",
+  "finishedAt": "2026-10-20T03:16:24.123Z",
+  "cacheHit": true,
+  "selectionPolicy": "Prefer maximum deduction-depth variant per solution group; Medium depth>=3 and Hard>=5 where at least 100 distinct groups permit",
+  "priorV3SeedCachesReused": true,
+  "trueColdStartWithoutSeedCaches": "not measured",
+  "freshExpandedPoolPreparationMs": null,
+  "savedPoolPreparationMs": 19805.1,
+  "schedulingMs": 458.1,
+  "generationCommandWallMs": 528.9,
+  "generationDeadlineMs": 540000,
+  "protectedFilesUnchanged": true,
+  "protectedFileCount": 246,
+  "modes": {
+    "medium": {
+      "generated": 100,
+      "uniqueSolutions": 100
+    },
+    "hard": {
+      "generated": 100,
+      "uniqueSolutions": 100
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "status": "substitution_quality_sweep_unchanged_catalog",
+  "runtimeMs": 2069.9,
+  "modes": {
+    "medium": {
+      "attempts": 22500,
+      "duplicates": 4950,
+      "loosePantryRejected": 0,
+      "deadlineReached": false
+    },
+    "hard": {
+      "attempts": 30000,
+      "duplicates": 1500,
+      "loosePantryRejected": 35,
+      "deadlineReached": false
+    }
+  },
+  "configs": {
+    "medium_a": {
+      "rules": {
+        "mode": "medium",
+        "min": 8,
+        "max": 12,
+        "familyMin": 6
+      },
+      "eligibleAnswerSets": 79,
+      "answerAcceptanceRate": 0.0045,
+      "eligibleNewRecipeCoverage": 29,
+      "feasibleDecoyMean": 5.72,
+      "boardAttempts": 79,
+      "boardRejections": {
+        "accepted": 64,
+        "multiple_solutions": 10,
+        "too_few_plausible_alternatives": 3,
+        "obvious_forced_recipe": 2
+      },
+      "validQualityBoards": 64,
+      "qualityAcceptanceRate": 0.8101,
+      "recipeCoverage": 79,
+      "newRecipeCoverage": 24,
+      "familyCoverage": 13,
+      "averagePantryTypes": 11.38,
+      "averageNearMisses": 3.89,
+      "averageDeductionSteps": 3.34,
+      "uniquenessRate": 1
+    },
+    "medium_b": {
+      "rules": {
+        "mode": "medium",
+        "min": 9,
+        "max": 13,
+        "familyMin": 6
+      },
+      "eligibleAnswerSets": 79,
+      "answerAcceptanceRate": 0.0045,
+      "eligibleNewRecipeCoverage": 29,
+      "feasibleDecoyMean": 5.72,
+      "boardAttempts": 79,
+      "boardRejections": {
+        "accepted": 63,
+        "too_few_plausible_alternatives": 3,
+        "multiple_solutions": 9,
+        "obvious_forced_recipe": 4
+      },
+      "validQualityBoards": 63,
+      "qualityAcceptanceRate": 0.7975,
+      "recipeCoverage": 80,
+      "newRecipeCoverage": 24,
+      "familyCoverage": 13,
+      "averagePantryTypes": 11.35,
+      "averageNearMisses": 4.06,
+      "averageDeductionSteps": 3.27,
+      "uniquenessRate": 1
+    },
+    "hard_a": {
+      "rules": {
+        "mode": "hard",
+        "min": 12,
+        "max": 16,
+        "familyMin": 7
+      },
+      "eligibleAnswerSets": 605,
+      "answerAcceptanceRate": 0.0213,
+      "eligibleNewRecipeCoverage": 69,
+      "feasibleDecoyMean": 10.62,
+      "boardAttempts": 150,
+      "boardRejections": {
+        "obvious_forced_recipe": 48,
+        "accepted": 78,
+        "too_few_near_misses": 9,
+        "too_few_plausible_alternatives": 7,
+        "irrelevant_decoys": 8
+      },
+      "validQualityBoards": 78,
+      "qualityAcceptanceRate": 0.52,
+      "recipeCoverage": 115,
+      "newRecipeCoverage": 48,
+      "familyCoverage": 15,
+      "averagePantryTypes": 15.46,
+      "averageNearMisses": 8.55,
+      "averageDeductionSteps": 4.94,
+      "uniquenessRate": 1
+    },
+    "hard_b": {
+      "rules": {
+        "mode": "hard",
+        "min": 12,
+        "max": 16,
+        "familyMin": 8
+      },
+      "eligibleAnswerSets": 337,
+      "answerAcceptanceRate": 0.0118,
+      "eligibleNewRecipeCoverage": 61,
+      "feasibleDecoyMean": 10.77,
+      "boardAttempts": 150,
+      "boardRejections": {
+        "accepted": 75,
+        "obvious_forced_recipe": 60,
+        "too_few_near_misses": 7,
+        "too_few_plausible_alternatives": 6,
+        "irrelevant_decoys": 2
+      },
+      "validQualityBoards": 75,
+      "qualityAcceptanceRate": 0.5,
+      "recipeCoverage": 107,
+      "newRecipeCoverage": 48,
+      "familyCoverage": 15,
+      "averagePantryTypes": 15.41,
+      "averageNearMisses": 8.85,
+      "averageDeductionSteps": 4.92,
+      "uniquenessRate": 1
+    },
+    "hard_c": {
+      "rules": {
+        "mode": "hard",
+        "min": 12,
+        "max": 18,
+        "familyMin": 7
+      },
+      "eligibleAnswerSets": 849,
+      "answerAcceptanceRate": 0.0298,
+      "eligibleNewRecipeCoverage": 73,
+      "feasibleDecoyMean": 10.52,
+      "boardAttempts": 150,
+      "boardRejections": {
+        "too_few_plausible_alternatives": 17,
+        "obvious_forced_recipe": 54,
+        "accepted": 64,
+        "too_few_near_misses": 7,
+        "irrelevant_decoys": 8
+      },
+      "validQualityBoards": 64,
+      "qualityAcceptanceRate": 0.4267,
+      "recipeCoverage": 113,
+      "newRecipeCoverage": 48,
+      "familyCoverage": 15,
+      "averagePantryTypes": 15.73,
+      "averageNearMisses": 7.94,
+      "averageDeductionSteps": 5.02,
+      "uniquenessRate": 1
+    },
+    "hard_d": {
+      "rules": {
+        "mode": "hard",
+        "min": 12,
+        "max": 18,
+        "familyMin": 8
+      },
+      "eligibleAnswerSets": 510,
+      "answerAcceptanceRate": 0.0179,
+      "eligibleNewRecipeCoverage": 68,
+      "feasibleDecoyMean": 10.64,
+      "boardAttempts": 150,
+      "boardRejections": {
+        "obvious_forced_recipe": 52,
+        "accepted": 65,
+        "too_few_near_misses": 10,
+        "too_few_plausible_alternatives": 13,
+        "irrelevant_decoys": 10
+      },
+      "validQualityBoards": 65,
+      "qualityAcceptanceRate": 0.4333,
+      "recipeCoverage": 119,
+      "newRecipeCoverage": 51,
+      "familyCoverage": 15,
+      "averagePantryTypes": 15.71,
+      "averageNearMisses": 7.77,
+      "averageDeductionSteps": 4.86,
+      "uniquenessRate": 1
+    }
+  }
+}

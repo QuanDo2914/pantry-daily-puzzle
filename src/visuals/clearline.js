@@ -111,6 +111,44 @@ Object.assign(INGREDIENT_ART,{
  cabbage:round('#a8cf8d',false)+l('M-18 4 Q-2 -15 17 3 M-16 13 Q-2 -4 15 11 M-3 -14 Q6 -1 0 20','#6c9d71',2),
  zucchini:p('M-23 -7 Q-17 -20 16 -18 Q26 -14 23 8 Q18 20 -18 19 Q-28 11 -23 -7Z',C.darkGreen)+l('M-16 -12 Q-21 1 -13 13 M-4 -15 Q0 0 -1 15','#a9ce89',2)
 });
+// Experimental 35-ingredient expansion. Each body has its own silhouette.
+Object.assign(INGREDIENT_ART,{
+ lamb:p('M-22 -9 Q-5 -23 17 -15 Q28 -3 15 18 Q-3 26 -23 9Z','#a94f4c')+p('M-14 -5 Q-2 -15 11 -9 L7 11 Q-4 19 -16 7Z','#d37d70')+l('M-9 1 Q2 -7 9 -2','#f3bd9d',2),
+ tempeh:p('M-24 -13 L17 -17 L24 13 L-17 20Z','#d8b786')+p('M-19 -9 L14 -12 L18 10 L-13 15Z','#eddbad')+Array.from({length:9},(_,i)=>c(-12+i%3*11,-5+Math.floor(i/3)*7,2.5,i%2?C.brown:C.cream)).join(''),
+ crab:p('M-15 -2 Q0 -15 15 -2 L11 15 Q0 24 -11 15Z',C.red)+c(-7,-4,3,C.white)+c(7,-4,3,C.white)+l('M-7 -4 L-9 -18 M7 -4 L9 -18 M-17 5 L-27 -4 M17 5 L27 -4',C.red,4)+p('M-26 -7 L-15 -13 L-16 -2Z M26 -7 L15 -13 L16 -2Z',C.orange),
+ chorizo:p('M-23 -9 Q-15 -21 -4 -15 L20 7 Q26 14 17 20 Q9 25 3 17Z','#a6473a')+e(6,9,11,6,'#c65c42')+c(3,7,2,C.cream)+c(11,11,1.5,C.yellow),
+ feta:p('M-23 12 L-10 -12 L17 -14 L24 12 L10 22Z',C.white)+p('M-23 12 L10 22 L10 8 L-10 -12Z','#e3dfca')+c(4,1,2,C.brown)+c(-5,9,1.5,C.brown)+l('M10 8 L24 12',C.line,1.5),
+ ricotta:bowl(C.cream)+e(0,3,22,9,C.white)+Array.from({length:5},(_,i)=>c(-15+i*7,1+i%2*4,2.3,C.cream)).join(''),
+ halloumi:[[-12,-4],[8,-8],[-1,11]].map(([x,y],i)=>g(x,y,.65,p('M-14 -9 L14 -9 L11 9 L-12 9Z',C.cream)+l('M-9 -4 L9 -4',i%2?C.brown:C.orange,2))).join(''),
+ scallions:[-9,2,12].map((x,i)=>g(x,0,.75,l('M0 23 Q-3 1 2 -20',i%2?C.green:C.darkGreen,5)+l('M0 22 L1 8',C.white,3))).join(''),
+ jalapeno:p('M-20 5 Q-22 -11 -8 -16 Q13 -23 23 -9 Q18 10 -7 18 Q-17 19 -20 5Z',C.darkGreen)+l('M14 -15 Q17 -25 24 -23',C.green,4)+l('M-12 -5 Q-5 -14 9 -12','#9ccf81',2),
+ eggplant:p('M-18 -14 Q-4 -24 11 -15 Q28 -3 16 17 Q3 29 -14 16 Q-25 5 -18 -14Z',C.purple)+p('M-15 -16 Q0 -28 15 -17 L7 -11 L0 -18 L-6 -10Z',C.darkGreen)+l('M8 -16 L12 -24',C.green,3),
+ cauliflower:p('M-5 6 L-6 22 L6 22 L5 5Z','#9fbe7f')+[-13,0,13].map((x,i)=>c(x,-4-(i===1?7:0),10,C.cream)+c(x+2,-9-(i===1?7:0),3,C.white)).join('')+leaf(-15,15,.45,C.green),
+ kale:leaf(-10,20,1.1,C.darkGreen)+leaf(10,19,1.05,C.green)+l('M-8 18 Q-19 5 -10 -8 M11 18 Q22 2 12 -10','#c5dfab',2),
+ asparagus:[-13,0,13].map((x,i)=>g(x,1,.8,p('M-3 -14 L3 -14 L4 23 L-4 23Z',C.green)+p('M-7 -13 L0 -24 L7 -13Z',C.darkGreen)+l('M-4 -5 L4 -5',C.cream,2))).join(''),
+ edamame:p('M-25 6 Q-13 -12 20 -10 Q28 0 15 15 Q-4 25 -25 6Z',C.green)+[-12,0,12].map((x,i)=>c(x,3+i%2*3,6,'#a5d57a')).join('')+l('M-20 10 Q-2 19 17 12',C.darkGreen,2),
+ arugula:herb(C.darkGreen)+[-13,13].map(x=>g(x,-7,.55,p('M-8 3 L-15 -8 L-6 -10 L-2 -20 L4 -10 L13 -10 L8 3Z',C.green))).join(''),
+ olives:[[-12,-6],[10,-8],[-1,13]].map(([x,y],i)=>g(x,y,.72,e(0,0,10,8,i%2?C.darkGreen:C.purple)+c(1,0,3,C.red))).join(''),
+ butternut_squash:p('M-8 -23 Q5 -26 10 -13 Q3 -4 13 0 Q25 7 18 20 Q3 30 -15 19 Q-25 9 -13 -1 Q-5 -8 -8 -23Z',C.orange)+l('M-2 -23 L2 -30',C.darkGreen,3)+l('M-9 12 Q2 22 13 14','#f4c078',2),
+ bok_choy:p('M-11 22 L-4 -3 L4 -4 L12 22Z',C.cream)+leaf(-8,-1,.85,C.darkGreen)+leaf(8,-2,.85,C.green)+l('M-4 16 L4 16',C.line,1.5),
+ bean_sprouts:[-13,-2,10].map((x,i)=>g(x,1,.8,l('M0 20 Q-7 0 4 -16',C.cream,3)+c(4,-16,4,i%2?C.yellow:C.green))).join(''),
+ artichoke_hearts:p('M0 23 Q-22 12 -20 -4 Q-8 -18 0 -11 Q8 -18 20 -4 Q22 12 0 23Z',C.green)+p('M0 17 Q-13 8 -11 -3 Q0 -10 11 -3 Q13 8 0 17Z',C.cream)+[-1,1].map(side=>leaf(side*11,-7,.43,C.darkGreen)).join(''),
+ dill:l('M0 23 L0 -21',C.darkGreen,2)+[-1,1].flatMap(side=>[0,1,2].map(i=>l(`M0 ${13-i*11} L${side*(12+i*2)} ${3-i*12}`,C.green,1.8))).join('')+c(0,-22,2,C.yellow),
+ pita_bread:p('M-23 18 Q-25 -17 0 -22 Q25 -17 23 18Z','#d8a46b')+p('M-18 12 Q-16 -12 0 -15 Q16 -12 18 12Z',C.cream)+l('M-17 5 Q0 1 17 5',C.brown,2),
+ gnocchi:[[-14,-5],[6,-9],[-5,11],[16,9]].map(([x,y])=>g(x,y,.66,p('M-13 -5 Q-12 -13 0 -13 Q13 -12 13 -3 Q11 10 -1 11 Q-13 9 -13 -5Z',C.cream)+l('M-8 -5 L8 -4 M-7 1 L7 2',C.brown,1.5))).join(''),
+ orzo:bowl('#e8cf9b')+Array.from({length:13},(_,i)=>e(-17+i%5*8,-4+Math.floor(i/5)*6,3.5,1.6,C.yellow,`transform="rotate(25 ${-17+i%5*8} ${-4+Math.floor(i/5)*6})"`)).join(''),
+ bulgur:bowl('#d7b37d')+Array.from({length:14},(_,i)=>p(`M${-19+i%5*8} ${-5+Math.floor(i/5)*6} l3 -2 l3 3 l-3 2Z`,i%2?C.brown:C.cream)).join(''),
+ farro:bowl('#ae8059')+Array.from({length:11},(_,i)=>e(-17+i%4*10,-4+Math.floor(i/4)*6,4.2,2.3,i%2?'#8b6247':'#d3ac78')).join(''),
+ cornmeal:packet('#e6c47a',p('M-12 -3 L12 -3 L12 13 L-12 13Z',C.cream)+Array.from({length:8},(_,i)=>c(-8+i%4*5,3+Math.floor(i/4)*5,1.3,C.yellow)).join('')),
+ sesame_seeds:jar(C.cream,C.white)+Array.from({length:9},(_,i)=>e(-9+i%4*6,0+Math.floor(i/4)*5,2,1,C.brown)).join(''),
+ rice_vinegar:bottle(C.white,C.blue)+l('M-9 6 L9 6 M-5 10 L5 10',C.white,2),
+ mustard:jar(C.yellow,C.cream)+p('M-10 10 Q-8 -3 0 4 Q8 -4 10 10Z',C.yellow)+l('M-8 12 L8 12',C.brown,1.5),
+ hot_sauce:bottle(C.red,C.cream)+p('M0 -1 Q11 8 0 13 Q-10 8 0 -1Z',C.red)+l('M-6 11 L6 11',C.orange,2),
+ tahini:jar('#d1b88b',C.cream)+p('M-11 9 Q-2 -3 10 7 Q4 14 -9 13Z','#b69a70')+c(1,8,2,C.white),
+ miso_paste:jar(C.brown,C.cream)+p('M-10 10 Q0 -4 10 10Z','#9b654e')+l('M-7 7 Q0 3 7 7',C.cream,1.5),
+ vegetable_broth:packet(C.green,p('M-12 -3 L12 -3 L12 14 L-12 14Z',C.cream)+leaf(0,11,.38,C.darkGreen)),
+ salsa:jar(C.red,C.cream)+c(-6,5,3,C.green)+c(5,2,3,C.orange)+c(6,9,2,C.yellow)
+});
 // Legacy daily boards retain their original data; only the visual aliases change.
 export const LEGACY_INGREDIENT_ALIASES={egg:'eggs',pepper:'bell_pepper',beans:'black_beans',coconut:'coconut_milk',herbs:'basil'};
 const ingredientCache=new Map();
@@ -121,19 +159,24 @@ const escapeHtml=s=>String(s).replaceAll('&','&amp;').replaceAll('"','&quot;').r
 // construction and ingredient-specific prepared toppings. IDs never map to a
 // category glyph. Variant ingredient changes automatically alter the artwork.
 const accents={chicken:C.orange,beef:C.darkBrown,pork:'#c88d76',bacon:C.red,ham:'#d98e7f',turkey:'#c89d70',salmon:'#e99073',tuna:'#9cb7ae',shrimp:'#eb987a',eggs:C.yellow,tofu:C.cream,sausage:C.brown,tomato:C.red,onion:'#d6b691',garlic:C.cream,broccoli:C.darkGreen,carrot:C.orange,bell_pepper:C.red,mushroom:C.brown,spinach:C.darkGreen,lettuce:C.green,cucumber:'#a7cd8c',potato:'#c99e69',sweet_potato:'#d48753',zucchini:C.darkGreen,cabbage:'#aacb8d',peas:C.green,corn:C.yellow,green_beans:C.green,celery:'#9cbf7c',rice:C.cream,pasta:C.yellow,noodles:'#dfbb77',bread:C.cream,tortilla:'#e9c585',flour:C.cream,oats:'#cfad7c',quinoa:'#d3b382',couscous:'#d5af73',breadcrumbs:C.brown,pizza_dough:'#eac894',rice_noodles:C.white,cheese:C.yellow,mozzarella:C.cream,parmesan:'#e8d296',milk:C.white,cream:C.cream,butter:C.yellow,yogurt:C.white,cream_cheese:C.cream,sour_cream:C.white,black_beans:C.darkBrown,kidney_beans:'#9b5046',chickpeas:'#d4af78',lentils:'#ad8257',peanut_butter:C.brown,peanuts:C.brown,almonds:C.brown,apple:C.red,banana:C.yellow,strawberry:C.red,blueberry:'#6377a1',lemon:C.yellow,lime:'#a6c776',avocado:C.darkGreen,pineapple:C.yellow,mango:C.orange,orange:C.orange,olive_oil:'#b5bc6b',soy_sauce:C.darkBrown,tomato_sauce:C.red,coconut_milk:C.white,honey:C.yellow,sugar:C.white,salt:C.white,black_pepper:C.darkBrown,chili_powder:C.red,cumin:C.brown,paprika:C.red,basil:C.green,cilantro:C.green,ginger:C.orange,curry_paste:C.red,pepperoni:C.red,white_fish:C.cream,cashews:'#d2aa72',pesto:C.darkGreen,mayonnaise:C.white,sesame_oil:C.yellow,bbq_sauce:C.darkBrown};
+Object.assign(accents,{lamb:'#a94f4c',tempeh:'#c89d6d',crab:C.red,chorizo:'#a6473a',feta:C.white,ricotta:C.cream,halloumi:'#f1dfb2',scallions:C.green,jalapeno:C.darkGreen,eggplant:C.purple,cauliflower:C.cream,kale:C.darkGreen,asparagus:C.green,edamame:C.green,arugula:C.darkGreen,olives:C.purple,butternut_squash:C.orange,bok_choy:C.green,bean_sprouts:C.cream,artichoke_hearts:C.green,dill:C.green,pita_bread:'#e6c68e',gnocchi:C.cream,orzo:C.yellow,bulgur:'#d7b37d',farro:'#ae8059',cornmeal:C.yellow,sesame_seeds:C.cream,rice_vinegar:C.white,mustard:C.yellow,hot_sauce:C.red,tahini:'#d1b88b',miso_paste:C.brown,vegetable_broth:C.green,salsa:C.red});
 const prepared=(id,x,y,scale=1)=>{const key=LEGACY_INGREDIENT_ALIASES[id]||id;const color=accents[key];if(!color)throw Error(`Clearline recipe ingredient missing: ${id}`);let body;
- if(key==='shrimp')body=p('M-10 -8 Q10 -12 11 3 Q7 13 -6 7 L-11 3 Q4 5 4 0 Q2 -6 -7 -3Z',color)+c(-6,-5,1.5,C.ink);
+ if(key==='crab')body=p('M-10 1 Q0 -7 10 1 L5 7 L-5 7Z',C.red)+l('M-7 2 L-13 -5 M7 2 L13 -5',C.red,2);
+ else if(key==='chorizo')body=e(0,0,11,7,'#a6473a')+c(-3,-2,2,C.cream)+c(4,2,1.5,C.orange);
+ else if(key==='lamb')body=p('M-11 -5 Q1 -12 11 -3 L7 8 Q-2 10 -10 5Z','#a94f4c')+l('M-4 -4 L5 4','#e3a58a',2);
+ else if(key==='tempeh'||key==='halloumi')body=p('M-10 -7 L8 -7 L11 6 L-8 7Z',color)+l('M-7 -2 L7 -2 M-6 3 L8 3',key==='halloumi'?C.brown:C.cream,1.6);
+ else if(key==='shrimp')body=p('M-10 -8 Q10 -12 11 3 Q7 13 -6 7 L-11 3 Q4 5 4 0 Q2 -6 -7 -3Z',color)+c(-6,-5,1.5,C.ink);
  else if(['salmon','tuna','white_fish'].includes(key))body=p('M-11 -3 Q0 -11 11 -4 L8 6 Q0 10 -10 5Z',color)+l('M-5 -3 Q1 -6 6 -2','#f7dec2',1.5);
  else if(key==='tofu')body=p('M-9 -6 L5 -7 L10 3 L-4 7Z',C.cream)+l('M-9 -6 L-7 4 L-4 7',C.line,1.5);
  else if(key==='bacon')body=l('M-8 -8 Q-12 -2 -6 3 Q-2 8 -7 11 M2 -9 Q-3 -2 3 3 Q7 8 2 11',C.red,4)+l('M-8 -8 Q-12 -2 -6 3 M2 -9 Q-3 -2 3 3',C.cream,1.5);
  else if(key==='sausage')body=e(0,0,11,6,color)+e(0,0,5,3,'#d79b73');
  else if(key==='rice')body=Array.from({length:4},(_,i)=>e(-9+i*6,i%2?4:-3,4,2,C.cream)).join('');
- else if(['quinoa','couscous','oats'].includes(key))body=Array.from({length:7},(_,i)=>c(-8+i%4*5,-4+Math.floor(i/4)*6,2.1,color)).join('');
- else if(['pasta','noodles','rice_noodles'].includes(key))body=Array.from({length:3},(_,i)=>l(`M${-9+i*6} 7 Q${-5+i*5} -8 ${i*6} 5`,color,2.8)).join('');
- else if(['broccoli','spinach','lettuce','basil','cilantro','cabbage','green_beans','celery','zucchini'].includes(key))body=leaf(0,9,.5,color)+leaf(6,5,.35,color);
+ else if(['quinoa','couscous','oats','orzo','bulgur','farro','cornmeal'].includes(key))body=Array.from({length:7},(_,i)=>e(-8+i%4*5,-4+Math.floor(i/4)*6,key==='orzo'?3.4:2.1,1.7,color)).join('');
+ else if(['pasta','noodles','rice_noodles','gnocchi'].includes(key))body=key==='gnocchi'?e(-4,0,5,3,C.cream)+e(5,2,5,3,C.cream):Array.from({length:3},(_,i)=>l(`M${-9+i*6} 7 Q${-5+i*5} -8 ${i*6} 5`,color,2.8)).join('');
+ else if(['broccoli','spinach','lettuce','basil','cilantro','cabbage','green_beans','celery','zucchini','kale','arugula','bok_choy','scallions','dill','asparagus','artichoke_hearts'].includes(key))body=leaf(0,9,.5,color)+leaf(6,5,.35,color);
  else if(['chicken','beef','pork','bacon','ham','turkey','salmon','tuna','shrimp','tofu','sausage','white_fish'].includes(key))body=p('M-11 -5 Q0 -12 10 -5 L9 7 Q0 12 -10 6Z',color)+l('M-6 -3 Q0 -7 5 -2','#f6d0aa',1.5);
- else if(['cheese','mozzarella','parmesan','cream_cheese'].includes(key))body=p('M-11 4 L8 -8 L12 7Z',color)+c(2,2,1.5,C.brown);
- else if(['black_beans','kidney_beans','chickpeas','lentils','peas','corn','peanuts','almonds','cashews'].includes(key))body=c(-5,0,4,color)+c(5,3,4,color);
+ else if(['cheese','mozzarella','parmesan','cream_cheese','feta','ricotta'].includes(key))body=p('M-11 4 L8 -8 L12 7Z',color)+c(2,2,1.5,C.brown);
+ else if(['black_beans','kidney_beans','chickpeas','lentils','peas','corn','peanuts','almonds','cashews','edamame','olives','sesame_seeds'].includes(key))body=c(-5,0,4,color)+c(5,3,4,color);
  else if(['eggs'].includes(key))body=e(0,0,10,7,C.white)+c(0,0,4,C.yellow);
  else body=c(0,0,7,color)+l('M-4 -3 Q0 -6 3 -3','#f7e7bd',1.2);
  return g(x,y,scale,body)};
@@ -142,7 +185,8 @@ const prepared=(id,x,y,scale=1)=>{const key=LEGACY_INGREDIENT_ALIASES[id]||id;co
 const presentationGroups={
  taco:'beef_tacos chicken_tacos black_bean_tacos shrimp_tacos',
  quesadilla:'chicken_quesadilla cheese_quesadilla mushroom_quesadilla',
- wrap:'beef_burrito bean_burrito chicken_wrap veggie_wrap breakfast_burrito',
+ burrito:'beef_burrito bean_burrito breakfast_burrito',
+ wrap:'chicken_wrap veggie_wrap',
  burrito_bowl:'burrito_bowl',
  fajitas:'chicken_fajitas',nachos:'nachos',
  pasta:'spaghetti_bolognese chicken_alfredo mac_and_cheese pesto_pasta tomato_basil_pasta mushroom_pasta shrimp_scampi creamy_spinach_pasta pasta_primavera garlic_fish_pasta',
@@ -166,6 +210,25 @@ const presentationGroups={
  stuffed:'stuffed_peppers',fritters:'zucchini_fritters'
 };
 export const RECIPE_PRESENTATIONS=Object.fromEntries(Object.entries(presentationGroups).flatMap(([kind,group])=>group.split(' ').map(id=>[id,kind])));
+// Complete-dish serving shapes for the 75 experimental expansion recipes.
+const expansionPresentations={
+ taco:'fish_tacos cauliflower_tacos',tostada:'breakfast_tostadas',burrito:'chorizo_breakfast_burrito',
+ grain_bowl:'shrimp_fajita_bowl coconut_shrimp_rice_bowl lamb_chickpea_bowl halloumi_bulgur_bowl tempeh_sesame_bowl warm_farro_vegetable_bowl',
+ pasta:'lemon_ricotta_pasta sausage_kale_pasta eggplant_parmesan_pasta asparagus_orzo_primavera creamy_salmon_pasta gnocchi_with_spinach',
+ rice:'miso_mushroom_rice_bowl ginger_salmon_rice edamame_rice_bowl chorizo_tomato_rice lemon_herb_rice',
+ noodles:'miso_mushroom_noodles spicy_peanut_noodles shrimp_rice_noodle_stir_fry cold_sesame_noodle_salad',
+ soup:'bok_choy_noodle_soup miso_tofu_soup kidney_bean_kale_soup roasted_cauliflower_soup orzo_vegetable_soup salmon_chowder',
+ skillet:'sesame_beef_stir_fry bok_choy_chicken_stir_fry tempeh_pepper_stir_fry chili_garlic_shrimp ginger_tofu_edamame_stir_fry chorizo_potato_hash eggplant_chickpea_skillet',
+ panini:'pesto_mozzarella_panini',sandwich:'turkey_avocado_club crab_salad_sandwich',wrap:'grilled_halloumi_wrap',pita:'mediterranean_pita_pocket',
+ scramble:'feta_spinach_scramble',oatmeal:'savory_mushroom_oats',sweet_toast:'ricotta_berry_toast',shakshuka:'shakshuka',
+ salad:'kale_apple_salad mediterranean_orzo_salad warm_farro_lentil_salad edamame_sesame_salad bulgur_chickpea_salad',
+ bake:'mushroom_gnocchi_gratin cheesy_cauliflower_gratin creamy_chicken_orzo_bake salmon_asparagus_bake',boats:'stuffed_zucchini_boats',med_fish_bake:'mediterranean_fish_bake',
+ pizza:'pesto_chicken_flatbread mediterranean_flatbread eggplant_pizza artichoke_spinach_flatbread arugula_parmesan_pizza',
+ burger:'lamb_feta_burger spicy_black_bean_burger mushroom_cheeseburger halloumi_veggie_burger',sub:'chicken_parmesan_sub',
+ crab_cakes:'crab_cakes',miso_salmon:'miso_glazed_salmon',grits:'shrimp_and_grits',
+ curry:'butternut_squash_curry cauliflower_lentil_curry',polenta:'crispy_polenta_with_mushrooms',stuffed_mushroom:'stuffed_portobello_mushrooms'
+};
+Object.assign(RECIPE_PRESENTATIONS,Object.fromEntries(Object.entries(expansionPresentations).flatMap(([kind,group])=>group.split(' ').map(id=>[id,kind]))));
 const dishKind=r=>{if(RECIPE_PRESENTATIONS[r.id])return RECIPE_PRESENTATIONS[r.id];const n=r.name.toLowerCase(),f=r.family||r.category||'';
  if(/pizza|flatbread/.test(n))return 'pizza';if(/burger|sloppy joe/.test(n))return 'burger';if(/taco/.test(n))return 'taco';if(/burrito|wrap/.test(n))return 'wrap';if(/avocado toast/.test(n))return 'toast';if(/french toast/.test(n))return 'french_toast';if(/sandwich|toast|melt|sub|grilled cheese/.test(n))return 'sandwich';if(/loaded baked potato|chili cheese potato|stuffed sweet potato/.test(n))return 'potato';if(/baked salmon/.test(n))return 'plate';if(/soup|stew|ramen|chili/.test(n))return 'soup';if(/bake|casserole|lasagna|gratin|pie|ziti/.test(n))return 'bake';if(/pancake/.test(n))return 'pancake';if(/oatmeal/.test(n))return 'oatmeal';if(/omelet|frittata/.test(n))return 'omelet';if(/muffin/.test(n))return 'muffin';if(/scrambled/.test(n))return 'scramble';if(/salad/.test(n))return 'salad';if(/nachos/.test(n))return 'nachos';if(/quesadilla/.test(n))return 'quesadilla';if(/pasta|spaghetti|mac|noodle|scampi|lo mein|chow mein|pad thai/.test(n))return 'pasta';if(/stir.fry|skillet|hash|fritter|fajita|sausage and peppers|sweet chili chicken/.test(n))return 'skillet';if(/stuffed pepper/.test(n))return 'stuffed';if(/potato/.test(n))return 'potato';if(/rice|risotto|bowl|biryani|curry|falafel/.test(n))return 'bowl';if(f.includes('seafood'))return 'plate';return 'bowl'};
 const vessels={
@@ -179,7 +242,10 @@ const vessels={
  burger:()=>p('M24 46 Q25 18 60 18 Q95 18 96 46Z','#e5b672')+l('M33 37 Q60 22 87 37','#f7dcaa',2)+p('M24 49 Q60 44 96 49 L94 56 Q60 60 26 56Z',C.green)+p('M24 57 Q60 54 96 57 L94 67 Q60 70 26 67Z',C.brown)+p('M27 70 Q60 74 93 70 L91 80 Q60 87 29 80Z','#d19a5c'),
  sandwich:()=>p('M16 73 L43 30 L69 73Z M52 73 L79 30 L106 73Z',C.brown)+p('M23 66 L43 40 L62 66Z M59 66 L79 40 L99 66Z',C.cream)+l('M24 67 Q43 60 62 67 M60 67 Q79 60 99 67',C.green,4),
  taco:()=>[33,73].map(x=>g(x,0,1,p('M-23 68 Q-22 31 0 27 Q22 31 23 68Z','#e6b56c')+p('M-18 62 Q-15 39 0 36 Q15 39 18 62Z',C.darkBrown)+l('M-17 50 Q0 42 17 50',C.green,5))).join(''),
- wrap:()=>p('M18 63 L64 24 L99 58 L60 80Z','#e6c68e')+p('M60 80 L99 58 L94 67 L66 86Z',C.brown)+p('M65 28 Q82 36 93 55 L70 51Z',C.green),
+ // Rolled, closed-ended tortilla with one visible cross-section.
+ burrito:()=>e(60,78,46,9,'#d3e0d4')+p('M19 59 Q17 50 28 46 L80 31 Q95 27 101 39 L103 51 Q103 59 92 63 L41 77 Q29 80 23 71Z','#d5a365')+p('M25 56 Q26 51 35 48 L81 35 Q91 32 95 38 L45 70 Q33 74 27 68Z','#efd09a')+l('M36 51 Q32 60 42 69 M49 45 Q45 54 54 62','#d5a365',2)+e(93,46,10,14,'#c89258')+e(91,46,8,11,C.cream),
+ // A cut wrap: the open top exposes filling, unlike the sealed burrito.
+ wrap:()=>e(60,78,44,9,'#d3e0d4')+p('M29 71 L48 33 Q60 25 71 31 L98 71 Q64 79 29 71Z','#ddae73')+p('M36 68 L51 38 Q61 31 69 37 L89 68 Q66 73 36 68Z','#f1d49f')+e(60,34,13,7,C.cream)+p('M48 34 Q58 23 72 33 L70 39 Q59 34 50 39Z',C.green)+l('M43 57 Q60 62 79 57','#c58c5a',2),
  quesadilla:()=>p('M17 67 Q60 23 103 67 L60 79Z','#e4b779')+p('M27 64 Q60 36 93 64 L60 71Z',C.yellow)+l('M60 39 L60 75',C.brown,2),
  nachos:()=>e(60,68,45,16,'#d1dfd2')+[35,53,71,88].map((x,i)=>p(`M${x-13} ${60-i%2*8} L${x+12} ${51-i%2*8} L${x+3} ${72-i%2*7}Z`,'#e4ba72')).join('')+l('M31 56 Q60 45 89 60',C.yellow,4),
  pasta:()=>e(60,65,46,19,'#d0dfd2')+e(60,62,41,15,C.white)+Array.from({length:6},(_,i)=>l(`M${36+i*9} 61 Q${42+i*7} 41 ${52+i*5} 61`,C.yellow,4)).join(''),
@@ -212,15 +278,36 @@ Object.assign(vessels,{
  fajitas:()=>e(60,68,48,17,'#d1dfd2')+p('M24 54 Q59 39 96 54 L90 70 Q58 79 29 68Z',C.ink)+[0,1,2,3].map((_,i)=>l(`M${34+i*14} 53 L${46+i*11} 67`,i%2?C.red:C.orange,4)).join('')+p('M15 59 Q26 47 37 57 L33 70Z',C.cream),
  fritters:()=>e(60,69,48,16,'#d1dfd2')+e(60,65,42,13,C.white)+[39,64,84].map((x,i)=>e(x,58+i%2*5,13,8,'#c49e5c')+l(`M${x-7} ${57+i%2*5} Q${x} ${50+i%2*5} ${x+7} ${58+i%2*5}`,C.darkGreen,2)).join('')
 });
+Object.assign(vessels,{
+ tostada:()=>e(60,73,46,13,'#d4e0d3')+e(60,63,38,17,'#c98d4f')+e(60,59,34,13,'#e9bd75')+e(60,55,27,10,C.darkBrown),
+ panini:()=>e(60,76,47,10,'#d4e0d3')+p('M23 60 Q29 35 48 34 L95 49 L99 66 L45 77Z','#be8453')+p('M29 56 L47 39 L91 51 L90 59 L46 70Z',C.cream)+l('M35 62 L89 61 M39 54 L91 55',C.darkBrown,3),
+ pita:()=>e(60,77,46,10,'#d4e0d3')+p('M23 69 Q20 40 42 30 Q65 23 91 39 Q102 52 97 70Z','#d7a369')+p('M30 60 Q30 40 46 36 Q67 30 89 44 L91 58 Q62 50 30 60Z',C.cream)+l('M31 60 Q61 48 94 59',C.brown,2),
+ sweet_toast:()=>e(60,72,45,15,'#d3e0d4')+g(60,52,1.18,slice('#e6bd87'))+p('M39 53 Q58 39 83 52 L79 63 Q59 56 42 63Z',C.white),
+ shakshuka:()=>e(60,72,47,15,'#d3e0d4')+p('M18 56 Q60 69 102 56 L96 77 Q60 89 24 77Z',C.ink)+e(60,54,42,15,C.red)+[44,77].map(x=>e(x,51,12,9,C.white)+c(x,51,5,C.yellow)).join(''),
+ boats:()=>e(60,72,47,15,'#d3e0d4')+[43,78].map(x=>p(`M${x-18} 58 Q${x-13} 34 ${x} 34 Q${x+16} 34 ${x+18} 58 Q${x} 77 ${x-18} 58Z`,C.darkGreen)+e(x,55,14,7,C.red)).join(''),
+ grits:()=>p('M19 56 Q60 71 101 56 L94 78 Q60 91 26 78Z',C.blue)+e(60,52,41,14,'#d9d1a6')+e(60,50,35,10,'#eee3b5'),
+ polenta:()=>e(60,72,47,16,'#d3e0d4')+e(60,68,41,13,C.white)+[39,62,84].map(x=>p(`M${x-13} 60 L${x} 40 L${x+13} 60Z`,C.yellow)+l(`M${x-10} 59 L${x+10} 59`,C.brown,2)).join(''),
+ stuffed_mushroom:()=>e(60,73,47,15,'#d3e0d4')+[40,78].map(x=>e(x,60,19,12,C.brown)+e(x,56,15,8,C.cream)+e(x,52,11,5,C.green)).join('')
+ ,crab_cakes:()=>e(60,72,48,16,'#d3e0d4')+e(60,68,42,13,C.white)+[42,77].map((x,i)=>e(x,57+i%2*3,16,10,'#b87842')+e(x,54+i%2*3,14,7,'#d9a45e')+Array.from({length:5},(_,j)=>c(x-8+j*4,53+i%2*3+(j%2)*3,1.4,j%2?C.brown:C.orange)).join('')).join('')+g(94,54,.35,citrus(C.yellow))+l('M36 67 Q60 73 83 68',C.darkGreen,2),
+ miso_salmon:()=>e(60,72,48,16,'#d3e0d4')+e(60,68,42,13,C.white)+p('M25 58 Q48 36 82 45 Q96 51 91 62 Q65 74 25 58Z','#e99470')+p('M32 55 Q59 43 85 52 L82 58 Q58 50 35 61Z','#965442')+l('M39 57 Q59 49 81 56','#e9bb75',2)+[39,47,56].map(x=>e(x,67,3,1.5,C.cream)).join('')+leaf(88,66,.26,C.green),
+ med_fish_bake:()=>p('M16 43 L104 43 L101 77 Q60 89 19 77Z',C.blue)+p('M21 46 L99 46 L96 72 Q60 79 24 72Z',C.red)+p('M30 56 Q56 35 88 52 Q96 57 87 66 Q55 75 30 56Z',C.cream)+l('M39 54 Q59 47 78 56 M44 62 Q63 57 81 62','#b4bdad',2)+[35,83].map(x=>c(x,50,4,C.purple)+c(x,50,1.5,C.red)).join('')+g(65,46,.25,citrus(C.yellow))
+});
 const positions={bowl:[[43,46],[72,45],[58,54],[82,54],[34,55]],soup:[[43,46],[70,46],[57,52],[81,51],[34,51]],bake:[[40,53],[75,54],[57,62],[86,64],[29,65]],skillet:[[41,46],[73,47],[57,55],[82,55],[35,55]],salad:[[42,46],[71,44],[58,55],[83,52],[31,52]],plate:[[42,55],[71,54],[58,63],[83,62],[31,62]],pizza:[[42,45],[70,42],[58,55],[80,59],[37,60]],burger:[[38,57],[72,57],[58,62],[84,63],[30,62]],sandwich:[[42,57],[79,56],[55,64],[90,63],[31,63]],taco:[[29,49],[73,47],[43,56],[87,56],[20,57]],wrap:[[67,43],[77,49],[83,56],[61,56],[69,63]],quesadilla:[[42,59],[68,55],[58,63],[81,63],[30,64]],pasta:[[43,55],[72,54],[58,63],[83,61],[32,60]],breakfast:[[38,62],[78,61],[58,51],[86,54],[29,54]],potato:[[43,55],[72,55],[59,62],[82,63],[34,63]]};
 for(const kind of ['pancake','french_toast','toast','oatmeal','omelet','scramble','muffin','stuffed','nachos'])positions[kind]=positions.breakfast;
 Object.assign(positions,{
+ burrito:[[90,43],[87,49],[95,49],[83,43],[92,39]],wrap:[[55,33],[62,35],[68,33],[59,39],[70,39]],
  burrito_bowl:[[37,45],[76,45],[59,49],[86,51],[30,51]],sub:[[38,54],[60,54],[82,54],[71,63],[48,62]],
  rice:[[39,46],[76,45],[58,51],[86,51],[30,52]],grain_bowl:[[41,45],[76,44],[58,52],[86,52],[30,52]],
  curry:[[42,46],[77,46],[58,52],[85,52],[31,52]],ramen:[[40,45],[69,44],[55,52],[87,51],[31,52]],
  noodles:[[42,56],[75,55],[58,62],[86,62],[31,62]],lasagna:[[43,52],[75,51],[60,60],[85,59],[33,61]],
  fish:[[40,53],[76,54],[58,61],[87,62],[31,62]],patties:[[39,55],[74,55],[57,61],[86,61],[31,61]],fajitas:[[42,53],[76,52],[58,62],[86,63],[31,63]],
  fritters:[[39,56],[66,61],[83,57],[57,52],[30,62]]
+});
+Object.assign(positions,{
+ tostada:[[42,51],[72,50],[58,56],[82,58],[32,59]],panini:[[42,55],[70,53],[56,61],[83,61],[32,65]],pita:[[43,46],[73,44],[58,51],[81,53],[34,55]],
+ sweet_toast:[[42,50],[70,49],[55,56],[80,55],[33,58]],shakshuka:[[39,51],[73,50],[57,56],[84,57],[32,58]],boats:[[40,48],[76,48],[56,56],[84,59],[32,60]],
+ grits:[[41,47],[75,46],[57,52],[83,54],[32,54]],polenta:[[40,54],[73,54],[57,61],[84,62],[31,62]],stuffed_mushroom:[[40,50],[76,50],[58,57],[84,58],[32,60]]
+ ,crab_cakes:[[42,55],[75,55],[58,62],[86,62],[31,62]],miso_salmon:[[42,55],[75,55],[58,62],[86,62],[31,62]],med_fish_bake:[[40,53],[75,54],[57,61],[85,62],[31,62]]
 });
 function preparationMarks(recipe,kind){const n=recipe.name.toLowerCase(),ids=Object.keys(recipe.ingredients);let marks='';
  if(kind==='burger'){const patty=ids.includes('chicken')?C.orange:ids.includes('turkey')?'#c89d70':ids.includes('black_beans')||n.includes('veggie')?C.darkGreen:C.darkBrown;marks+=p('M27 56 Q60 53 93 56 L92 65 Q60 68 28 65Z',patty);if(n.includes('cheese'))marks+=p('M34 54 L85 54 L75 60 L60 57 L48 61Z',C.yellow)}
@@ -315,9 +402,14 @@ const pizzaDetails=id=>{
   case 'cheese_flatbread':return flatbread()+p('M30 49 Q60 32 90 49 Q79 61 58 63 Q39 59 30 49Z',C.cream)+l('M40 49 Q60 43 80 50',C.yellow,3);
   case 'breakfast_pizza':return e(58,49,17,11,C.white)+c(58,49,8,C.yellow)+p('M35 56 L48 54 L49 60 L35 61Z M72 56 L85 53 L87 59 L73 62Z',C.red);
   case 'tomato_garlic_flatbread':return flatbread()+[[42,44],[72,43],[59,57]].map(([x,y])=>p(`M${x-7} ${y-5} Q${x} ${y-8} ${x+7} ${y-3} L${x} ${y+6}Z`,C.red)).join('')+c(83,56,4,C.cream)+c(36,57,4,C.cream);
+  case 'pesto_chicken_flatbread':return flatbread()+e(60,51,31,14,C.darkGreen)+spots.slice(0,4).map(([x,y])=>p(`M${x-7} ${y-4} L${x+7} ${y-5} L${x+8} ${y+4} L${x-5} ${y+5}Z`,C.orange)+c(x+5,y-3,2,C.cream)).join('');
+  case 'mediterranean_flatbread':return flatbread()+spots.map(([x,y],i)=>i%2?c(x,y,5,C.purple)+c(x,y,2,C.red):p(`M${x-6} ${y-5} L${x+5} ${y-5} L${x+7} ${y+5} L${x-5} ${y+5}Z`,C.cream)).join('');
+  case 'eggplant_pizza':return spots.slice(0,4).map(([x,y])=>e(x,y,8,6,C.purple)+e(x,y,5,3,'#d5bc8e')).join('')+leaf(59,54,.35,C.darkGreen);
+  case 'artichoke_spinach_flatbread':return flatbread()+spots.slice(0,4).map(([x,y])=>p(`M${x} ${y+6} Q${x-9} ${y-1} ${x} ${y-6} Q${x+9} ${y-1} ${x} ${y+6}Z`,C.cream)+leaf(x+3,y+5,.24,C.darkGreen)).join('');
+  case 'arugula_parmesan_pizza':return spots.slice(0,4).map(([x,y])=>leaf(x,y+8,.44,C.darkGreen)+p(`M${x-4} ${y+2} L${x+5} ${y-2} L${x+7} ${y+5}Z`,C.cream)).join('');
   default:throw Error(`Missing pizza details: ${id}`);
  }
 };
 const recipeCache=new Map();
-export function recipeArt(recipe){if(!recipe?.id||!recipe?.name||!recipe?.ingredients)throw Error('Clearline recipe requires id, name, and ingredients');const cacheKey=`${recipe.id}|${recipe.name}|${JSON.stringify(recipe.ingredients)}`;if(recipeCache.has(cacheKey))return recipeCache.get(cacheKey);const kind=dishKind(recipe),ids=Object.keys(recipe.ingredients).filter(id=>!['salt','black_pepper','sugar','olive_oil','sesame_oil','soy_sauce'].includes(id));if(!ids.length)throw Error(`Clearline recipe has no visible components: ${recipe.id}`);const pos=positions[kind];const toppings=kind==='pizza'?pizzaDetails(recipe.id):ids.slice(0,5).map((id,i)=>prepared(id,...pos[i],i<2?.9:.65)).join('');const marks=kind==='pizza'?'':preparationMarks(recipe,kind);const svg=`<svg class="clearline-art dish-art dish-${kind}" viewBox="8 8 104 86" role="img" aria-label="${escapeHtml(recipe.name)} prepared dish illustration" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="51" r="46" fill="#eef5ee"/><g stroke="${C.line}" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">${vessels[kind](recipe)}${marks}${toppings}</g></svg>`;recipeCache.set(cacheKey,svg);return svg}
+export function recipeArt(recipe){if(!recipe?.id||!recipe?.name||!recipe?.ingredients)throw Error('Clearline recipe requires id, name, and ingredients');const cacheKey=`${recipe.id}|${recipe.name}|${JSON.stringify(recipe.ingredients)}`;if(recipeCache.has(cacheKey))return recipeCache.get(cacheKey);const kind=dishKind(recipe),ids=Object.keys(recipe.ingredients).filter(id=>!['salt','black_pepper','sugar','olive_oil','sesame_oil','soy_sauce'].includes(id));if(!ids.length)throw Error(`Clearline recipe has no visible components: ${recipe.id}`);const pos=positions[kind];const isFilledTortilla=kind==='burrito'||kind==='wrap',drawnAsCompleteDish=['crab_cakes','miso_salmon','med_fish_bake'].includes(kind);const fillingIds=isFilledTortilla?ids.filter(id=>id!=='tortilla'):ids;const toppings=kind==='pizza'?pizzaDetails(recipe.id):drawnAsCompleteDish?'':fillingIds.slice(0,5).map((id,i)=>prepared(id,...pos[i],isFilledTortilla?0.4:i<2?0.9:0.65)).join('');const marks=kind==='pizza'||drawnAsCompleteDish?'':preparationMarks(recipe,kind);const svg=`<svg class="clearline-art dish-art dish-${kind}" viewBox="8 8 104 86" role="img" aria-label="${escapeHtml(recipe.name)} prepared dish illustration" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="51" r="46" fill="#eef5ee"/><g stroke="${C.line}" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">${vessels[kind](recipe)}${marks}${toppings}</g></svg>`;recipeCache.set(cacheKey,svg);return svg}
 export const recipeArtKind=dishKind;

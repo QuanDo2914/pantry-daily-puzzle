@@ -1,0 +1,16 @@
+{
+  "qualifyingAnswerGroups": 26,
+  "attempts": 312,
+  "rejections": {
+    "too_few_near_misses": 26,
+    "no_new_decoy": 122,
+    "duplicate": 81,
+    "multiple_solutions": 18,
+    "too_few_plausible_alternatives": 8,
+    "irrelevant_decoys": 2
+  },
+  "addedCandidates": 55,
+  "totalCandidates": 258,
+  "uniqueSolutionGroups": 117,
+  "runtimeMs": 114.1
+}

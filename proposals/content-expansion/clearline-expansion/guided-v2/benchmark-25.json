@@ -1,0 +1,76 @@
+{
+  "status": "guided_v2_experimental",
+  "target": 25,
+  "catalogHash": "1d6026ca950520fed23c",
+  "newRecipeBonus": 100,
+  "cacheRuntimeMs": 3369.7,
+  "schedulingRuntimeMs": 77.4,
+  "modes": {
+    "medium": {
+      "requested": 25,
+      "generated": 25,
+      "complete": true,
+      "candidatePool": {
+        "answerAttempts": 22500,
+        "uniqueSubstitutions": 17550,
+        "eligibleAnswerSets": 79,
+        "boardAttempts": 237,
+        "validCandidateBoards": 101,
+        "cachedDifficultyEvaluations": 131,
+        "rejectionReasons": {
+          "duplicate_structure": 91,
+          "obvious_forced_recipe": 9,
+          "irrelevant_decoys": 2,
+          "multiple_solutions": 28,
+          "too_few_near_misses": 1,
+          "too_few_plausible_alternatives": 5
+        },
+        "deadlineReached": false
+      },
+      "recipeCoverage": 74,
+      "newRecipeCoverage": 19,
+      "ingredientCoverage": 54,
+      "familyCoverage": 13,
+      "maximumRecipeFrequency": 7,
+      "adjacentOverlap": 0.04,
+      "averageNearMisses": 4.52,
+      "averageDeductionSteps": 3.52,
+      "averagePantryTypes": 11.4,
+      "uniqueSolutions": 25,
+      "uniqueStructures": 25
+    },
+    "hard": {
+      "requested": 25,
+      "generated": 25,
+      "complete": true,
+      "candidatePool": {
+        "answerAttempts": 30000,
+        "uniqueSubstitutions": 28465,
+        "eligibleAnswerSets": 605,
+        "boardAttempts": 1815,
+        "validCandidateBoards": 493,
+        "cachedDifficultyEvaluations": 1358,
+        "rejectionReasons": {
+          "obvious_forced_recipe": 647,
+          "duplicate_structure": 259,
+          "too_few_plausible_alternatives": 158,
+          "too_few_near_misses": 107,
+          "irrelevant_decoys": 136,
+          "multiple_solutions": 15
+        },
+        "deadlineReached": false
+      },
+      "recipeCoverage": 93,
+      "newRecipeCoverage": 21,
+      "ingredientCoverage": 62,
+      "familyCoverage": 15,
+      "maximumRecipeFrequency": 11,
+      "adjacentOverlap": 0.25,
+      "averageNearMisses": 7.52,
+      "averageDeductionSteps": 5.24,
+      "averagePantryTypes": 15.6,
+      "uniqueSolutions": 25,
+      "uniqueStructures": 25
+    }
+  }
+}

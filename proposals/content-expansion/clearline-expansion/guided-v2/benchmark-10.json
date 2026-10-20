@@ -1,0 +1,75 @@
+{
+  "status": "guided_v2_experimental",
+  "target": 10,
+  "catalogHash": "1d6026ca950520fed23c",
+  "cacheRuntimeMs": 3369.7,
+  "schedulingRuntimeMs": 3414.1,
+  "modes": {
+    "medium": {
+      "requested": 10,
+      "generated": 10,
+      "complete": true,
+      "candidatePool": {
+        "answerAttempts": 22500,
+        "uniqueSubstitutions": 17550,
+        "eligibleAnswerSets": 79,
+        "boardAttempts": 237,
+        "validCandidateBoards": 101,
+        "cachedDifficultyEvaluations": 131,
+        "rejectionReasons": {
+          "duplicate_structure": 91,
+          "obvious_forced_recipe": 9,
+          "irrelevant_decoys": 2,
+          "multiple_solutions": 28,
+          "too_few_near_misses": 1,
+          "too_few_plausible_alternatives": 5
+        },
+        "deadlineReached": false
+      },
+      "recipeCoverage": 58,
+      "newRecipeCoverage": 13,
+      "ingredientCoverage": 43,
+      "familyCoverage": 13,
+      "maximumRecipeFrequency": 3,
+      "adjacentOverlap": 0,
+      "averageNearMisses": 5.2,
+      "averageDeductionSteps": 4,
+      "averagePantryTypes": 11.5,
+      "uniqueSolutions": 10,
+      "uniqueStructures": 10
+    },
+    "hard": {
+      "requested": 10,
+      "generated": 10,
+      "complete": true,
+      "candidatePool": {
+        "answerAttempts": 30000,
+        "uniqueSubstitutions": 28465,
+        "eligibleAnswerSets": 605,
+        "boardAttempts": 1815,
+        "validCandidateBoards": 493,
+        "cachedDifficultyEvaluations": 1358,
+        "rejectionReasons": {
+          "obvious_forced_recipe": 647,
+          "duplicate_structure": 259,
+          "too_few_plausible_alternatives": 158,
+          "too_few_near_misses": 107,
+          "irrelevant_decoys": 136,
+          "multiple_solutions": 15
+        },
+        "deadlineReached": false
+      },
+      "recipeCoverage": 73,
+      "newRecipeCoverage": 12,
+      "ingredientCoverage": 46,
+      "familyCoverage": 14,
+      "maximumRecipeFrequency": 5,
+      "adjacentOverlap": 0.22,
+      "averageNearMisses": 7.3,
+      "averageDeductionSteps": 5.6,
+      "averagePantryTypes": 15.6,
+      "uniqueSolutions": 10,
+      "uniqueStructures": 10
+    }
+  }
+}

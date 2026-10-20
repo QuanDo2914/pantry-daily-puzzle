@@ -1,0 +1,28 @@
+{
+  "seedGroups": 85,
+  "attempts": 57375,
+  "uniqueSubstitutions": 30885,
+  "eligibleAnswerSets": 129,
+  "preparationMs": 329.9,
+  "answerRejections": {
+    "insufficient_families": 184,
+    "insufficient_decoys": 29886,
+    "family_cap_capacity": 652,
+    "pantry_range": 34
+  },
+  "boardAttempts": 516,
+  "boardRejections": {
+    "duplicate_card_set": 322,
+    "duplicate_structure": 58,
+    "obvious_forced_recipe": 25,
+    "multiple_solutions": 38,
+    "too_few_plausible_alternatives": 5,
+    "irrelevant_decoys": 8,
+    "too_few_near_misses": 5
+  },
+  "addedCandidates": 55,
+  "totalCandidates": 203,
+  "uniqueSolutionGroups": 94,
+  "runtimeMs": 404.5,
+  "deadlineReached": false
+}
