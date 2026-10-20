@@ -1,0 +1,5419 @@
+[
+  {
+    "mode": "hard",
+    "pantry": {
+      "rice": 2,
+      "black_beans": 2,
+      "corn": 1,
+      "tomato": 1,
+      "beef": 2,
+      "noodles": 2,
+      "cabbage": 1,
+      "carrot": 1,
+      "mushroom": 2,
+      "tortilla": 2,
+      "cheese": 2,
+      "onion": 1,
+      "bread": 2,
+      "chicken": 2,
+      "lettuce": 1,
+      "mayonnaise": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "mushroom_quesadilla",
+        "name": "Mushroom Quesadilla",
+        "family": "vegetarian_mains",
+        "icon": "🫓",
+        "ingredients": {
+          "mushroom": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "beef_lo_mein",
+        "name": "Beef Lo Mein",
+        "family": "noodles",
+        "icon": "🥢",
+        "ingredients": {
+          "beef": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "cheeseburger",
+        "name": "Cheeseburger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "cheese": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "mushroom_cheeseburger",
+        "name": "Mushroom Cheeseburger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "mushroom": 1,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "burrito_bowl",
+        "name": "Burrito Bowl",
+        "family": "tacos_mexican",
+        "icon": "🥗",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "black_bean_tacos",
+        "name": "Black Bean Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "black_beans": 2,
+          "tortilla": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_sandwich",
+        "name": "Chicken Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "chicken": 2,
+          "lettuce": 1,
+          "mayonnaise": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "rice_and_beans",
+        "name": "Rice and Beans",
+        "family": "rice_dishes",
+        "icon": "🫘",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "vegetable_lo_mein",
+        "name": "Vegetable Lo Mein",
+        "family": "noodles",
+        "icon": "🥢",
+        "ingredients": {
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1,
+          "mushroom": 1
+        }
+      }
+    ],
+    "solution": [
+      "mushroom_quesadilla",
+      "beef_lo_mein",
+      "burrito_bowl",
+      "chicken_sandwich"
+    ],
+    "solutionKey": "beef_lo_mein|burrito_bowl|chicken_sandwich|mushroom_quesadilla",
+    "structuralSignature": "75d2ab99d577f5941dff",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "mushroom_quesadilla",
+        "beef_lo_mein",
+        "burrito_bowl",
+        "chicken_sandwich"
+      ],
+      "nearMissCount": 8,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "greek_chicken_bowl",
+            "mushroom_cheeseburger",
+            "black_bean_tacos",
+            "vegetable_lo_mein"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 1,
+            "cheese": 2,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 2,
+            "onion": 1,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 1,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "mushroom_quesadilla",
+            "beef_lo_mein",
+            "chicken_sandwich",
+            "rice_and_beans"
+          ],
+          "used": {
+            "mushroom": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 2,
+            "beef": 2,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "bread": 2,
+            "chicken": 2,
+            "lettuce": 1,
+            "mayonnaise": 1,
+            "rice": 2,
+            "black_beans": 2,
+            "tomato": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "mushroom_quesadilla",
+            "burrito_bowl",
+            "chicken_sandwich",
+            "vegetable_lo_mein"
+          ],
+          "used": {
+            "mushroom": 3,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "rice": 2,
+            "black_beans": 2,
+            "corn": 1,
+            "tomato": 1,
+            "bread": 2,
+            "chicken": 2,
+            "lettuce": 1,
+            "mayonnaise": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "mushroom_cheeseburger",
+            "black_bean_tacos",
+            "chicken_shawarma_bowl",
+            "vegetable_lo_mein"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 2,
+            "cheese": 1,
+            "onion": 1,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 2,
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "chicken_wrap",
+            "mushroom_cheeseburger",
+            "burrito_bowl",
+            "vegetable_lo_mein"
+          ],
+          "used": {
+            "tortilla": 1,
+            "chicken": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 2,
+            "cheese": 1,
+            "onion": 1,
+            "rice": 2,
+            "black_beans": 2,
+            "corn": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "greek_chicken_bowl",
+            "beef_lo_mein",
+            "mushroom_cheeseburger",
+            "black_bean_tacos"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 1,
+            "cheese": 2,
+            "beef": 4,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "bread": 2,
+            "mushroom": 1,
+            "onion": 1,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "greek_chicken_bowl",
+            "cheeseburger",
+            "black_bean_tacos",
+            "vegetable_lo_mein"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 1,
+            "cheese": 2,
+            "beef": 2,
+            "bread": 2,
+            "tomato": 2,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "mushroom": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "mushroom_quesadilla",
+            "beef_lo_mein",
+            "black_bean_tacos",
+            "chicken_sandwich"
+          ],
+          "used": {
+            "mushroom": 2,
+            "tortilla": 4,
+            "cheese": 2,
+            "onion": 1,
+            "beef": 2,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "black_beans": 2,
+            "corn": 1,
+            "tomato": 1,
+            "bread": 2,
+            "chicken": 2,
+            "lettuce": 1,
+            "mayonnaise": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        }
+      ],
+      "plausibleAlternatives": 22,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "chicken_wrap",
+        "greek_chicken_bowl",
+        "cheeseburger",
+        "mushroom_cheeseburger",
+        "black_bean_tacos",
+        "chicken_shawarma_bowl",
+        "rice_and_beans",
+        "vegetable_lo_mein"
+      ],
+      "forcedRecipeIds": [
+        "chicken_sandwich"
+      ],
+      "sharedIngredientCount": 11,
+      "ingredientDegrees": {
+        "rice": 4,
+        "black_beans": 3,
+        "corn": 2,
+        "tomato": 6,
+        "beef": 3,
+        "noodles": 2,
+        "cabbage": 2,
+        "carrot": 2,
+        "mushroom": 3,
+        "tortilla": 3,
+        "cheese": 4,
+        "onion": 3,
+        "bread": 3,
+        "chicken": 4,
+        "lettuce": 4,
+        "mayonnaise": 1
+      },
+      "overlapDensity": 0.227,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 6,
+      "difficultyScore": 111.5,
+      "ingredientTypes": 16,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "mushroom_cheeseburger"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 22 plausible alternatives, 8 competitive decoys, and 7 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-hard-001",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 1,
+    "seed": "clearline-expansion:hard:1"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "salmon": 2,
+      "potato": 2,
+      "milk": 1,
+      "corn": 1,
+      "onion": 2,
+      "turkey": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "cheese": 3,
+      "bell_pepper": 1,
+      "spinach": 2,
+      "eggs": 3
+    },
+    "cards": [
+      {
+        "id": "egg_muffins",
+        "name": "Egg Muffins",
+        "family": "breakfast_eggs",
+        "icon": "🧁",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "spinach": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_burger",
+        "name": "Chicken Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "salmon_potato_skillet",
+        "name": "Salmon Potato Skillet",
+        "family": "seafood",
+        "icon": "🥘",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "onion": 1,
+          "spinach": 1
+        }
+      },
+      {
+        "id": "turkey_sandwich",
+        "name": "Turkey Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "turkey": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "salmon_chowder",
+        "name": "Salmon Chowder",
+        "family": "soups_stews",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "milk": 1,
+          "corn": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "turkey_burger",
+        "name": "Turkey Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "turkey": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "spinach_frittata",
+        "name": "Spinach Frittata",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "spinach": 2,
+          "eggs": 3,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "breakfast_burrito",
+        "name": "Breakfast Burrito",
+        "family": "breakfast_eggs",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "eggs": 2,
+          "potato": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "cheese_quesadilla",
+        "name": "Cheese Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "tortilla": 2,
+          "cheese": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "salmon_chowder",
+      "turkey_burger",
+      "spinach_frittata",
+      "chicken_quesadilla"
+    ],
+    "solutionKey": "chicken_quesadilla|salmon_chowder|spinach_frittata|turkey_burger",
+    "structuralSignature": "22c6b8227213c3042678",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "salmon_chowder",
+        "turkey_burger",
+        "spinach_frittata",
+        "chicken_quesadilla"
+      ],
+      "nearMissCount": 8,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "turkey_sandwich",
+            "salmon_chowder",
+            "spinach_frittata",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1,
+            "cheese": 4,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "spinach": 2,
+            "eggs": 3,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "egg_muffins",
+            "salmon_chowder",
+            "turkey_burger",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 3,
+            "spinach": 1,
+            "bell_pepper": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "salmon_potato_skillet",
+            "turkey_burger",
+            "spinach_frittata",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "onion": 2,
+            "spinach": 3,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "eggs": 3,
+            "cheese": 3,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "egg_muffins",
+            "chicken_burger",
+            "salmon_chowder",
+            "cheese_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 3,
+            "spinach": 1,
+            "bell_pepper": 1,
+            "chicken": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "tortilla": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "egg_muffins",
+            "salmon_potato_skillet",
+            "turkey_burger",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 3,
+            "spinach": 2,
+            "bell_pepper": 2,
+            "salmon": 2,
+            "potato": 2,
+            "onion": 1,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "egg_muffins",
+            "turkey_sandwich",
+            "salmon_chowder",
+            "cheese_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 4,
+            "spinach": 1,
+            "bell_pepper": 1,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "tortilla": 2,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "egg_muffins",
+            "salmon_chowder",
+            "turkey_burger",
+            "cheese_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 3,
+            "spinach": 1,
+            "bell_pepper": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "tortilla": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_burger",
+            "salmon_chowder",
+            "spinach_frittata",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "chicken": 4,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 3,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        }
+      ],
+      "plausibleAlternatives": 19,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "egg_muffins",
+        "chicken_burger",
+        "salmon_potato_skillet",
+        "turkey_sandwich",
+        "veggie_wrap",
+        "breakfast_burrito",
+        "cheese_quesadilla"
+      ],
+      "forcedRecipeIds": [
+        "salmon_chowder"
+      ],
+      "sharedIngredientCount": 10,
+      "ingredientDegrees": {
+        "salmon": 2,
+        "potato": 4,
+        "milk": 1,
+        "corn": 2,
+        "onion": 5,
+        "turkey": 2,
+        "bread": 3,
+        "lettuce": 4,
+        "tomato": 4,
+        "chicken": 2,
+        "tortilla": 4,
+        "cheese": 6,
+        "bell_pepper": 3,
+        "spinach": 3,
+        "eggs": 4
+      },
+      "overlapDensity": 0.318,
+      "singleIngredientCandidateFloor": 112,
+      "deductionSteps": 6,
+      "difficultyScore": 105.4,
+      "ingredientTypes": 15,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "salmon_chowder"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 19 plausible alternatives, 7 competitive decoys, and 7 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 1 with the next."
+    },
+    "id": "clearline-expansion-hard-002",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 2,
+    "seed": "clearline-expansion:hard:2"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "mushroom": 2,
+      "tortilla": 2,
+      "cheese": 2,
+      "onion": 1,
+      "pizza_dough": 1,
+      "tomato_sauce": 2,
+      "mozzarella": 2,
+      "chicken": 2,
+      "rice": 2,
+      "pineapple": 2,
+      "eggs": 1,
+      "peas": 1,
+      "beef": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "beef_burger",
+        "name": "Beef Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "mushroom_quesadilla",
+        "name": "Mushroom Quesadilla",
+        "family": "vegetarian_mains",
+        "icon": "🫓",
+        "ingredients": {
+          "mushroom": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "cheese_quesadilla",
+        "name": "Cheese Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "tortilla": 2,
+          "cheese": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "pineapple_fried_rice",
+        "name": "Pineapple Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍍",
+        "ingredients": {
+          "rice": 2,
+          "pineapple": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "mushroom_cheeseburger",
+        "name": "Mushroom Cheeseburger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "mushroom": 1,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "mushroom_pizza",
+        "name": "Mushroom Pizza",
+        "family": "pizza_flatbreads",
+        "icon": "🍕",
+        "ingredients": {
+          "pizza_dough": 1,
+          "tomato_sauce": 2,
+          "mozzarella": 2,
+          "mushroom": 2
+        }
+      },
+      {
+        "id": "chicken_pizza",
+        "name": "Chicken Pizza",
+        "family": "pizza_flatbreads",
+        "icon": "🍕",
+        "ingredients": {
+          "pizza_dough": 1,
+          "tomato_sauce": 2,
+          "mozzarella": 2,
+          "chicken": 2
+        }
+      }
+    ],
+    "solution": [
+      "beef_burger",
+      "mushroom_quesadilla",
+      "pineapple_fried_rice",
+      "chicken_pizza"
+    ],
+    "solutionKey": "beef_burger|chicken_pizza|mushroom_quesadilla|pineapple_fried_rice",
+    "structuralSignature": "92bf440aefca8b4f8ef5",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "beef_burger",
+        "mushroom_quesadilla",
+        "pineapple_fried_rice",
+        "chicken_pizza"
+      ],
+      "nearMissCount": 11,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_tacos",
+            "pineapple_fried_rice",
+            "mushroom_cheeseburger",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "lettuce": 1,
+            "cheese": 2,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 3,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_wrap",
+            "pineapple_fried_rice",
+            "mushroom_cheeseburger",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "tortilla": 1,
+            "chicken": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 3,
+            "cheese": 1,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "chicken_fried_rice",
+            "cheese_quesadilla",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "chicken": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "mushroom": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "chicken_tacos",
+            "pineapple_fried_rice",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 2,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "mushroom": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "cheese_quesadilla",
+            "pineapple_fried_rice",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "mushroom": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "cheese_quesadilla",
+            "pineapple_fried_rice",
+            "chicken_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "chicken": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "chicken_fried_rice",
+            "mushroom_quesadilla",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "mushroom": 4,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "chicken_fried_rice",
+            "mushroom_quesadilla",
+            "chicken_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 4,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "mushroom": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "mushroom_quesadilla",
+            "pineapple_fried_rice",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "mushroom": 4,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_tacos",
+            "pineapple_fried_rice",
+            "mushroom_cheeseburger",
+            "chicken_pizza"
+          ],
+          "used": {
+            "chicken": 4,
+            "tortilla": 2,
+            "lettuce": 1,
+            "cheese": 2,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 1,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "cheese_quesadilla",
+            "pineapple_fried_rice",
+            "mushroom_cheeseburger",
+            "chicken_pizza"
+          ],
+          "used": {
+            "tortilla": 2,
+            "cheese": 3,
+            "tomato": 1,
+            "onion": 2,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "chicken": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 20,
+      "oneSwapNearMisses": 4,
+      "competitiveDecoyIds": [
+        "chicken_wrap",
+        "chicken_fried_rice",
+        "chicken_shawarma_bowl",
+        "greek_chicken_bowl",
+        "chicken_tacos",
+        "cheese_quesadilla",
+        "mushroom_cheeseburger",
+        "mushroom_pizza"
+      ],
+      "forcedRecipeIds": [
+        "pineapple_fried_rice"
+      ],
+      "sharedIngredientCount": 8,
+      "ingredientDegrees": {
+        "mushroom": 3,
+        "tortilla": 4,
+        "cheese": 5,
+        "onion": 3,
+        "pizza_dough": 2,
+        "tomato_sauce": 2,
+        "mozzarella": 2,
+        "chicken": 6,
+        "rice": 4,
+        "pineapple": 1,
+        "eggs": 2,
+        "peas": 2,
+        "beef": 2,
+        "bread": 2,
+        "lettuce": 5,
+        "tomato": 4
+      },
+      "overlapDensity": 0.288,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 6,
+      "difficultyScore": 104.8,
+      "ingredientTypes": 16,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "mushroom_cheeseburger"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 20 plausible alternatives, 8 competitive decoys, and 4 close one-card swaps.",
+      "nearbyDifference": "Shares 1 recipes with the previous pilot board and 1 with the next."
+    },
+    "id": "clearline-expansion-hard-003",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 3,
+    "seed": "clearline-expansion:hard:3"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "salmon": 2,
+      "potato": 2,
+      "milk": 1,
+      "corn": 1,
+      "onion": 2,
+      "turkey": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "cheese": 3,
+      "bell_pepper": 1,
+      "spinach": 2,
+      "eggs": 3
+    },
+    "cards": [
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "egg_muffins",
+        "name": "Egg Muffins",
+        "family": "breakfast_eggs",
+        "icon": "🧁",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "spinach": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "salmon_chowder",
+        "name": "Salmon Chowder",
+        "family": "soups_stews",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "milk": 1,
+          "corn": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "turkey_burger",
+        "name": "Turkey Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "turkey": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "cheese_omelet",
+        "name": "Cheese Omelet",
+        "family": "breakfast_eggs",
+        "icon": "🍳",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "milk": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "salmon_potato_skillet",
+        "name": "Salmon Potato Skillet",
+        "family": "seafood",
+        "icon": "🥘",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "onion": 1,
+          "spinach": 1
+        }
+      },
+      {
+        "id": "chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "spinach_frittata",
+        "name": "Spinach Frittata",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "spinach": 2,
+          "eggs": 3,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "turkey_sandwich",
+        "name": "Turkey Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "turkey": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_burger",
+        "name": "Chicken Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      }
+    ],
+    "solution": [
+      "salmon_chowder",
+      "turkey_burger",
+      "chicken_quesadilla",
+      "spinach_frittata"
+    ],
+    "solutionKey": "chicken_quesadilla|salmon_chowder|spinach_frittata|turkey_burger",
+    "structuralSignature": "da9e19bff33af2e451df",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "salmon_chowder",
+        "turkey_burger",
+        "chicken_quesadilla",
+        "spinach_frittata"
+      ],
+      "nearMissCount": 12,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "salmon_chowder",
+            "chicken_quesadilla",
+            "spinach_frittata",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 4,
+            "bell_pepper": 1,
+            "spinach": 2,
+            "eggs": 3,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "cheese_omelet",
+            "salmon_potato_skillet",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "eggs": 3,
+            "cheese": 3,
+            "milk": 1,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "spinach": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_tacos",
+            "salmon_chowder",
+            "turkey_burger",
+            "spinach_frittata"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "lettuce": 2,
+            "cheese": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "turkey": 2,
+            "bread": 2,
+            "tomato": 1,
+            "spinach": 2,
+            "eggs": 3
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_tacos",
+            "salmon_chowder",
+            "spinach_frittata",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "lettuce": 2,
+            "cheese": 3,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "spinach": 2,
+            "eggs": 3,
+            "bread": 2,
+            "turkey": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "egg_muffins",
+            "salmon_chowder",
+            "turkey_burger",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 3,
+            "spinach": 1,
+            "bell_pepper": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "salmon_chowder",
+            "turkey_burger",
+            "cheese_omelet",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "milk": 2,
+            "corn": 1,
+            "onion": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "eggs": 3,
+            "cheese": 3,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "salmon_potato_skillet",
+            "chicken_quesadilla",
+            "spinach_frittata"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "onion": 2,
+            "spinach": 3,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 1,
+            "eggs": 3
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_tacos",
+            "egg_muffins",
+            "salmon_chowder",
+            "turkey_burger"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "lettuce": 2,
+            "cheese": 2,
+            "eggs": 3,
+            "spinach": 1,
+            "bell_pepper": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1,
+            "turkey": 2,
+            "bread": 2,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_tacos",
+            "egg_muffins",
+            "salmon_chowder",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "lettuce": 2,
+            "cheese": 3,
+            "eggs": 3,
+            "spinach": 1,
+            "bell_pepper": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1,
+            "bread": 2,
+            "turkey": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "egg_muffins",
+            "turkey_burger",
+            "salmon_potato_skillet",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 3,
+            "spinach": 2,
+            "bell_pepper": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "onion": 1,
+            "chicken": 2,
+            "tortilla": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "salmon_chowder",
+            "chicken_quesadilla",
+            "spinach_frittata",
+            "chicken_burger"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "chicken": 4,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 1,
+            "spinach": 2,
+            "eggs": 3,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "cheese_omelet",
+            "salmon_potato_skillet",
+            "chicken_quesadilla",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 4,
+            "milk": 1,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "spinach": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        }
+      ],
+      "plausibleAlternatives": 27,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "chicken_tacos",
+        "egg_muffins",
+        "cheese_omelet",
+        "salmon_potato_skillet",
+        "turkey_sandwich",
+        "veggie_wrap",
+        "chicken_burger"
+      ],
+      "forcedRecipeIds": [],
+      "sharedIngredientCount": 11,
+      "ingredientDegrees": {
+        "salmon": 2,
+        "potato": 3,
+        "milk": 2,
+        "corn": 2,
+        "onion": 5,
+        "turkey": 2,
+        "bread": 3,
+        "lettuce": 5,
+        "tomato": 3,
+        "chicken": 3,
+        "tortilla": 3,
+        "cheese": 6,
+        "bell_pepper": 3,
+        "spinach": 3,
+        "eggs": 4
+      },
+      "overlapDensity": 0.318,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 5,
+      "difficultyScore": 134.4,
+      "ingredientTypes": 15,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "salmon_chowder"
+      ],
+      "difficultyLabel": "expert",
+      "difficultyExplanation": "5 constraint steps, 27 plausible alternatives, 7 competitive decoys, and 7 close one-card swaps.",
+      "nearbyDifference": "Shares 1 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-hard-004",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 4,
+    "seed": "clearline-expansion:hard:4"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "mushroom": 2,
+      "tortilla": 2,
+      "cheese": 2,
+      "onion": 1,
+      "pizza_dough": 1,
+      "tomato_sauce": 2,
+      "mozzarella": 2,
+      "chicken": 2,
+      "rice": 2,
+      "pineapple": 2,
+      "eggs": 1,
+      "peas": 1,
+      "beef": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_fried_rice",
+        "name": "Chicken Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍚",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "beef_tacos",
+        "name": "Beef Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "beef": 2,
+          "tortilla": 2,
+          "tomato": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "beef_burger",
+        "name": "Beef Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "cheese_quesadilla",
+        "name": "Cheese Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "tortilla": 2,
+          "cheese": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "mushroom_quesadilla",
+        "name": "Mushroom Quesadilla",
+        "family": "vegetarian_mains",
+        "icon": "🫓",
+        "ingredients": {
+          "mushroom": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "pineapple_fried_rice",
+        "name": "Pineapple Fried Rice",
+        "family": "rice_dishes",
+        "icon": "🍍",
+        "ingredients": {
+          "rice": 2,
+          "pineapple": 2,
+          "eggs": 1,
+          "peas": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_pizza",
+        "name": "Chicken Pizza",
+        "family": "pizza_flatbreads",
+        "icon": "🍕",
+        "ingredients": {
+          "pizza_dough": 1,
+          "tomato_sauce": 2,
+          "mozzarella": 2,
+          "chicken": 2
+        }
+      },
+      {
+        "id": "mushroom_pizza",
+        "name": "Mushroom Pizza",
+        "family": "pizza_flatbreads",
+        "icon": "🍕",
+        "ingredients": {
+          "pizza_dough": 1,
+          "tomato_sauce": 2,
+          "mozzarella": 2,
+          "mushroom": 2
+        }
+      },
+      {
+        "id": "mushroom_cheeseburger",
+        "name": "Mushroom Cheeseburger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "mushroom": 1,
+          "cheese": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "beef_burger",
+      "mushroom_quesadilla",
+      "pineapple_fried_rice",
+      "chicken_pizza"
+    ],
+    "solutionKey": "beef_burger|chicken_pizza|mushroom_quesadilla|pineapple_fried_rice",
+    "structuralSignature": "03e5495f81867457035b",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "beef_burger",
+        "mushroom_quesadilla",
+        "pineapple_fried_rice",
+        "chicken_pizza"
+      ],
+      "nearMissCount": 9,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_fried_rice",
+            "beef_burger",
+            "cheese_quesadilla",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "mushroom": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "cheese_quesadilla",
+            "pineapple_fried_rice",
+            "chicken_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "chicken": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "cheese_quesadilla",
+            "pineapple_fried_rice",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "mushroom": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_wrap",
+            "pineapple_fried_rice",
+            "mushroom_pizza",
+            "mushroom_cheeseburger"
+          ],
+          "used": {
+            "tortilla": 1,
+            "chicken": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "mushroom": 3,
+            "beef": 2,
+            "bread": 2,
+            "cheese": 1,
+            "onion": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_fried_rice",
+            "beef_burger",
+            "mushroom_quesadilla",
+            "chicken_pizza"
+          ],
+          "used": {
+            "chicken": 4,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "mushroom": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_fried_rice",
+            "beef_burger",
+            "mushroom_quesadilla",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "eggs": 1,
+            "peas": 1,
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "mushroom": 4,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "beef_tacos",
+            "pineapple_fried_rice",
+            "chicken_pizza",
+            "mushroom_cheeseburger"
+          ],
+          "used": {
+            "beef": 4,
+            "tortilla": 2,
+            "tomato": 1,
+            "cheese": 2,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "chicken": 2,
+            "bread": 2,
+            "mushroom": 1,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "beef_burger",
+            "mushroom_quesadilla",
+            "pineapple_fried_rice",
+            "mushroom_pizza"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "mushroom": 4,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "cheese_quesadilla",
+            "pineapple_fried_rice",
+            "chicken_pizza",
+            "mushroom_cheeseburger"
+          ],
+          "used": {
+            "tortilla": 2,
+            "cheese": 3,
+            "tomato": 1,
+            "onion": 2,
+            "rice": 2,
+            "pineapple": 2,
+            "eggs": 1,
+            "peas": 1,
+            "pizza_dough": 1,
+            "tomato_sauce": 2,
+            "mozzarella": 2,
+            "chicken": 2,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 22,
+      "oneSwapNearMisses": 5,
+      "competitiveDecoyIds": [
+        "chicken_fried_rice",
+        "beef_tacos",
+        "cheese_quesadilla",
+        "chicken_wrap",
+        "chicken_shawarma_bowl",
+        "greek_chicken_bowl",
+        "mushroom_pizza",
+        "mushroom_cheeseburger"
+      ],
+      "forcedRecipeIds": [
+        "pineapple_fried_rice"
+      ],
+      "sharedIngredientCount": 9,
+      "ingredientDegrees": {
+        "mushroom": 3,
+        "tortilla": 4,
+        "cheese": 5,
+        "onion": 3,
+        "pizza_dough": 2,
+        "tomato_sauce": 2,
+        "mozzarella": 2,
+        "chicken": 5,
+        "rice": 4,
+        "pineapple": 1,
+        "eggs": 2,
+        "peas": 2,
+        "beef": 3,
+        "bread": 2,
+        "lettuce": 4,
+        "tomato": 5
+      },
+      "overlapDensity": 0.288,
+      "singleIngredientCandidateFloor": 133,
+      "deductionSteps": 6,
+      "difficultyScore": 106.8,
+      "ingredientTypes": 16,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "mushroom_cheeseburger"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 22 plausible alternatives, 8 competitive decoys, and 5 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-hard-005",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 5,
+    "seed": "clearline-expansion:hard:5"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "salmon": 2,
+      "potato": 2,
+      "milk": 1,
+      "corn": 1,
+      "onion": 2,
+      "turkey": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "cheese": 3,
+      "bell_pepper": 1,
+      "spinach": 2,
+      "eggs": 3
+    },
+    "cards": [
+      {
+        "id": "turkey_burger",
+        "name": "Turkey Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "turkey": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "salmon_chowder",
+        "name": "Salmon Chowder",
+        "family": "soups_stews",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "milk": 1,
+          "corn": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_burger",
+        "name": "Chicken Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "breakfast_burrito",
+        "name": "Breakfast Burrito",
+        "family": "breakfast_eggs",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "eggs": 2,
+          "potato": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "salmon_potato_skillet",
+        "name": "Salmon Potato Skillet",
+        "family": "seafood",
+        "icon": "🥘",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "onion": 1,
+          "spinach": 1
+        }
+      },
+      {
+        "id": "turkey_sandwich",
+        "name": "Turkey Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "turkey": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "egg_muffins",
+        "name": "Egg Muffins",
+        "family": "breakfast_eggs",
+        "icon": "🧁",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "spinach": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "spinach_frittata",
+        "name": "Spinach Frittata",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "spinach": 2,
+          "eggs": 3,
+          "cheese": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "turkey_burger",
+      "salmon_chowder",
+      "chicken_quesadilla",
+      "spinach_frittata"
+    ],
+    "solutionKey": "chicken_quesadilla|salmon_chowder|spinach_frittata|turkey_burger",
+    "structuralSignature": "e1525648e9867c7df23a",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "turkey_burger",
+        "salmon_chowder",
+        "chicken_quesadilla",
+        "spinach_frittata"
+      ],
+      "nearMissCount": 9,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "salmon_chowder",
+            "turkey_sandwich",
+            "chicken_quesadilla",
+            "spinach_frittata"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1,
+            "cheese": 4,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "spinach": 2,
+            "eggs": 3
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "salmon_chowder",
+            "chicken_tacos",
+            "spinach_frittata"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 2,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "spinach": 2,
+            "eggs": 3
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "salmon_chowder",
+            "chicken_quesadilla",
+            "egg_muffins"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 2,
+            "eggs": 3,
+            "spinach": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "salmon_potato_skillet",
+            "chicken_quesadilla",
+            "spinach_frittata"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "onion": 2,
+            "spinach": 3,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 1,
+            "eggs": 3
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "salmon_chowder",
+            "turkey_sandwich",
+            "chicken_tacos",
+            "spinach_frittata"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 2,
+            "cheese": 3,
+            "chicken": 2,
+            "tortilla": 2,
+            "spinach": 2,
+            "eggs": 3
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "salmon_chowder",
+            "chicken_tacos",
+            "egg_muffins"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 2,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "eggs": 3,
+            "spinach": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "salmon_potato_skillet",
+            "chicken_quesadilla",
+            "egg_muffins"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "onion": 1,
+            "spinach": 2,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 2,
+            "eggs": 3
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "salmon_chowder",
+            "chicken_burger",
+            "chicken_quesadilla",
+            "spinach_frittata"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 2,
+            "chicken": 4,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 1,
+            "spinach": 2,
+            "eggs": 3
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "salmon_chowder",
+            "turkey_sandwich",
+            "chicken_tacos",
+            "egg_muffins"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 2,
+            "cheese": 3,
+            "chicken": 2,
+            "tortilla": 2,
+            "eggs": 3,
+            "spinach": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        }
+      ],
+      "plausibleAlternatives": 18,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "chicken_burger",
+        "breakfast_burrito",
+        "veggie_wrap",
+        "salmon_potato_skillet",
+        "turkey_sandwich",
+        "chicken_tacos",
+        "egg_muffins"
+      ],
+      "forcedRecipeIds": [
+        "salmon_chowder"
+      ],
+      "sharedIngredientCount": 11,
+      "ingredientDegrees": {
+        "salmon": 2,
+        "potato": 4,
+        "milk": 1,
+        "corn": 2,
+        "onion": 4,
+        "turkey": 2,
+        "bread": 3,
+        "lettuce": 5,
+        "tomato": 3,
+        "chicken": 3,
+        "tortilla": 4,
+        "cheese": 6,
+        "bell_pepper": 3,
+        "spinach": 3,
+        "eggs": 4
+      },
+      "overlapDensity": 0.333,
+      "singleIngredientCandidateFloor": 112,
+      "deductionSteps": 6,
+      "difficultyScore": 108.7,
+      "ingredientTypes": 15,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "salmon_chowder"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 18 plausible alternatives, 7 competitive decoys, and 7 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 1 with the next."
+    },
+    "id": "clearline-expansion-hard-006",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 6,
+    "seed": "clearline-expansion:hard:6"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "rice": 2,
+      "black_beans": 2,
+      "corn": 1,
+      "tomato": 1,
+      "beef": 2,
+      "noodles": 2,
+      "cabbage": 1,
+      "carrot": 1,
+      "mushroom": 2,
+      "tortilla": 2,
+      "cheese": 2,
+      "onion": 1,
+      "bread": 2,
+      "chicken": 2,
+      "lettuce": 1,
+      "mayonnaise": 1
+    },
+    "cards": [
+      {
+        "id": "mushroom_cheeseburger",
+        "name": "Mushroom Cheeseburger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "mushroom": 1,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_sandwich",
+        "name": "Chicken Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "chicken": 2,
+          "lettuce": 1,
+          "mayonnaise": 1
+        }
+      },
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "veggie_burger",
+        "name": "Veggie Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "black_beans": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "burrito_bowl",
+        "name": "Burrito Bowl",
+        "family": "tacos_mexican",
+        "icon": "🥗",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "mushroom_quesadilla",
+        "name": "Mushroom Quesadilla",
+        "family": "vegetarian_mains",
+        "icon": "🫓",
+        "ingredients": {
+          "mushroom": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_chow_mein",
+        "name": "Chicken Chow Mein",
+        "family": "noodles",
+        "icon": "🥢",
+        "ingredients": {
+          "chicken": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "rice_and_beans",
+        "name": "Rice and Beans",
+        "family": "rice_dishes",
+        "icon": "🫘",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "beef_lo_mein",
+        "name": "Beef Lo Mein",
+        "family": "noodles",
+        "icon": "🥢",
+        "ingredients": {
+          "beef": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "black_bean_tacos",
+        "name": "Black Bean Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "black_beans": 2,
+          "tortilla": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      }
+    ],
+    "solution": [
+      "chicken_sandwich",
+      "burrito_bowl",
+      "mushroom_quesadilla",
+      "beef_lo_mein"
+    ],
+    "solutionKey": "beef_lo_mein|burrito_bowl|chicken_sandwich|mushroom_quesadilla",
+    "structuralSignature": "4e3c03279b803b418f09",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "chicken_sandwich",
+        "burrito_bowl",
+        "mushroom_quesadilla",
+        "beef_lo_mein"
+      ],
+      "nearMissCount": 7,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "chicken_sandwich",
+            "mushroom_quesadilla",
+            "rice_and_beans",
+            "beef_lo_mein"
+          ],
+          "used": {
+            "bread": 2,
+            "chicken": 2,
+            "lettuce": 1,
+            "mayonnaise": 1,
+            "mushroom": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 2,
+            "rice": 2,
+            "black_beans": 2,
+            "tomato": 1,
+            "beef": 2,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "mushroom_cheeseburger",
+            "greek_chicken_bowl",
+            "chicken_chow_mein",
+            "black_bean_tacos"
+          ],
+          "used": {
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 1,
+            "cheese": 2,
+            "onion": 1,
+            "chicken": 4,
+            "rice": 2,
+            "lettuce": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "mushroom_cheeseburger",
+            "greek_chicken_bowl",
+            "beef_lo_mein",
+            "black_bean_tacos"
+          ],
+          "used": {
+            "beef": 4,
+            "bread": 2,
+            "mushroom": 1,
+            "cheese": 2,
+            "onion": 1,
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_sandwich",
+            "burrito_bowl",
+            "mushroom_quesadilla",
+            "chicken_chow_mein"
+          ],
+          "used": {
+            "bread": 2,
+            "chicken": 4,
+            "lettuce": 1,
+            "mayonnaise": 1,
+            "rice": 2,
+            "black_beans": 2,
+            "corn": 1,
+            "tomato": 1,
+            "mushroom": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_sandwich",
+            "mushroom_quesadilla",
+            "beef_lo_mein",
+            "black_bean_tacos"
+          ],
+          "used": {
+            "bread": 2,
+            "chicken": 2,
+            "lettuce": 1,
+            "mayonnaise": 1,
+            "mushroom": 2,
+            "tortilla": 4,
+            "cheese": 2,
+            "onion": 1,
+            "beef": 2,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "black_beans": 2,
+            "corn": 1,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_shawarma_bowl",
+            "veggie_burger",
+            "mushroom_quesadilla",
+            "beef_lo_mein"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 2,
+            "tomato": 2,
+            "black_beans": 2,
+            "bread": 2,
+            "mushroom": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "beef": 2,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "veggie_burger",
+            "greek_chicken_bowl",
+            "mushroom_quesadilla",
+            "beef_lo_mein"
+          ],
+          "used": {
+            "black_beans": 2,
+            "bread": 2,
+            "lettuce": 2,
+            "tomato": 1,
+            "chicken": 2,
+            "rice": 2,
+            "cheese": 3,
+            "mushroom": 2,
+            "tortilla": 2,
+            "onion": 1,
+            "beef": 2,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 22,
+      "oneSwapNearMisses": 9,
+      "competitiveDecoyIds": [
+        "mushroom_cheeseburger",
+        "chicken_shawarma_bowl",
+        "veggie_burger",
+        "greek_chicken_bowl",
+        "chicken_chow_mein",
+        "veggie_wrap",
+        "rice_and_beans",
+        "black_bean_tacos"
+      ],
+      "forcedRecipeIds": [
+        "chicken_sandwich"
+      ],
+      "sharedIngredientCount": 10,
+      "ingredientDegrees": {
+        "rice": 4,
+        "black_beans": 4,
+        "corn": 3,
+        "tomato": 6,
+        "beef": 2,
+        "noodles": 2,
+        "cabbage": 2,
+        "carrot": 2,
+        "mushroom": 2,
+        "tortilla": 3,
+        "cheese": 3,
+        "onion": 3,
+        "bread": 3,
+        "chicken": 4,
+        "lettuce": 5,
+        "mayonnaise": 1
+      },
+      "overlapDensity": 0.288,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 6,
+      "difficultyScore": 112.8,
+      "ingredientTypes": 16,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "mushroom_cheeseburger"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 22 plausible alternatives, 8 competitive decoys, and 9 close one-card swaps.",
+      "nearbyDifference": "Shares 1 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-hard-007",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 7,
+    "seed": "clearline-expansion:hard:7"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "salmon": 2,
+      "potato": 2,
+      "milk": 1,
+      "corn": 1,
+      "onion": 2,
+      "turkey": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "cheese": 3,
+      "bell_pepper": 1,
+      "spinach": 2,
+      "eggs": 3
+    },
+    "cards": [
+      {
+        "id": "cheese_omelet",
+        "name": "Cheese Omelet",
+        "family": "breakfast_eggs",
+        "icon": "🍳",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "milk": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "salmon_potato_skillet",
+        "name": "Salmon Potato Skillet",
+        "family": "seafood",
+        "icon": "🥘",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "onion": 1,
+          "spinach": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "turkey_burger",
+        "name": "Turkey Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "turkey": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "breakfast_burrito",
+        "name": "Breakfast Burrito",
+        "family": "breakfast_eggs",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "eggs": 2,
+          "potato": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "spinach_frittata",
+        "name": "Spinach Frittata",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "spinach": 2,
+          "eggs": 3,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "salmon_chowder",
+        "name": "Salmon Chowder",
+        "family": "soups_stews",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "milk": 1,
+          "corn": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_burger",
+        "name": "Chicken Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "turkey_sandwich",
+        "name": "Turkey Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "turkey": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      }
+    ],
+    "solution": [
+      "turkey_burger",
+      "spinach_frittata",
+      "salmon_chowder",
+      "chicken_quesadilla"
+    ],
+    "solutionKey": "chicken_quesadilla|salmon_chowder|spinach_frittata|turkey_burger",
+    "structuralSignature": "680268db9ed67c9ef823",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "turkey_burger",
+        "spinach_frittata",
+        "salmon_chowder",
+        "chicken_quesadilla"
+      ],
+      "nearMissCount": 9,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "cheese_omelet",
+            "salmon_potato_skillet",
+            "turkey_burger",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 3,
+            "milk": 1,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "spinach": 1,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "salmon_chowder",
+            "chicken_quesadilla",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 4,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "cheese_omelet",
+            "turkey_burger",
+            "salmon_chowder",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 3,
+            "milk": 2,
+            "onion": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "corn": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "salmon_potato_skillet",
+            "turkey_burger",
+            "spinach_frittata",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "salmon": 2,
+            "potato": 2,
+            "onion": 2,
+            "spinach": 3,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "eggs": 3,
+            "cheese": 3,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "spinach_frittata",
+            "salmon_chowder",
+            "chicken_tacos"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 2,
+            "tomato": 1,
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 2,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "chicken": 2,
+            "tortilla": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "salmon_chowder",
+            "chicken_tacos",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 3,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "lettuce": 2,
+            "bread": 2,
+            "turkey": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "cheese_omelet",
+            "salmon_potato_skillet",
+            "chicken_quesadilla",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 4,
+            "milk": 1,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "spinach": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "salmon_chowder",
+            "chicken_burger",
+            "chicken_quesadilla"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 3,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "chicken": 4,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "tortilla": 2,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "salmon_chowder",
+            "chicken_wrap",
+            "turkey_sandwich"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 2,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "tortilla": 1,
+            "chicken": 2,
+            "lettuce": 2,
+            "tomato": 1,
+            "bread": 2,
+            "turkey": 2
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 21,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "cheese_omelet",
+        "salmon_potato_skillet",
+        "breakfast_burrito",
+        "chicken_burger",
+        "chicken_wrap",
+        "chicken_tacos",
+        "turkey_sandwich"
+      ],
+      "forcedRecipeIds": [
+        "salmon_chowder"
+      ],
+      "sharedIngredientCount": 9,
+      "ingredientDegrees": {
+        "salmon": 2,
+        "potato": 4,
+        "milk": 2,
+        "corn": 1,
+        "onion": 5,
+        "turkey": 2,
+        "bread": 3,
+        "lettuce": 5,
+        "tomato": 3,
+        "chicken": 4,
+        "tortilla": 4,
+        "cheese": 6,
+        "bell_pepper": 2,
+        "spinach": 2,
+        "eggs": 4
+      },
+      "overlapDensity": 0.348,
+      "singleIngredientCandidateFloor": 112,
+      "deductionSteps": 5,
+      "difficultyScore": 104,
+      "ingredientTypes": 15,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "salmon_chowder"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "5 constraint steps, 21 plausible alternatives, 7 competitive decoys, and 7 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-hard-008",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 8,
+    "seed": "clearline-expansion:hard:8"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "rice": 2,
+      "black_beans": 2,
+      "corn": 1,
+      "tomato": 1,
+      "beef": 2,
+      "noodles": 2,
+      "cabbage": 1,
+      "carrot": 1,
+      "mushroom": 2,
+      "tortilla": 2,
+      "cheese": 2,
+      "onion": 1,
+      "bread": 2,
+      "chicken": 2,
+      "lettuce": 1,
+      "mayonnaise": 1
+    },
+    "cards": [
+      {
+        "id": "chicken_shawarma_bowl",
+        "name": "Chicken Shawarma Bowl",
+        "family": "curries_bowls",
+        "icon": "🥙",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "burrito_bowl",
+        "name": "Burrito Bowl",
+        "family": "tacos_mexican",
+        "icon": "🥗",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "beef_lo_mein",
+        "name": "Beef Lo Mein",
+        "family": "noodles",
+        "icon": "🥢",
+        "ingredients": {
+          "beef": 2,
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1
+        }
+      },
+      {
+        "id": "greek_chicken_bowl",
+        "name": "Greek Chicken Bowl",
+        "family": "curries_bowls",
+        "icon": "🥗",
+        "ingredients": {
+          "chicken": 2,
+          "rice": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "beef_burger",
+        "name": "Beef Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_sandwich",
+        "name": "Chicken Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "chicken": 2,
+          "lettuce": 1,
+          "mayonnaise": 1
+        }
+      },
+      {
+        "id": "mushroom_quesadilla",
+        "name": "Mushroom Quesadilla",
+        "family": "vegetarian_mains",
+        "icon": "🫓",
+        "ingredients": {
+          "mushroom": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "onion": 1
+        }
+      },
+      {
+        "id": "mushroom_cheeseburger",
+        "name": "Mushroom Cheeseburger",
+        "family": "burgers_comfort",
+        "ingredients": {
+          "beef": 2,
+          "bread": 2,
+          "mushroom": 1,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "vegetable_lo_mein",
+        "name": "Vegetable Lo Mein",
+        "family": "noodles",
+        "icon": "🥢",
+        "ingredients": {
+          "noodles": 2,
+          "cabbage": 1,
+          "carrot": 1,
+          "mushroom": 1
+        }
+      },
+      {
+        "id": "rice_and_beans",
+        "name": "Rice and Beans",
+        "family": "rice_dishes",
+        "icon": "🫘",
+        "ingredients": {
+          "rice": 2,
+          "black_beans": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "black_bean_tacos",
+        "name": "Black Bean Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "black_beans": 2,
+          "tortilla": 2,
+          "corn": 1,
+          "tomato": 1
+        }
+      }
+    ],
+    "solution": [
+      "burrito_bowl",
+      "beef_lo_mein",
+      "chicken_sandwich",
+      "mushroom_quesadilla"
+    ],
+    "solutionKey": "beef_lo_mein|burrito_bowl|chicken_sandwich|mushroom_quesadilla",
+    "structuralSignature": "b11e5d4555bc20c1459b",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "burrito_bowl",
+        "beef_lo_mein",
+        "chicken_sandwich",
+        "mushroom_quesadilla"
+      ],
+      "nearMissCount": 6,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "greek_chicken_bowl",
+            "mushroom_cheeseburger",
+            "vegetable_lo_mein",
+            "black_bean_tacos"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 1,
+            "cheese": 2,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 2,
+            "onion": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 1
+          },
+          "distance": 1,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "beef_lo_mein",
+            "chicken_sandwich",
+            "mushroom_quesadilla",
+            "rice_and_beans"
+          ],
+          "used": {
+            "beef": 2,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "bread": 2,
+            "chicken": 2,
+            "lettuce": 1,
+            "mayonnaise": 1,
+            "mushroom": 2,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 2,
+            "rice": 2,
+            "black_beans": 2,
+            "tomato": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_shawarma_bowl",
+            "mushroom_cheeseburger",
+            "vegetable_lo_mein",
+            "black_bean_tacos"
+          ],
+          "used": {
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 1,
+            "tomato": 2,
+            "beef": 2,
+            "bread": 2,
+            "mushroom": 2,
+            "cheese": 1,
+            "onion": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 0
+        },
+        {
+          "recipeIds": [
+            "burrito_bowl",
+            "chicken_sandwich",
+            "mushroom_quesadilla",
+            "vegetable_lo_mein"
+          ],
+          "used": {
+            "rice": 2,
+            "black_beans": 2,
+            "corn": 1,
+            "tomato": 1,
+            "bread": 2,
+            "chicken": 2,
+            "lettuce": 1,
+            "mayonnaise": 1,
+            "mushroom": 3,
+            "tortilla": 2,
+            "cheese": 2,
+            "onion": 1,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "beef_lo_mein",
+            "greek_chicken_bowl",
+            "mushroom_cheeseburger",
+            "black_bean_tacos"
+          ],
+          "used": {
+            "beef": 4,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "chicken": 2,
+            "rice": 2,
+            "lettuce": 1,
+            "cheese": 2,
+            "bread": 2,
+            "mushroom": 1,
+            "onion": 1,
+            "black_beans": 2,
+            "tortilla": 2,
+            "corn": 1,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "beef_lo_mein",
+            "chicken_sandwich",
+            "mushroom_quesadilla",
+            "black_bean_tacos"
+          ],
+          "used": {
+            "beef": 2,
+            "noodles": 2,
+            "cabbage": 1,
+            "carrot": 1,
+            "bread": 2,
+            "chicken": 2,
+            "lettuce": 1,
+            "mayonnaise": 1,
+            "mushroom": 2,
+            "tortilla": 4,
+            "cheese": 2,
+            "onion": 1,
+            "black_beans": 2,
+            "corn": 1,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        }
+      ],
+      "plausibleAlternatives": 21,
+      "oneSwapNearMisses": 8,
+      "competitiveDecoyIds": [
+        "chicken_shawarma_bowl",
+        "greek_chicken_bowl",
+        "beef_burger",
+        "mushroom_cheeseburger",
+        "vegetable_lo_mein",
+        "rice_and_beans",
+        "veggie_wrap",
+        "black_bean_tacos"
+      ],
+      "forcedRecipeIds": [
+        "chicken_sandwich"
+      ],
+      "sharedIngredientCount": 12,
+      "ingredientDegrees": {
+        "rice": 4,
+        "black_beans": 3,
+        "corn": 3,
+        "tomato": 6,
+        "beef": 3,
+        "noodles": 2,
+        "cabbage": 2,
+        "carrot": 2,
+        "mushroom": 3,
+        "tortilla": 3,
+        "cheese": 3,
+        "onion": 3,
+        "bread": 3,
+        "chicken": 3,
+        "lettuce": 5,
+        "mayonnaise": 1
+      },
+      "overlapDensity": 0.258,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 6,
+      "difficultyScore": 111.2,
+      "ingredientTypes": 16,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "mushroom_cheeseburger"
+      ],
+      "difficultyLabel": "hard",
+      "difficultyExplanation": "6 constraint steps, 21 plausible alternatives, 8 competitive decoys, and 8 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-hard-009",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 9,
+    "seed": "clearline-expansion:hard:9"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "salmon": 2,
+      "potato": 2,
+      "milk": 1,
+      "corn": 1,
+      "onion": 2,
+      "turkey": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "cheese": 3,
+      "bell_pepper": 1,
+      "spinach": 2,
+      "eggs": 3
+    },
+    "cards": [
+      {
+        "id": "spinach_frittata",
+        "name": "Spinach Frittata",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "spinach": 2,
+          "eggs": 3,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "turkey_sandwich",
+        "name": "Turkey Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "turkey": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "cheese_omelet",
+        "name": "Cheese Omelet",
+        "family": "breakfast_eggs",
+        "icon": "🍳",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "milk": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "chicken_burger",
+        "name": "Chicken Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "salmon_potato_skillet",
+        "name": "Salmon Potato Skillet",
+        "family": "seafood",
+        "icon": "🥘",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "onion": 1,
+          "spinach": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "egg_muffins",
+        "name": "Egg Muffins",
+        "family": "breakfast_eggs",
+        "icon": "🧁",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "spinach": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "chicken_wrap",
+        "name": "Chicken Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "chicken": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "turkey_burger",
+        "name": "Turkey Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "turkey": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_tacos",
+        "name": "Chicken Tacos",
+        "family": "tacos_mexican",
+        "icon": "🌮",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "salmon_chowder",
+        "name": "Salmon Chowder",
+        "family": "soups_stews",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "milk": 1,
+          "corn": 1,
+          "onion": 1
+        }
+      }
+    ],
+    "solution": [
+      "spinach_frittata",
+      "chicken_quesadilla",
+      "turkey_burger",
+      "salmon_chowder"
+    ],
+    "solutionKey": "chicken_quesadilla|salmon_chowder|spinach_frittata|turkey_burger",
+    "structuralSignature": "e2f140d7fa55fffb0b67",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "spinach_frittata",
+        "chicken_quesadilla",
+        "turkey_burger",
+        "salmon_chowder"
+      ],
+      "nearMissCount": 13,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "chicken_quesadilla",
+            "turkey_sandwich",
+            "salmon_chowder"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 4,
+            "onion": 2,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_quesadilla",
+            "cheese_omelet",
+            "salmon_potato_skillet",
+            "turkey_burger"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 1,
+            "eggs": 3,
+            "milk": 1,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "spinach": 1,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "chicken_quesadilla",
+            "salmon_potato_skillet",
+            "turkey_burger"
+          ],
+          "used": {
+            "spinach": 3,
+            "eggs": 3,
+            "cheese": 3,
+            "onion": 2,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "salmon": 2,
+            "potato": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "turkey_sandwich",
+            "chicken_tacos",
+            "salmon_chowder"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 3,
+            "onion": 2,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 2,
+            "chicken": 2,
+            "tortilla": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "turkey_burger",
+            "chicken_tacos",
+            "salmon_chowder"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 2,
+            "onion": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 2,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_quesadilla",
+            "cheese_omelet",
+            "turkey_burger",
+            "salmon_chowder"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 1,
+            "eggs": 3,
+            "milk": 2,
+            "onion": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "corn": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "chicken_quesadilla",
+            "egg_muffins",
+            "turkey_burger",
+            "salmon_chowder"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 2,
+            "eggs": 3,
+            "spinach": 1,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "chicken_quesadilla",
+            "chicken_burger",
+            "salmon_chowder"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 3,
+            "onion": 2,
+            "chicken": 4,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "turkey_sandwich",
+            "chicken_wrap",
+            "salmon_chowder"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 2,
+            "onion": 2,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 2,
+            "tortilla": 1,
+            "chicken": 2,
+            "tomato": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "chicken_quesadilla",
+            "turkey_sandwich",
+            "cheese_omelet",
+            "salmon_potato_skillet"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 4,
+            "bell_pepper": 1,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1,
+            "eggs": 3,
+            "milk": 1,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "spinach": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "chicken_quesadilla",
+            "salmon_potato_skillet",
+            "egg_muffins",
+            "turkey_burger"
+          ],
+          "used": {
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 2,
+            "salmon": 2,
+            "potato": 2,
+            "onion": 1,
+            "spinach": 2,
+            "eggs": 3,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "turkey_sandwich",
+            "egg_muffins",
+            "chicken_tacos",
+            "salmon_chowder"
+          ],
+          "used": {
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 2,
+            "cheese": 3,
+            "eggs": 3,
+            "spinach": 1,
+            "bell_pepper": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "egg_muffins",
+            "turkey_burger",
+            "chicken_tacos",
+            "salmon_chowder"
+          ],
+          "used": {
+            "eggs": 3,
+            "cheese": 2,
+            "spinach": 1,
+            "bell_pepper": 1,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 2,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 30,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "turkey_sandwich",
+        "cheese_omelet",
+        "chicken_burger",
+        "salmon_potato_skillet",
+        "egg_muffins",
+        "chicken_wrap",
+        "chicken_tacos"
+      ],
+      "forcedRecipeIds": [
+        "salmon_chowder"
+      ],
+      "sharedIngredientCount": 11,
+      "ingredientDegrees": {
+        "salmon": 2,
+        "potato": 3,
+        "milk": 2,
+        "corn": 1,
+        "onion": 5,
+        "turkey": 2,
+        "bread": 3,
+        "lettuce": 5,
+        "tomato": 3,
+        "chicken": 4,
+        "tortilla": 3,
+        "cheese": 6,
+        "bell_pepper": 3,
+        "spinach": 3,
+        "eggs": 4
+      },
+      "overlapDensity": 0.333,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 5,
+      "difficultyScore": 124.7,
+      "ingredientTypes": 15,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "salmon_chowder"
+      ],
+      "difficultyLabel": "expert",
+      "difficultyExplanation": "5 constraint steps, 30 plausible alternatives, 7 competitive decoys, and 7 close one-card swaps.",
+      "nearbyDifference": "Shares 0 recipes with the previous pilot board and 10 with the next."
+    },
+    "id": "clearline-expansion-hard-010",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 10,
+    "seed": "clearline-expansion:hard:10"
+  },
+  {
+    "mode": "hard",
+    "pantry": {
+      "salmon": 2,
+      "potato": 2,
+      "milk": 1,
+      "corn": 1,
+      "onion": 2,
+      "turkey": 2,
+      "bread": 2,
+      "lettuce": 1,
+      "tomato": 1,
+      "chicken": 2,
+      "tortilla": 2,
+      "cheese": 3,
+      "bell_pepper": 1,
+      "spinach": 2,
+      "eggs": 3
+    },
+    "cards": [
+      {
+        "id": "spinach_frittata",
+        "name": "Spinach Frittata",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "spinach": 2,
+          "eggs": 3,
+          "cheese": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "cheese_quesadilla",
+        "name": "Cheese Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "tortilla": 2,
+          "cheese": 2,
+          "tomato": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "potato_and_egg_skillet",
+        "name": "Potato and Egg Skillet",
+        "family": "vegetarian_mains",
+        "icon": "🍳",
+        "ingredients": {
+          "potato": 2,
+          "eggs": 2,
+          "onion": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "turkey_sandwich",
+        "name": "Turkey Sandwich",
+        "family": "sandwiches_wraps",
+        "icon": "🥪",
+        "ingredients": {
+          "bread": 2,
+          "turkey": 2,
+          "lettuce": 1,
+          "cheese": 1
+        }
+      },
+      {
+        "id": "turkey_burger",
+        "name": "Turkey Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "turkey": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_burger",
+        "name": "Chicken Burger",
+        "family": "burgers_comfort",
+        "icon": "🍔",
+        "ingredients": {
+          "chicken": 2,
+          "bread": 2,
+          "lettuce": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "chicken_quesadilla",
+        "name": "Chicken Quesadilla",
+        "family": "tacos_mexican",
+        "icon": "🫓",
+        "ingredients": {
+          "chicken": 2,
+          "tortilla": 2,
+          "cheese": 2,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "salmon_chowder",
+        "name": "Salmon Chowder",
+        "family": "soups_stews",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "milk": 1,
+          "corn": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "egg_muffins",
+        "name": "Egg Muffins",
+        "family": "breakfast_eggs",
+        "icon": "🧁",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "spinach": 1,
+          "bell_pepper": 1
+        }
+      },
+      {
+        "id": "cheese_omelet",
+        "name": "Cheese Omelet",
+        "family": "breakfast_eggs",
+        "icon": "🍳",
+        "ingredients": {
+          "eggs": 3,
+          "cheese": 1,
+          "milk": 1,
+          "onion": 1
+        }
+      },
+      {
+        "id": "veggie_wrap",
+        "name": "Veggie Wrap",
+        "family": "sandwiches_wraps",
+        "icon": "🌯",
+        "ingredients": {
+          "tortilla": 1,
+          "lettuce": 1,
+          "corn": 1,
+          "tomato": 1
+        }
+      },
+      {
+        "id": "salmon_potato_skillet",
+        "name": "Salmon Potato Skillet",
+        "family": "seafood",
+        "icon": "🥘",
+        "ingredients": {
+          "salmon": 2,
+          "potato": 2,
+          "onion": 1,
+          "spinach": 1
+        }
+      }
+    ],
+    "solution": [
+      "spinach_frittata",
+      "turkey_burger",
+      "chicken_quesadilla",
+      "salmon_chowder"
+    ],
+    "solutionKey": "chicken_quesadilla|salmon_chowder|spinach_frittata|turkey_burger",
+    "structuralSignature": "a666880de374f38ed781",
+    "metrics": {
+      "combinations": 495,
+      "solutionCount": 1,
+      "solution": [
+        "spinach_frittata",
+        "turkey_burger",
+        "chicken_quesadilla",
+        "salmon_chowder"
+      ],
+      "nearMissCount": 11,
+      "nearMisses": [
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "turkey_sandwich",
+            "chicken_quesadilla",
+            "salmon_chowder"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 4,
+            "onion": 2,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "chicken_quesadilla",
+            "cheese_omelet",
+            "salmon_potato_skillet"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 1,
+            "eggs": 3,
+            "milk": 1,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "spinach": 1
+          },
+          "distance": 2,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "turkey_burger",
+            "chicken_quesadilla",
+            "salmon_potato_skillet"
+          ],
+          "used": {
+            "spinach": 3,
+            "eggs": 3,
+            "cheese": 3,
+            "onion": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "salmon": 2,
+            "potato": 2
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "chicken_quesadilla",
+            "salmon_chowder",
+            "egg_muffins"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 2,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "onion": 1,
+            "eggs": 3,
+            "spinach": 1
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "chicken_quesadilla",
+            "salmon_chowder",
+            "cheese_omelet"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 2,
+            "corn": 1,
+            "onion": 2,
+            "eggs": 3
+          },
+          "distance": 3,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "spinach_frittata",
+            "chicken_burger",
+            "chicken_quesadilla",
+            "salmon_chowder"
+          ],
+          "used": {
+            "spinach": 2,
+            "eggs": 3,
+            "cheese": 3,
+            "onion": 2,
+            "chicken": 4,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 3
+        },
+        {
+          "recipeIds": [
+            "cheese_quesadilla",
+            "turkey_sandwich",
+            "salmon_chowder",
+            "egg_muffins"
+          ],
+          "used": {
+            "tortilla": 2,
+            "cheese": 4,
+            "tomato": 1,
+            "onion": 2,
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "eggs": 3,
+            "spinach": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "cheese_quesadilla",
+            "turkey_burger",
+            "salmon_chowder",
+            "egg_muffins"
+          ],
+          "used": {
+            "tortilla": 2,
+            "cheese": 3,
+            "tomato": 2,
+            "onion": 2,
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "eggs": 3,
+            "spinach": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        },
+        {
+          "recipeIds": [
+            "cheese_quesadilla",
+            "chicken_burger",
+            "salmon_chowder",
+            "egg_muffins"
+          ],
+          "used": {
+            "tortilla": 2,
+            "cheese": 3,
+            "tomato": 2,
+            "onion": 2,
+            "chicken": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "salmon": 2,
+            "potato": 2,
+            "milk": 1,
+            "corn": 1,
+            "eggs": 3,
+            "spinach": 1,
+            "bell_pepper": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "turkey_sandwich",
+            "chicken_quesadilla",
+            "cheese_omelet",
+            "salmon_potato_skillet"
+          ],
+          "used": {
+            "bread": 2,
+            "turkey": 2,
+            "lettuce": 1,
+            "cheese": 4,
+            "chicken": 2,
+            "tortilla": 2,
+            "bell_pepper": 1,
+            "eggs": 3,
+            "milk": 1,
+            "onion": 2,
+            "salmon": 2,
+            "potato": 2,
+            "spinach": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 1
+        },
+        {
+          "recipeIds": [
+            "turkey_burger",
+            "chicken_quesadilla",
+            "egg_muffins",
+            "salmon_potato_skillet"
+          ],
+          "used": {
+            "turkey": 2,
+            "bread": 2,
+            "lettuce": 1,
+            "tomato": 1,
+            "chicken": 2,
+            "tortilla": 2,
+            "cheese": 3,
+            "bell_pepper": 2,
+            "eggs": 3,
+            "spinach": 2,
+            "salmon": 2,
+            "potato": 2,
+            "onion": 1
+          },
+          "distance": 4,
+          "exact": false,
+          "solutionOverlap": 2
+        }
+      ],
+      "plausibleAlternatives": 24,
+      "oneSwapNearMisses": 7,
+      "competitiveDecoyIds": [
+        "cheese_quesadilla",
+        "turkey_sandwich",
+        "chicken_burger",
+        "egg_muffins",
+        "cheese_omelet",
+        "veggie_wrap",
+        "salmon_potato_skillet"
+      ],
+      "forcedRecipeIds": [],
+      "sharedIngredientCount": 10,
+      "ingredientDegrees": {
+        "salmon": 2,
+        "potato": 3,
+        "milk": 2,
+        "corn": 2,
+        "onion": 6,
+        "turkey": 2,
+        "bread": 3,
+        "lettuce": 4,
+        "tomato": 4,
+        "chicken": 2,
+        "tortilla": 3,
+        "cheese": 6,
+        "bell_pepper": 3,
+        "spinach": 3,
+        "eggs": 4
+      },
+      "overlapDensity": 0.318,
+      "singleIngredientCandidateFloor": 120,
+      "deductionSteps": 6,
+      "difficultyScore": 131.4,
+      "ingredientTypes": 15,
+      "distinctFamilies": 7,
+      "maxRecipesPerFamily": 2,
+      "newRecipeIds": [
+        "salmon_chowder"
+      ],
+      "difficultyLabel": "expert",
+      "difficultyExplanation": "6 constraint steps, 24 plausible alternatives, 7 competitive decoys, and 7 close one-card swaps.",
+      "nearbyDifference": "Shares 10 recipes with the previous pilot board and 0 with the next."
+    },
+    "id": "clearline-expansion-hard-011",
+    "contentVersion": "experimental-clearline-expansion",
+    "day": 11,
+    "seed": "clearline-expansion:hard:11"
+  }
+]

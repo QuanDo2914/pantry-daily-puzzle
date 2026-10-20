@@ -1,0 +1,12 @@
+{
+  "status": "single_cached_reordering_comparison",
+  "note": "Same cached candidate pool; no new candidate search. The 300-point variety weighting was not retained because it reduced measured Hard near misses and deduction depth.",
+  "retainedWeight100": {
+    "medium": {"recipeCoverage": 74, "newRecipeCoverage": 19, "adjacentOverlap": 0.04, "averageNearMisses": 4.52, "averageDeductionSteps": 3.52},
+    "hard": {"recipeCoverage": 93, "newRecipeCoverage": 21, "adjacentOverlap": 0.25, "averageNearMisses": 7.52, "averageDeductionSteps": 5.24}
+  },
+  "exploratoryWeight300": {
+    "medium": {"recipeCoverage": 76, "newRecipeCoverage": 21, "adjacentOverlap": 0.08, "averageNearMisses": 4.48, "averageDeductionSteps": 3.36},
+    "hard": {"recipeCoverage": 97, "newRecipeCoverage": 24, "adjacentOverlap": 0.29, "averageNearMisses": 7.20, "averageDeductionSteps": 5.12}
+  }
+}

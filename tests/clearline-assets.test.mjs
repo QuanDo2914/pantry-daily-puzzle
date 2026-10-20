@@ -8,12 +8,14 @@ import {INGREDIENTS as LEGACY_INGREDIENTS,RECIPES as LEGACY_RECIPES} from '../sr
 import {enumerateSolutions} from '../src/game/engine.js';
 
 const catalog=JSON.parse(fs.readFileSync(new URL('../proposals/content-expansion/quality-v3/proposed-recipe-catalog.json',import.meta.url)));
+const expandedCatalog=JSON.parse(fs.readFileSync(new URL('../proposals/content-expansion/clearline-expansion/candidate-recipe-catalog.json',import.meta.url)));
+const expandedIngredients=JSON.parse(fs.readFileSync(new URL('../proposals/content-expansion/clearline-expansion/ingredient-catalog.json',import.meta.url))).ingredients;
 const ids=[...INGREDIENTS,...PROPOSED_ADDITIONS].map(x=>x.id);
 const emoji=/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u;
 
 test('all 90 catalog ingredients have explicit, custom, non-emoji SVG art',()=>{
  assert.equal(ids.length,90);assert.equal(new Set(ids).size,90);
- assert.deepEqual(Object.keys(INGREDIENT_ART).sort(),ids.sort());
+ assert.deepEqual(ids.sort(),Object.keys(INGREDIENT_ART).filter(id=>ids.includes(id)).sort());
  const bodies=new Set();
  for(const x of [...INGREDIENTS,...PROPOSED_ADDITIONS]){
   const svg=ingredientArt(x.id,x.name);
@@ -50,7 +52,7 @@ test('all 150 V3 recipes render as prepared dishes in Medium and Hard',()=>{
 });
 
 test('all approved recipes have intentional serving shapes; previous art stays available',()=>{
- assert.deepEqual(Object.keys(RECIPE_PRESENTATIONS).sort(),catalog.recipes.map(x=>x.id).sort());
+ assert.deepEqual(Object.keys(RECIPE_PRESENTATIONS).sort(),expandedCatalog.recipes.map(x=>x.id).sort());
  for(const recipe of catalog.recipes){
   const revised=recipeArt({...recipe,ingredients:recipe.variants.hard});
   const original=oldRecipeArt({...recipe,ingredients:recipe.variants.hard});
@@ -67,6 +69,48 @@ test('each V3 recipe has a visually distinct prepared-dish drawing',()=>{
  for(const mode of ['medium','hard']){
   const drawings=catalog.recipes.map(recipe=>recipeArt({...recipe,ingredients:recipe.variants[mode]}).replace(/aria-label="[^"]+"/,''));
   assert.equal(new Set(drawings).size,150,`${mode} has duplicate dish art`);
+ }
+});
+
+test('rolled burritos, open wraps, and folded quesadillas use different silhouettes',()=>{
+ for(const id of ['beef_burrito','bean_burrito','breakfast_burrito'])assert.equal(recipeArtKind(catalog.recipes.find(x=>x.id===id)),'burrito');
+ for(const id of ['chicken_wrap','veggie_wrap'])assert.equal(recipeArtKind(catalog.recipes.find(x=>x.id===id)),'wrap');
+ for(const id of ['chicken_quesadilla','cheese_quesadilla','mushroom_quesadilla'])assert.equal(recipeArtKind(catalog.recipes.find(x=>x.id===id)),'quesadilla');
+ const drawings=['beef_burrito','bean_burrito','chicken_wrap','veggie_wrap','chicken_quesadilla'].map(id=>{
+  const recipe=catalog.recipes.find(x=>x.id===id);
+  return recipeArt({...recipe,ingredients:recipe.variants.hard});
+ });
+ assert.equal(new Set(drawings).size,drawings.length);
+});
+
+test('V3 Hard appendix has 19 visual changes; two ingredient swaps currently render the same',()=>{
+ const changed=catalog.recipes.filter(recipe=>recipeArt({...recipe,ingredients:recipe.variants.medium})!==recipeArt({...recipe,ingredients:recipe.variants.hard}));
+ assert.equal(changed.length,19);
+ for(const id of ['cheesy_bean_bake','cheese_flatbread']){
+  const recipe=catalog.recipes.find(x=>x.id===id);
+  assert.equal(recipeArt({...recipe,ingredients:recipe.variants.medium}),recipeArt({...recipe,ingredients:recipe.variants.hard}));
+ }
+});
+
+test('all 125 experimental ingredients and 225 recipes have explicit, distinct SVG artwork',()=>{
+ assert.equal(expandedIngredients.length,125);assert.equal(expandedCatalog.recipes.length,225);
+ assert.equal(new Set(expandedIngredients.map(x=>x.id)).size,125);
+ assert.equal(new Set(expandedCatalog.recipes.map(x=>x.id)).size,225);
+ assert.deepEqual(expandedCatalog.recipes.slice(0,150),catalog.recipes,'V3 recipe definitions must remain unchanged');
+ assert.deepEqual(Object.keys(INGREDIENT_ART).sort(),expandedIngredients.map(x=>x.id).sort());
+ assert.equal(new Set(expandedIngredients.map(x=>INGREDIENT_ART[x.id])).size,125);
+ for(const ingredient of expandedIngredients){const svg=ingredientArt(ingredient.id,ingredient.name);assert.match(svg,/<svg[^>]+viewBox=/);assert.doesNotMatch(svg,emoji)}
+ for(const mode of ['medium','hard']){
+  const drawings=new Set();
+  for(const recipe of expandedCatalog.recipes){
+   const scored=recipe.variants[mode],count=Object.keys(scored).length;
+   assert.ok(mode==='medium'?count>=3&&count<=4:count>=4&&count<=6,`${recipe.id} ${mode} ingredient count`);
+   assert.ok(Object.entries(scored).every(([id,qty])=>INGREDIENT_ART[id]&&Number.isInteger(qty)&&qty>=1&&qty<=4));
+   assert.ok(RECIPE_PRESENTATIONS[recipe.id],`${recipe.id} has no explicit serving shape`);
+   const svg=recipeArt({...recipe,ingredients:scored});assert.doesNotMatch(svg,emoji);
+   drawings.add(svg.replace(/aria-label="[^"]+"/,''));
+  }
+  assert.equal(drawings.size,225,`${mode} has duplicate prepared-dish art`);
  }
 });
 

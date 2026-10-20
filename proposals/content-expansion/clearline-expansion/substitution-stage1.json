@@ -1,0 +1,52 @@
+{
+  "status": "v3_answer_substitution_diagnostic",
+  "runtimeMs": 1875.8,
+  "modes": {
+    "medium": {
+      "uniqueSubstitutions": 17550,
+      "withinLoosePantryRange": 17550,
+      "rejections": {},
+      "configs": {
+        "medium_a": {
+          "eligible": 79,
+          "newAnswerRecipeCoverage": 29,
+          "meanDecoys": 5.72
+        },
+        "medium_b": {
+          "eligible": 79,
+          "newAnswerRecipeCoverage": 29,
+          "meanDecoys": 5.72
+        }
+      }
+    },
+    "hard": {
+      "uniqueSubstitutions": 28500,
+      "withinLoosePantryRange": 28465,
+      "rejections": {
+        "pantry_range": 35
+      },
+      "configs": {
+        "hard_a": {
+          "eligible": 605,
+          "newAnswerRecipeCoverage": 69,
+          "meanDecoys": 10.62
+        },
+        "hard_b": {
+          "eligible": 337,
+          "newAnswerRecipeCoverage": 61,
+          "meanDecoys": 10.77
+        },
+        "hard_c": {
+          "eligible": 849,
+          "newAnswerRecipeCoverage": 73,
+          "meanDecoys": 10.52
+        },
+        "hard_d": {
+          "eligible": 510,
+          "newAnswerRecipeCoverage": 68,
+          "meanDecoys": 10.64
+        }
+      }
+    }
+  }
+}

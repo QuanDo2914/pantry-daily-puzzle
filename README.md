@@ -2,6 +2,12 @@
 
 Pantry is a polished daily deduction game: choose a fixed number of recipe cards whose combined ingredients use the pantry exactly. Medium presents 8 cards / 3 picks; Hard presents 12 cards / 4 picks. Every published puzzle is exhaustively checked for one unordered solution.
 
+## Approved content direction
+
+**Quality V3 remains the preferred verified gameplay baseline:** 100 Medium and 100 Hard puzzles in `proposals/content-expansion/quality-v3/`. The 125-ingredient / 225-recipe expansion, its Clearline artwork, optimized generators, and 200 validated expanded puzzles are preserved as experimental work on `codex/pantry-clearline-expansion`.
+
+The completed 100-day comparison supports retaining V3. Content-generation optimization is stopped. See [the preservation decision](proposals/content-expansion/clearline-expansion/CONTENT-STATUS.md) and [the full comparison](proposals/content-expansion/clearline-expansion/guided-v3-100-day/README.md). No production integration, merge, or deployment is authorized by this preservation commit.
+
 ## Run locally
 
 Requires Node 20 or newer and no third-party runtime dependencies.
@@ -10,6 +16,8 @@ Requires Node 20 or newer and no third-party runtime dependencies.
 npm run check
 npm run dev
 ```
+
+For the existing local review interfaces, use `/?preview=v3` for V3, `/?preview=expansion100` for the ten expanded review samples, or `/clearline-expansion/gallery.html` for the complete experimental art library. These routes do not replace live daily puzzles.
 
 Open `http://localhost:4173`. The launch date is configured as `LAUNCH` in `src/app.js`; all day calculations use UTC.
 

@@ -1,0 +1,3746 @@
+{
+  "baseline": "first bounded expansion pilot, unchanged catalog",
+  "generatedAt": "2026-10-18T01:44:29.318Z",
+  "modes": {
+    "medium": {
+      "candidateAnswerPools": 39,
+      "attempts": 94500,
+      "rejectionReasons": {
+        "insufficient_families": 643,
+        "insufficient_decoys": 93699,
+        "pantry_range": 117,
+        "family_cap_capacity": 2
+      },
+      "boardRejectionReasons": {
+        "no_new_recipe": 414,
+        "duplicate_structure": 46
+      },
+      "recipes": [
+        {
+          "id": "fish_tacos",
+          "name": "Fish Tacos",
+          "family": "tacos_mexican",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.1,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "white_fish",
+            "lime"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 418,
+            "insufficient_families": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "breakfast_tostadas",
+          "name": "Breakfast Tostadas",
+          "family": "tacos_mexican",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 1,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.16,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "salsa"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chorizo_breakfast_burrito",
+          "name": "Chorizo Breakfast Burrito",
+          "family": "tacos_mexican",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 3,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.16,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "chorizo"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "cauliflower_tacos",
+          "name": "Cauliflower Tacos",
+          "family": "tacos_mexican",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.12,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "lime"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "shrimp_fajita_bowl",
+          "name": "Shrimp Fajita Bowl",
+          "family": "tacos_mexican",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": true,
+          "validPuzzleAppearances": 6,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 18,
+          "compatibleOtherFamilies": 8,
+          "feasibleDecoyPools": 3,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.35,
+          "sharedTwoOrMore": 18,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "lemon_ricotta_pasta",
+          "name": "Lemon Ricotta Pasta",
+          "family": "pasta",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "ricotta"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "sausage_kale_pasta",
+          "name": "Sausage Kale Pasta",
+          "family": "pasta",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.07,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 5,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.002,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "pantry_range": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "eggplant_parmesan_pasta",
+          "name": "Eggplant Parmesan Pasta",
+          "family": "pasta",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 10,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.12,
+          "sharedTwoOrMore": 14,
+          "quantityMismatchPeers": 4,
+          "lowDegreeIngredients": [
+            "eggplant"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "asparagus_orzo_primavera",
+          "name": "Asparagus Orzo Primavera",
+          "family": "pasta",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "asparagus"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "creamy_salmon_pasta",
+          "name": "Creamy Salmon Pasta",
+          "family": "pasta",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.15,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "miso_mushroom_rice_bowl",
+          "name": "Miso Mushroom Rice Bowl",
+          "family": "rice_dishes",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": true,
+          "validPuzzleAppearances": 1,
+          "appearedInCorrectSolution": true,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 1,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.002,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "pantry_range": 1
+          },
+          "primaryLimitation": "decoy_incompatibility"
+        },
+        {
+          "id": "ginger_salmon_rice",
+          "name": "Ginger Salmon Rice",
+          "family": "rice_dishes",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "ginger"
+          ],
+          "pantryFailureRate": 0.002,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "pantry_range": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "edamame_rice_bowl",
+          "name": "Edamame Rice Bowl",
+          "family": "rice_dishes",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.22,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chorizo_tomato_rice",
+          "name": "Chorizo Tomato Rice",
+          "family": "rice_dishes",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.3,
+          "sharedTwoOrMore": 11,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "chorizo"
+          ],
+          "pantryFailureRate": 0.002,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "pantry_range": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "lemon_herb_rice",
+          "name": "Lemon Herb Rice",
+          "family": "rice_dishes",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 0,
+          "compatibleOtherFamilies": 0,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "dill"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "miso_mushroom_noodles",
+          "name": "Miso Mushroom Noodles",
+          "family": "noodles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.12,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "spicy_peanut_noodles",
+          "name": "Spicy Peanut Noodles",
+          "family": "noodles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 1,
+          "compatibleOtherFamilies": 1,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.11,
+          "sharedTwoOrMore": 1,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "peanut_butter",
+            "hot_sauce"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "shrimp_rice_noodle_stir_fry",
+          "name": "Shrimp Rice Noodle Stir-Fry",
+          "family": "noodles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 5,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.08,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "bean_sprouts"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "bok_choy_noodle_soup",
+          "name": "Bok Choy Noodle Soup",
+          "family": "noodles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.09,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "bok_choy",
+            "vegetable_broth"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "cold_sesame_noodle_salad",
+          "name": "Cold Sesame Noodle Salad",
+          "family": "noodles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 0,
+          "compatibleOtherFamilies": 0,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 0,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "sesame_seeds",
+            "rice_vinegar"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "miso_tofu_soup",
+          "name": "Miso Tofu Soup",
+          "family": "soups_stews",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.08,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "kidney_bean_kale_soup",
+          "name": "Kidney Bean Kale Soup",
+          "family": "soups_stews",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 5,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.27,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 418,
+            "insufficient_families": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "roasted_cauliflower_soup",
+          "name": "Roasted Cauliflower Soup",
+          "family": "soups_stews",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.22,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "orzo_vegetable_soup",
+          "name": "Orzo Vegetable Soup",
+          "family": "soups_stews",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.27,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "celery"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "salmon_chowder",
+          "name": "Salmon Chowder",
+          "family": "soups_stews",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 5,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.16,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "sesame_beef_stir_fry",
+          "name": "Sesame Beef Stir-Fry",
+          "family": "stir_fries",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.19,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "sesame_seeds"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "bok_choy_chicken_stir_fry",
+          "name": "Bok Choy Chicken Stir-Fry",
+          "family": "stir_fries",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.11,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "bok_choy"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "tempeh_pepper_stir_fry",
+          "name": "Tempeh Pepper Stir-Fry",
+          "family": "stir_fries",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 10,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.26,
+          "sharedTwoOrMore": 10,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "tempeh"
+          ],
+          "pantryFailureRate": 0.005,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 418,
+            "pantry_range": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chili_garlic_shrimp",
+          "name": "Chili Garlic Shrimp",
+          "family": "stir_fries",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 3,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.11,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "hot_sauce"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "ginger_tofu_edamame_stir_fry",
+          "name": "Ginger Tofu Edamame Stir-Fry",
+          "family": "stir_fries",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "ginger"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "pesto_mozzarella_panini",
+          "name": "Pesto Mozzarella Panini",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 11,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.31,
+          "sharedTwoOrMore": 11,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "pesto"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 418,
+            "insufficient_families": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "turkey_avocado_club",
+          "name": "Turkey Avocado Club",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 10,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.18,
+          "sharedTwoOrMore": 10,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "turkey"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 417,
+            "insufficient_families": 3
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "crab_salad_sandwich",
+          "name": "Crab Salad Sandwich",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.14,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "crab",
+            "celery"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "grilled_halloumi_wrap",
+          "name": "Grilled Halloumi Wrap",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.2,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "halloumi"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 413,
+            "insufficient_families": 7
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "mediterranean_pita_pocket",
+          "name": "Mediterranean Pita Pocket",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.06,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "pita_bread",
+            "tahini"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "feta_spinach_scramble",
+          "name": "Feta Spinach Scramble",
+          "family": "breakfast_eggs",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chorizo_potato_hash",
+          "name": "Chorizo Potato Hash",
+          "family": "breakfast_eggs",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.18,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "chorizo"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 418,
+            "insufficient_families": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "savory_mushroom_oats",
+          "name": "Savory Mushroom Oats",
+          "family": "breakfast_eggs",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 3,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.14,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "oats"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "ricotta_berry_toast",
+          "name": "Ricotta Berry Toast",
+          "family": "breakfast_eggs",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 0,
+          "compatibleOtherFamilies": 0,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.01,
+          "sharedTwoOrMore": 0,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "ricotta",
+            "strawberry",
+            "blueberry"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "shakshuka",
+          "name": "Shakshuka",
+          "family": "breakfast_eggs",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": true,
+          "validPuzzleAppearances": 1,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 16,
+          "compatibleOtherFamilies": 9,
+          "feasibleDecoyPools": 1,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.32,
+          "sharedTwoOrMore": 16,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "kale_apple_salad",
+          "name": "Kale Apple Salad",
+          "family": "salads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 0,
+          "compatibleOtherFamilies": 0,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.03,
+          "sharedTwoOrMore": 0,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "apple",
+            "almonds"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "mediterranean_orzo_salad",
+          "name": "Mediterranean Orzo Salad",
+          "family": "salads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 1,
+          "compatibleOtherFamilies": 1,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.11,
+          "sharedTwoOrMore": 1,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "olives"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "warm_farro_lentil_salad",
+          "name": "Warm Farro Lentil Salad",
+          "family": "salads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.09,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "farro"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "edamame_sesame_salad",
+          "name": "Edamame Sesame Salad",
+          "family": "salads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "sesame_seeds"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "bulgur_chickpea_salad",
+          "name": "Bulgur Chickpea Salad",
+          "family": "salads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.12,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "bulgur",
+            "tahini"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "mushroom_gnocchi_gratin",
+          "name": "Mushroom Gnocchi Gratin",
+          "family": "bakes_casseroles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.15,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "gnocchi"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "cheesy_cauliflower_gratin",
+          "name": "Cheesy Cauliflower Gratin",
+          "family": "bakes_casseroles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 1,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.18,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "creamy_chicken_orzo_bake",
+          "name": "Creamy Chicken Orzo Bake",
+          "family": "bakes_casseroles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "salmon_asparagus_bake",
+          "name": "Salmon Asparagus Bake",
+          "family": "bakes_casseroles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.1,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "asparagus"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "stuffed_zucchini_boats",
+          "name": "Stuffed Zucchini Boats",
+          "family": "bakes_casseroles",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 3,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.11,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 5,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "pesto_chicken_flatbread",
+          "name": "Pesto Chicken Flatbread",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 13,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.12,
+          "sharedTwoOrMore": 13,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "pesto"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 418,
+            "insufficient_families": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "mediterranean_flatbread",
+          "name": "Mediterranean Flatbread",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 3,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.25,
+          "sharedTwoOrMore": 3,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "olives"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "eggplant_pizza",
+          "name": "Eggplant Pizza",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 19,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.16,
+          "sharedTwoOrMore": 20,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "eggplant"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "artichoke_spinach_flatbread",
+          "name": "Artichoke Spinach Flatbread",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 12,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.16,
+          "sharedTwoOrMore": 12,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "artichoke_hearts"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "arugula_parmesan_pizza",
+          "name": "Arugula Parmesan Pizza",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "arugula"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "lamb_feta_burger",
+          "name": "Lamb Feta Burger",
+          "family": "burgers_comfort",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.19,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "lamb"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 416,
+            "insufficient_families": 4
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "spicy_black_bean_burger",
+          "name": "Spicy Black Bean Burger",
+          "family": "burgers_comfort",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 12,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.24,
+          "sharedTwoOrMore": 13,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "jalapeno"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 416,
+            "insufficient_families": 4
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "mushroom_cheeseburger",
+          "name": "Mushroom Cheeseburger",
+          "family": "burgers_comfort",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 15,
+          "compatibleOtherFamilies": 7,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.34,
+          "sharedTwoOrMore": 16,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.012,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 409,
+            "insufficient_families": 6,
+            "pantry_range": 5
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "halloumi_veggie_burger",
+          "name": "Halloumi Veggie Burger",
+          "family": "burgers_comfort",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.28,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "halloumi",
+            "arugula"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chicken_parmesan_sub",
+          "name": "Chicken Parmesan Sub",
+          "family": "burgers_comfort",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": true,
+          "validPuzzleAppearances": 1,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 12,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 1,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.32,
+          "sharedTwoOrMore": 17,
+          "quantityMismatchPeers": 5,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.002,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 413,
+            "insufficient_families": 6,
+            "pantry_range": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "crab_cakes",
+          "name": "Crab Cakes",
+          "family": "seafood",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.12,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "crab"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "miso_glazed_salmon",
+          "name": "Miso Glazed Salmon",
+          "family": "seafood",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 3,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 3,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "shrimp_and_grits",
+          "name": "Shrimp and Grits",
+          "family": "seafood",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.15,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "cornmeal"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "mediterranean_fish_bake",
+          "name": "Mediterranean Fish Bake",
+          "family": "seafood",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 1,
+          "compatibleOtherFamilies": 1,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.2,
+          "sharedTwoOrMore": 1,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "white_fish",
+            "olives"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "coconut_shrimp_rice_bowl",
+          "name": "Coconut Shrimp Rice Bowl",
+          "family": "seafood",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 3,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 3,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "lamb_chickpea_bowl",
+          "name": "Lamb Chickpea Bowl",
+          "family": "curries_bowls",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 1,
+          "compatibleOtherFamilies": 1,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.05,
+          "sharedTwoOrMore": 1,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "lamb",
+            "pita_bread",
+            "yogurt"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "halloumi_bulgur_bowl",
+          "name": "Halloumi Bulgur Bowl",
+          "family": "curries_bowls",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 13,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.24,
+          "sharedTwoOrMore": 15,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "halloumi",
+            "bulgur"
+          ],
+          "pantryFailureRate": 0.005,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 415,
+            "pantry_range": 2,
+            "insufficient_families": 3
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "butternut_squash_curry",
+          "name": "Butternut Squash Curry",
+          "family": "curries_bowls",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.09,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "butternut_squash"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "cauliflower_lentil_curry",
+          "name": "Cauliflower Lentil Curry",
+          "family": "curries_bowls",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.07,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "tempeh_sesame_bowl",
+          "name": "Tempeh Sesame Bowl",
+          "family": "curries_bowls",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 5,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "tempeh"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 419,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "crispy_polenta_with_mushrooms",
+          "name": "Crispy Polenta with Mushrooms",
+          "family": "vegetarian_mains",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.22,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "cornmeal"
+          ],
+          "pantryFailureRate": 0.005,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 416,
+            "insufficient_families": 2,
+            "pantry_range": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "eggplant_chickpea_skillet",
+          "name": "Eggplant Chickpea Skillet",
+          "family": "vegetarian_mains",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.22,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "eggplant"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "stuffed_portobello_mushrooms",
+          "name": "Stuffed Portobello Mushrooms",
+          "family": "vegetarian_mains",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 5,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.14,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "ricotta"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "gnocchi_with_spinach",
+          "name": "Gnocchi with Spinach",
+          "family": "vegetarian_mains",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.15,
+          "sharedTwoOrMore": 14,
+          "quantityMismatchPeers": 6,
+          "lowDegreeIngredients": [
+            "gnocchi"
+          ],
+          "pantryFailureRate": 0.002,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 418,
+            "insufficient_families": 1,
+            "pantry_range": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "warm_farro_vegetable_bowl",
+          "name": "Warm Farro Vegetable Bowl",
+          "family": "vegetarian_mains",
+          "ingredientCount": 4,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 1,
+          "compatibleOtherFamilies": 1,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.05,
+          "sharedTwoOrMore": 1,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "farro",
+            "butternut_squash"
+          ],
+          "pantryFailureRate": 0,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 420
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        }
+      ]
+    },
+    "hard": {
+      "candidateAnswerPools": 23,
+      "attempts": 94500,
+      "rejectionReasons": {
+        "pantry_range": 31864,
+        "insufficient_decoys": 62270,
+        "insufficient_families": 255,
+        "family_cap_capacity": 88
+      },
+      "boardRejectionReasons": {
+        "no_new_recipe": 166,
+        "obvious_forced_recipe": 67,
+        "too_few_near_misses": 13,
+        "irrelevant_decoys": 12,
+        "duplicate_structure": 2,
+        "too_few_plausible_alternatives": 5
+      },
+      "recipes": [
+        {
+          "id": "fish_tacos",
+          "name": "Fish Tacos",
+          "family": "tacos_mexican",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 1,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "white_fish",
+            "yogurt"
+          ],
+          "pantryFailureRate": 0.614,
+          "anchorRejectionReasons": {
+            "pantry_range": 258,
+            "insufficient_decoys": 162
+          },
+          "primaryLimitation": "decoy_incompatibility"
+        },
+        {
+          "id": "breakfast_tostadas",
+          "name": "Breakfast Tostadas",
+          "family": "tacos_mexican",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.2,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "salsa",
+            "jalapeno"
+          ],
+          "pantryFailureRate": 0.733,
+          "anchorRejectionReasons": {
+            "pantry_range": 308,
+            "insufficient_decoys": 112
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "chorizo_breakfast_burrito",
+          "name": "Chorizo Breakfast Burrito",
+          "family": "tacos_mexican",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 18,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.29,
+          "sharedTwoOrMore": 23,
+          "quantityMismatchPeers": 5,
+          "lowDegreeIngredients": [
+            "chorizo",
+            "salsa"
+          ],
+          "pantryFailureRate": 0.671,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 138,
+            "pantry_range": 282
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "cauliflower_tacos",
+          "name": "Cauliflower Tacos",
+          "family": "tacos_mexican",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "cilantro"
+          ],
+          "pantryFailureRate": 0.593,
+          "anchorRejectionReasons": {
+            "pantry_range": 249,
+            "insufficient_decoys": 171
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "shrimp_fajita_bowl",
+          "name": "Shrimp Fajita Bowl",
+          "family": "tacos_mexican",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 23,
+          "compatibleOtherFamilies": 9,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.42,
+          "sharedTwoOrMore": 23,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "hot_sauce"
+          ],
+          "pantryFailureRate": 0.548,
+          "anchorRejectionReasons": {
+            "insufficient_families": 1,
+            "pantry_range": 230,
+            "insufficient_decoys": 189
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "lemon_ricotta_pasta",
+          "name": "Lemon Ricotta Pasta",
+          "family": "pasta",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 13,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.27,
+          "sharedTwoOrMore": 13,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "ricotta"
+          ],
+          "pantryFailureRate": 0.46,
+          "anchorRejectionReasons": {
+            "pantry_range": 193,
+            "insufficient_decoys": 227
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "sausage_kale_pasta",
+          "name": "Sausage Kale Pasta",
+          "family": "pasta",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.24,
+          "sharedTwoOrMore": 11,
+          "quantityMismatchPeers": 4,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.414,
+          "anchorRejectionReasons": {
+            "pantry_range": 174,
+            "insufficient_decoys": 246
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "eggplant_parmesan_pasta",
+          "name": "Eggplant Parmesan Pasta",
+          "family": "pasta",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 17,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.19,
+          "sharedTwoOrMore": 24,
+          "quantityMismatchPeers": 7,
+          "lowDegreeIngredients": [
+            "eggplant"
+          ],
+          "pantryFailureRate": 0.474,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 221,
+            "pantry_range": 199
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "asparagus_orzo_primavera",
+          "name": "Asparagus Orzo Primavera",
+          "family": "pasta",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.33,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "asparagus"
+          ],
+          "pantryFailureRate": 0.452,
+          "anchorRejectionReasons": {
+            "pantry_range": 190,
+            "insufficient_decoys": 230
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "creamy_salmon_pasta",
+          "name": "Creamy Salmon Pasta",
+          "family": "pasta",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 11,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.22,
+          "sharedTwoOrMore": 11,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.502,
+          "anchorRejectionReasons": {
+            "pantry_range": 211,
+            "insufficient_decoys": 209
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "miso_mushroom_rice_bowl",
+          "name": "Miso Mushroom Rice Bowl",
+          "family": "rice_dishes",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.493,
+          "anchorRejectionReasons": {
+            "pantry_range": 207,
+            "insufficient_decoys": 212,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "ginger_salmon_rice",
+          "name": "Ginger Salmon Rice",
+          "family": "rice_dishes",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 11,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 1,
+          "overlapStrength": 0.3,
+          "sharedTwoOrMore": 11,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.431,
+          "anchorRejectionReasons": {
+            "pantry_range": 181,
+            "insufficient_decoys": 239
+          },
+          "primaryLimitation": "decoy_incompatibility"
+        },
+        {
+          "id": "edamame_rice_bowl",
+          "name": "Edamame Rice Bowl",
+          "family": "rice_dishes",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 12,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.32,
+          "sharedTwoOrMore": 12,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.421,
+          "anchorRejectionReasons": {
+            "pantry_range": 177,
+            "insufficient_decoys": 241,
+            "insufficient_families": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chorizo_tomato_rice",
+          "name": "Chorizo Tomato Rice",
+          "family": "rice_dishes",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 20,
+          "compatibleOtherFamilies": 8,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.51,
+          "sharedTwoOrMore": 22,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "chorizo"
+          ],
+          "pantryFailureRate": 0.348,
+          "anchorRejectionReasons": {
+            "pantry_range": 146,
+            "insufficient_decoys": 272,
+            "insufficient_families": 1,
+            "family_cap_capacity": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "lemon_herb_rice",
+          "name": "Lemon Herb Rice",
+          "family": "rice_dishes",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 10,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.31,
+          "sharedTwoOrMore": 12,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "dill"
+          ],
+          "pantryFailureRate": 0.39,
+          "anchorRejectionReasons": {
+            "pantry_range": 164,
+            "insufficient_decoys": 256
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "miso_mushroom_noodles",
+          "name": "Miso Mushroom Noodles",
+          "family": "noodles",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.15,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.574,
+          "anchorRejectionReasons": {
+            "pantry_range": 241,
+            "insufficient_decoys": 179
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "spicy_peanut_noodles",
+          "name": "Spicy Peanut Noodles",
+          "family": "noodles",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "peanut_butter",
+            "chili_powder",
+            "hot_sauce"
+          ],
+          "pantryFailureRate": 0.843,
+          "anchorRejectionReasons": {
+            "pantry_range": 354,
+            "insufficient_decoys": 66
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "shrimp_rice_noodle_stir_fry",
+          "name": "Shrimp Rice Noodle Stir-Fry",
+          "family": "noodles",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "bean_sprouts"
+          ],
+          "pantryFailureRate": 0.502,
+          "anchorRejectionReasons": {
+            "pantry_range": 211,
+            "insufficient_decoys": 208,
+            "family_cap_capacity": 1
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "bok_choy_noodle_soup",
+          "name": "Bok Choy Noodle Soup",
+          "family": "noodles",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "bok_choy",
+            "bean_sprouts"
+          ],
+          "pantryFailureRate": 0.807,
+          "anchorRejectionReasons": {
+            "pantry_range": 339,
+            "insufficient_decoys": 81
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "cold_sesame_noodle_salad",
+          "name": "Cold Sesame Noodle Salad",
+          "family": "noodles",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "rice_vinegar"
+          ],
+          "pantryFailureRate": 0.521,
+          "anchorRejectionReasons": {
+            "pantry_range": 219,
+            "insufficient_decoys": 201
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "miso_tofu_soup",
+          "name": "Miso Tofu Soup",
+          "family": "soups_stews",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 5,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.595,
+          "anchorRejectionReasons": {
+            "pantry_range": 250,
+            "insufficient_decoys": 170
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "kidney_bean_kale_soup",
+          "name": "Kidney Bean Kale Soup",
+          "family": "soups_stews",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 1,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.33,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "kidney_beans"
+          ],
+          "pantryFailureRate": 0.44,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 235,
+            "pantry_range": 185
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "roasted_cauliflower_soup",
+          "name": "Roasted Cauliflower Soup",
+          "family": "soups_stews",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 10,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.28,
+          "sharedTwoOrMore": 10,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.498,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 211,
+            "pantry_range": 209
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "orzo_vegetable_soup",
+          "name": "Orzo Vegetable Soup",
+          "family": "soups_stews",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 2,
+          "overlapStrength": 0.34,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "celery"
+          ],
+          "pantryFailureRate": 0.44,
+          "anchorRejectionReasons": {
+            "pantry_range": 185,
+            "insufficient_decoys": 234,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "decoy_incompatibility"
+        },
+        {
+          "id": "salmon_chowder",
+          "name": "Salmon Chowder",
+          "family": "soups_stews",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": true,
+          "validPuzzleAppearances": 6,
+          "appearedInCorrectSolution": true,
+          "compatibleRecipes": 12,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 1,
+          "overlapStrength": 0.33,
+          "sharedTwoOrMore": 12,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.469,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 222,
+            "pantry_range": 197
+          },
+          "primaryLimitation": "decoy_incompatibility"
+        },
+        {
+          "id": "sesame_beef_stir_fry",
+          "name": "Sesame Beef Stir-Fry",
+          "family": "stir_fries",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.23,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.531,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 196,
+            "pantry_range": 223,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "bok_choy_chicken_stir_fry",
+          "name": "Bok Choy Chicken Stir-Fry",
+          "family": "stir_fries",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.19,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "bok_choy"
+          ],
+          "pantryFailureRate": 0.429,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 239,
+            "pantry_range": 180,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "tempeh_pepper_stir_fry",
+          "name": "Tempeh Pepper Stir-Fry",
+          "family": "stir_fries",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 15,
+          "compatibleOtherFamilies": 8,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.34,
+          "sharedTwoOrMore": 15,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "tempeh"
+          ],
+          "pantryFailureRate": 0.448,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 232,
+            "pantry_range": 188
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chili_garlic_shrimp",
+          "name": "Chili Garlic Shrimp",
+          "family": "stir_fries",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "hot_sauce",
+            "jalapeno"
+          ],
+          "pantryFailureRate": 0.781,
+          "anchorRejectionReasons": {
+            "pantry_range": 328,
+            "insufficient_decoys": 92
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "ginger_tofu_edamame_stir_fry",
+          "name": "Ginger Tofu Edamame Stir-Fry",
+          "family": "stir_fries",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.22,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.529,
+          "anchorRejectionReasons": {
+            "pantry_range": 222,
+            "insufficient_decoys": 198
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "pesto_mozzarella_panini",
+          "name": "Pesto Mozzarella Panini",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 20,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.44,
+          "sharedTwoOrMore": 20,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "pesto"
+          ],
+          "pantryFailureRate": 0.302,
+          "anchorRejectionReasons": {
+            "pantry_range": 127,
+            "insufficient_decoys": 293
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "turkey_avocado_club",
+          "name": "Turkey Avocado Club",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 13,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.22,
+          "sharedTwoOrMore": 13,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "turkey",
+            "mustard"
+          ],
+          "pantryFailureRate": 0.771,
+          "anchorRejectionReasons": {
+            "pantry_range": 324,
+            "insufficient_decoys": 92,
+            "insufficient_families": 4
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "crab_salad_sandwich",
+          "name": "Crab Salad Sandwich",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 5,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.2,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "crab",
+            "celery",
+            "dill"
+          ],
+          "pantryFailureRate": 0.807,
+          "anchorRejectionReasons": {
+            "pantry_range": 339,
+            "insufficient_decoys": 81
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "grilled_halloumi_wrap",
+          "name": "Grilled Halloumi Wrap",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 28,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 2,
+          "overlapStrength": 0.4,
+          "sharedTwoOrMore": 30,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "halloumi"
+          ],
+          "pantryFailureRate": 0.421,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 241,
+            "pantry_range": 177,
+            "insufficient_families": 1,
+            "family_cap_capacity": 1
+          },
+          "primaryLimitation": "decoy_incompatibility"
+        },
+        {
+          "id": "mediterranean_pita_pocket",
+          "name": "Mediterranean Pita Pocket",
+          "family": "sandwiches_wraps",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 14,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.33,
+          "sharedTwoOrMore": 17,
+          "quantityMismatchPeers": 3,
+          "lowDegreeIngredients": [
+            "pita_bread",
+            "tahini"
+          ],
+          "pantryFailureRate": 0.686,
+          "anchorRejectionReasons": {
+            "pantry_range": 288,
+            "insufficient_decoys": 132
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "feta_spinach_scramble",
+          "name": "Feta Spinach Scramble",
+          "family": "breakfast_eggs",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 18,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.4,
+          "sharedTwoOrMore": 18,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.452,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 230,
+            "pantry_range": 190
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chorizo_potato_hash",
+          "name": "Chorizo Potato Hash",
+          "family": "breakfast_eggs",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 21,
+          "compatibleOtherFamilies": 9,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.35,
+          "sharedTwoOrMore": 22,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "chorizo"
+          ],
+          "pantryFailureRate": 0.412,
+          "anchorRejectionReasons": {
+            "pantry_range": 173,
+            "insufficient_decoys": 247
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "savory_mushroom_oats",
+          "name": "Savory Mushroom Oats",
+          "family": "breakfast_eggs",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 15,
+          "compatibleOtherFamilies": 8,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.28,
+          "sharedTwoOrMore": 17,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "oats"
+          ],
+          "pantryFailureRate": 0.469,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 223,
+            "pantry_range": 197
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "ricotta_berry_toast",
+          "name": "Ricotta Berry Toast",
+          "family": "breakfast_eggs",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 0,
+          "compatibleOtherFamilies": 0,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.04,
+          "sharedTwoOrMore": 0,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "ricotta",
+            "strawberry",
+            "blueberry"
+          ],
+          "pantryFailureRate": 0.619,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 160,
+            "pantry_range": 260
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "shakshuka",
+          "name": "Shakshuka",
+          "family": "breakfast_eggs",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 19,
+          "compatibleOtherFamilies": 9,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.36,
+          "sharedTwoOrMore": 19,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "cumin"
+          ],
+          "pantryFailureRate": 0.383,
+          "anchorRejectionReasons": {
+            "pantry_range": 161,
+            "insufficient_decoys": 259
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "kale_apple_salad",
+          "name": "Kale Apple Salad",
+          "family": "salads",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.18,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "apple",
+            "almonds"
+          ],
+          "pantryFailureRate": 0.507,
+          "anchorRejectionReasons": {
+            "pantry_range": 213,
+            "insufficient_decoys": 207
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "mediterranean_orzo_salad",
+          "name": "Mediterranean Orzo Salad",
+          "family": "salads",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 16,
+          "compatibleOtherFamilies": 8,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.31,
+          "sharedTwoOrMore": 18,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "olives",
+            "artichoke_hearts"
+          ],
+          "pantryFailureRate": 0.719,
+          "anchorRejectionReasons": {
+            "pantry_range": 302,
+            "insufficient_decoys": 117,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "warm_farro_lentil_salad",
+          "name": "Warm Farro Lentil Salad",
+          "family": "salads",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.25,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "farro",
+            "mustard"
+          ],
+          "pantryFailureRate": 0.7,
+          "anchorRejectionReasons": {
+            "pantry_range": 294,
+            "insufficient_decoys": 126
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "edamame_sesame_salad",
+          "name": "Edamame Sesame Salad",
+          "family": "salads",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.15,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "rice_vinegar"
+          ],
+          "pantryFailureRate": 0.567,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 182,
+            "pantry_range": 238
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "bulgur_chickpea_salad",
+          "name": "Bulgur Chickpea Salad",
+          "family": "salads",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 15,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.37,
+          "sharedTwoOrMore": 18,
+          "quantityMismatchPeers": 3,
+          "lowDegreeIngredients": [
+            "bulgur",
+            "tahini"
+          ],
+          "pantryFailureRate": 0.679,
+          "anchorRejectionReasons": {
+            "pantry_range": 285,
+            "insufficient_decoys": 135
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "mushroom_gnocchi_gratin",
+          "name": "Mushroom Gnocchi Gratin",
+          "family": "bakes_casseroles",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.2,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "gnocchi"
+          ],
+          "pantryFailureRate": 0.526,
+          "anchorRejectionReasons": {
+            "pantry_range": 221,
+            "insufficient_decoys": 199
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "cheesy_cauliflower_gratin",
+          "name": "Cheesy Cauliflower Gratin",
+          "family": "bakes_casseroles",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 6,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.27,
+          "sharedTwoOrMore": 6,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.464,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 225,
+            "pantry_range": 195
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "creamy_chicken_orzo_bake",
+          "name": "Creamy Chicken Orzo Bake",
+          "family": "bakes_casseroles",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.3,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.483,
+          "anchorRejectionReasons": {
+            "pantry_range": 203,
+            "insufficient_decoys": 217
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "salmon_asparagus_bake",
+          "name": "Salmon Asparagus Bake",
+          "family": "bakes_casseroles",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "asparagus"
+          ],
+          "pantryFailureRate": 0.526,
+          "anchorRejectionReasons": {
+            "pantry_range": 221,
+            "insufficient_decoys": 198,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "stuffed_zucchini_boats",
+          "name": "Stuffed Zucchini Boats",
+          "family": "bakes_casseroles",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 11,
+          "compatibleOtherFamilies": 7,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.18,
+          "sharedTwoOrMore": 20,
+          "quantityMismatchPeers": 9,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.388,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 256,
+            "pantry_range": 163,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "pesto_chicken_flatbread",
+          "name": "Pesto Chicken Flatbread",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 20,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.33,
+          "sharedTwoOrMore": 20,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "pesto"
+          ],
+          "pantryFailureRate": 0.36,
+          "anchorRejectionReasons": {
+            "pantry_range": 151,
+            "insufficient_decoys": 269
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "mediterranean_flatbread",
+          "name": "Mediterranean Flatbread",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 10,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.36,
+          "sharedTwoOrMore": 10,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "olives"
+          ],
+          "pantryFailureRate": 0.45,
+          "anchorRejectionReasons": {
+            "pantry_range": 189,
+            "insufficient_decoys": 231
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "eggplant_pizza",
+          "name": "Eggplant Pizza",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 20,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.17,
+          "sharedTwoOrMore": 21,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "eggplant",
+            "basil"
+          ],
+          "pantryFailureRate": 0.557,
+          "anchorRejectionReasons": {
+            "pantry_range": 234,
+            "insufficient_decoys": 186
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "artichoke_spinach_flatbread",
+          "name": "Artichoke Spinach Flatbread",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 16,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.26,
+          "sharedTwoOrMore": 16,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "artichoke_hearts"
+          ],
+          "pantryFailureRate": 0.512,
+          "anchorRejectionReasons": {
+            "pantry_range": 215,
+            "insufficient_decoys": 205
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "arugula_parmesan_pizza",
+          "name": "Arugula Parmesan Pizza",
+          "family": "pizza_flatbreads",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 20,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.24,
+          "sharedTwoOrMore": 20,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "arugula"
+          ],
+          "pantryFailureRate": 0.5,
+          "anchorRejectionReasons": {
+            "pantry_range": 210,
+            "insufficient_decoys": 210
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "lamb_feta_burger",
+          "name": "Lamb Feta Burger",
+          "family": "burgers_comfort",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 26,
+          "compatibleOtherFamilies": 7,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.4,
+          "sharedTwoOrMore": 26,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "lamb"
+          ],
+          "pantryFailureRate": 0.479,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 216,
+            "pantry_range": 201,
+            "family_cap_capacity": 1,
+            "insufficient_families": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "spicy_black_bean_burger",
+          "name": "Spicy Black Bean Burger",
+          "family": "burgers_comfort",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 22,
+          "compatibleOtherFamilies": 9,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.44,
+          "sharedTwoOrMore": 23,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "jalapeno"
+          ],
+          "pantryFailureRate": 0.436,
+          "anchorRejectionReasons": {
+            "pantry_range": 183,
+            "insufficient_decoys": 235,
+            "insufficient_families": 2
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "mushroom_cheeseburger",
+          "name": "Mushroom Cheeseburger",
+          "family": "burgers_comfort",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": true,
+          "validPuzzleAppearances": 5,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 28,
+          "compatibleOtherFamilies": 11,
+          "feasibleDecoyPools": 4,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.53,
+          "sharedTwoOrMore": 28,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.293,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 291,
+            "pantry_range": 123,
+            "insufficient_families": 3,
+            "family_cap_capacity": 3
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "halloumi_veggie_burger",
+          "name": "Halloumi Veggie Burger",
+          "family": "burgers_comfort",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 15,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.35,
+          "sharedTwoOrMore": 15,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "halloumi",
+            "arugula"
+          ],
+          "pantryFailureRate": 0.49,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 214,
+            "pantry_range": 206
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "chicken_parmesan_sub",
+          "name": "Chicken Parmesan Sub",
+          "family": "burgers_comfort",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 19,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.4,
+          "sharedTwoOrMore": 23,
+          "quantityMismatchPeers": 4,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.367,
+          "anchorRejectionReasons": {
+            "pantry_range": 154,
+            "insufficient_decoys": 263,
+            "insufficient_families": 3
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "crab_cakes",
+          "name": "Crab Cakes",
+          "family": "seafood",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 4,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.18,
+          "sharedTwoOrMore": 4,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "crab"
+          ],
+          "pantryFailureRate": 0.548,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 190,
+            "pantry_range": 230
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "miso_glazed_salmon",
+          "name": "Miso Glazed Salmon",
+          "family": "seafood",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 4,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.22,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.464,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 225,
+            "pantry_range": 195
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "shrimp_and_grits",
+          "name": "Shrimp and Grits",
+          "family": "seafood",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 7,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 1,
+          "overlapStrength": 0.19,
+          "sharedTwoOrMore": 7,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "cornmeal"
+          ],
+          "pantryFailureRate": 0.569,
+          "anchorRejectionReasons": {
+            "pantry_range": 239,
+            "insufficient_decoys": 181
+          },
+          "primaryLimitation": "decoy_incompatibility"
+        },
+        {
+          "id": "mediterranean_fish_bake",
+          "name": "Mediterranean Fish Bake",
+          "family": "seafood",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.33,
+          "sharedTwoOrMore": 9,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "white_fish",
+            "olives"
+          ],
+          "pantryFailureRate": 0.386,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 258,
+            "pantry_range": 162
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "coconut_shrimp_rice_bowl",
+          "name": "Coconut Shrimp Rice Bowl",
+          "family": "seafood",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 9,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 12,
+          "quantityMismatchPeers": 3,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.495,
+          "anchorRejectionReasons": {
+            "pantry_range": 208,
+            "insufficient_decoys": 210,
+            "insufficient_families": 1,
+            "family_cap_capacity": 1
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "lamb_chickpea_bowl",
+          "name": "Lamb Chickpea Bowl",
+          "family": "curries_bowls",
+          "ingredientCount": 6,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 2,
+          "compatibleOtherFamilies": 2,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 2,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "lamb",
+            "pita_bread",
+            "yogurt",
+            "tahini"
+          ],
+          "pantryFailureRate": 0.831,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 71,
+            "pantry_range": 349
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "halloumi_bulgur_bowl",
+          "name": "Halloumi Bulgur Bowl",
+          "family": "curries_bowls",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 13,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.33,
+          "sharedTwoOrMore": 15,
+          "quantityMismatchPeers": 2,
+          "lowDegreeIngredients": [
+            "halloumi",
+            "bulgur"
+          ],
+          "pantryFailureRate": 0.39,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 256,
+            "pantry_range": 164
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "butternut_squash_curry",
+          "name": "Butternut Squash Curry",
+          "family": "curries_bowls",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 12,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.16,
+          "sharedTwoOrMore": 12,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "butternut_squash"
+          ],
+          "pantryFailureRate": 0.555,
+          "anchorRejectionReasons": {
+            "pantry_range": 233,
+            "insufficient_decoys": 187
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "cauliflower_lentil_curry",
+          "name": "Cauliflower Lentil Curry",
+          "family": "curries_bowls",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 10,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.13,
+          "sharedTwoOrMore": 10,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [],
+          "pantryFailureRate": 0.512,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 204,
+            "pantry_range": 215,
+            "insufficient_families": 1
+          },
+          "primaryLimitation": "pantry_range"
+        },
+        {
+          "id": "tempeh_sesame_bowl",
+          "name": "Tempeh Sesame Bowl",
+          "family": "curries_bowls",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 10,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 10,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "tempeh"
+          ],
+          "pantryFailureRate": 0.49,
+          "anchorRejectionReasons": {
+            "pantry_range": 206,
+            "insufficient_decoys": 214
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "crispy_polenta_with_mushrooms",
+          "name": "Crispy Polenta with Mushrooms",
+          "family": "vegetarian_mains",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 13,
+          "compatibleOtherFamilies": 7,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.3,
+          "sharedTwoOrMore": 14,
+          "quantityMismatchPeers": 1,
+          "lowDegreeIngredients": [
+            "cornmeal"
+          ],
+          "pantryFailureRate": 0.414,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 246,
+            "pantry_range": 174
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "eggplant_chickpea_skillet",
+          "name": "Eggplant Chickpea Skillet",
+          "family": "vegetarian_mains",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 11,
+          "compatibleOtherFamilies": 7,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.32,
+          "sharedTwoOrMore": 11,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "eggplant"
+          ],
+          "pantryFailureRate": 0.436,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 237,
+            "pantry_range": 183
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "stuffed_portobello_mushrooms",
+          "name": "Stuffed Portobello Mushrooms",
+          "family": "vegetarian_mains",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 8,
+          "compatibleOtherFamilies": 5,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.21,
+          "sharedTwoOrMore": 8,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "ricotta"
+          ],
+          "pantryFailureRate": 0.469,
+          "anchorRejectionReasons": {
+            "insufficient_decoys": 223,
+            "pantry_range": 197
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "gnocchi_with_spinach",
+          "name": "Gnocchi with Spinach",
+          "family": "vegetarian_mains",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 16,
+          "compatibleOtherFamilies": 6,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.24,
+          "sharedTwoOrMore": 22,
+          "quantityMismatchPeers": 6,
+          "lowDegreeIngredients": [
+            "gnocchi"
+          ],
+          "pantryFailureRate": 0.402,
+          "anchorRejectionReasons": {
+            "pantry_range": 169,
+            "insufficient_decoys": 251
+          },
+          "primaryLimitation": "insufficient_feasible_decoys"
+        },
+        {
+          "id": "warm_farro_vegetable_bowl",
+          "name": "Warm Farro Vegetable Bowl",
+          "family": "vegetarian_mains",
+          "ingredientCount": 5,
+          "appearedInValidPuzzle": false,
+          "validPuzzleAppearances": 0,
+          "appearedInCorrectSolution": false,
+          "compatibleRecipes": 5,
+          "compatibleOtherFamilies": 3,
+          "feasibleDecoyPools": 0,
+          "qualifyingAnswerPools": 0,
+          "overlapStrength": 0.11,
+          "sharedTwoOrMore": 5,
+          "quantityMismatchPeers": 0,
+          "lowDegreeIngredients": [
+            "farro",
+            "butternut_squash"
+          ],
+          "pantryFailureRate": 0.574,
+          "anchorRejectionReasons": {
+            "pantry_range": 241,
+            "insufficient_decoys": 179
+          },
+          "primaryLimitation": "pantry_range"
+        }
+      ]
+    }
+  }
+}

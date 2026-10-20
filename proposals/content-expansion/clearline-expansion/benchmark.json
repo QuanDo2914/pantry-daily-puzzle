@@ -1,0 +1,436 @@
+{
+  "status": "experimental_clearline_expansion",
+  "generatedAt": "2026-10-17T04:48:09.693Z",
+  "seedScheme": "SHA-256 labels + Mulberry32",
+  "catalog": {
+    "recipes": 225,
+    "newRecipes": 75
+  },
+  "rules": {
+    "medium": {
+      "cards": 8,
+      "picks": 3,
+      "pantryMin": 8,
+      "pantryMax": 12,
+      "familyMin": 6,
+      "nearMin": 2,
+      "plausibleMin": 5,
+      "competitiveMin": 4,
+      "deductionMin": 2,
+      "forcedMax": 2
+    },
+    "hard": {
+      "cards": 12,
+      "picks": 4,
+      "pantryMin": 12,
+      "pantryMax": 16,
+      "familyMin": 7,
+      "nearMin": 3,
+      "plausibleMin": 12,
+      "competitiveMin": 7,
+      "deductionMin": 3,
+      "forcedMax": 1
+    }
+  },
+  "poolTarget": 280,
+  "modes": {
+    "medium": {
+      "answerPool": {
+        "attempts": 94500,
+        "candidates": 39,
+        "rejectionReasons": {
+          "insufficient_families": 643,
+          "insufficient_decoys": 93699,
+          "pantry_range": 117,
+          "family_cap_capacity": 2
+        }
+      },
+      "boardPool": {
+        "attempts": 468,
+        "validCandidates": 8,
+        "rejectionReasons": {
+          "no_new_recipe": 414,
+          "duplicate_structure": 46
+        },
+        "runtimeMs": 35.4
+      },
+      "pilot": {
+        "recipeCoverage": 35,
+        "familyCoverage": 13,
+        "ingredientCoverage": 30,
+        "uniqueSolutions": 5,
+        "uniqueStructures": 8,
+        "recipeFrequency": {
+          "shrimp_fajita_bowl": 6,
+          "chicken_casserole": 5,
+          "chicken_fried_rice": 4,
+          "chicken_shawarma_bowl": 4,
+          "garlic_shrimp_stir_fry": 4,
+          "greek_salad": 4,
+          "cucumber_tomato_salad": 3,
+          "greek_chicken_bowl": 3,
+          "shrimp_fried_rice": 3,
+          "chicken_curry": 2,
+          "chicken_curry_soup": 2,
+          "beef_curry": 1,
+          "beef_rice_bowl": 1,
+          "breakfast_hash": 1,
+          "broccoli_rice_skillet": 1,
+          "chicken_biryani": 1,
+          "chicken_fajitas": 1,
+          "chicken_parmesan_sub": 1,
+          "chicken_salad": 1,
+          "chicken_vegetable_stir_fry": 1,
+          "chicken_wrap": 1,
+          "chickpea_stir_fry": 1,
+          "lasagna": 1,
+          "meatball_sub": 1,
+          "miso_mushroom_rice_bowl": 1,
+          "pepper_beef_stir_fry": 1,
+          "potato_and_egg_skillet": 1,
+          "sausage_and_peppers": 1,
+          "sausage_pasta_bake": 1,
+          "shakshuka": 1,
+          "shrimp_curry": 1,
+          "shrimp_salad": 1,
+          "spaghetti_bolognese": 1,
+          "thai_red_curry": 1,
+          "veggie_wrap": 1
+        },
+        "familyFrequency": {
+          "curries_bowls": 11,
+          "rice_dishes": 10,
+          "salads": 8,
+          "bakes_casseroles": 7,
+          "tacos_mexican": 7,
+          "stir_fries": 6,
+          "burgers_comfort": 3,
+          "vegetarian_mains": 3,
+          "breakfast_eggs": 2,
+          "sandwiches_wraps": 2,
+          "seafood": 2,
+          "soups_stews": 2,
+          "pasta": 1
+        },
+        "ingredientFrequency": {
+          "onion": 8,
+          "bell_pepper": 7,
+          "chicken": 7,
+          "rice": 7,
+          "broccoli": 6,
+          "shrimp": 6,
+          "cheese": 5,
+          "cucumber": 5,
+          "eggs": 5,
+          "tomato": 5,
+          "garlic": 4,
+          "peas": 4,
+          "beef": 2,
+          "carrot": 2,
+          "coconut_milk": 2,
+          "curry_paste": 2,
+          "mozzarella": 2,
+          "tomato_sauce": 2,
+          "bread": 1,
+          "chickpeas": 1,
+          "lettuce": 1,
+          "miso_paste": 1,
+          "mushroom": 1,
+          "pasta": 1,
+          "potato": 1,
+          "sausage": 1,
+          "soy_sauce": 1,
+          "tofu": 1,
+          "tortilla": 1,
+          "yogurt": 1
+        },
+        "maximumRecipeFrequency": 6,
+        "adjacentOverlap": {
+          "average": 2.29,
+          "median": 1,
+          "maximum": 7,
+          "transitionsAtLeastHalf": 2,
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            7,
+            7
+          ]
+        },
+        "longestRecipeStreak": 4,
+        "recipeStreaks": {
+          "chicken_shawarma_bowl": 2,
+          "shrimp_fajita_bowl": 3,
+          "chicken_casserole": 4,
+          "chicken_fried_rice": 3,
+          "garlic_shrimp_stir_fry": 3,
+          "greek_salad": 3,
+          "greek_chicken_bowl": 2,
+          "shrimp_fried_rice": 1,
+          "pepper_beef_stir_fry": 1,
+          "sausage_pasta_bake": 1,
+          "potato_and_egg_skillet": 1,
+          "sausage_and_peppers": 1,
+          "lasagna": 1,
+          "breakfast_hash": 1,
+          "shakshuka": 1,
+          "spaghetti_bolognese": 1,
+          "thai_red_curry": 1,
+          "chicken_curry": 1,
+          "chickpea_stir_fry": 1,
+          "chicken_biryani": 1,
+          "shrimp_curry": 1,
+          "chicken_curry_soup": 1,
+          "chicken_vegetable_stir_fry": 1,
+          "chicken_fajitas": 1,
+          "chicken_wrap": 1,
+          "shrimp_salad": 1,
+          "veggie_wrap": 1,
+          "chicken_salad": 1,
+          "miso_mushroom_rice_bowl": 1,
+          "chicken_parmesan_sub": 1,
+          "meatball_sub": 1,
+          "broccoli_rice_skillet": 1,
+          "beef_curry": 1,
+          "beef_rice_bowl": 1,
+          "cucumber_tomato_salad": 3
+        },
+        "rollingWindows": {
+          "7": {
+            "maximumAppearances": 5,
+            "worstWindow": {
+              "startDay": 1,
+              "endDay": 7,
+              "recipeIds": [
+                "shrimp_fajita_bowl"
+              ]
+            }
+          },
+          "14": {
+            "maximumAppearances": 0,
+            "worstWindow": null
+          },
+          "30": {
+            "maximumAppearances": 0,
+            "worstWindow": null
+          }
+        },
+        "nearMiss": {
+          "min": 2,
+          "average": 4.5,
+          "max": 8
+        },
+        "deductionDepth": {
+          "min": 3,
+          "average": 3.5,
+          "max": 4
+        }
+      }
+    },
+    "hard": {
+      "answerPool": {
+        "attempts": 94500,
+        "candidates": 23,
+        "rejectionReasons": {
+          "pantry_range": 31864,
+          "insufficient_decoys": 62270,
+          "insufficient_families": 255,
+          "family_cap_capacity": 88
+        }
+      },
+      "boardPool": {
+        "attempts": 276,
+        "validCandidates": 11,
+        "rejectionReasons": {
+          "no_new_recipe": 166,
+          "obvious_forced_recipe": 67,
+          "too_few_near_misses": 13,
+          "irrelevant_decoys": 12,
+          "duplicate_structure": 2,
+          "too_few_plausible_alternatives": 5
+        },
+        "runtimeMs": 4866.4
+      },
+      "pilot": {
+        "recipeCoverage": 34,
+        "familyCoverage": 11,
+        "ingredientCoverage": 28,
+        "uniqueSolutions": 3,
+        "uniqueStructures": 11,
+        "recipeFrequency": {
+          "chicken_burger": 6,
+          "chicken_quesadilla": 6,
+          "potato_and_egg_skillet": 6,
+          "salmon_chowder": 6,
+          "salmon_potato_skillet": 6,
+          "spinach_frittata": 6,
+          "turkey_burger": 6,
+          "turkey_sandwich": 6,
+          "veggie_wrap": 6,
+          "chicken_shawarma_bowl": 5,
+          "chicken_tacos": 5,
+          "chicken_wrap": 5,
+          "egg_muffins": 5,
+          "greek_chicken_bowl": 5,
+          "mushroom_cheeseburger": 5,
+          "mushroom_quesadilla": 5,
+          "cheese_omelet": 4,
+          "cheese_quesadilla": 4,
+          "beef_burger": 3,
+          "beef_lo_mein": 3,
+          "black_bean_tacos": 3,
+          "breakfast_burrito": 3,
+          "burrito_bowl": 3,
+          "chicken_sandwich": 3,
+          "rice_and_beans": 3,
+          "chicken_fried_rice": 2,
+          "chicken_pizza": 2,
+          "mushroom_pizza": 2,
+          "pineapple_fried_rice": 2,
+          "vegetable_lo_mein": 2,
+          "beef_tacos": 1,
+          "cheeseburger": 1,
+          "chicken_chow_mein": 1,
+          "veggie_burger": 1
+        },
+        "familyFrequency": {
+          "burgers_comfort": 22,
+          "tacos_mexican": 22,
+          "sandwiches_wraps": 20,
+          "vegetarian_mains": 17,
+          "breakfast_eggs": 12,
+          "curries_bowls": 10,
+          "rice_dishes": 7,
+          "noodles": 6,
+          "seafood": 6,
+          "soups_stews": 6,
+          "pizza_flatbreads": 4
+        },
+        "ingredientFrequency": {
+          "bread": 11,
+          "cheese": 11,
+          "chicken": 11,
+          "lettuce": 11,
+          "onion": 11,
+          "tomato": 11,
+          "tortilla": 11,
+          "corn": 9,
+          "eggs": 8,
+          "bell_pepper": 6,
+          "milk": 6,
+          "potato": 6,
+          "salmon": 6,
+          "spinach": 6,
+          "turkey": 6,
+          "beef": 5,
+          "mushroom": 5,
+          "rice": 5,
+          "black_beans": 3,
+          "cabbage": 3,
+          "carrot": 3,
+          "mayonnaise": 3,
+          "noodles": 3,
+          "mozzarella": 2,
+          "peas": 2,
+          "pineapple": 2,
+          "pizza_dough": 2,
+          "tomato_sauce": 2
+        },
+        "maximumRecipeFrequency": 6,
+        "adjacentOverlap": {
+          "average": 1.3,
+          "median": 0,
+          "maximum": 10,
+          "transitionsAtLeastHalf": 1,
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            10
+          ]
+        },
+        "longestRecipeStreak": 2,
+        "recipeStreaks": {
+          "chicken_wrap": 1,
+          "greek_chicken_bowl": 1,
+          "mushroom_quesadilla": 1,
+          "beef_lo_mein": 1,
+          "cheeseburger": 1,
+          "mushroom_cheeseburger": 1,
+          "burrito_bowl": 1,
+          "black_bean_tacos": 1,
+          "chicken_sandwich": 1,
+          "chicken_shawarma_bowl": 1,
+          "rice_and_beans": 1,
+          "vegetable_lo_mein": 1,
+          "egg_muffins": 2,
+          "chicken_burger": 2,
+          "salmon_potato_skillet": 2,
+          "turkey_sandwich": 2,
+          "veggie_wrap": 2,
+          "salmon_chowder": 2,
+          "turkey_burger": 2,
+          "spinach_frittata": 2,
+          "breakfast_burrito": 1,
+          "potato_and_egg_skillet": 2,
+          "chicken_quesadilla": 2,
+          "cheese_quesadilla": 2,
+          "beef_burger": 1,
+          "chicken_fried_rice": 1,
+          "chicken_tacos": 2,
+          "pineapple_fried_rice": 1,
+          "mushroom_pizza": 1,
+          "chicken_pizza": 1,
+          "cheese_omelet": 2,
+          "beef_tacos": 1,
+          "veggie_burger": 1,
+          "chicken_chow_mein": 1
+        },
+        "rollingWindows": {
+          "7": {
+            "maximumAppearances": 4,
+            "worstWindow": {
+              "startDay": 1,
+              "endDay": 7,
+              "recipeIds": [
+                "greek_chicken_bowl",
+                "mushroom_quesadilla",
+                "mushroom_cheeseburger",
+                "chicken_shawarma_bowl",
+                "veggie_wrap"
+              ]
+            }
+          },
+          "14": {
+            "maximumAppearances": 0,
+            "worstWindow": null
+          },
+          "30": {
+            "maximumAppearances": 0,
+            "worstWindow": null
+          }
+        },
+        "nearMiss": {
+          "min": 6,
+          "average": 9.36,
+          "max": 13
+        },
+        "deductionDepth": {
+          "min": 5,
+          "average": 5.73,
+          "max": 6
+        }
+      }
+    }
+  },
+  "totalRuntimeMs": 4915.7
+}
