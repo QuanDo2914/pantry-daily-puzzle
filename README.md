@@ -2,6 +2,14 @@
 
 Pantry is a polished daily deduction game: choose a fixed number of recipe cards whose combined ingredients use the pantry exactly. Medium presents 8 cards / 3 picks; Hard presents 12 cards / 4 picks. Every published puzzle is exhaustively checked for one unordered solution.
 
+## Approved development assets and content baseline
+
+Quality V3 is the preferred verified content baseline. Its frozen 100 Medium and 100 Hard boards are preserved in [`proposals/content-expansion/quality-v3/`](proposals/content-expansion/quality-v3/README.md) as reference data; the live daily puzzle files are unchanged.
+
+The completed custom Clearline SVG renderer is preserved in `src/visuals/clearline.js`, with an offline illustration manifest covering 125 ingredient IDs and 225 prepared-dish identities. It is not imported by the current game or copied into the production build. Artwork coverage does not approve the expanded recipe catalog or expanded puzzles for gameplay.
+
+See [the exact PR scope, validation, and deployment hold](docs/main-review/README.md). Experimental content remains on `codex/pantry-clearline-expansion`; it is not activated here. Automatic Vercel Git deployments are held by `vercel.json` pending separate deployment approval.
+
 ## Run locally
 
 Requires Node 20 or newer and no third-party runtime dependencies.
