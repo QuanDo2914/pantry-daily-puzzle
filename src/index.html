@@ -1,68 +1,7 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#f8fafc"><meta name="description" content="Pantry — a daily menu logic puzzle. Use everything. Waste nothing.">
-  <link rel="manifest" href="/manifest.webmanifest"><link rel="stylesheet" href="/styles.css">
-  <title>Pantry — Daily Puzzle</title>
-</head>
-<body>
-  <a class="skip" href="#recipes">Skip to recipes</a>
-  <div class="app-frame">
-    <header class="topbar">
-      <a class="brand" href="/" aria-label="Pantry home"><span class="brand-leaf" aria-hidden="true">🌿</span><span>Pantry</span></a>
-      <nav class="header-actions" aria-label="Game options">
-        <button class="circle-btn" id="help-btn" aria-label="How to play">?</button>
-        <button class="circle-btn bars-icon" id="stats-btn" aria-label="View statistics"><i></i><i></i><i></i></button>
-        <button class="circle-btn" id="settings-btn" aria-label="Open settings">⚙</button>
-      </nav>
-    </header>
-
-    <main>
-      <div class="mode-wrap">
-        <div class="mode-switch" role="tablist" aria-label="Difficulty">
-          <button role="tab" id="mode-medium" data-mode="medium">Medium <i class="mode-status"></i></button>
-          <button role="tab" id="mode-hard" data-mode="hard">Hard <i class="mode-status"></i></button>
-        </div>
-        <span id="day-label">Daily puzzle</span>
-      </div>
-
-      <div id="loading" class="loading">Opening today’s pantry…</div>
-      <section id="game" hidden>
-        <section class="pantry-section" aria-labelledby="pantry-heading">
-          <div class="section-head">
-            <div><p class="kicker">DAILY PUZZLE</p><h1 id="pantry-heading">Today’s Pantry</h1></div>
-            <span class="timer" id="timer" aria-label="Active solving time"><span aria-hidden="true">◷</span> 0:00</span>
-          </div>
-          <p class="pantry-help" id="pantry-help">Select dishes to see what they use.</p>
-          <div id="inventory" class="inventory" aria-live="polite"></div>
-        </section>
-
-        <section class="recipes-section" aria-labelledby="recipes-heading">
-          <div class="section-head recipe-heading">
-            <div><h2 id="recipes-heading">Choose <span id="pick-target">3</span> dishes</h2><p id="selection-feedback">Use every ingredient exactly.</p></div>
-            <strong id="pick-count" class="pick-count">0 / 3</strong>
-          </div>
-          <div class="pick-dots" id="pick-dots" aria-hidden="true"></div>
-          <div class="recipe-grid" id="recipes"></div>
-          <div id="hints" class="hints"></div>
-        </section>
-
-        <div class="action-bar" aria-label="Puzzle controls">
-          <button id="undo-btn" class="action secondary"><span aria-hidden="true">↶</span> Undo</button>
-          <button id="reset-btn" class="action secondary compact"><span aria-hidden="true">↺</span> Reset</button>
-          <button id="hint-btn" class="action primary"><span aria-hidden="true">⌁</span> Get a hint <i id="hint-count">3</i></button>
-          <button id="reveal-btn" class="action secondary"><span aria-hidden="true">◉</span> Reveal</button>
-        </div>
-      </section>
-      <section id="unavailable" class="empty-state" hidden><div class="empty-icon">!</div><h2>Today’s pantry isn’t stocked yet.</h2><p>The first 100 daily menus are ready. More can be added with the deterministic generator—no puzzles silently repeat.</p></section>
-    </main>
-  </div>
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
-  <dialog id="result-dialog" class="modal"><div class="modal-card result-card"><button class="close" data-close aria-label="Close">×</button><div class="celebrate" aria-hidden="true"><span>✓</span></div><p class="kicker">PANTRY COMPLETE</p><h2 id="result-title">A perfect menu.</h2><p id="result-copy"></p><div class="result-stats" id="result-stats"></div><button class="primary-btn wide" id="share-btn">Share result</button><button class="plain-btn wide" data-close>Back to pantry</button><p class="countdown" id="countdown"></p></div></dialog>
-  <dialog id="stats-dialog" class="modal"><div class="modal-card"><button class="close" data-close aria-label="Close">×</button><p class="kicker">YOUR PROGRESS</p><h2>Statistics</h2><div class="stats-tabs"><button data-stat-mode="medium">Medium</button><button data-stat-mode="hard">Hard</button></div><div id="stats-grid" class="stats-grid"></div><div id="recent-results" class="recent"></div></div></dialog>
-  <dialog id="settings-dialog" class="modal"><div class="modal-card"><button class="close" data-close aria-label="Close">×</button><p class="kicker">PREFERENCES</p><h2>Settings</h2><label>Theme<select id="theme-select"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label><label class="toggle"><span><b>Reduced motion</b><small>Minimize animations</small></span><input id="motion-toggle" type="checkbox"></label><label class="toggle"><span><b>Show timer</b><small>Display active solving time</small></span><input id="timer-toggle" type="checkbox"></label><button class="plain-btn wide" id="tutorial-btn">Replay tutorial</button><div class="about"><b>How to play</b><p>Choose the required number of dishes. Together, they must use every ingredient in exactly the quantity shown. You can retry freely.</p></div></div></dialog>
-  <dialog id="tutorial-dialog" class="modal tutorial"><div class="modal-card"><button class="close" id="skip-tutorial" aria-label="Skip tutorial">×</button><p class="kicker">WELCOME TO PANTRY</p><div id="tutorial-content"></div><div class="tutorial-dots" id="tutorial-dots"></div><button class="primary-btn wide" id="tutorial-next">Next</button></div></dialog>
-  <script type="module" src="/app.js"></script>
-</body></html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#315b43"><meta name="description" content="Choose dishes that use your pantry exactly. A thoughtful daily puzzle in two modes."><title>Pantry — A little daily food for thought</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><script type="module" src="/app.js"></script></head>
+<body><header class="site-header"><a class="brand" href="/" aria-label="Pantry home"><svg viewBox="0 0 32 40" aria-hidden="true"><path d="M7 33Q12 19 25 6Q28 24 13 26M7 33L24 8" fill="#91b789" stroke="#315b43" stroke-width="2.5" stroke-linecap="round"/></svg>Pantry<span>A little daily food for thought.</span></a><nav aria-label="Website"><button data-dialog="help" aria-label="How to play">?</button><button data-dialog="stats" aria-label="Statistics">Stats</button><button data-dialog="settings" aria-label="Settings">Settings</button></nav></header>
+<main><div id="preview-tools" hidden></div><p id="warning" class="notice" role="status" hidden></p><div class="daily-heading"><div><p class="eyebrow" id="date-label">YOUR DAILY KITCHEN PUZZLE</p><h1>What’s on the menu?</h1><p class="intro">A full pantry. One perfect combination.</p></div><div class="mode-switch" role="group" aria-label="Difficulty"><button data-mode="medium" aria-pressed="true">Medium</button><button data-mode="hard" aria-pressed="false">Hard</button></div></div>
+<div id="game" aria-busy="true"><p class="loading">Setting the table…</p></div><p id="message" role="status" aria-live="polite" class="message"></p></main>
+<footer><span>Made for a thoughtful little pause.</span><button data-dialog="about">About Pantry</button><span>New puzzles at midnight UTC</span></footer>
+<dialog id="dialog" aria-labelledby="dialog-title"><div class="dialog-top"><h2 id="dialog-title"></h2><button id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-body"></div></dialog><noscript>Pantry needs JavaScript to compare recipes and save progress.</noscript></body></html>

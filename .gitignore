@@ -2,4 +2,9 @@ dist/
 .DS_Store
 .sites/
 coverage/
+node_modules/
+test-results/
+playwright-report/
+.vercel/
+.env*
 work/*.tar.gz

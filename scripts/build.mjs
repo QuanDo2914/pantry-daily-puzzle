@@ -1,7 +1,20 @@
-import fs from 'node:fs'; import path from 'node:path';
-const dist=path.resolve('dist'); fs.rmSync(dist,{recursive:true,force:true}); fs.mkdirSync(dist,{recursive:true});
-for(const file of ['index.html','styles.css','app.js','sw.js','manifest.webmanifest']) fs.copyFileSync(path.resolve('src',file),path.join(dist,file));
-fs.cpSync('src/game',path.join(dist,'game'),{recursive:true}); fs.cpSync('src/data',path.join(dist,'data'),{recursive:true});
-fs.cpSync('public/puzzles',path.join(dist,'puzzles'),{recursive:true});
-fs.writeFileSync(path.join(dist,'404.html'),fs.readFileSync(path.join(dist,'index.html')));
-console.log(`Built ${dist}`);
+import fs from 'node:fs';
+import path from 'node:path';
+import zlib from 'node:zlib';
+import { ingredientAsset, dishAsset } from '../server/art.js';
+const dist = path.resolve('dist');
+// Only this dedicated generated directory is replaced, never source/content.
+fs.rmSync(dist, { recursive: true, force: true }); fs.mkdirSync(dist);
+for (const name of ['index.html', 'styles.css', 'app.js', 'sw.js', 'favicon.svg']) fs.copyFileSync(`src/${name}`, `${dist}/${name}`);
+fs.cpSync('src/game', `${dist}/game`, { recursive: true });
+fs.mkdirSync(`${dist}/assets`);
+const manifest = JSON.parse(fs.readFileSync('docs/clearline/asset-manifest.json'));
+const save = asset => fs.writeFileSync(`${dist}${asset.path}`, asset.svg);
+for (const ingredient of manifest.ingredients) save(ingredientAsset(ingredient.id));
+for (const recipe of manifest.recipes) for (const mode of ['medium', 'hard']) save(dishAsset({ ...recipe, ingredients: Object.fromEntries(recipe.visualComponents[mode].map(id => [id, 1])) }));
+const catalog = JSON.parse(fs.readFileSync('proposals/content-expansion/quality-v3/proposed-recipe-catalog.json')).recipes;
+for (const recipe of catalog) for (const mode of ['medium', 'hard']) save(dishAsset({ ...recipe, ingredients: recipe.variants[mode] }));
+const files = fs.readdirSync(dist, { recursive: true }).filter(name => fs.statSync(path.join(dist, name)).isFile());
+if (files.some(name => /puzzles|100\.json|catalog|solution|proposal|reports/.test(name))) throw Error('Private content in public build');
+const sizes = files.filter(name => !name.startsWith('assets/')).map(name => ({ name, bytes: fs.statSync(path.join(dist, name)).size, gzipBytes: zlib.gzipSync(fs.readFileSync(path.join(dist, name))).length }));
+console.log(JSON.stringify({ files: sizes, separatelyCachedSvgAssets: files.length - sizes.length, appBytes: sizes.reduce((n, f) => n + f.bytes, 0), appGzipBytes: sizes.reduce((n, f) => n + f.gzipBytes, 0) }, null, 2));
