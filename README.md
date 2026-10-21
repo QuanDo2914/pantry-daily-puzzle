@@ -1,42 +1,65 @@
-# Pantry
+# Pantry — daily website review build
 
-Pantry is a polished daily deduction game: choose a fixed number of recipe cards whose combined ingredients use the pantry exactly. Medium presents 8 cards / 3 picks; Hard presents 12 cards / 4 picks. Every published puzzle is exhaustively checked for one unordered solution.
+Choose the dishes that use your pantry exactly. Medium: 8 cards / 3 picks.
+Hard: 12 cards / 4 picks. Same UTC day, same puzzle for everyone.
 
-## Run locally
+This dedicated implementation branch integrates **Quality V3**, not experimental
+expanded content. The live game and GitHub main are unchanged pending approval.
+PR #7's inactive-asset preservation commit is included but was not merged first.
 
-Requires Node 20 or newer and no third-party runtime dependencies.
+## Play locally
 
-```bash
+Node **22**, no runtime packages. Playwright is a development dependency.
+
+```
+npm ci
 npm run check
-npm run dev
+PANTRY_LOCAL_PREVIEW=1 PANTRY_LAUNCH_DATE=2026-10-21 PORT=4176 npm run dev
 ```
 
-Open `http://localhost:4173`. The launch date is configured as `LAUNCH` in `src/app.js`; all day calculations use UTC.
+Open http://127.0.0.1:4176. The configured date is a **local review schedule only**.
+Preview tools select existing V3 boards, simulate days, inspect saves, and exercise
+missing supply. Production launch date must be chosen separately.
 
-## Content pipeline
-
-```bash
-npm run generate   # deterministic seed → 100 Medium + 100 Hard JSON files
-npm run validate   # exhaustive solution, schema, hint and structure checks
+```
+npx playwright install chromium
+npm run test:browser
 ```
 
-The curated base catalog and its named portion variants live in `src/data/catalog.js`. Generation selects an intended menu, calculates the pantry, chooses feasible overlapping decoys, enumerates all 56/495 possible selections, rejects ambiguity, screens Hard boards for near misses, and computes a rename-invariant weighted graph signature. Future days can be added by increasing the day limit in `scripts/generate-puzzles.mjs`; generated days never silently cycle.
-
-Public puzzle files contain the board and progressive hints but not stored solution IDs. Private answers, signatures, and quality metrics remain in `reports/puzzle-validation.json`, which is excluded from the deployment archive. Since the deployment is static, a determined visitor can still enumerate the current board (and discover publicly hosted future JSON URLs). Strict future-day embargoing would require a server-side daily endpoint.
-
-## Storage and privacy
-
-No account or backend is required. Selections, active time, hints, theme, tutorial state, mode-specific results, statistics, and streaks are stored in one versioned localStorage record. Malformed storage falls back safely. Medium and Hard are keyed independently by puzzle ID and mode.
-
-## Deployment
-
-`npm run build` creates `dist/`. Deploy that directory to any static host (Vercel preset: “Other”, build command `npm run build`, output `dist`). Client routing falls back through `404.html`. The included `.openai/hosting.json` supports OpenAI Sites publication.
+`npm run check` builds and independently validates without regenerating content.
+Legacy `generate`/`validate` commands remain historical tools, not the V3 release
+pipeline; do not run a new generation experiment without approval.
 
 ## Architecture
 
-- `src/game/engine.js`: pure inventory, validation and exhaustive search functions
-- `src/app.js`: daily scheduling, persistence, timer, statistics and interaction layer
-- `src/styles.css`: responsive, accessible light/dark visual system
-- `scripts/`: deterministic generation, validation, build and local preview
-- `tests/`: engine and complete content-bank checks
-- `reports/`: machine-readable and human-readable validation output
+- `src/game/engine.js`: preserved exact inventory mechanics and local solver.
+- `src/game/daily.js`: UTC dates, safe versioned storage and result-ledger statistics.
+- `src/app.js`: Clearline gameplay, guest saves, tutorial, controls, results/share.
+- `server/content.js`, `api/daily.js`: server-only V3 schedule, released-day DTO.
+- `src/visuals/clearline.js`: original 125 ingredient / 225 dish SVG artwork;
+  build creates hash-addressed assets, browser requests only current-board art.
+- `scripts/publish-content.mjs`: independent validation and idempotent append of
+  reviewed V3-compatible future batches; no expansion activation or new search.
+- `api/health.js`: authenticated supply monitor and optional administrator alert.
+- `.github/workflows/ci.yml`: build, unit/data verification and browser checks.
+
+Deploying only `dist` to a static host is **not sufficient**: daily delivery needs
+the server functions. No future puzzle JSON or solution keys are in `dist`.
+No account, cloud backend, or analytics vendor is required for guest play.
+
+## Review documentation
+
+[Features and limitations](docs/daily/README.md) · [Original audit](docs/daily/AUDIT.md)
+· [Content operations and scaling](docs/daily/OPERATIONS.md)
+· [Deployment/rollback and launch checklist](docs/daily/DEPLOYMENT.md)
+· [Verification report](docs/daily/VERIFICATION.md)
+
+The earlier [main-safe preservation review](docs/main-review/README.md) describes
+PR #7 only, not this active website implementation. Its production-equivalence
+report is historical. This branch intentionally changes the runtime and removes
+that PR's permanent global Git deployment hold. Merging into a connected Vercel
+production branch can deploy automatically: **do not merge until approved**.
+
+Complete expanded experiments remain on `codex/pantry-clearline-expansion`.
+Frozen V3 datasets, original artwork, experimental content and genuine history
+are preserved. No production merge, domain cutover or Sites publication is done.

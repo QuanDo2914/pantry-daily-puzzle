@@ -1,0 +1,11 @@
+{
+  "sourceCommit": "a0ba4f0e7cb9961c5e956a7abe34a3dab6c1140b",
+  "files": {
+    "src/visuals/clearline.js": "9a8418e444cdab39b9ebb52d41665974036569dd9b612a24dea6d23250d97fbb",
+    "proposals/content-expansion/quality-v3/proposed-recipe-catalog.json": "5513bd2a24e40c56fcbbca5030476faf62a8768d364042b75b2866e893fc90bc",
+    "proposals/content-expansion/quality-v3/medium-100.json": "3f7cbaf75221d4b622445b1de59955628245b27c7eb4029726a0c617edb1831b",
+    "proposals/content-expansion/quality-v3/hard-100.json": "155992a469cbdc8bcf48d97f4cbfadaab2d8f7a9ad1b3cc8678b04e52f95567b",
+    "proposals/content-expansion/quality-v3/independent-verification.json": "c88f272143e960a46cd065d97f95020d27ac3a2f16b158e9c79d1a84a6a37aa2",
+    "proposals/content-expansion/quality-v3/independent-verification.md": "2c5332b5b25eda00f8411dea06b0b5e106636f525673ae8bdf3947c25a3187bd"
+  }
+}
