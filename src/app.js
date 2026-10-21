@@ -98,7 +98,7 @@ function choose(id) {
   if (validateSelection(board, progress.selected).win) { progress.status = 'solved'; event('puzzle_solved', { seconds: Math.floor(progress.seconds), hints: progress.hints }); say('Perfect! Every ingredient is used exactly.'); }
   else { const result = validateSelection(board, progress.selected); say(Object.values(result.state).some(s => s.remaining < 0) ? 'An ingredient is overused. Try a different combination.' : `${progress.selected.length} dishes selected. Look for ingredients that connect your dishes.`); }
   persist(); render();
-  if (progress.status === 'solved') $('.results').scrollIntoView({ behavior: 'auto', block: 'center' });
+  if (progress.status === 'solved') { $('.results').setAttribute('tabindex', '-1'); $('.results').focus(); $('.results').scrollIntoView({ behavior: 'auto', block: 'center' }); }
   else document.querySelector(`[data-recipe="${CSS.escape(id)}"]`)?.focus({ preventScroll: true });
 }
 function showDialog(type) {

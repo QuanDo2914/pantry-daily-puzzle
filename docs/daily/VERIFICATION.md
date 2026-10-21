@@ -4,7 +4,7 @@
 
 - Production build completes. Static code ~40 KB raw / ~14.2 KB gzip before
   current-board individually cacheable SVGs and ~3 KB board JSON.
-- 23 unit/data/asset tests passed, including both legacy and frozen V3 checks.
+- 24 unit/data/asset tests passed, including both legacy and frozen V3 checks.
 - Fresh independent verifier (no engine/generator imports): **200 / 200** V3
   puzzles have exactly their one recorded solution, ~83 ms on this machine.
 - Original V3 files and Clearline renderer match provenance SHA-256 fingerprints.
@@ -25,8 +25,8 @@ sharing, storage failure, midnight rollover and five viewport widths. CI must
 finish successfully before recommending production. No retry/optimization loop
 is used to conceal failed verification.
 
-**GitHub CI passed**, including the full Playwright suite, on implementation
-commit 0d0e74d: [run 39535603171](https://github.com/QuanDo2914/pantry-daily-puzzle/actions/runs/39535603171).
+**GitHub CI passed**, including all 13 Playwright cases in 12.5 seconds, on
+commit 600aa0a: [run 39535847961](https://github.com/QuanDo2914/pantry-daily-puzzle/actions/runs/39535847961).
 This removes the standalone local runner blocker for functional browser checks;
 real-device and hosted performance checks remain distinct launch gates.
 
@@ -40,6 +40,18 @@ selection/hints/stats do not call a backend. No third-party analytics is loaded.
 Native buttons provide keyboard selection; focus indicators, text status labels,
 native dialog containment, reduced-motion CSS and visible quantities are present.
 Manual assistive-technology and real-device tests remain launch acceptance gates.
+
+Measured single local cold API samples (not load tests / Vercel measurements):
+
+| Mode | Local response | JSON raw / gzip | Unique SVG requests | SVG raw / gzip |
+| --- | ---: | ---: | ---: | ---: |
+| Medium, day 1 | 39.24 ms | 2,201 / 800 B | 19 | 22,548 / 8,929 B |
+| Hard, day 1 | 5.94 ms | 2,969 / 1,007 B | 25 | 34,778 / 12,390 B |
+
+App core gzip is 14,286 B across HTML/CSS/JS/favicon/worker, before board+art.
+Gzip sizes are computed from build bytes, not a guarantee of transport encoding.
+Hashed SVG responses are configured for one-year immutable caching. Full library
+source is not downloaded by ordinary gameplay. Hosted Web Vitals remain pending.
 
 ## Frozen reference digests
 

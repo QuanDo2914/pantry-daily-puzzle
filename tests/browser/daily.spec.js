@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import fs from 'node:fs';
+import AxeBuilder from '@axe-core/playwright';
 const batches = Object.fromEntries(['medium', 'hard'].map(m => [m, JSON.parse(fs.readFileSync(`proposals/content-expansion/quality-v3/${m}-100.json`))]));
 async function enter(page) {
   await page.goto('/'); await expect(page.locator('.recipe')).toHaveCount(8);
@@ -70,6 +71,15 @@ test('an open page rolls over at midnight UTC and preserves history', async ({ p
   await page.clock.runFor(3000);
   await expect(page.locator('#date-label')).toContainText('#002'); await expect(page.locator('.results')).not.toBeVisible();
   await page.locator('#preview-day').selectOption('1'); await expect(page.locator('.results')).toBeVisible();
+});
+test('keyboard selection and accessibility checks for game and help dialog', async ({ page }) => {
+  await enter(page);
+  const card = page.locator('.recipe').first(); await card.focus(); await page.keyboard.press('Space');
+  await expect(card).toHaveAttribute('aria-pressed', 'true'); await page.keyboard.press('Space'); await expect(card).toHaveAttribute('aria-pressed', 'false');
+  const game = await new AxeBuilder({ page }).analyze(); expect(game.violations).toEqual([]);
+  await page.getByRole('button', { name: 'How to play' }).click();
+  const help = await new AxeBuilder({ page }).analyze(); expect(help.violations).toEqual([]);
+  await page.keyboard.press('Escape'); await expect(page.getByRole('dialog')).not.toBeVisible();
 });
 for (const width of [375, 390, 430, 768, 1280]) test(`Clearline responsive layout at ${width}px`, async ({ page }) => {
   await page.setViewportSize({ width, height: 900 }); await enter(page);
