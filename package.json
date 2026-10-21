@@ -8,13 +8,13 @@
     "validate": "node scripts/validate-puzzles.mjs",
     "test": "node --test tests/*.test.mjs",
     "build": "node scripts/build.mjs",
-    "check": "npm run generate && npm run validate && npm test && npm run build",
+    "check": "npm run build && npm test && npm run verify:v3",
     "dev": "node scripts/dev-server.mjs",
     "verify:v3": "node scripts/verify-v3.mjs",
     "test:browser": "playwright test"
   },
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   },
   "devDependencies": {
     "@playwright/test": "^1.64.1"

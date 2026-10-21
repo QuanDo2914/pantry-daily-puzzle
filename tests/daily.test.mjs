@@ -5,6 +5,9 @@ import { utcDate, dateMillis, DAY, dayNumber, nextMidnight, countdown, blankProg
 import { dailyBoard, supply } from '../server/content.js';
 import handler from '../api/daily.js';
 import health from '../api/health.js';
+import { execFileSync } from 'node:child_process';
+import os from 'node:os';
+import path from 'node:path';
 import { verifyBaseline } from '../scripts/verify-v3.mjs';
 
 test('UTC schedule is stable across timezone offsets, leap days, and midnight', () => {
@@ -81,4 +84,16 @@ test('public output excludes private datasets; each daily illustration resolves'
     const board = dailyBoard({ launch: '2026-10-20', date: utcDate(dateMillis('2026-10-20') + DAY * i), mode });
     for (const asset of [...Object.values(board.art.ingredients), ...Object.values(board.art.recipes)]) assert.ok(fs.existsSync(`dist${asset}`), asset);
   }
+});
+test('reviewed-batch importer is idempotent and rejects invalid quantities without writes', () => {
+  const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'pantry-import-test-'));
+  const file = path.join(temporary, 'batch.json');
+  const batch = Object.fromEntries(['medium', 'hard'].map(mode => [mode, [JSON.parse(fs.readFileSync(`proposals/content-expansion/quality-v3/${mode}-100.json`))[0]]]));
+  fs.writeFileSync(file, JSON.stringify(batch));
+  const result = JSON.parse(execFileSync(process.execPath, ['scripts/publish-content.mjs', file], { encoding: 'utf8' }));
+  assert.equal(result.newPairs, 0); assert.equal(result.wrote, false);
+  const first = batch.hard[0].cards[0]; first.ingredients[Object.keys(first.ingredients)[0]] = -1;
+  fs.writeFileSync(file, JSON.stringify(batch));
+  assert.throws(() => execFileSync(process.execPath, ['scripts/publish-content.mjs', file], { stdio: 'pipe' }));
+  fs.rmSync(temporary, { recursive: true }); // Only the exact test-owned mkdtemp directory.
 });

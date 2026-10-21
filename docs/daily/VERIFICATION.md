@@ -11,7 +11,9 @@
 - Static output excludes catalog, experimental data, answer keys and future boards.
 - All current-board asset paths across all 200 V3 boards resolve in the build.
 - In-app browser: onboarding, live selections, separate mode restoration and Undo
-  exercised. Additional browser/viewport results are recorded with the PR checks.
+  exercised. Actual viewport dimensions checked at 375, 390, 430, 768 and 1280 px;
+  each has 12 Hard cards, zero missing images and no horizontal overflow. Quantity
+  typography is 14 px. Corrected screenshots are saved in `screenshots/`.
 
 ## Browser runner environment
 
@@ -22,6 +24,11 @@ GitHub Ubuntu CI, including exact Medium/Hard solves, refresh, reveal, hint/rese
 sharing, storage failure, midnight rollover and five viewport widths. CI must
 finish successfully before recommending production. No retry/optimization loop
 is used to conceal failed verification.
+
+**GitHub CI passed**, including the full Playwright suite, on implementation
+commit 0d0e74d: [run 39535603171](https://github.com/QuanDo2914/pantry-daily-puzzle/actions/runs/39535603171).
+This removes the standalone local runner blocker for functional browser checks;
+real-device and hosted performance checks remain distinct launch gates.
 
 ## Performance and accessibility scope
 

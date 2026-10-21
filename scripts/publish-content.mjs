@@ -17,7 +17,12 @@ for (const mode of ['medium', 'hard']) {
   const seen = new Set([...baseline, ...previous[mode]].map(signature));
   for (const board of incoming[mode]) {
     independentlyValidate(board, mode);
+    const types = Object.keys(board.pantry).length;
+    assert.ok(mode === 'medium' ? types >= 8 && types <= 12 : types >= 12 && types <= 16, 'Pantry range');
+    const families = new Map();
     for (const card of board.cards || board.recipes) { const recipe = canonical.get(card.id); assert.ok(recipe, `Not V3: ${card.id}`); assert.equal(card.name, recipe.name); assert.deepEqual(card.ingredients, recipe.variants[mode]); }
+    for (const card of board.cards || board.recipes) { const family = canonical.get(card.id).family; families.set(family, (families.get(family) || 0) + 1); }
+    assert.ok(families.size >= (mode === 'medium' ? 6 : 7) && Math.max(...families.values()) <= 2, 'V3 family diversity');
     const sig = signature(board); if (seen.has(sig)) continue; // Idempotent exact re-import.
     seen.add(sig); merged[mode].push({ ...board, mode, cards: board.cards || board.recipes });
   }
