@@ -39,9 +39,9 @@ test('both exact solutions persist without duplicate credits and share no spoile
   await page.getByRole('button', { name: 'Copy result' }).click();
   const text = await page.evaluate(() => navigator.clipboard.readText()); expect(text).toContain('Medium · Solved'); expect(text).not.toContain(batches.medium[0].solution[0]);
   await solve(page, 'hard'); await page.reload(); await expect(page.locator('.results')).toBeVisible();
-  await page.getByRole('button', { name: 'Statistics', exact: true }).click(); await expect(page.locator('.stat').filter({ hasText: 'Solved' })).toContainText('1');
+  await page.getByRole('button', { name: 'Stats', exact: true }).click(); await expect(page.locator('.stat').filter({ hasText: 'Solved' })).toContainText('1');
   await page.keyboard.press('Escape'); await page.locator('[data-mode=hard]').click(); await expect(page.locator('.results')).toBeVisible();
-  await page.getByRole('button', { name: 'Statistics', exact: true }).click(); await expect(page.locator('.stat').filter({ hasText: 'Solved' })).toContainText('1');
+  await page.getByRole('button', { name: 'Stats', exact: true }).click(); await expect(page.locator('.stat').filter({ hasText: 'Solved' })).toContainText('1');
 });
 test('reveal requires confirmation, is terminal, never credited as solve', async ({ page }) => {
   await enter(page); await page.getByRole('button', { name: 'Reveal', exact: true }).click(); await page.keyboard.press('Escape');
@@ -49,7 +49,7 @@ test('reveal requires confirmation, is terminal, never credited as solve', async
   await page.getByRole('button', { name: 'Reveal', exact: true }).click(); await page.getByRole('button', { name: 'Reveal solution', exact: true }).click();
   await expect(page.locator('.results')).toContainText('SOLUTION REVEALED'); await expect(page.locator('.recipe:enabled')).toHaveCount(0);
   await page.reload(); await expect(page.locator('.results')).toContainText('SOLUTION REVEALED');
-  await page.getByRole('button', { name: 'Statistics', exact: true }).click(); await expect(page.locator('.stat').filter({ hasText: 'Solved' })).toContainText('0');
+  await page.getByRole('button', { name: 'Stats', exact: true }).click(); await expect(page.locator('.stat').filter({ hasText: 'Solved' })).toContainText('0');
 });
 test('preview next day preserves prior result and fails safely past supply', async ({ page }) => {
   await enter(page); await solve(page, 'medium'); await page.getByRole('button', { name: 'Next UTC day', exact: true }).click();

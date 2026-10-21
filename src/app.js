@@ -7,6 +7,7 @@ const ingredientName = id => id.split('_').map(s => s === 'bbq' ? 'BBQ' : s.char
 const ingredientArt = (id, name) => `<img class="ingredient-art" src="${board.art.ingredients[id]}" alt="${esc(name)}" width="48" height="48" decoding="async">`;
 const recipeArt = recipe => `<img class="dish-art" src="${board.art.recipes[recipe.id]}" alt="${esc(recipe.name)} prepared dish" width="112" height="90" decoding="async">`;
 let mode = 'medium', board, store, storage, readOnly = false, progress, loaded = false, previewDay = null, offset = 0, loading = false, request = 0, lastTick = Date.now(), creditedDate;
+let activeVisible = !document.hidden;
 const now = () => Date.now() + offset;
 const say = message => { $('#message').textContent = message; };
 function warn(text) { $('#warning').hidden = !text; $('#warning').textContent = text || ''; }
@@ -29,7 +30,7 @@ function initStorage(preview) {
 }
 function tick(checkDate = true) {
   const time = Date.now();
-  if (loaded && progress?.started && progress.status === 'playing' && !document.hidden && !$('#dialog').open) {
+  if (loaded && progress?.started && progress.status === 'playing' && activeVisible && !$('#dialog').open) {
     progress.seconds += Math.max(0, Math.min(5, (time - lastTick) / 1000));
     if ($('#timer')) $('#timer').textContent = formatTime(Math.floor(progress.seconds));
   }
@@ -84,7 +85,7 @@ function render() {
   const statusLabel = { unused: 'Unused', partial: 'In progress', complete: '✓ Exact', overused: 'Overused' };
   $('#game').innerHTML = `${terminal ? `<section class="results" aria-label="Daily result"><p class="eyebrow">${progress.status === 'solved' ? 'A PERFECTLY EMPTY PANTRY' : 'SOLUTION REVEALED'}</p><h2>${progress.status === 'solved' ? 'Beautifully put together.' : 'A little help from the kitchen.'}</h2><p>${progress.status === 'solved' ? `You solved ${mode} in ${formatTime(Math.floor(progress.seconds))} with ${progress.hints} hint${progress.hints === 1 ? '' : 's'}.` : 'This day is marked revealed, not solved. It won’t add to your winning streak.'}</p><p class="countdown">Next Pantry in <span data-countdown>${countdown(now())}</span></p><div class="results-actions"><button class="primary" data-action="share">Copy result</button>${navigator.share ? '<button data-action="native-share">Share</button>' : ''}<button data-dialog="stats">View statistics</button></div></section>` : ''}
   <section class="pantry" aria-labelledby="pantry-heading"><div class="section-heading"><h2 id="pantry-heading">Today’s pantry <span class="meta">· ${Object.keys(board.pantry).length} ingredients</span></h2><span class="timer" aria-label="Active playing time"><span id="timer">${formatTime(Math.floor(progress.seconds))}</span></span></div><div class="pantry-grid">${Object.entries(result.state).map(([id, s]) => `<div class="ingredient ${s.status}" aria-label="${esc(ingredientName(id))}: ${s.consumed} used of ${s.available}, ${s.remaining} remaining. ${statusLabel[s.status]}">${ingredientArt(id, ingredientName(id))}<span class="ingredient-name">${esc(ingredientName(id))}</span><span class="qty">${s.consumed}<span aria-hidden="true"> / </span>${s.available}</span><small>${statusLabel[s.status]} · ${s.remaining} left</small></div>`).join('')}</div></section>
-  <section aria-labelledby="recipe-heading"><div class="section-heading"><h2 id="recipe-heading">Choose ${picks} dishes</h2><span class="meta">Use everything. Leave nothing.</span></div><div class="recipe-grid">${board.recipes.map((r, i) => `<button class="recipe" data-recipe="${esc(r.id)}" aria-pressed="${progress.selected.includes(r.id)}" aria-label="${esc(r.name)}. ${Object.entries(r.ingredients).map(([id, q]) => `${q} ${esc(ingredientName(id))}`).join(', ')}" ${terminal ? 'disabled' : ''}><span class="recipe-number">${String(i + 1).padStart(2, '0')}</span><span class="check" aria-hidden="true">${progress.selected.includes(r.id) ? '✓' : ''}</span>${recipeArt(r)}<span class="recipe-name">${esc(r.name)}</span><span class="requirements">${Object.entries(r.ingredients).map(([id, q]) => `<span class="requirement">${ingredientArt(id, ingredientName(id), true)}<span class="label">${esc(ingredientName(id))}</span><b>×${q}</b></span>`).join('')}</span></button>`).join('')}</div></section>
+  <section aria-labelledby="recipe-heading"><div class="section-heading"><h2 id="recipe-heading">Choose ${picks} dishes</h2><span class="meta">Use everything. Leave nothing.</span></div><div class="recipe-grid">${board.recipes.map((r, i) => `<button class="recipe" data-recipe="${esc(r.id)}" aria-pressed="${progress.selected.includes(r.id)}" ${terminal ? 'disabled' : ''}><span class="recipe-number">${String(i + 1).padStart(2, '0')}</span><span class="check" aria-hidden="true">${progress.selected.includes(r.id) ? '✓' : ''}</span>${recipeArt(r)}<span class="recipe-name">${esc(r.name)}</span><span class="requirements">${Object.entries(r.ingredients).map(([id, q]) => `<span class="requirement">${ingredientArt(id, ingredientName(id), true)}<span class="label">${esc(ingredientName(id))}</span><b>×${q}</b></span>`).join('')}</span></button>`).join('')}</div></section>
   <div class="controls"><span class="selection-label">${progress.selected.length} of ${picks} selected${terminal ? ` · ${progress.status}` : ''}</span><div class="controls-group"><button data-action="undo" ${terminal || !progress.history.length ? 'disabled' : ''}>Undo</button><button data-action="reset" ${terminal || !progress.selected.length ? 'disabled' : ''}>Reset</button><button data-action="hint" ${terminal ? 'disabled' : ''}>Hint</button><button data-action="reveal" ${terminal ? 'disabled' : ''}>Reveal</button></div></div>`;
 }
 function start() { if (!progress.started) { progress.started = true; event('puzzle_start'); } lastTick = Date.now(); }
@@ -167,7 +168,7 @@ document.addEventListener('change', e => {
 });
 $('#close-dialog').onclick = () => { if (store) { store.tutorialSeen = true; persist(); } $('#dialog').close(); lastTick = Date.now(); };
 $('#dialog').addEventListener('cancel', () => { if (store) { store.tutorialSeen = true; persist(); } lastTick = Date.now(); });
-document.addEventListener('visibilitychange', () => { tick(); persist(); lastTick = Date.now(); });
+document.addEventListener('visibilitychange', () => { tick(); activeVisible = !document.hidden; persist(); lastTick = Date.now(); });
 window.addEventListener('pagehide', () => { tick(); persist(); });
 window.addEventListener('storage', e => { if (e.key?.endsWith('pantry-daily-v2') && !readOnly) { const restored = loadStore(storage); if (!restored.warning) { store = restored.store; if (board) { progress = store.progress[progressKey(board.date, mode)] ||= blankProgress(); render(); } } } });
 window.addEventListener('error', () => event('client_error', { category: 'runtime' }));
