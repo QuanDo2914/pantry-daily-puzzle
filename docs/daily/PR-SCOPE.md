@@ -38,3 +38,19 @@ project was authorized separately, but actual team access must permit creation.
 
 Verified Git author: Quan Do <minhquando2914@gmail.com>, previously confirmed by
 the user's GitHub verified-email settings. Existing attribution/history retained.
+
+## Verification and review links
+
+- [Local playable preview](http://127.0.0.1:4176)
+- [24 unit/data checks + 14 browser cases, successful CI](https://github.com/QuanDo2914/pantry-daily-puzzle/actions/runs/39536530668)
+- All 200 V3 boards independently verified to one recorded answer.
+- Five measured viewport widths: 375/390/430/768/1280 px, no horizontal overflow,
+  all art resolved. Desktop/mobile screenshots and measured payload sizes are in
+  `docs/daily/`.
+- Hosted preview is pending a working Vercel team/CLI authorization. Both safe
+  attempts and required configuration are recorded in `DEPLOYMENT.md`.
+
+Keep this PR draft until the user reviews the full playable experience. Do not
+merge or deploy to production. Accounts, real vendor analytics/error monitoring,
+real-device assistive technology and hosted performance/load tests are not
+misrepresented as completed features or measurements.

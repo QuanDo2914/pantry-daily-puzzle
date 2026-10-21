@@ -18,6 +18,14 @@ CampusStack only. There was no existing Pantry project to inspect or reuse. The
 user separately approved a dedicated **preview-only** Pantry project. Do not
 reuse CampusStack, attach the live domain, or run `vercel --prod`.
 
+The Vercel connection was subsequently installed and could list CampusStack,
+confirming team `team_y99qMOYpnk7EYiZGmqSfjXhd`, but project creation returned
+403 `grant_team_access`, including a retry after the user reported granting it.
+The official CLI fallback had no stored credentials and requested device login.
+No successful project creation or deployment is claimed until its returned state
+confirms it. Never work around a team grant by using the unrelated project or a
+different default scope. Authorization completion remains the hosting blocker.
+
 Required Vercel project: repository root here, framework Other, Node 22, build
 `npm run build`, output `dist`, server functions `api/*.js`. Source tracing includes
 the private V3 JSON and optional extension. Lockfile is committed. GitHub Actions
